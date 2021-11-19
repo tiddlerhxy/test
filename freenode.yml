@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  name: '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
   network: ws
   port: 81
   server: 4.yyds123.com
@@ -16,7 +16,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  name: '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
   network: ws
   port: 29999
   server: 5.yyds123.com
@@ -26,7 +26,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|韩国01_3'
+  name: '[11-19]|oslook|韩国01_3'
   network: ws
   port: 40224
   server: vip345.xyz
@@ -36,7 +36,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  name: '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
   network: ws
   port: 80
   server: 3.yyds123.com
@@ -46,7 +46,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  name: '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
   network: ws
   port: 80
   server: 8.yyds123.com
@@ -56,7 +56,7 @@ proxies:
   ws-path: /ny
 - alterId: 1
   cipher: auto
-  name: '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  name: '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
   network: ws
   port: 666
   server: v1-aws-hk-06.niaoyun.online
@@ -68,7 +68,7 @@ proxies:
   ws-path: /niaocloud
 - alterId: 1
   cipher: auto
-  name: '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  name: '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
   network: ws
   port: 666
   server: v1-aws-hk-06.niaoyun.online
@@ -80,7 +80,7 @@ proxies:
   ws-path: /niaocloud
 - alterId: 1
   cipher: auto
-  name: '[11-18]|oslook_8'
+  name: '[11-19]|oslook_8'
   network: ws
   port: 20049
   server: cm-jm.okvpn.xyz
@@ -90,7 +90,7 @@ proxies:
   ws-path: /
 - alterId: 1
   cipher: auto
-  name: '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  name: '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
   network: ws
   port: 666
   server: v1-aws-hk-03.niaoyun.online
@@ -102,7 +102,7 @@ proxies:
   ws-path: /niaocloud
 - alterId: 1
   cipher: auto
-  name: '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  name: '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
   network: ws
   port: 666
   server: v1-aws-hk-06.niaoyun.online
@@ -114,7 +114,7 @@ proxies:
   ws-path: /niaocloud
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
+  name: '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
   network: ws
   port: 88
   server: ruml.jjyun.ren
@@ -124,7 +124,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
+  name: '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
   network: ws
   port: 35899
   server: vip345.xyz
@@ -134,7 +134,7 @@ proxies:
   ws-path: /ny
 - alterId: 0
   cipher: auto
-  name: '[11-18]|oslook|美国USUSA/Newark_13'
+  name: '[11-19]|oslook|美国USUSA/Newark_13'
   network: ws
   port: 443
   server: uuuuss22.liuwei01.tk
@@ -146,7 +146,7 @@ proxies:
   ws-path: /liuwei
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|韩国KRKorea/Seoul_14'
+  name: '[11-19]|oslook|韩国KRKorea/Seoul_14'
   network: ws
   port: 80
   server: kr.52jjyun.top
@@ -156,7 +156,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 1
   cipher: auto
-  name: '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
+  name: '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
   network: ws
   port: 666
   server: v1-asw-sg-10.niaoyun.online
@@ -168,7 +168,7 @@ proxies:
   ws-path: /niaocloud
 - alterId: 1
   cipher: auto
-  name: '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
+  name: '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
   network: ws
   port: 666
   server: v1-asw-sg-13.niaoyun.online
@@ -180,7 +180,7 @@ proxies:
   ws-path: /niaocloud
 - alterId: 0
   cipher: auto
-  name: '[11-18]|oslook|美国USUSA/San Francisco_17'
+  name: '[11-19]|oslook|美国USUSA/San Francisco_17'
   network: ws
   port: 443
   server: sw.oracleusa.ml
@@ -190,7 +190,7 @@ proxies:
   ws-path: /4Y3g3EnSU
 - alterId: 64
   cipher: auto
-  name: '[11-18]|oslook|美国USUSA/San Francisco_18'
+  name: '[11-19]|oslook|美国USUSA/San Francisco_18'
   network: ws
   port: 443
   server: powerservice.com
@@ -202,7 +202,7 @@ proxies:
   ws-path: /sshocean
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|台湾家宽_19'
+  name: '[11-19]|oslook|台湾家宽_19'
   network: ws
   port: 44480
   server: 118.166.42.209
@@ -212,7 +212,7 @@ proxies:
   ws-path: /ny
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
+  name: '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
   network: ws
   port: 88
   server: ruml.jjyun.ren
@@ -222,7 +222,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
+  name: '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
   network: ws
   port: 80
   server: de.52jjyun.top
@@ -232,7 +232,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
+  name: '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
   network: ws
   port: 88
   server: ruml.jjyun.ren
@@ -242,7 +242,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
+  name: '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
   network: ws
   port: 80
   server: de.52jjyun.top
@@ -252,7 +252,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
+  name: '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
   network: ws
   port: 32857
   server: vip345.xyz
@@ -262,7 +262,7 @@ proxies:
   ws-path: /ny
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
+  name: '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
   network: ws
   port: 80
   server: de.52jjyun.top
@@ -272,7 +272,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|美国USUSA/Dallas_26'
+  name: '[11-19]|oslook|美国USUSA/Dallas_26'
   network: ws
   port: 80
   server: usdsl.52jjyun.top
@@ -282,7 +282,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 0
   cipher: auto
-  name: '[11-18]|oslook|美国USUSA/San Francisco_27'
+  name: '[11-19]|oslook|美国USUSA/San Francisco_27'
   network: ws
   port: 443
   server: ru.gfwglass.tk
@@ -292,7 +292,7 @@ proxies:
   ws-path: /114514
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
+  name: '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
   network: ws
   port: 80
   server: de.52jjyun.top
@@ -302,7 +302,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 10
   cipher: auto
-  name: '[11-18]|oslook|美国USUSA/Dallas_29'
+  name: '[11-19]|oslook|美国USUSA/Dallas_29'
   network: ws
   port: 80
   server: usdsl.52jjyun.top
@@ -312,7 +312,7 @@ proxies:
   ws-path: /jjyun
 - alterId: 0
   cipher: auto
-  name: '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  name: '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
   network: tcp
   port: 30003
   server: 1.transit.nph.qjnodeip.xyz
@@ -321,14 +321,14 @@ proxies:
   uuid: d28a2230-eb9d-4c8b-b474-8a141da09347
   ws-path: /
 - cipher: aes-256-gcm
-  name: '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
+  name: '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
   password: Kquv5UhvZXNMemAQy8DxZ7qn
   port: 38620
   server: 107.150.94.14
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
+  name: '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
   network: ws
   port: 40071
   server: vip345.xyz
@@ -337,14 +337,14 @@ proxies:
   uuid: bac18e70-9964-3f99-805a-d809c4bdc6cb
   ws-path: /ny
 - cipher: aes-256-gcm
-  name: '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
+  name: '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
   password: YgusH2MWA8PWc3p2VDsR7AVv
   port: 31764
   server: 107.150.94.14
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
+  name: '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
   network: ws
   port: 168
   server: v7.ssrsub.com
@@ -354,7 +354,7 @@ proxies:
   ws-path: /ssrsub
 - alterId: 0
   cipher: auto
-  name: '[11-18]|oslook|加拿大CACanada/Toronto_35'
+  name: '[11-19]|oslook|加拿大CACanada/Toronto_35'
   network: ws
   port: 168
   server: v6.ssrsub.com
@@ -364,7 +364,7 @@ proxies:
   ws-path: /ssrsub
 - alterId: 2
   cipher: auto
-  name: '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  name: '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   network: ws
   port: 33320
   server: vip345.xyz
@@ -377,82 +377,82 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -460,207 +460,207 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -676,42 +676,42 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[11-18]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-18]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-18]|oslook|韩国01_3'
-  - '[11-18]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-18]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-18]|oslook_8'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
-  - '[11-18]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_11'
-  - '[11-18]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-18]|oslook|美国USUSA/Newark_13'
-  - '[11-18]|oslook|韩国KRKorea/Seoul_14'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_15'
-  - '[11-18]|oslook|新加坡SGSingapore/Singapore_16'
-  - '[11-18]|oslook|美国USUSA/San Francisco_17'
-  - '[11-18]|oslook|美国USUSA/San Francisco_18'
-  - '[11-18]|oslook|台湾家宽_19'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_20'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_21'
-  - '[11-18]|oslook|俄罗斯RURussia/Moscow_22'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_23'
-  - '[11-18]|oslook|挪威 三网优化 外贸 推特_24'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_25'
-  - '[11-18]|oslook|美国USUSA/Dallas_26'
-  - '[11-18]|oslook|美国USUSA/San Francisco_27'
-  - '[11-18]|oslook|德国DEGermany/Frankfurt am Main_28'
-  - '[11-18]|oslook|美国USUSA/Dallas_29'
-  - '[11-18]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_31'
-  - '[11-18]|oslook|荷兰 三网优化 外贸 推特_32'
-  - '[11-18]|oslook|土耳其TRTurkey/Istanbul_33'
-  - '[11-18]|oslook|俄罗斯RURussia/Zelenograd_34'
-  - '[11-18]|oslook|加拿大CACanada/Toronto_35'
-  - '[11-18]|oslook|丹麦 三网优化 外贸 推特_36'
+  - '[11-19]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-19]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-19]|oslook|韩国01_3'
+  - '[11-19]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-19]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_6'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  - '[11-19]|oslook_8'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_9'
+  - '[11-19]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_10'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_11'
+  - '[11-19]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-19]|oslook|美国USUSA/Newark_13'
+  - '[11-19]|oslook|韩国KRKorea/Seoul_14'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_15'
+  - '[11-19]|oslook|新加坡SGSingapore/Singapore_16'
+  - '[11-19]|oslook|美国USUSA/San Francisco_17'
+  - '[11-19]|oslook|美国USUSA/San Francisco_18'
+  - '[11-19]|oslook|台湾家宽_19'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_20'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_21'
+  - '[11-19]|oslook|俄罗斯RURussia/Moscow_22'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_23'
+  - '[11-19]|oslook|挪威 三网优化 外贸 推特_24'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_25'
+  - '[11-19]|oslook|美国USUSA/Dallas_26'
+  - '[11-19]|oslook|美国USUSA/San Francisco_27'
+  - '[11-19]|oslook|德国DEGermany/Frankfurt am Main_28'
+  - '[11-19]|oslook|美国USUSA/Dallas_29'
+  - '[11-19]|oslook|中国香港/中国台湾CNChina/Shanghai/可能是中转节点_30'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_31'
+  - '[11-19]|oslook|荷兰 三网优化 外贸 推特_32'
+  - '[11-19]|oslook|土耳其TRTurkey/Istanbul_33'
+  - '[11-19]|oslook|俄罗斯RURussia/Zelenograd_34'
+  - '[11-19]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-19]|oslook|丹麦 三网优化 外贸 推特_36'
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
