@@ -6,7 +6,7 @@ port: 7890
 proxies:
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  name: '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
   network: ws
   port: 29999
   server: 5.vip341.xyz
@@ -16,7 +16,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  name: '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
   network: ws
   port: 80
   server: 10.vip341.xyz
@@ -26,7 +26,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|韩国01_3'
+  name: '[11-21]|oslook|韩国01_3'
   network: ws
   port: 40224
   server: zz.vip341.xyz
@@ -36,7 +36,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  name: '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
   network: ws
   port: 80
   server: 2.vip341.xyz
@@ -46,7 +46,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  name: '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
   network: ws
   port: 80
   server: 3.vip341.xyz
@@ -56,7 +56,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  name: '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
   network: ws
   port: 80
   server: 7.vip341.xyz
@@ -66,7 +66,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  name: '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
   network: ws
   port: 32580
   server: 1.vip341.xyz
@@ -76,7 +76,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  name: '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
   network: ws
   port: 81
   server: 6.vip341.xyz
@@ -86,7 +86,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  name: '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
   network: ws
   port: 80
   server: 8.vip341.xyz
@@ -96,7 +96,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  name: '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
   network: ws
   port: 81
   server: 4.vip341.xyz
@@ -106,7 +106,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  name: '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
   network: ws
   port: 80
   server: 5.vip341.xyz
@@ -116,7 +116,7 @@ proxies:
   ws-path: /ny
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
+  name: '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
   network: ws
   port: 35899
   server: zz.vip341.xyz
@@ -126,7 +126,7 @@ proxies:
   ws-path: /ny
 - alterId: 64
   cipher: auto
-  name: '[11-20]|oslook|美国USUSA/San Francisco_13'
+  name: '[11-21]|oslook|美国USUSA/San Francisco_13'
   network: ws
   port: 443
   server: 172.67.69.244
@@ -137,20 +137,20 @@ proxies:
     Host: ru1.v2rayserv.com
   ws-path: /sshocean
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|加拿大CACanada/Toronto_14'
+  name: '[11-21]|oslook|加拿大CACanada/Toronto_14'
   password: WCuz7yrfZSCQQXSNrtGPz2HT
   port: 50168
   server: 37.19.211.79
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  name: '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
   password: 8n6pwAcrrv2pj6tFY2p3TbQ6
   port: 33992
   server: 176.227.241.22
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[11-20]|oslook|美国USUSA/San Francisco_16'
+  name: '[11-21]|oslook|美国USUSA/San Francisco_16'
   network: ws
   port: 443
   server: sw.gfwglass.tk
@@ -160,7 +160,7 @@ proxies:
   ws-path: /d7KnHN
 - alterId: 0
   cipher: auto
-  name: '[11-20]|oslook|美国USUSA/Los Angeles_17'
+  name: '[11-21]|oslook|美国USUSA/Los Angeles_17'
   network: ws
   port: 44963
   server: 149.248.11.253
@@ -168,7 +168,7 @@ proxies:
   type: vmess
   uuid: 51a34956-4867-11ec-abf9-560003b0214a
   ws-path: /lnPFjTta/
-- name: '[11-20]|oslook|加拿大CACanada/Waterloo_18'
+- name: '[11-21]|oslook|加拿大CACanada/Waterloo_18'
   password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
   port: 11033
   server: t7.ssrsub.com
@@ -176,7 +176,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
+  name: '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
   network: ws
   port: 33320
   server: zz.vip341.xyz
@@ -185,26 +185,26 @@ proxies:
   uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
   ws-path: /ny
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
+  name: '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
   password: VASQbVcukHfdBGmeS9L7Z8TT
   port: 44628
   server: 89.46.223.239
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|意大利ITItaly/Rome_21'
+  name: '[11-21]|oslook|意大利ITItaly/Rome_21'
   password: FWrXcxPZjJxAN89xLgqY3Acp
   port: 44236
   server: 82.102.26.117
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  name: '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
   password: z6pH3RyttkRWhJ5tpRyt6dYk
   port: 41676
   server: 185.76.8.218
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
+  name: '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
   network: ws
   port: 40071
   server: zz.vip341.xyz
@@ -213,14 +213,14 @@ proxies:
   uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
   ws-path: /ny
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|美国USUSA/Chicago_24'
+  name: '[11-21]|oslook|美国USUSA/Chicago_24'
   password: BdRWC38L5JUDMTYNNxJGcUwB
   port: 49396
   server: 138.199.42.170
   type: ss
 - alterId: 4
   cipher: auto
-  name: '[11-20]|oslook|美国USUSA/San Francisco_25'
+  name: '[11-21]|oslook|美国USUSA/San Francisco_25'
   network: ws
   port: 443
   server: v1.babazhuji.com
@@ -229,50 +229,50 @@ proxies:
   uuid: f819ddea-1ba3-49c6-9fd1-120e704f5243
   ws-path: /baidu
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
+  name: '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
   password: WBLAbN6AwtV5avBx73hFRLB3
   port: 35200
   server: 89.46.223.239
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  name: '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
   password: CXSjgD7u7Ar7GxkZ4CgTMUsj
   port: 45329
   server: 185.76.8.218
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|美国USUSA/Chicago_28'
+  name: '[11-21]|oslook|美国USUSA/Chicago_28'
   password: FWrXcxPZjJxAN89xLgqY3Acp
   port: 44236
   server: 138.199.42.170
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  name: '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
   password: CTK8GXFQgKYQErrghPJfZ6tk
   port: 47121
   server: 185.76.8.218
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|印度INIndia/Chennai_30'
+  name: '[11-21]|oslook|印度INIndia/Chennai_30'
   password: r9Q3adc3ru9sfBDPEj4yp6U6
   port: 48794
   server: 103.108.117.148
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
+  name: '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
   password: ZDYSyKNR8upjg9l36eR3ZySAaaEcOY2CaI0zp5xnX4733eSwqxCFlOTD8BCDFA
   port: 18334
   server: 23.106.248.19
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  name: '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
   password: X6yMGXnfUsuKTvEDYZSLPk4d
   port: 41738
   server: 185.76.8.218
   type: ss
 - alterId: 1
   cipher: auto
-  name: '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  name: '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
   network: ws
   port: 80
   server: cs.mlsao.dynv6.net
@@ -283,26 +283,26 @@ proxies:
     Host: gd.189.cn
   ws-path: /mg3
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  name: '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
   password: dpGjA4GkzV28QPDYzEp94cTe
   port: 49514
   server: 185.76.8.218
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|美国USUSA/Chicago_35'
+  name: '[11-21]|oslook|美国USUSA/Chicago_35'
   password: rnngxSTJrXWKXHkvrF3npp9B
   port: 40711
   server: 138.199.42.170
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-20]|oslook|美国USUSA/Chicago_36'
+  name: '[11-21]|oslook|美国USUSA/Chicago_36'
   password: Y9GcTPemHMKEkrfGQPJqFDNr
   port: 49653
   server: 138.199.42.134
   type: ss
 - alterId: 64
   cipher: auto
-  name: '[11-20]|oslook|美国USUSA/San Francisco_37'
+  name: '[11-21]|oslook|美国USUSA/San Francisco_37'
   network: ws
   port: 443
   server: api.ssfree.ru
@@ -315,84 +315,84 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -400,212 +400,212 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -621,43 +621,43 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[11-20]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
-  - '[11-20]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
-  - '[11-20]|oslook|韩国01_3'
-  - '[11-20]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
-  - '[11-20]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
-  - '[11-20]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
-  - '[11-20]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
-  - '[11-20]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
-  - '[11-20]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
-  - '[11-20]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
-  - '[11-20]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
-  - '[11-20]|oslook|西班牙 三网优化 外贸 推特_12'
-  - '[11-20]|oslook|美国USUSA/San Francisco_13'
-  - '[11-20]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-20]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
-  - '[11-20]|oslook|美国USUSA/San Francisco_16'
-  - '[11-20]|oslook|美国USUSA/Los Angeles_17'
-  - '[11-20]|oslook|加拿大CACanada/Waterloo_18'
-  - '[11-20]|oslook|丹麦 三网优化 外贸 推特_19'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_20'
-  - '[11-20]|oslook|意大利ITItaly/Rome_21'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
-  - '[11-20]|oslook|荷兰 三网优化 外贸 推特_23'
-  - '[11-20]|oslook|美国USUSA/Chicago_24'
-  - '[11-20]|oslook|美国USUSA/San Francisco_25'
-  - '[11-20]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
-  - '[11-20]|oslook|美国USUSA/Chicago_28'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
-  - '[11-20]|oslook|印度INIndia/Chennai_30'
-  - '[11-20]|oslook|新加坡SGSingapore/Singapur_31'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
-  - '[11-20]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
-  - '[11-20]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
-  - '[11-20]|oslook|美国USUSA/Chicago_35'
-  - '[11-20]|oslook|美国USUSA/Chicago_36'
-  - '[11-20]|oslook|美国USUSA/San Francisco_37'
+  - '[11-21]|oslook|vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_1'
+  - '[11-21]|oslook|香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_2'
+  - '[11-21]|oslook|韩国01_3'
+  - '[11-21]|oslook|香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_4'
+  - '[11-21]|oslook|香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_5'
+  - '[11-21]|oslook|香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_6'
+  - '[11-21]|oslook|香港01 流量倍速0.5 用2G只算1G的钱_7'
+  - '[11-21]|oslook|香港06  流量倍速0.5 用2G只算1G的钱_8'
+  - '[11-21]|oslook|香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9'
+  - '[11-21]|oslook|香港04 流量倍速0.5 用2G只算1G的钱_10'
+  - '[11-21]|oslook|香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_11'
+  - '[11-21]|oslook|西班牙 三网优化 外贸 推特_12'
+  - '[11-21]|oslook|美国USUSA/San Francisco_13'
+  - '[11-21]|oslook|加拿大CACanada/Toronto_14'
+  - '[11-21]|oslook|哥斯达黎加CRCosta+Rica/San+José_15'
+  - '[11-21]|oslook|美国USUSA/San Francisco_16'
+  - '[11-21]|oslook|美国USUSA/Los Angeles_17'
+  - '[11-21]|oslook|加拿大CACanada/Waterloo_18'
+  - '[11-21]|oslook|丹麦 三网优化 外贸 推特_19'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_20'
+  - '[11-21]|oslook|意大利ITItaly/Rome_21'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_22'
+  - '[11-21]|oslook|荷兰 三网优化 外贸 推特_23'
+  - '[11-21]|oslook|美国USUSA/Chicago_24'
+  - '[11-21]|oslook|美国USUSA/San Francisco_25'
+  - '[11-21]|oslook|荷兰NLNetherlands/Haarlem_26'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_27'
+  - '[11-21]|oslook|美国USUSA/Chicago_28'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_29'
+  - '[11-21]|oslook|印度INIndia/Chennai_30'
+  - '[11-21]|oslook|新加坡SGSingapore/Singapur_31'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_32'
+  - '[11-21]|oslook|中国香港/中国台湾CNChina/Changsha/可能是中转节点_33'
+  - '[11-21]|oslook|斯洛伐克SKSlovakia/Bratislava_34'
+  - '[11-21]|oslook|美国USUSA/Chicago_35'
+  - '[11-21]|oslook|美国USUSA/Chicago_36'
+  - '[11-21]|oslook|美国USUSA/San Francisco_37'
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
