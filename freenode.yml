@@ -4,483 +4,859 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 1
-  cipher: auto
-  name: '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  network: ws
-  port: 20049
-  server: cm-jm.okvpn.xyz
-  tls: false
-  type: vmess
-  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
-  ws-headers:
-    Host: cm-jm.okvpn.xyz
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '[11-26]|oslook|美国USUSA/Newark_2'
-  network: ws
-  port: 443
-  server: uuuuss22.liuwei01.tk
-  tls: true
-  type: vmess
-  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
-  ws-path: /liuwei
-- alterId: 0
-  cipher: auto
-  name: '[11-26]|oslook|美国USUSA/Newark_3'
-  network: ws
-  port: 443
-  server: uuuuss22.liuwei01.tk
-  tls: true
-  type: vmess
-  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
-  ws-headers:
-    Host: uuuuss22.liuwei01.tk
-  ws-path: /liuwei
-- alterId: 1
-  cipher: auto
-  name: '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  network: ws
-  port: 20004
-  server: cm-jm.okvpn.xyz
-  tls: false
-  type: vmess
-  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
-  ws-headers:
-    Host: cm-jm.okvpn.xyz
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '[11-26]|oslook|美国USUSA/San Francisco_5'
-  network: ws
-  port: 443
-  server: usaarm2.oracleusa.ml
-  tls: true
-  type: vmess
-  uuid: 13e34585-8988-4808-9819-a9f6ed47e373
-  ws-headers:
-    Host: usaarm2.oracleusa.ml
-  ws-path: /LXZKNTbTnI
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  password: Qbt22F6JsxzFGqcsK5SaR8q3
-  port: 37559
-  server: 37.19.211.40
-  type: ss
 - alterId: 2
   cipher: auto
-  name: '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
+  name: 挪威 三网优化 外贸 推特_1
   network: ws
-  port: 22642
-  server: tk.shcn2.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-headers:
-    Host: zxjp-b.tkong.cc
-  ws-path: /
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  password: btzEYXKZxnR7g6H2vFTQK5TD
-  port: 49202
-  server: 37.19.211.43
-  type: ss
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
-  port: 45329
-  server: 37.19.211.120
-  type: ss
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  password: Pvvaw486867D2w4yctL2ULTQ
-  port: 40282
-  server: 37.19.211.138
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  network: ws
-  port: 20005
-  server: cm-jm.okvpn.xyz
+  port: 32857
+  server: zz.vip341.xyz
   tls: false
   type: vmess
-  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 台湾家宽_2
+  network: ws
+  port: 33480
+  server: tw01.lilyco.cc
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  network: ws
+  port: 80
+  server: 3.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  network: ws
+  port: 80
+  server: 10.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 荷兰 三网优化 外贸 推特_5
+  network: ws
+  port: 40071
+  server: zz.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 丹麦 三网优化 外贸 推特_6
+  network: ws
+  port: 33320
+  server: zz.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  network: ws
+  port: 80
+  server: 2.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  network: ws
+  port: 80
+  server: 7.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  network: ws
+  port: 80
+  server: 8.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  network: ws
+  port: 29999
+  server: 5.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 香港06  流量倍速0.5 用2G只算1G的钱_11
+  network: ws
+  port: 81
+  server: 6.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  network: ws
+  port: 80
+  server: 5.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 2
+  cipher: auto
+  name: 西班牙 三网优化 外贸 推特_13
+  network: ws
+  port: 35899
+  server: zz.vip341.xyz
+  tls: false
+  type: vmess
+  uuid: 892db7e4-1e1d-3e24-9f68-55df818e6aa1
+  ws-path: /ny
+- alterId: 4
+  cipher: auto
+  name: '[11-26]|oslook|美国USUSA/San Jose_14'
+  network: ws
+  port: 443
+  server: chuch3go.com
+  tls: true
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   ws-headers:
-    Host: cm-jm.okvpn.xyz
+    Host: chuch3go.com
+  ws-path: /ws
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 167.88.61.204
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
+  network: ws
+  port: 1888
+  server: 183.179.115.79
+  tls: false
+  type: vmess
+  uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98
+  ws-headers:
+    Host: t.me/vpnhat
   ws-path: /
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  password: pzB5Y2twNtqFzWhEbBsPJMjj
-  port: 41306
-  server: 37.19.211.115
-  type: ss
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  password: ecfJrNtBZwT748hxJ3ZyzZj2
-  port: 45291
-  server: 37.19.211.63
-  type: ss
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  password: x23Z4LGkGDkThZ9Kaz4DURQp
-  port: 40093
-  server: 37.19.211.108
-  type: ss
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  password: dpGjA4GkzV28QPDYzEp94cTe
-  port: 49514
-  server: 37.19.211.110
-  type: ss
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook_16'
-  password: 42SjT9vBF6ma9eFF3URaJpQ4
-  port: 49719
-  server: 37.19.211.83
-  type: ss
-- cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_17'
-  password: X6yMGXnfUsuKTvEDYZSLPk4d
-  port: 41738
-  server: 37.19.211.113
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.196.3
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_18'
-  password: jspgz9G3VmvBMCgMUWLBaZHu
-  port: 44820
-  server: 37.19.211.60
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 134.195.196.33
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  password: GEqk9WGyybeyXW97YEdanDYs
-  port: 46412
-  server: 37.19.211.55
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.71
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|美国USUSA/Chicago_20'
-  password: wj7nDCuNARchSeKNCN8VFK62
-  port: 31757
-  server: 138.199.42.142
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_20'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.71
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  password: wEsFcHCvbL4eJkL4DZQa7RgR
-  port: 45746
-  server: 37.19.211.85
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.196.71
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|美国USUSA/Chicago_22'
-  password: b2jDPHUQxCNa2KmGHZjy7C4B
-  port: 50024
-  server: 138.199.42.170
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.196.154
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  password: WCuz7yrfZSCQQXSNrtGPz2HT
-  port: 50168
-  server: 185.76.8.218
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.196.71
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[11-26]|oslook|美国USUSA/San Francisco_24'
+  name: '[11-26]|oslook|美国USUSA/Los Angeles_24'
   network: ws
-  port: 443
-  server: usaarm2.oracleusa.ml
-  tls: true
+  port: 56375
+  server: 66.42.106.69
+  tls: false
   type: vmess
-  uuid: 13e34585-8988-4808-9819-a9f6ed47e373
-  ws-path: /LXZKNTbTnI
+  uuid: 6b8a8068-4de0-11ec-96e9-560003b39b08
+  ws-path: /DTuV2FWU/
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  password: t2JnnFqjDMmzWurseJPgBsYY
-  port: 47553
-  server: 82.102.16.102
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  password: WBLAbN6AwtV5avBx73hFRLB3
-  port: 35200
-  server: 89.46.223.239
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.110
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|美国USUSA/Chicago_27'
-  password: 5kGAhC3AmVC35GbruHjSrZf2
-  port: 41372
-  server: 138.199.42.142
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_27'
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 134.195.196.3
   type: ss
 - alterId: 0
   cipher: auto
   name: '[11-26]|oslook|美国USUSA/Los Angeles_28'
   network: ws
-  port: 2907
-  server: 66.42.105.136
+  port: 47337
+  server: 149.28.72.171
   tls: false
   type: vmess
-  uuid: a4dbb36c-4a04-11ec-a8eb-560003b123dd
-  ws-path: /YAKv1Hu8/
+  uuid: 23263574-4de0-11ec-ad4e-560003b39a5c
+  ws-path: /3ICBPofZ/
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|意大利ITItaly/Rome_29'
-  password: 8n6pwAcrrv2pj6tFY2p3TbQ6
-  port: 33992
-  server: 82.102.26.117
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.196.71
   type: ss
-- alterId: 64
-  cipher: auto
-  name: '[11-26]|oslook|美国USUSA/San Francisco_30'
-  network: ws
-  port: 443
-  server: 172.67.69.244
-  tls: true
-  type: vmess
-  uuid: 119013ea-09ad-48f9-930c-c16056ea95ba
-  ws-headers:
-    Host: ru1.v2rayserv.com
-  ws-path: /sshocean
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_31'
-  password: enctdKyJfSu76VqznKwTt6Ap
-  port: 37473
-  server: 37.19.211.115
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.196.51
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 172.99.190.186
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  password: wJwXatAGZ8xX5K8C7mruf84x
-  port: 31216
-  server: 37.19.211.113
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 134.195.196.199
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  password: NHwQTPLCfaTMSqTnU3mjcSxe
-  port: 33998
-  server: 37.19.211.120
+  name: '[11-26]|oslook|美国USUSA/Atlanta_33'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 167.88.63.28
   type: ss
-- alterId: 2
-  cipher: auto
-  name: '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  network: ws
-  port: 20189
-  server: jpa.sttlink.xyz
-  tls: false
-  type: vmess
-  uuid: ab60166b-d22d-3ae5-963f-e5867007ff08
-  ws-path: /ka
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_35'
-  password: Qbt22F6JsxzFGqcsK5SaR8q3
-  port: 37559
-  server: 37.19.211.115
+  name: '[11-26]|oslook|美国USUSA/Atlanta_34'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 167.88.63.89
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_35'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_36'
-  password: XmQSxDCn5ehpcq6DBYms8FJf
-  port: 41992
-  server: 37.19.211.40
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.196.3
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  password: CXSjgD7u7Ar7GxkZ4CgTMUsj
-  port: 45329
-  server: 37.19.211.60
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.33
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  password: rnngxSTJrXWKXHkvrF3npp9B
-  port: 40711
-  server: 37.19.211.88
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  password: Z3eC0KxS8ICjgp2N6OZ94x3DaXwyTRzaSqApFlF5cD3Y73luCYyn8eERDSAaOB
-  port: 18334
-  server: 209.58.181.251
+  name: '[11-26]|oslook_38'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.95
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  password: Y9GcTPemHMKEkrfGQPJqFDNr
-  port: 49653
-  server: 37.19.211.75
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.196.154
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  password: apqQgXJyVDsdJMAYV4xspRFK
-  port: 48089
-  server: 37.19.211.83
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  password: j76EXqJcQhuQTr3EvUf7xaK9
-  port: 45948
-  server: 37.19.211.60
+  name: '[11-26]|oslook|美国USUSA/Atlanta_41'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 167.88.63.74
   type: ss
-- cipher: aes-256-gcm
-  name: '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  password: txmK9WhwP6WPhP7hqSBLVxpN
-  port: 34687
-  server: 37.19.211.120
-  type: ss
-- name: '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
-  port: 11033
-  server: t8.ssrsub.com
-  sni: t8.ssrsub.com
-  type: trojan
-- alterId: 1
+- alterId: 0
   cipher: auto
-  name: '[11-26]|oslook_45'
+  name: '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
   network: ws
-  port: 20047
-  server: cm-jm.okvpn.xyz
+  port: 18888
+  server: hzlt.tuboshu.space
   tls: false
   type: vmess
-  uuid: 8aa86d85-aab3-46da-8fe9-406edd995a15
-  ws-headers:
-    Host: cm-jm.okvpn.xyz
-  ws-path: /
+  uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98
+  ws-path: /thkt
 - cipher: aes-256-gcm
-  name: '[11-26]|oslook_46'
-  password: Pvvaw486867D2w4yctL2ULTQ
-  port: 40282
-  server: 37.19.211.108
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.198.178
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.199
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.196.33
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_46'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.196.199
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  password: WBLAbN6AwtV5avBx73hFRLB3
-  port: 35200
-  server: 37.19.211.40
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.196.214
   type: ss
-- alterId: 4
-  cipher: auto
-  name: '[11-26]|oslook|美国USUSA/Newark_48'
-  network: ws
-  port: 443
-  server: v1.babazhuji.com
-  tls: true
-  type: vmess
-  uuid: f819ddea-1ba3-49c6-9fd1-120e704f5243
-  ws-path: /baidu
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|美国USUSA/Washington_48'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 38.39.192.74
+  type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_49'
-  password: z6pH3RyttkRWhJ5tpRyt6dYk
-  port: 41676
-  server: 37.19.211.75
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.196.214
   type: ss
 - cipher: aes-256-gcm
   name: '[11-26]|oslook|加拿大CACanada/Toronto_50'
-  password: x23Z4LGkGDkThZ9Kaz4DURQp
-  port: 40093
-  server: 37.19.211.115
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.196.110
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 172.107.233.234
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.178
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 172.99.190.149
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 172.99.190.205
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 134.195.196.199
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|美国USUSA/Atlanta_56'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 167.88.63.28
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|美国USUSA/Washington_57'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 38.39.192.74
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 134.195.198.178
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.196.154
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.196.154
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.196.214
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|美国USUSA/Washington_62'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 38.39.192.74
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 134.195.196.3
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.190.186
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.95
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.214
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.196.110
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.196.154
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 172.99.190.149
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 134.195.198.252
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 172.99.190.186
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 134.195.196.3
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.190.149
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 134.195.196.3
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  password: KixLvKzwjekG00rm
+  port: 8080
+  server: 134.195.196.3
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 172.99.190.186
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 134.195.196.199
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 134.195.196.33
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[11-26]|oslook|美国USUSA/San Jose_79'
+  network: tcp
+  port: 600
+  server: 198.200.51.18
+  tls: false
+  type: vmess
+  uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c
+  ws-path: /
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 172.107.233.230
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 172.99.190.90
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 134.195.198.178
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 134.195.196.214
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  password: Y6R9pAtvxxzmGC
+  port: 3306
+  server: 134.195.196.3
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 134.195.196.71
+  type: ss
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 134.195.198.252
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[11-26]|oslook|美国USUSA/San Jose_87'
+  network: tcp
+  port: 600
+  server: 198.200.51.28
+  tls: false
+  type: vmess
+  uuid: 1d219570-0d1b-11ec-a57e-00163ca76936
+  ws-path: /
+- name: '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
+  port: 11033
+  server: t6.ssrsub.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  network: tcp
+  port: 45081
+  server: 185.225.69.134
+  tls: false
+  type: vmess
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+- alterId: 0
+  cipher: auto
+  name: '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  network: ws
+  port: 18888
+  server: gzyd.tuboshu.space
+  tls: false
+  type: vmess
+  uuid: d3a6f8f5-9953-3bf5-956b-1ccc40811a98
+  ws-path: /thcm
+- alterId: 1
+  cipher: auto
+  name: '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  network: ws
+  port: 2053
+  server: kr2.futi.online
+  tls: true
+  type: vmess
+  uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f
+  ws-headers:
+    Host: kr2.futi.online
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '[11-26]|oslook|美国USUSA/San Jose_92'
+  network: tcp
+  port: 111
+  server: 137.175.30.251
+  tls: false
+  type: vmess
+  uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8
+  ws-path: /
+- cipher: aes-256-gcm
+  name: '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 172.99.190.186
   type: ss
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -488,277 +864,492 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -774,56 +1365,99 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_1'
-  - '[11-26]|oslook|美国USUSA/Newark_2'
-  - '[11-26]|oslook|美国USUSA/Newark_3'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_4'
-  - '[11-26]|oslook|美国USUSA/San Francisco_5'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_6'
-  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_7'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_8'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_9'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_10'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_11'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_12'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_13'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_14'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_15'
-  - '[11-26]|oslook_16'
+  - 挪威 三网优化 外贸 推特_1
+  - 台湾家宽_2
+  - 香港03 免流80节点 流量倍速0.5 用2G只算1G的钱_3
+  - 香港10 免流80节点 流量倍速0.5 用2G只算1G的钱_4
+  - 荷兰 三网优化 外贸 推特_5
+  - 丹麦 三网优化 外贸 推特_6
+  - 香港02 免流80节点 流量倍速0.5 用2G只算1G的钱_7
+  - 香港07 免流80节点 流量倍速0.5 用2G只算1G的钱_8
+  - 香港08 免流80节点 流量倍速0.5 用2G只算1G的钱_9
+  - vip3 香港三网优化 流量倍速0.5 用2G只算1G的钱_10
+  - 香港06  流量倍速0.5 用2G只算1G的钱_11
+  - 香港05 免流80节点 流量倍速0.5 用2G只算1G的钱_12
+  - 西班牙 三网优化 外贸 推特_13
+  - '[11-26]|oslook|美国USUSA/San Jose_14'
+  - '[11-26]|oslook|美国USUSA/Los+Angeles_15'
+  - '[11-26]|oslook|中国香港特别行政区HKHongkong SAR China/Hong Kong_16'
   - '[11-26]|oslook|加拿大CACanada/Toronto_17'
   - '[11-26]|oslook|加拿大CACanada/Toronto_18'
   - '[11-26]|oslook|加拿大CACanada/Toronto_19'
-  - '[11-26]|oslook|美国USUSA/Chicago_20'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_20'
   - '[11-26]|oslook|加拿大CACanada/Toronto_21'
-  - '[11-26]|oslook|美国USUSA/Chicago_22'
-  - '[11-26]|oslook|斯洛伐克SKSlovakia/Bratislava_23'
-  - '[11-26]|oslook|美国USUSA/San Francisco_24'
-  - '[11-26]|oslook|德国DEGermany/Frankfurt+am+Main_25'
-  - '[11-26]|oslook|荷兰NLNetherlands/Haarlem_26'
-  - '[11-26]|oslook|美国USUSA/Chicago_27'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_22'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_23'
+  - '[11-26]|oslook|美国USUSA/Los Angeles_24'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_25'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_26'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_27'
   - '[11-26]|oslook|美国USUSA/Los Angeles_28'
-  - '[11-26]|oslook|意大利ITItaly/Rome_29'
-  - '[11-26]|oslook|美国USUSA/San Francisco_30'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_31'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_29'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_30'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_31'
   - '[11-26]|oslook|加拿大CACanada/Toronto_32'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_33'
-  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_34'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_35'
+  - '[11-26]|oslook|美国USUSA/Atlanta_33'
+  - '[11-26]|oslook|美国USUSA/Atlanta_34'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_35'
   - '[11-26]|oslook|加拿大CACanada/Toronto_36'
   - '[11-26]|oslook|加拿大CACanada/Toronto_37'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_38'
-  - '[11-26]|oslook|新加坡SGSingapore/Singapore_39'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_40'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_41'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_42'
-  - '[11-26]|oslook|加拿大CACanada/Toronto_43'
-  - '[11-26]|oslook|美国USUSA/Los+Angeles_44'
-  - '[11-26]|oslook_45'
-  - '[11-26]|oslook_46'
+  - '[11-26]|oslook_38'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_39'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_40'
+  - '[11-26]|oslook|美国USUSA/Atlanta_41'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_42'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_43'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_44'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_45'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_46'
   - '[11-26]|oslook|加拿大CACanada/Toronto_47'
-  - '[11-26]|oslook|美国USUSA/Newark_48'
+  - '[11-26]|oslook|美国USUSA/Washington_48'
   - '[11-26]|oslook|加拿大CACanada/Toronto_49'
   - '[11-26]|oslook|加拿大CACanada/Toronto_50'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_51'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_52'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_53'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_54'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_55'
+  - '[11-26]|oslook|美国USUSA/Atlanta_56'
+  - '[11-26]|oslook|美国USUSA/Washington_57'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_58'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_59'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_60'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_61'
+  - '[11-26]|oslook|美国USUSA/Washington_62'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_63'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_64'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_65'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_66'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_67'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_68'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_69'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_70'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_71'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_72'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_73'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_74'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_75'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_76'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_77'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_78'
+  - '[11-26]|oslook|美国USUSA/San Jose_79'
+  - '[11-26]|oslook|西班牙ESSpain/Barcelona_80'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_81'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_82'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_83'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_84'
+  - '[11-26]|oslook|加拿大CACanada/Toronto_85'
+  - '[11-26]|oslook|加拿大CACanada/Montreal_86'
+  - '[11-26]|oslook|美国USUSA/San Jose_87'
+  - '[11-26]|oslook|加拿大CACanada/Waterloo_88'
+  - '[11-26]|oslook|匈牙利HUHungary/Budapest_89'
+  - '[11-26]|oslook|中国香港/中国台湾CNChina/Guangzhou/可能是中转节点_90'
+  - '[11-26]|oslook|韩国KRKorea/Seoul_91'
+  - '[11-26]|oslook|美国USUSA/San Jose_92'
+  - '[11-26]|oslook|英国GBUnited+Kiongdom/London_93'
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
