@@ -20,23 +20,24 @@ proxies:
   - {name: 🇬🇧英国(绿头外网集团)(Public) 2, server: gz.bgp.rx.naiun.pw, port: 45413, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
   - {name: 🇬🇧英国(绿头外网集团)(Public) 3, server: gz.bgp.rx.naiun.pw, port: 45324, type: ss, cipher: chacha20-ietf-poly1305, password: 8b460b5c-22cc-463b-b50a-44cf63bdca08, udp: true}
   - {name: 🇬🇧英国(绿头外网集团)(Public) 4, server: zh01lv5uk01.feiguayun.xyz, port: 35087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public), server: azhk6.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 2, server: azzz2.mayiyun.vip, port: 20008, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 3, server: azzz2.mayiyun.vip, port: 20001, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 4, server: azzz2.mayiyun.vip, port: 20006, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 5, server: azzz2.mayiyun.vip, port: 20003, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 6, server: azzz2.mayiyun.vip, port: 20007, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 7, server: hz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 8, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 9, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 10, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 8b460b5c-22cc-463b-b50a-44cf63bdca08, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 11, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 8b460b5c-22cc-463b-b50a-44cf63bdca08, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 12, server: zh01lv5hk08.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 13, server: zh01lv5hk07.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 14, server: zh01lv5hk06.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 15, server: zh01lv5hk04.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 16, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
-  - {name: 🇭🇰香港(绿头外网集团)(Public) 17, server: zh01lv5hk10.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public), server: 104.208.72.106, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 2, server: azhk6.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 3, server: azzz2.mayiyun.vip, port: 20008, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 4, server: azzz2.mayiyun.vip, port: 20001, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 5, server: azzz2.mayiyun.vip, port: 20006, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 6, server: azzz2.mayiyun.vip, port: 20003, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 7, server: azzz2.mayiyun.vip, port: 20007, type: ss, cipher: aes-256-gcm, password: 50f684d5-4ed7-4c89-aeff-e7d26024b98c, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 8, server: hz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 9, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 10, server: gz.bgp.rx.naiun.pw, port: 45239, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 11, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 8b460b5c-22cc-463b-b50a-44cf63bdca08, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 12, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 8b460b5c-22cc-463b-b50a-44cf63bdca08, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 13, server: zh01lv5hk08.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 14, server: zh01lv5hk07.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 15, server: zh01lv5hk06.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 16, server: zh01lv5hk04.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 17, server: zh01lv5hk03.feiguayun.xyz, port: 11087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
+  - {name: 🇭🇰香港(绿头外网集团)(Public) 18, server: zh01lv5hk10.feiguayun.xyz, port: 31087, type: ss, cipher: aes-256-gcm, password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49, udp: true}
   - {name: 🇯🇵日本(绿头外网集团)(Public), server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 🇯🇵日本(绿头外网集团)(Public) 2, server: hz.bgp.rx.naiun.pw, port: 45184, type: vmess, uuid: 8b460b5c-22cc-463b-b50a-44cf63bdca08, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hz.bgp.rx.naiun.pw}}, udp: true}
   - {name: 🇯🇵日本(绿头外网集团)(Public) 3, server: hz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 8b460b5c-22cc-463b-b50a-44cf63bdca08, udp: true}
@@ -58,8 +59,14 @@ proxies:
   - {name: 🇺🇸美国(绿头外网集团)(Public) 2, server: 198.211.45.184, port: 4586, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: uj.doubledou.win, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸美国(绿头外网集团)(Public) 3, server: 136.175.179.6, port: 6519, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: loslite2.doubledou.win, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸美国(绿头外网集团)(Public) 4, server: 136.175.179.6, port: 6529, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: loslite.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳越南(绿头外网集团)(Public), server: 211.91.243.241, port: 60005, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: vn.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳越南(绿头外网集团)(Public) 2, server: 103.81.85.191, port: 4588, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: vn.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public), server: 103.161.177.228, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 2, server: 103.167.199.94, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 3, server: 103.173.159.182, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 4, server: 103.173.159.182, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cn.e.pic.ak.mangatoon.akamaized.net}}, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 5, server: 103.179.187.87, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 6, server: 103.176.113.71, port: 80, type: vmess, uuid: 84e11227-e771-4c72-88ab-9d74c5b22e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: livestream2.tv360.vn}}, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 7, server: 211.91.243.241, port: 60005, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: vn.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳越南(绿头外网集团)(Public) 8, server: 103.81.85.191, port: 4588, type: trojan, password: ed407b65-ffdf-3eff-87c8-01f094d355e7, sni: vn.doubledou.win, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -98,6 +105,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -121,6 +129,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -158,6 +172,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -181,6 +196,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -219,6 +240,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -242,6 +264,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -292,6 +320,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -315,6 +344,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -336,6 +371,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇹🇼台湾(绿头外网集团)(Public)
       - 🇹🇼台湾(绿头外网集团)(Public) 2
       - 🔰 节点选择
@@ -376,6 +412,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -399,6 +436,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
   - name: 📲 电报信息
     type: select
     proxies:
@@ -436,6 +479,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -459,6 +503,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -497,6 +547,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -520,6 +571,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -567,6 +624,7 @@ proxy-groups:
       - 🇭🇰香港(绿头外网集团)(Public) 15
       - 🇭🇰香港(绿头外网集团)(Public) 16
       - 🇭🇰香港(绿头外网集团)(Public) 17
+      - 🇭🇰香港(绿头外网集团)(Public) 18
       - 🇯🇵日本(绿头外网集团)(Public)
       - 🇯🇵日本(绿头外网集团)(Public) 2
       - 🇯🇵日本(绿头外网集团)(Public) 3
@@ -590,6 +648,12 @@ proxy-groups:
       - 🇺🇸美国(绿头外网集团)(Public) 4
       - 🇻🇳越南(绿头外网集团)(Public)
       - 🇻🇳越南(绿头外网集团)(Public) 2
+      - 🇻🇳越南(绿头外网集团)(Public) 3
+      - 🇻🇳越南(绿头外网集团)(Public) 4
+      - 🇻🇳越南(绿头外网集团)(Public) 5
+      - 🇻🇳越南(绿头外网集团)(Public) 6
+      - 🇻🇳越南(绿头外网集团)(Public) 7
+      - 🇻🇳越南(绿头外网集团)(Public) 8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
