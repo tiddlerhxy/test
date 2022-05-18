@@ -6,128 +6,71 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇰🇷 韩国直连, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
-  - {name: 🇯🇵 标准-B3东京优化线, server: w7.v2mmy.xyz, port: 44813, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇯🇵 高级-A10日本专线X2.5, server: w7.v2mmy.xyz, port: 44828, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇯🇵 标准-日本优化线路17, server: w7.v2mmy.xyz, port: 44827, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇳🇱 标准-B8荷兰优化线, server: w3.v2mmy.xyz, port: 44816, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇸🇬 标准-新加坡优化线13, server: w3.v2mmy.xyz, port: 44817, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇺🇸 标准-B5美国优化线, server: w2.v2mmy.xyz, port: 44814, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇭🇰 标准-B1香港优化线, server: w1.v2mmy.xyz, port: 44812, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇺🇸 标准-B6美国优化线, server: w2.v2mmy.xyz, port: 44826, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇺🇸 标准-B7美国优化线, server: w2.v2mmy.xyz, port: 44819, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇭🇺 标准-匈牙利解锁线15, server: w3.v2mmy.xyz, port: 44818, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇨🇳 高级-A06台湾专线X2.5, server: w6.v2mmy.xyz, port: 25600, type: ss, cipher: aes-128-gcm, password: fcae85b5-baf0-4c5a-ba80-5f513e70512a, udp: true}
-  - {name: 🇭🇰 vpnpool-香港HKT-dip, server: 183.232.56.182, port: 11802, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇯🇵 vpnpool-Tokyo-DMIT-nf, server: 183.232.56.182, port: 11812, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 vpnhat-香港DMIT-nf, server: 112.65.95.60, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 vpnhat-香港HKT-dip, server: 112.65.95.60, port: 11421, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-Chuncheon-Oracle-nf, server: 183.232.56.182, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 我又来了, server: 3.36.77.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 我又来了 2, server: 54.255.192.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 我又来了 3, server: 35.161.33.234, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 我又来了 4, server: 13.215.184.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇨🇳 钉钉 | 443 | 广州 | 限速8M, server: 175.178.163.153, port: 443, type: vmess, uuid: 24f0e143-b19e-4c8e-bfe5-c6c0b4e95425, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 钉钉 | 80 | 香港DOG | 02, server: 45.82.78.151, port: 80, type: vmess, uuid: 24f0e143-b19e-4c8e-bfe5-c6c0b4e95425, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22tms.dingtalk.com%22%7D"}}, udp: true}
+  - {name: DigitalOcean 3|0.7x, server: 206.189.130.75, port: 17745, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: Azure 2|1x, server: 20.226.30.239, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: DigitalOcean 3|0.7x 2, server: 164.92.99.255, port: 46499, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: DigitalOcean 1|0.7x, server: 159.65.157.70, port: 61548, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: DigitalOcean 2|0.1x, server: 167.172.56.225, port: 54141, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: DigitalOcean 1|0.7x 2, server: 104.248.147.211, port: 38273, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: Amazon 3|1x, server: 18.202.26.247, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: 🇰🇷 韩国备用|0.1x, server: awskr1.698436.xyz, port: 46543, type: ss, cipher: aes-256-gcm, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: DigitalOcean 2|0.7x, server: 206.189.136.113, port: 46786, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: Azure 1|1x, server: 20.226.30.239, port: 45789, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: 🇨🇳 vpnhat-台中Hinet-dip, server: 112.65.95.60, port: 11428, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
   - {name: 🇨🇳 vpnpool-台中Hinet-dip, server: 183.232.56.182, port: 11814, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇸🇬 vpnhat-SG-Nerocloud-nf, server: 112.65.95.60, port: 11422, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 vpnpool-香港Nerocloud-nf, server: 183.232.56.182, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇸🇬 vpnhat-SG-Nerocloud-nf 2, server: 112.65.95.60, port: 11429, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-LAX-DMIT-nf, server: 183.232.56.182, port: 35247, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇯🇵 vpnhat-Tokyo-DMIT-nf, server: 112.65.95.60, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-Santa Clara-Tencent-nf, server: 183.232.56.182, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnhat-LAX-DMIT-nf, server: 112.65.95.60, port: 11423, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnhat-San Jose-Misaka-dip, server: 112.65.95.60, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇬🇧 vpnpool-London-Misaka-dip, server: 183.232.56.182, port: 11005, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 香港_R_446, server: ieplszhk-sz.cctelescope.xyz, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港_R_334, server: iepl-hn.cctelescope.xyz, port: 44702, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港_R_160, server: iepl-gz.safetelescope.cc, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港_R_450, server: iepl-hn.cctelescope.xyz, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇻🇳 越南_R_448, server: ieplszhk-sz.cctelescope.xyz, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇻🇳 越南_R_377, server: iepl-gz.safetelescope.cc, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡_R_229, server: ieplszhk-sz.cctelescope.xyz, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾_R_314, server: ieplszhk-sz.cctelescope.xyz, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡_R_441, server: ieplszhk-sz.cctelescope.xyz, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇻🇳 越南_R_380, server: iepl-hn.cctelescope.xyz, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾_R_318, server: iepl-gz.safetelescope.cc, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇮🇳 印度_R_361, server: iepl-hn.cctelescope.xyz, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港_R_316, server: iepl-gz.safetelescope.cc, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇻🇳 越南_R_515, server: sh163.safetelescope.cc, port: 28368, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾_R_337, server: iepl-hn.cctelescope.xyz, port: 20399, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇰🇷 韩国_R_310, server: gzyd-01.cctelescope.xyz, port: 20003, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡_R_522, server: sh163.safetelescope.cc, port: 46562, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇻🇳 越南_R_277, server: gzyd-01.cctelescope.xyz, port: 49036, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇰🇷 韩国_R_311, server: sh163.safetelescope.cc, port: 10020, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本_R_510, server: ieplszhk-sz.cctelescope.xyz, port: 57312, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国_R_370, server: iepl-gz.safetelescope.cc, port: 15658, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇵🇭 菲律宾_R_196, server: iepl-hn.cctelescope.xyz, port: 48293, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇺🇸 美国_R_273, server: gzyd-01.cctelescope.xyz, port: 40678, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港_R_121, server: sh163.safetelescope.cc, port: 12021, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港_R_133, server: gzyd-01.cctelescope.xyz, port: 20001, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇪🇪 爱沙尼亚_R_453, server: ieplszhk-sz.cctelescope.xyz, port: 59058, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇫🇷 法国_R_372, server: iepl-gz.safetelescope.cc, port: 49853, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本_R_22, server: sh163.safetelescope.cc, port: 10019, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇹🇭 泰国_R_520, server: ieplszhk-sz.cctelescope.xyz, port: 54402, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 乌克兰_R_521, server: ieplszhk-sz.cctelescope.xyz, port: 59578, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇬🇧 英国_R_366, server: iepl-hn.cctelescope.xyz, port: 14261, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇸🇪 瑞典_R_362, server: iepl-hn.cctelescope.xyz, port: 20098, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇬🇧 英国_R_228, server: sh163.safetelescope.cc, port: 10006, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇵🇭 菲律宾_R_280, server: gzyd-01.cctelescope.xyz, port: 45705, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇹🇷 土耳其_R_458, server: iepl-hn.cctelescope.xyz, port: 26563, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇫🇷 法国_R_274, server: gzyd-01.cctelescope.xyz, port: 23033, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇦🇷 阿根廷_R_437, server: iepl-hn.cctelescope.xyz, port: 19563, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇷🇺 俄罗斯_R_324, server: gzyd-01.cctelescope.xyz, port: 26096, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇹🇭 泰国_R_459, server: gzyd-01.cctelescope.xyz, port: 29404, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇯🇵 尼日利亚_R_514, server: ieplszhk-sz.cctelescope.xyz, port: 59354, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇨🇦 加拿大_R_365, server: iepl-hn.cctelescope.xyz, port: 46164, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 全球直连④, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 这是教程赠送免费节点, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 全球直连①, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 vpnhat-香港DMIT-nf, server: 112.65.95.60, port: 11420, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 香港_R_316, server: iepl-gz.safetelescope.cc, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港_R_446, server: ieplszhk-sz.cctelescope.xyz, port: 50804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港_R_160, server: iepl-gz.safetelescope.cc, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港_R_450, server: iepl-hn.cctelescope.xyz, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇻🇳 越南_R_448, server: ieplszhk-sz.cctelescope.xyz, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡_R_441, server: ieplszhk-sz.cctelescope.xyz, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡_R_229, server: ieplszhk-sz.cctelescope.xyz, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾_R_314, server: ieplszhk-sz.cctelescope.xyz, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇻🇳 越南_R_377, server: iepl-gz.safetelescope.cc, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇻🇳 越南_R_515, server: sh163.safetelescope.cc, port: 28368, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇳🇴 挪威推荐, server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
+  - {name: 🇹🇷 伊斯坦布尔c, server: 122.9.62.10, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
+  - {name: "🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]", server: 122.9.54.40, port: 3947, type: ss, cipher: chacha20-ietf-poly1305, password: 853cc71c85896eb5658696f9a027815eb31ab225b1ccd8bbb6c033e6d016fe53, udp: true}
+  - {name: 🇹🇷 伊斯坦布尔d, server: 122.9.62.37, port: 4720, type: ss, cipher: chacha20-ietf-poly1305, password: 573d4c8f31e9e003ea3cb800aa29f00a4c744f63ed57a807cbbc6e725db1e21d, udp: true}
+  - {name: 萨拉热窝a, server: 120.232.214.240, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
+  - {name: 萨拉热窝b, server: 120.232.214.153, port: 3223, type: ss, cipher: chacha20-ietf-poly1305, password: 638d06e1a5b00911c29e526d4f2e50e7c0e3b20d14a37cff6ef1c2d8dfd59d72, udp: true}
   - {name: 全球直连③, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 全球直连①, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 Hongkong HKBN(VIP)●, server: gz1.52168.org, port: 11113, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 🇭🇰 香港 Hongkong HKT(VIP)●, server: gz1.52168.org, port: 11112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 🇲🇾 马来西亚 Malaysia(VIP)●, server: gz1.52168.org, port: 11105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 🇵🇭 菲律宾 Philippine●, server: gz1.52168.org, port: 11101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 🇹🇭 泰国 Thailand★, server: gz2.52168.org, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 🇨🇳 台湾 Taiwan★, server: gz2.52168.org, port: 12105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 🇸🇬 新加坡 Singapore(VIP)★, server: gz2.52168.org, port: 12106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 🇯🇵 日本 Japan(VIP)★, server: gz2.52168.org, port: 12107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 这是教程赠送免费节点, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
   - {name: "网址: upyun.online/reg", server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 全球直连②, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 Hongkong (AZ)●, server: gz1.52168.xyz, port: 11114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇭🇰 香港 Hongkong HKT(VIP)●, server: gz1.52168.xyz, port: 11112, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇭🇰 香港 Hongkong HKBGP(VIP)●, server: gz1.52168.xyz, port: 11106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇸🇬 新加坡 Singapore(VIP)★, server: gz2.52168.xyz, port: 12106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇻🇳 越南 Vietnam(VIP)●, server: gz1.52168.xyz, port: 11107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇲🇾 马来西亚 Malaysia(VIP)●, server: gz1.52168.xyz, port: 11105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇯🇵 日本 Japan(VIP)★, server: gz2.52168.xyz, port: 12107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇵🇭 菲律宾 Philippine●, server: gz1.52168.xyz, port: 11101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇨🇳 台湾 Taiwan★, server: gz2.52168.xyz, port: 12105, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇹🇭 泰国 Thailand★, server: gz2.52168.xyz, port: 12109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇰🇷 韩国 Korea(VIP)●, server: gz1.52168.xyz, port: 11115, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇺🇸 美国 America●, server: gz1.52168.xyz, port: 11109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇷🇺 俄罗斯 Russia★, server: gz2.52168.xyz, port: 12103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇨🇭 瑞士 Switzerland●, server: gz1.52168.xyz, port: 11116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇩🇪 德国 Germany★, server: gz2.52168.xyz, port: 12101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 乌克兰 Ukraine★, server: gz2.52168.xyz, port: 12110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇧🇬 保加利亚 Bulgaria●, server: gz1.52168.xyz, port: 11102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: 🇹🇷 土耳其 Turkey★, server: gz2.52168.xyz, port: 12104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
-  - {name: TW_24005q, server: 14.29.124.168, port: 24005, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24078q, server: 14.29.124.168, port: 24078, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24059q, server: 14.29.124.168, port: 24059, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Jsnzkpg, server: 14.29.124.168, port: 24002, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24092q, server: 14.29.124.168, port: 24092, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24021q, server: 14.29.124.168, port: 24021, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24037q, server: 14.29.124.168, port: 24037, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24071q, server: 14.29.124.168, port: 24071, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24075q, server: 14.29.124.168, port: 24075, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24019q, server: 14.29.124.168, port: 24019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇻🇳 越南_R_380, server: iepl-hn.cctelescope.xyz, port: 43738, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 67010:culGJ4dSkn, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇯🇵 vpnhat-Tokyo-DMIT-nf, server: 112.65.95.60, port: 11424, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇯🇵 vpnpool-Tokyo-DMIT-nf, server: 183.232.56.182, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 vpnpool-香港Nerocloud-nf, server: 183.232.56.182, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇸🇬 vpnpool-SG-Nerocloud-nf, server: 183.232.56.182, port: 11807, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: t.me/vpnhat, udp: true}
+  - {name: TW_24017q, server: 14.29.124.168, port: 24017, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: TW_24039q, server: 14.29.124.168, port: 24039, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24051q, server: 14.29.124.168, port: 24051, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24066q, server: 14.29.124.168, port: 24066, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24080q, server: 14.29.124.168, port: 24080, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24095q, server: 14.29.124.168, port: 24095, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24024q, server: 14.29.124.168, port: 24024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24027q, server: 14.29.124.168, port: 24027, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24032q, server: 14.29.124.168, port: 24032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24054a, server: 14.29.124.168, port: 24054, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24084q, server: 14.29.124.168, port: 24084, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Jsnzkpg 2, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24013q, server: 14.29.124.168, port: 24013, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24058q, server: 14.29.124.168, port: 24058, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24050q, server: 14.29.124.168, port: 24050, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24063q, server: 14.29.124.168, port: 24063, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24085q, server: 14.29.124.168, port: 24085, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24000q, server: 14.29.124.168, port: 24000, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24082q, server: 14.29.124.168, port: 24082, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: TW_24046q, server: 14.29.124.168, port: 24046, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24011a, server: 14.29.124.168, port: 24011, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24044q, server: 14.29.124.168, port: 24044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: TW_24061a, server: 14.29.124.168, port: 24061, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24024q, server: 14.29.124.168, port: 24024, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24032q, server: 14.29.124.168, port: 24032, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24074q, server: 14.29.124.168, port: 24074, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24008a, server: 14.29.124.168, port: 24008, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24028q, server: 14.29.124.168, port: 24028, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: TW_24070q, server: 14.29.124.168, port: 24070, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24071q, server: 14.29.124.168, port: 24071, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: TW_24083q, server: 14.29.124.168, port: 24083, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -135,256 +78,142 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -392,128 +221,71 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -533,153 +305,88 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 标准-B1香港优化线
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇨🇳 台湾_R_314
-      - 🇨🇳 台湾_R_318
-      - 🇭🇰 香港_R_316
-      - 🇨🇳 台湾_R_337
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
       - 🇨🇳 台湾 Taiwan★
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -687,256 +394,142 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -944,128 +537,71 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1082,128 +618,71 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇰🇷 韩国直连
-      - 🇯🇵 标准-B3东京优化线
-      - 🇯🇵 高级-A10日本专线X2.5
-      - 🇯🇵 标准-日本优化线路17
-      - 🇳🇱 标准-B8荷兰优化线
-      - 🇸🇬 标准-新加坡优化线13
-      - 🇺🇸 标准-B5美国优化线
-      - 🇭🇰 标准-B1香港优化线
-      - 🇺🇸 标准-B6美国优化线
-      - 🇺🇸 标准-B7美国优化线
-      - 🇭🇺 标准-匈牙利解锁线15
-      - 🇨🇳 高级-A06台湾专线X2.5
-      - 🇭🇰 vpnpool-香港HKT-dip
-      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
-      - 🇭🇰 vpnhat-香港DMIT-nf
-      - 🇭🇰 vpnhat-香港HKT-dip
-      - vpnpool-Chuncheon-Oracle-nf
+      - 我又来了
+      - 我又来了 2
+      - 我又来了 3
+      - 我又来了 4
+      - 🇨🇳 钉钉 | 443 | 广州 | 限速8M
+      - 🇭🇰 钉钉 | 80 | 香港DOG | 02
+      - DigitalOcean 3|0.7x
+      - Azure 2|1x
+      - DigitalOcean 3|0.7x 2
+      - DigitalOcean 1|0.7x
+      - DigitalOcean 2|0.1x
+      - DigitalOcean 1|0.7x 2
+      - Amazon 3|1x
+      - 🇰🇷 韩国备用|0.1x
+      - DigitalOcean 2|0.7x
+      - Azure 1|1x
+      - 🇨🇳 vpnhat-台中Hinet-dip
       - 🇨🇳 vpnpool-台中Hinet-dip
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf
-      - 🇭🇰 vpnpool-香港Nerocloud-nf
-      - 🇸🇬 vpnhat-SG-Nerocloud-nf 2
-      - vpnpool-LAX-DMIT-nf
-      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
-      - vpnpool-Santa Clara-Tencent-nf
-      - vpnhat-LAX-DMIT-nf
-      - vpnhat-San Jose-Misaka-dip
-      - 🇬🇧 vpnpool-London-Misaka-dip
+      - 🇭🇰 vpnhat-香港DMIT-nf
+      - 🇭🇰 香港_R_316
       - 🇭🇰 香港_R_446
-      - 🇭🇰 香港_R_334
       - 🇭🇰 香港_R_160
       - 🇭🇰 香港_R_450
       - 🇻🇳 越南_R_448
-      - 🇻🇳 越南_R_377
+      - 🇸🇬 新加坡_R_441
       - 🇸🇬 新加坡_R_229
       - 🇨🇳 台湾_R_314
-      - 🇸🇬 新加坡_R_441
-      - 🇻🇳 越南_R_380
-      - 🇨🇳 台湾_R_318
-      - 🇮🇳 印度_R_361
-      - 🇭🇰 香港_R_316
+      - 🇻🇳 越南_R_377
       - 🇻🇳 越南_R_515
-      - 🇨🇳 台湾_R_337
-      - 🇰🇷 韩国_R_310
-      - 🇸🇬 新加坡_R_522
-      - 🇻🇳 越南_R_277
-      - 🇰🇷 韩国_R_311
-      - 🇯🇵 日本_R_510
-      - 🇺🇸 美国_R_370
-      - 🇵🇭 菲律宾_R_196
-      - 🇺🇸 美国_R_273
-      - 🇭🇰 香港_R_121
-      - 🇭🇰 香港_R_133
-      - 🇪🇪 爱沙尼亚_R_453
-      - 🇫🇷 法国_R_372
-      - 🇯🇵 日本_R_22
-      - 🇹🇭 泰国_R_520
-      - 乌克兰_R_521
-      - 🇬🇧 英国_R_366
-      - 🇸🇪 瑞典_R_362
-      - 🇬🇧 英国_R_228
-      - 🇵🇭 菲律宾_R_280
-      - 🇹🇷 土耳其_R_458
-      - 🇫🇷 法国_R_274
-      - 🇦🇷 阿根廷_R_437
-      - 🇷🇺 俄罗斯_R_324
-      - 🇹🇭 泰国_R_459
-      - 🇯🇵 尼日利亚_R_514
-      - 🇨🇦 加拿大_R_365
-      - 全球直连④
-      - 这是教程赠送免费节点
-      - 全球直连①
+      - 🇳🇴 挪威推荐
+      - 🇹🇷 伊斯坦布尔c
+      - 🇳🇴 PD - 挪威 - 奧斯陸 [BGPA] [SVIP] [Netflix] [推薦]
+      - 🇹🇷 伊斯坦布尔d
+      - 萨拉热窝a
+      - 萨拉热窝b
       - 全球直连③
-      - "网址: upyun.online/reg"
-      - 全球直连②
-      - 🇭🇰 香港 Hongkong (AZ)●
+      - 全球直连①
+      - 🇭🇰 香港 Hongkong HKBN(VIP)●
       - 🇭🇰 香港 Hongkong HKT(VIP)●
-      - 🇭🇰 香港 Hongkong HKBGP(VIP)●
-      - 🇸🇬 新加坡 Singapore(VIP)★
-      - 🇻🇳 越南 Vietnam(VIP)●
       - 🇲🇾 马来西亚 Malaysia(VIP)●
-      - 🇯🇵 日本 Japan(VIP)★
       - 🇵🇭 菲律宾 Philippine●
-      - 🇨🇳 台湾 Taiwan★
       - 🇹🇭 泰国 Thailand★
-      - 🇰🇷 韩国 Korea(VIP)●
-      - 🇺🇸 美国 America●
-      - 🇷🇺 俄罗斯 Russia★
-      - 🇨🇭 瑞士 Switzerland●
-      - 🇩🇪 德国 Germany★
-      - 乌克兰 Ukraine★
-      - 🇧🇬 保加利亚 Bulgaria●
-      - 🇹🇷 土耳其 Turkey★
-      - TW_24005q
-      - TW_24078q
-      - TW_24059q
-      - Jsnzkpg
-      - TW_24092q
-      - TW_24021q
-      - TW_24037q
-      - TW_24071q
-      - TW_24075q
-      - TW_24019q
+      - 🇨🇳 台湾 Taiwan★
+      - 🇸🇬 新加坡 Singapore(VIP)★
+      - 🇯🇵 日本 Japan(VIP)★
+      - 这是教程赠送免费节点
+      - "网址: upyun.online/reg"
+      - 🇻🇳 越南_R_380
+      - 🇯🇵 vpnhat-Tokyo-DMIT-nf
+      - 🇯🇵 vpnpool-Tokyo-DMIT-nf
+      - 🇭🇰 vpnpool-香港Nerocloud-nf
+      - 🇸🇬 vpnpool-SG-Nerocloud-nf
+      - TW_24017q
       - TW_24039q
-      - TW_24051q
-      - TW_24066q
-      - TW_24080q
-      - TW_24095q
-      - TW_24024q
-      - TW_24027q
-      - TW_24032q
-      - TW_24054a
-      - TW_24084q
-      - Jsnzkpg 2
-      - TW_24013q
-      - TW_24058q
-      - TW_24050q
-      - TW_24063q
-      - TW_24085q
-      - TW_24000q
-      - TW_24082q
-      - TW_24046q
+      - TW_24011a
+      - TW_24044q
       - TW_24061a
+      - TW_24024q
+      - TW_24032q
+      - TW_24074q
+      - TW_24008a
+      - TW_24028q
       - TW_24070q
+      - TW_24071q
+      - TW_24083q
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
