@@ -5,95 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港IEPL专线, server: cdn1.myuuusss.com, port: 30041, type: ss, cipher: chacha20-ietf-poly1305, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: 🇭🇰 香港001, server: 019a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 019a.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 🇰🇷 韩国001, server: 006a.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 006a.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇺🇸 美国01, server: 54.69.24.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 US, server: 45.11.3.187, port: 23456, type: ss, cipher: aes-256-gcm, password: !<str> 05230715, udp: true}
+  - {name: 🇭🇰 香港01, server: yza2.hkbgp.wiki, port: 10347, type: ss, cipher: chacha20-ietf-poly1305, password: 1f2b603f-4400-4cb8-a12a-afe14cb641a0, udp: true}
+  - {name: 🇺🇸 美国04, server: 193.178.210.29, port: 443, type: trojan, password: iKR3Ft, sni: usft29a.t4v.fun, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40058, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: bbbbbbppppppjchongkong01.zztcloud.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港03, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40059, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: bbbbbbppppppjchongkong01.zztcloud.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港04, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40051, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: bbbbbbppppppjchongkong01.zztcloud.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港05, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40054, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: bbbbbbppppppjchongkong01.zztcloud.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港06, server: 20.239.157.212, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 🇭🇰 香港07, server: 20.210.202.64, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 🇯🇵 日本01, server: 20.210.202.64, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 🇺🇸 美国001, server: 20.249.2.183, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 🇯🇵 日本02, server: 18.183.60.113, port: 28443, type: trojan, password: 96673fe8-2a45-4cca-bb6b-108b88aa4a4e, sni: huayun.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国001, server: 20.249.6.84, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 🇺🇸 美国04 2, server: 155.248.172.87, port: 28443, type: trojan, password: 96673fe8-2a45-4cca-bb6b-108b88aa4a4e, sni: huayun.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本03, server: 120.233.187.199, port: 20014, type: trojan, password: 59845c5b-bf53-3fcf-acbd-f0c16986df73, sni: node.franxx.codes, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国002, server: 13.124.101.223, port: 28443, type: trojan, password: 96673fe8-2a45-4cca-bb6b-108b88aa4a4e, sni: huayun.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本04, server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ocrb1.moonfree.top}}, udp: true}
+  - {name: 🇨🇳 台湾01, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 台湾02, server: 14.29.124.168, port: 24052, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇸🇬 新加坡01, server: ieplszhk-sz.cctelescope.xyz, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡02, server: ieplszhk-sz.cctelescope.xyz, port: 52306, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
   - {name: 🇦🇺 澳大利亚, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港A, server: iepl-hn.cctelescope.xyz, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 🇯🇵 JP, server: 18.179.61.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡, server: 18.139.209.255, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇭🇰 HK, server: 3.38.214.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 US, server: 54.69.24.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇭🇰 香港01, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40060, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: bbbbbbppppppjchongkong01.zztcloud.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40053, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: bbbbbbppppppjchongkong01.zztcloud.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国003, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国002 2, server: 025.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇰🇷 韩国003, server: 026.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 026.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇭🇰 香港IEPL专线, server: cdn2.myuuusss.com, port: 21111, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 🇨🇭 瑞士, server: cdn2.myuuusss.com, port: 30541, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 🇭🇰 香港01 2, server: bbbbbbppppppjchongkong01.zztcloud.xyz, port: 40060, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: bbbbbbppppppjchongkong01.zztcloud.xyz, skip-cert-verify: false, udp: true}
   - {name: HK03, server: 120.233.7.225, port: 100, type: trojan, password: iKR3Ft, sni: iep225.t4v.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡01, server: 18.141.184.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡02, server: 54.255.133.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡03, server: 13.230.172.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡04, server: 18.179.61.136, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇰🇷 韩国, server: 3.36.63.45, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国, server: 198.181.56.163, port: 238, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,104 +160,158 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇭🇰 香港A
       - 🇭🇰 香港01
       - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇭🇰 香港IEPL专线
+      - 🇭🇰 香港01 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -225,24 +327,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港IEPL专线
-      - 🇭🇰 香港001
-      - 🇰🇷 韩国001
-      - 🇦🇺 澳大利亚
-      - 🇭🇰 香港A
-      - 🇯🇵 JP
-      - 🇸🇬 新加坡
-      - 🇭🇰 HK
+      - 🇺🇸 美国01
       - 🇺🇸 US
       - 🇭🇰 香港01
+      - 🇺🇸 美国04
       - 🇭🇰 香港02
-      - HK03
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇯🇵 日本01
+      - 🇺🇸 美国001
+      - 🇯🇵 日本02
+      - 🇰🇷 韩国001
+      - 🇺🇸 美国04 2
+      - 🇯🇵 日本03
+      - 🇰🇷 韩国002
+      - 🇯🇵 日本04
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🇸🇬 新加坡01
       - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡04
-      - 🇰🇷 韩国
-      - 🇺🇸 美国
+      - 🇦🇺 澳大利亚
+      - 🇺🇸 美国003
+      - 🇰🇷 韩国002 2
+      - 🇰🇷 韩国003
+      - 🇭🇰 香港IEPL专线
+      - 🇨🇭 瑞士
+      - 🇭🇰 香港01 2
+      - HK03
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
