@@ -5,159 +5,211 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 hk, server: iepl.rookiecloud.info, port: 50497, type: ss, cipher: aes-128-gcm, password: 674f2f62-cb5d-4e25-8aa8-839e1a15c15c, udp: true}
   - {name: 🇸🇬 新加坡0777, server: 3.0.54.98, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡SS, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
-  - {name: 🇭🇰 香港SS, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
-  - {name: 🇯🇵 日本SS, server: gz.bgp.rx.naiun.pw, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
-  - {name: 🇭🇰 香港NF, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
-  - {name: HK001, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: c4122b7a-a8a8-4647-ac4d-bd6339b76930, udp: true}
-  - {name: 🇭🇰 香港A01, server: gz.bgp.rx.naiun.pw, port: 45250, type: vmess, uuid: 8f85e44f-3cf4-42be-8c47-eefcf58c6112, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gz.bgp.rx.naiun.pw}}, udp: true}
-  - {name: 🇸🇬 新加坡A01, server: gz.bgp.rx.naiun.pw, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 8f85e44f-3cf4-42be-8c47-eefcf58c6112, udp: true}
-  - {name: 🇭🇰 香港B01, server: hz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 8f85e44f-3cf4-42be-8c47-eefcf58c6112, udp: true}
-  - {name: LV1联通优化节点「1x」, server: 01.youzi.win, port: 443, type: trojan, password: 53238bd5-997d-472f-a57d-5304d69b6f3d, sni: awsjp.karyl.cloud, skip-cert-verify: false, udp: true}
-  - {name: LV1移动优化节点「1x」, server: 02.youzi.win, port: 443, type: trojan, password: 53238bd5-997d-472f-a57d-5304d69b6f3d, sni: awssg.karyl.cloud, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 LV1 日本 - 隧道「1.5x」, server: jp.youzi.win, port: 27775, type: vmess, uuid: 53238bd5-997d-472f-a57d-5304d69b6f3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 🇰🇷 LV1 韩国 - 隧道「1.5x」, server: kr.youzi.win, port: 27772, type: vmess, uuid: 53238bd5-997d-472f-a57d-5304d69b6f3d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 🇭🇰 香港3长沙联通, server: cscu.01.211129.xyz, port: 13961, type: trojan, password: a1fdbed3-6fb6-4d1a-aa9e-79041ec281f3, sni: jincheng3.jiantian.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡1, server: 54.255.230.7, port: 80, type: vmess, uuid: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 🇸🇬 新加坡2, server: xjpf1.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡3, server: xjpf1.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡4, server: xjpf1.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡5, server: xjpf1.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK, server: 154.221.22.201, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a11a783e60ec, udp: true}
-  - {name: 🇸🇬 新加坡, server: xjpf1.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡01, server: xjpf1.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡02, server: xjpf1.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港, server: iwq.xn--mesv7f5toqlp.club, port: 40056, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港01, server: iwq.xn--mesv7f5toqlp.club, port: 40057, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02, server: iwq.xn--mesv7f5toqlp.club, port: 40058, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本04, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国01, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本01, server: 016a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 016a.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 🇰🇷 韩国, server: 025.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 025.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 🇯🇵 日本02, server: 023.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 023.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 🇯🇵 日本03, server: 017a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 017a.AP.POP.BIGAIRPORT.NET}}, udp: true}
-  - {name: 🇯🇵 日本, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: HK66, server: 183.232.239.72, port: 31112, type: ss, cipher: aes-128-gcm, password: a22f0bcf-ab80-4d3f-904f-032ac012326a, udp: true}
+  - {name: 🇯🇵 ⌈443⌋ 海外｜日本, server: jp.dsaver.site, port: 443, type: vmess, uuid: 6d1c0506-64a5-44a1-9e7e-238674e55fbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇸🇬 新加坡A | 公益 | 0.2x, server: hk.zz8.shop, port: 55002, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: sg.zzk8.me, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | 公益 | 0.2x, server: hk.zz8.shop, port: 55001, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: hk01.zzk8.me, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡B | 公益 | 0.2x, server: xzlta.mikikvm.com, port: 40911, type: trojan, password: 9b83ab16-77ec-476c-a3db-77da08bdc1fe, sni: sgli.zzk8.me, skip-cert-verify: false, udp: true}
+  - {name: LV1移动优化节点「1x」, server: 02.youzi.win, port: 443, type: trojan, password: 917adf47-008d-4fbf-9582-6736da8da23a, sni: awssg.karyl.cloud, skip-cert-verify: false, udp: true}
+  - {name: LV1联通优化节点「1x」, server: 01.youzi.win, port: 443, type: trojan, password: 917adf47-008d-4fbf-9582-6736da8da23a, sni: awsjp.karyl.cloud, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国02|公益|×0.1, server: 45.137.97.205, port: 58000, type: trojan, password: 7adb9b35-b586-4bd5-bc3b-9e494d1d80d8, sni: fmus2.shanjun.me, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本东京 |AS|1G|J2, server: jp2.bpyun.live, port: 443, type: trojan, password: 9b209d34-0f5b-307d-b8d1-a63c8cc47303, sni: jp2.bpyun.live, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本东京 |AS|1G|J1, server: jp1.bpyun.live, port: 443, type: trojan, password: 9b209d34-0f5b-307d-b8d1-a63c8cc47303, sni: jp1.bpyun.live, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国Az高速x0.5x, server: crus8.gzfxd.xyz, port: 16616, type: vmess, uuid: 945b6561-8444-4dc0-85ec-65921fac4380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: crus8.gzfxd.xyz}}, udp: true}
+  - {name: 🇭🇰 香港123, server: 120.233.73.108, port: 12217, type: trojan, password: a1fdbed3-6fb6-4d1a-aa9e-79041ec281f3, sni: jincheng6.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港深移, server: 120.233.73.108, port: 13164, type: trojan, password: a1fdbed3-6fb6-4d1a-aa9e-79041ec281f3, sni: jincheng2.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 80, server: chunchuan-02.aikala.shop, port: 80, type: vmess, uuid: 9ea0f7b2-5ae3-4e1a-b3d7-b5fdf25215a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 HK-A|香港, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: c49bdd9c-5a8d-3f68-8e5f-2d0641526157, sni: ahbn.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 022, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 033, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 055, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11115, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: HKKH, server: iwq.xn--mesv7f5toqlp.club, port: 40052, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港066, server: iwq.xn--mesv7f5toqlp.club, port: 40056, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 011, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港088, server: iwq.xn--mesv7f5toqlp.club, port: 40058, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港055, server: iwq.xn--mesv7f5toqlp.club, port: 40055, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港077, server: iwq.xn--mesv7f5toqlp.club, port: 40057, type: trojan, password: 90b5b3f9-8273-4f04-8d11-b0f255fdb111, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 06, server: 54.255.230.7, port: 80, type: vmess, uuid: 121b663a-9127-4854-8161-c3dbb0ff5556, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: cmccctcu.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: cmccctcu.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 唯一, server: iwq.xn--mesv7f5toqlp.club, port: 40053, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 03, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 05, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11115, type: trojan, password: 121b663a-9127-4854-8161-c3dbb0ff5556, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 钉钉 | 443 | 香港 | 01, server: 43.129.87.145, port: 443, type: vmess, uuid: 64561d57-81a0-4a58-bf11-7adb4d1103fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 韩国1a, server: 20.214.184.230, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 🇭🇰 香港1a, server: 49hk05.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: 49hk05.fans8.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港1b, server: cdn2.myuuusss.com, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 🇯🇵 日本1a, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡1a, server: tx49sg.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: tx49sg.fans8.xyz, skip-cert-verify: false, udp: true}
+  - {name: 这是教程赠送免费节点, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 全球直连②, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 付费高速节点购买网址↓, server: s2.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 全球直连①, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: free.upyun.online, skip-cert-verify: false, udp: true}
+  - {name: 【直连】随机节点 - 随机端口 - 8, server: 018a.AP.POP.BIGAIRPORT.NET, port: 51200, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 018a.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇯🇵 【直连】TYO/东京 - 80端口 - 1, server: 003a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 003a.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇯🇵 【直连】TYO/东京 - 2, server: 024.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 024.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 1, server: 027.AP.POP.BIGAIRPORT.NET, port: 52356, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 027.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇰🇷 【直连】ICN/首尔 - 80端口 - 1, server: 007a.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 1309a88d-7d2d-4e8c-a28b-cc8aefa4717f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 007a.AP.POP.BIGAIRPORT.NET}}, udp: true}
+  - {name: 🇭🇰 HK变态专线, server: iplc.myuuusss.com, port: 20848, type: vmess, uuid: b195963c-2631-442d-ab3a-6e78df25d904, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: iplc.myuuusss.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -176,171 +228,227 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港SS
-      - 🇭🇰 香港NF
-      - 🇭🇰 香港A01
-      - 🇭🇰 香港B01
-      - 🇭🇰 香港3长沙联通
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
+      - 🇭🇰 hk
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 🇭🇰 HK-A|香港
+      - 🇭🇰 香港066
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -356,40 +464,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 hk
       - 🇸🇬 新加坡0777
-      - 🇸🇬 新加坡SS
-      - 🇭🇰 香港SS
-      - 🇯🇵 日本SS
-      - 🇭🇰 香港NF
-      - HK001
-      - 🇭🇰 香港A01
-      - 🇸🇬 新加坡A01
-      - 🇭🇰 香港B01
-      - LV1联通优化节点「1x」
+      - HK66
+      - 🇯🇵 ⌈443⌋ 海外｜日本
+      - 🇸🇬 新加坡A | 公益 | 0.2x
+      - 🇭🇰 香港 | 公益 | 0.2x
+      - 🇸🇬 新加坡B | 公益 | 0.2x
       - LV1移动优化节点「1x」
-      - 🇯🇵 LV1 日本 - 隧道「1.5x」
-      - 🇰🇷 LV1 韩国 - 隧道「1.5x」
-      - 🇭🇰 香港3长沙联通
-      - 🇸🇬 新加坡1
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 新加坡4
-      - 🇸🇬 新加坡5
-      - 🇭🇰 HK
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01
-      - 🇸🇬 新加坡02
-      - 🇭🇰 香港
-      - 🇭🇰 香港01
-      - 🇭🇰 香港02
-      - 🇺🇸 美国
-      - 🇯🇵 日本04
-      - 🇺🇸 美国01
-      - 🇯🇵 日本01
-      - 🇰🇷 韩国
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本
+      - LV1联通优化节点「1x」
+      - 🇺🇸 美国02|公益|×0.1
+      - 🇯🇵 日本东京 |AS|1G|J2
+      - 🇯🇵 日本东京 |AS|1G|J1
+      - 🇰🇷 韩国Az高速x0.5x
+      - 🇭🇰 香港123
+      - 🇭🇰 香港深移
+      - 80
+      - 🇭🇰 HK-A|香港
+      - 🇰🇷 韩国 022
+      - 🇰🇷 韩国 033
+      - 🇰🇷 韩国 055
+      - HKKH
+      - 🇭🇰 香港066
+      - 🇰🇷 韩国 011
+      - 🇭🇰 香港088
+      - 🇭🇰 香港055
+      - 🇭🇰 香港077
+      - 🇸🇬 新加坡 06
+      - 🇸🇬 新加坡 02
+      - 唯一
+      - 🇰🇷 韩国 03
+      - 🇰🇷 韩国 05
+      - 🇭🇰 钉钉 | 443 | 香港 | 01
+      - 🇰🇷 韩国1a
+      - 🇭🇰 香港1a
+      - 🇭🇰 香港1b
+      - 🇯🇵 日本1a
+      - 🇸🇬 新加坡1a
+      - 这是教程赠送免费节点
+      - 全球直连②
+      - 付费高速节点购买网址↓
+      - 全球直连①
+      - 【直连】随机节点 - 随机端口 - 8
+      - 🇯🇵 【直连】TYO/东京 - 80端口 - 1
+      - 🇯🇵 【直连】TYO/东京 - 2
+      - 🇰🇷 【直连】ICN/首尔 - 1
+      - 🇰🇷 【直连】ICN/首尔 - 80端口 - 1
+      - 🇭🇰 HK变态专线
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
