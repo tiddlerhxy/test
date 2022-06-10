@@ -6,57 +6,68 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: HK88, server: hnyd.xxcv.cc, port: 20030, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, sni: hnyd.xxcv.cc, skip-cert-verify: false, udp: true}
-  - {name: HK99, server: 120.241.236.150, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: b2f1a0b4-1fbd-43b6-87bc-b5ab36b3c0f2, udp: true}
-  - {name: US01-V2-直连, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 83f5d4f1-49b2-4ace-a5ad-48df58f4da53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: 🇺🇸 美国11, server: 164.92.107.59, port: 1645, type: ss, cipher: chacha20-ietf-poly1305, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
-  - {name: 🇺🇸 美国12, server: 164.92.115.89, port: 3125, type: ss, cipher: chacha20-ietf-poly1305, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
-  - {name: 🇺🇸 美国13, server: 164.92.99.255, port: 4649, type: ss, cipher: aes-256-gcm, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
-  - {name: 「🇭🇰」, server: 20.239.86.179, port: 80, type: vmess, uuid: 3f687afe-0a88-4ea1-8277-65309a7cb10e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
-  - {name: 🇭🇰 HK 79, server: 20.205.63.134, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP 137, server: 18.183.213.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 JP 147, server: 52.199.193.112, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 JP 66, server: 175.41.237.24, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP 18, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK 81, server: www.anlocl.gq, port: 30521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP 4, server: 35.78.118.63, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK 93, server: www.anlocl.gq, port: 20521, type: trojan, password: 5218d9b5-e17c-3577-95f3-5cd510620c24, sni: www.anlocl.gq, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US 142, server: 13.125.150.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇯🇵 JP 148, server: 141.147.168.238, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 KR 110, server: 144.24.77.154, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP 7, server: 139.162.124.250, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 KR 96, server: 144.24.87.99, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 KR 102, server: 144.24.69.60, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP 91, server: 54.199.133.35, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US 227, server: 23.225.77.187, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US 117, server: 23.225.77.192, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP 8, server: nat-jp.pyhdxy.com, port: 30020, type: trojan, password: 7aa38620-8330-40ee-a994-3a7ab2ed89b1, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国🇰🇷春川-解锁Netflix, server: jgwcc.356930.xyz, port: 10021, type: vmess, uuid: 0d19129c-a925-4f21-8252-849838959a64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jgwcc.356930.xyz}}, udp: true}
-  - {name: 美肤, server: 141.147.168.238, port: 28443, type: trojan, password: 71b785a5-2809-4d4c-ba85-4879f96e5c06, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国-专线, server: gy.ziqiyun.xyz, port: 17565, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
-  - {name: 🇭🇰 香港3, server: 20.239.76.79, port: 23234, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 🇭🇰 香港4, server: 20.239.76.79, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 🇭🇰 香港5, server: 20.239.76.79, port: 23233, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 🇭🇰 香港6, server: 20.239.76.79, port: 23235, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 🇭🇰 香港, server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本, server: zc.9900.sd20211007.xyz, port: 32004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国, server: 20.214.201.191, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: 🇰🇷 韩国, server: 13.125.150.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇭🇰 香港1, server: 527hk5.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: 527hk5.fans8.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港2, server: v1hugang4.kuli888.xyz, port: 11151, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: hg05dcwjdjdanc.kulime.space, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国1, server: shsh.8800.zsclouddns.club, port: 17004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾1, server: vip2shentai.kuli888.xyz, port: 32103, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: taiwjing.kuli888.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾2, server: 116.129.254.212, port: 48611, type: ssr, cipher: aes-256-cfb, password: GjRQkK, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 1062:tLkKEk, obfs-param: 1466f1062.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本1, server: changsha.kulime.space, port: 52011, type: trojan, password: 2187303b-d0d9-3916-b455-d9da7f7bb4af, sni: gujspaskjnc.kulime.space, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡, server: hk64.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: hk64.fans8.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国2, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: 107.167.24.6, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 TW, server: ieplszhk-sz.cctelescope.xyz, port: 10802, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 32381:C2pHyiQfgm, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: 未知02, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇨🇳 台湾08, server: 61.220.179.26, port: 4433, type: ss, cipher: aes-256-gcm, password: 03378e208106, udp: true}
-  - {name: 🇨🇳 台湾05, server: 118.163.91.78, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 299eaaada2f2, udp: true}
-  - {name: US009, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: 107.167.24.6, skip-cert-verify: false, udp: true}
-  - {name: h890361.strongpipe.live:11545, server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 01 完全解锁 10x, server: 165.154.253.15, port: 30144, type: vmess, uuid: 7716d475-6b3d-4ea2-851e-4bcbd07fc0e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 日本 01[动态]", server: japanddnsbp91.theworkpc.com, port: 12341, type: vmess, uuid: 7716d475-6b3d-4ea2-851e-4bcbd07fc0e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 日本 02[动态]", server: japanddnsbp91.theworkpc.com, port: 12342, type: vmess, uuid: 7716d475-6b3d-4ea2-851e-4bcbd07fc0e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇨🇳 台湾 02 完全解锁 10x, server: 165.154.253.15, port: 30145, type: vmess, uuid: 7716d475-6b3d-4ea2-851e-4bcbd07fc0e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 日本 05-80端口[动态]", server: japanddnsbp91.theworkpc.com, port: 80, type: vmess, uuid: 7716d475-6b3d-4ea2-851e-4bcbd07fc0e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇭🇰 香港 - DMIT - 1x, server: jm.b.speedabc.xyz, port: 42002, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: hkbone.speedaccelerate.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 备-香港 - DMIT - 1x, server: ah.b.speedabc.xyz, port: 42002, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: hkbone.speedaccelerate.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 备-香港 - Misaka - 1x, server: ah.b.speedabc.xyz, port: 42011, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: hk-hkg.speedaccelerate.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 - Misaka - 1x, server: jm.b.speedabc.xyz, port: 42011, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: hk-hkg.speedaccelerate.com, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 - Ceph BGP - 2x, server: cn.speedabc.xyz, port: 42005, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: kr.speedaccelerate.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾直达（奈飞）, server: 8.218.56.121, port: 56000, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: JP5, server: b18.9366sc.xyz, port: 60329, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: JP4, server: b17.9366sc.xyz, port: 60231, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: JP6, server: b19.9366sc.xyz, port: 60145, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: JP3, server: b16.9366sc.xyz, port: 61742, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: SG1, server: b11.9366sc.xyz, port: 53512, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: HK2, server: s6.9366sc.xyz, port: 61731, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: HK6, server: s0.9366sc.xyz, port: 60181, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 东京（奈飞）, server: jp1.malibaba.xyz, port: 443, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22jp1.alibaba-cn.xyz%22%7D"}}, udp: true}
+  - {name: JP1, server: jp1.malibaba.xyz, port: 443, type: vmess, uuid: c1ace1d4-6f57-3884-b300-fde0c707949c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22host%22:%22jp1.alibaba-cn.xyz%22%7D"}}, udp: true}
+  - {name: BGP6, server: data-tw-v1.shwjfkw.cn, port: 50221, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP3, server: data-hk-v2.shwjfkw.cn, port: 50206, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP9, server: data-sg-v1.shwjfkw.cn, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP1, server: data-hk-v2.heisey.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP4, server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: BGP2, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22tv.cctv.com%22%7D"}}, udp: true}
+  - {name: 🇯🇵 鸡云-日本 加速专线3, server: jp.ssssv2.xyz, port: 17003, type: trojan, password: b36cd515-3b6a-4a9f-aad6-aa9b90cfde6d, sni: 140-238-31-92.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 鸡云-台湾 加速专线 1, server: tw.ssssv2.xyz, port: 17001, type: trojan, password: b36cd515-3b6a-4a9f-aad6-aa9b90cfde6d, sni: 140-238-31-92.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 鸡云-新加坡 加速专线5, server: sg.ssssv2.xyz, port: 17005, type: trojan, password: b36cd515-3b6a-4a9f-aad6-aa9b90cfde6d, sni: 140-238-31-92.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 鸡云-美国 加速专线4, server: us.ssssv2.xyz, port: 17004, type: trojan, password: b36cd515-3b6a-4a9f-aad6-aa9b90cfde6d, sni: 140-238-31-92.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国B, server: 120.241.236.93, port: 59143, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree2.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港A-公益, server: 120.241.236.93, port: 34955, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港B-公益, server: 120.241.236.93, port: 46061, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国A, server: 120.241.236.93, port: 51700, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree1.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring", server: 120.241.236.189, port: 21117, type: vmess, uuid: 47530a1a-ab72-30ec-a5ee-d171ac5c8a95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: "🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2", server: 120.241.236.189, port: 21118, type: vmess, uuid: 47530a1a-ab72-30ec-a5ee-d171ac5c8a95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: "🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6", server: 120.241.236.189, port: 21126, type: vmess, uuid: 47530a1a-ab72-30ec-a5ee-d171ac5c8a95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: "🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7", server: 120.241.236.189, port: 21111, type: vmess, uuid: 2fa8f251-9daf-3ffa-8606-0db449400d07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: "🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3", server: 120.241.236.189, port: 21121, type: vmess, uuid: 2fa8f251-9daf-3ffa-8606-0db449400d07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: "🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8", server: 120.241.236.189, port: 21112, type: vmess, uuid: 2fa8f251-9daf-3ffa-8606-0db449400d07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: "%7B%22Host%22:%22telegram.channel.p2psharing%22%7D"}}, udp: true}
+  - {name: 🇯🇵 JP 26, server: 18.183.213.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇭🇰 HK 50, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: 7040f99b-08a9-3f43-98af-a98104334745, sni: ahbn.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP 109, server: jp.ssssv2.xyz, port: 17003, type: trojan, password: b36cd515-3b6a-4a9f-aad6-aa9b90cfde6d, sni: jp.ssssv2.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 TW 129, server: tw.ssssv2.xyz, port: 17001, type: trojan, password: b36cd515-3b6a-4a9f-aad6-aa9b90cfde6d, sni: tw.ssssv2.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US 67, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: 7040f99b-08a9-3f43-98af-a98104334745, sni: bnbq.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US 57, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: 7040f99b-08a9-3f43-98af-a98104334745, sni: ma-ctm.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 SG 146, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK 24, server: jp03.xniuniu888.xyz, port: 30326, type: vmess, uuid: 1bd166b8-62e5-3ab8-a20e-e045a884807c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK 28, server: hk-5.netflixssr.com, port: 644, type: vmess, uuid: d017a78b-8e88-365d-b0b3-dbb8f488193a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v1/stream, headers: {Host: "%7B%22host%22:%22hk-5.netflixssr.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港dmit-广港隧道, server: gy.ziqiyun.xyz, port: 45054, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
+  - {name: 🇭🇰 台湾家宽-广港隧道, server: gy.ziqiyun.xyz, port: 41354, type: ss, cipher: chacha20-ietf-poly1305, password: 297545c2-a59d-4610-9580-a7baa3657a57, udp: true}
   - {name: h63956.strongpipe.live:11545, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 日本 [直连] 04 1.0x", server: 20.210.251.34, port: 23234, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 日本 [直连] 05 1.0x", server: 20.210.251.34, port: 23235, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 日本 [直连] 03 1.0x", server: 20.210.251.34, port: 23233, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 [直连] 02 1.0x", server: 20.239.76.79, port: 23232, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 日本 [免流] 01 0.1x", server: 20.210.251.34, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇭🇰 香港, server: 182.160.12.239, port: 45524, type: vmess, uuid: a265dcb2-04a3-48c0-a703-fad0e008d474, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本, server: 18.183.213.25, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡, server: hk64.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: hk64.fans8.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本1, server: jp03.xniuniu888.xyz, port: 30326, type: vmess, uuid: 1bd166b8-62e5-3ab8-a20e-e045a884807c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 10b3df8b-2316-4b43-843a-d165ce6603aa, sni: 67tw01.fans8.xyz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -64,114 +75,136 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -179,57 +212,68 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -249,72 +293,90 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇨🇳 台湾直达（奈飞）
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - 🇭🇰 香港 [直连] 02 1.0x
       - 🇭🇰 香港
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
+      - 🇨🇳 台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -322,114 +384,136 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -437,57 +521,68 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -504,57 +599,68 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - HK88
-      - HK99
-      - US01-V2-直连
-      - 🇺🇸 美国11
-      - 🇺🇸 美国12
-      - 🇺🇸 美国13
-      - 「🇭🇰」
-      - 🇭🇰 HK 79
-      - 🇯🇵 JP 137
-      - 🇯🇵 JP 147
-      - 🇯🇵 JP 66
-      - 🇯🇵 JP 18
-      - 🇭🇰 HK 81
-      - 🇯🇵 JP 4
-      - 🇭🇰 HK 93
-      - 🇺🇸 US 142
-      - 🇯🇵 JP 148
-      - 🇰🇷 KR 110
-      - 🇯🇵 JP 7
-      - 🇰🇷 KR 96
-      - 🇰🇷 KR 102
-      - 🇯🇵 JP 91
-      - 🇺🇸 US 227
-      - 🇺🇸 US 117
-      - 🇯🇵 JP 8
-      - 🇰🇷 韩国🇰🇷春川-解锁Netflix
-      - 美肤
-      - 🇺🇸 美国-专线
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
+      - 🇨🇳 台湾 01 完全解锁 10x
+      - 🇯🇵 日本 01[动态]
+      - 🇯🇵 日本 02[动态]
+      - 🇨🇳 台湾 02 完全解锁 10x
+      - 🇯🇵 日本 05-80端口[动态]
+      - 🇭🇰 香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - DMIT - 1x
+      - 🇭🇰 备-香港 - Misaka - 1x
+      - 🇭🇰 香港 - Misaka - 1x
+      - 🇰🇷 韩国 - Ceph BGP - 2x
+      - 🇨🇳 台湾直达（奈飞）
+      - JP5
+      - JP4
+      - JP6
+      - JP3
+      - SG1
+      - HK2
+      - HK6
+      - 🇯🇵 东京（奈飞）
+      - JP1
+      - BGP6
+      - BGP3
+      - BGP9
+      - BGP1
+      - BGP4
+      - BGP2
+      - 🇯🇵 鸡云-日本 加速专线3
+      - 🇨🇳 鸡云-台湾 加速专线 1
+      - 🇸🇬 鸡云-新加坡 加速专线5
+      - 🇺🇸 鸡云-美国 加速专线4
+      - 🇺🇸 美国B
+      - 🇭🇰 香港A-公益
+      - 🇭🇰 香港B-公益
+      - 🇺🇸 美国A
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 2
+      - 🇭🇰 [VMess] 🇭🇰 香港|TG@p2psahring 6
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 7
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 3
+      - 🇸🇬 [VMess] 🇸🇬 新加坡|TG@p2psahring 8
+      - 🇯🇵 JP 26
+      - 🇭🇰 HK 50
+      - 🇯🇵 JP 109
+      - 🇨🇳 TW 129
+      - 🇺🇸 US 67
+      - 🇺🇸 US 57
+      - 🇸🇬 SG 146
+      - 🇭🇰 HK 24
+      - 🇭🇰 HK 28
+      - 🇭🇰 香港dmit-广港隧道
+      - 🇭🇰 台湾家宽-广港隧道
+      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本 [直连] 04 1.0x
+      - 🇯🇵 日本 [直连] 05 1.0x
+      - 🇯🇵 日本 [直连] 03 1.0x
+      - 🇭🇰 香港 [直连] 02 1.0x
+      - 🇯🇵 日本 [免流] 01 0.1x
       - 🇭🇰 香港
       - 🇯🇵 日本
-      - 🇺🇸 美国
-      - 🇰🇷 韩国
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇺🇸 美国1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇯🇵 日本1
       - 🇸🇬 新加坡
-      - 🇺🇸 美国2
-      - 🇨🇳 TW
-      - 未知02
-      - 🇨🇳 台湾08
-      - 🇨🇳 台湾05
-      - US009
-      - 🇺🇸 US
-      - h890361.strongpipe.live:11545
-      - h63956.strongpipe.live:11545
+      - 🇯🇵 日本1
+      - 🇨🇳 台湾
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
