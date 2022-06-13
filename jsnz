@@ -5,87 +5,70 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体1, server: typlirungx.eastasia.cloudapp.azure.com, port: 37364, type: vmess, uuid: 3d57b42a-ef18-4691-b319-9eb73beca283, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体7, server: pqvdfamtzw.eastasia.cloudapp.azure.com, port: 56886, type: vmess, uuid: 45cf29a3-8633-49fc-c030-25b584bf141d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体9, server: pqvdfamtzw.eastasia.cloudapp.azure.com, port: 13557, type: vmess, uuid: 45c27569-eef8-4cf1-9569-7def28896473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体8, server: pqvdfamtzw.eastasia.cloudapp.azure.com, port: 48056, type: vmess, uuid: 21ac2d2f-7634-4873-e022-62ec088b2356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体10, server: pqvdfamtzw.eastasia.cloudapp.azure.com, port: 20633, type: vmess, uuid: 1c1b6b25-7497-4ded-9393-dd4200518c25, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体3, server: typlirungx.eastasia.cloudapp.azure.com, port: 51753, type: vmess, uuid: da048b6e-c344-4f42-9b92-08a9928c8277, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体2, server: typlirungx.eastasia.cloudapp.azure.com, port: 58652, type: vmess, uuid: 7bc31956-23ba-48ac-c12f-5a156ac0cc20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体5, server: typlirungx.eastasia.cloudapp.azure.com, port: 47636, type: vmess, uuid: 881e7f57-f675-4424-d941-9429aeff647a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体6, server: pqvdfamtzw.eastasia.cloudapp.azure.com, port: 53011, type: vmess, uuid: 9c119c5a-9396-4025-e4ca-0651f5f14d9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 搞鸡玩家-专属-解锁奈飞流媒体4, server: typlirungx.eastasia.cloudapp.azure.com, port: 25020, type: vmess, uuid: 8ef60f4f-4902-4225-a0c9-5b412a87bc3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01, server: 36.139.154.162, port: 45105, type: ss, cipher: chacha20-ietf-poly1305, password: 2befde22-2f5c-4853-9653-7239c1155720, udp: true}
-  - {name: 🇭🇰 香港家庭宽频|NF解锁|SS|B01, server: 36.134.116.212, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 2befde22-2f5c-4853-9653-7239c1155720, udp: true}
-  - {name: 🇭🇰 Az香港12, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 2baa4d47-7db9-4028-8abb-30e86ef68885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk12.ningmengshui.xyz}}, udp: true}
-  - {name: 🇭🇰 Az香港7, server: hk7.ningmengshui.xyz, port: 80, type: vmess, uuid: 2baa4d47-7db9-4028-8abb-30e86ef68885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 B03^, server: relaybgp_pro.flyxxl.xyz, port: 45601, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: 🇭🇰 香港 B02^, server: relaybgp_pro.flyxxl.xyz, port: 45550, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: 🇭🇰 香港 A02^, server: relay_cm1.flyxxl.xyz, port: 25003, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: 🇭🇰 香港 A03^, server: relay_cm1.flyxxl.xyz, port: 25004, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
+  - {name: 🇲🇾 马来西亚 A01, server: relay_cm1.flyxxl.xyz, port: 25002, type: trojan, password: fff34c21-0a19-41f5-ae83-27b115066a92, sni: f932c3d98981b.download.microsoft.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 B01, server: relaybgp_pro.flyxxl.xyz, port: 45431, type: ss, cipher: chacha20-ietf-poly1305, password: fff34c21-0a19-41f5-ae83-27b115066a92, udp: true}
   - {name: 🇭🇰 Az香港5, server: hk5.ningmengshui.xyz, port: 80, type: vmess, uuid: 2baa4d47-7db9-4028-8abb-30e86ef68885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AZ香港11, server: hk11.ningmengshui.xyz, port: 80, type: vmess, uuid: 2baa4d47-7db9-4028-8abb-30e86ef68885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x", server: 120.232.132.71, port: 25680, type: trojan, password: 3b4a79d, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 美国 G204 | 沪日隧道 | 0x, server: 36.134.114.49, port: 32003, type: trojan, password: c7Vjyu, sni: s02cdn.t4v.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x, server: 36.134.114.49, port: 59281, type: trojan, password: c7Vjyu, sni: s02cdn.t4v.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20735, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20733, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20736, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20741, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20739, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20731, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20729, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20730, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港中速, server: ziyeya.xyz, port: 8585, type: vmess, uuid: 111f8852-cdde-49a3-9d27-1f931ecdd44d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1, headers: {Host: ziyeya.xyz}}, udp: true}
+  - {name: 🇭🇰 香港Azure-1-新加坡流媒体, server: transit1.fanqiang.eu, port: 15021, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: hkaz1.fanqiang.eu, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港高速, server: ziyeya.xyz, port: 8989, type: vmess, uuid: c85c98aa-51dc-4a85-bf92-4159cabc28e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ziyeya.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20732, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Az香港7, server: hk7.ningmengshui.xyz, port: 80, type: vmess, uuid: 2baa4d47-7db9-4028-8abb-30e86ef68885, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20741, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20733, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港 [免流] 0.1x", server: dnsfreexianggang01.gleeze.com, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
   - {name: 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20734, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20728, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HKG CM.B/03 x1.0, server: cmb.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: 🇨🇳 台湾-流媒体-1, server: transit1.fanqiang.eu, port: 15004, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: tw1.fanqiang.eu, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20742, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20727, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP-BGP, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: dbdc16e3-1f61-41bb-99a6-5f29d8b86f82, udp: true}
+  - {name: 🇯🇵 日本|大阪-流媒体, server: transit1.fanqiang.eu, port: 15045, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: db.fanqiang.eu, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国|春川-流媒体-2, server: transit1.fanqiang.eu, port: 15019, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: cc2.fanqiang.eu, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20731, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20736, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20735, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港HKT家庭宽带-流媒体, server: transit1.fanqiang.eu, port: 15020, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: hkt.fanqiang.eu, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t", server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t", server: AZQT001.xiba1.xyz, port: 20743, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20742, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t", server: HJ001.xiba1.xyz, port: 20762, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t", server: AZQT001.xiba1.xyz, port: 20746, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t", server: AZQT001.xiba1.xyz, port: 20748, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t", server: AZQT001.xiba1.xyz, port: 20747, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20740, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20728, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20723, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 全球直连①, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港高速, server: ziyeya.xyz, port: 8989, type: vmess, uuid: c85c98aa-51dc-4a85-bf92-4159cabc28e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ziyeya.xyz}}, udp: true}
-  - {name: 🇭🇰 香港中速, server: ziyeya.xyz, port: 8585, type: vmess, uuid: 111f8852-cdde-49a3-9d27-1f931ecdd44d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1, headers: {Host: ziyeya.xyz}}, udp: true}
-  - {name: 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點, server: 59.148.152.78, port: 12306, type: trojan, password: e6c107d1-ca7a-4d4e-bf8d-7ca76a920457, sni: douyincdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG CM.A/05 x1.0, server: cm.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
-  - {name: 🇮🇩 印尼|雅加达-流媒体, server: transit1.fanqiang.eu, port: 15017, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: yn.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT家庭宽带-流媒体, server: transit1.fanqiang.eu, port: 15020, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: hkt.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾-流媒体-1, server: transit1.fanqiang.eu, port: 15004, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: tw1.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本|大阪-流媒体, server: transit1.fanqiang.eu, port: 15045, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: db.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]", server: 154.3.35.129, port: 12306, type: trojan, password: e6c107d1-ca7a-4d4e-bf8d-7ca76a920457, sni: douyincdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港Azure-1-新加坡流媒体, server: transit1.fanqiang.eu, port: 15021, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: hkaz1.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]", server: 103.117.102.8, port: 12306, type: trojan, password: e6c107d1-ca7a-4d4e-bf8d-7ca76a920457, sni: douyincdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JPN CM.A/02 x1.0, server: cm.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
-  - {name: "🇸🇬 SGP 01 x1.0 [Trojan] [中轉]", server: cm.3sx.xyz, port: 12311, type: trojan, password: e6c107d1-ca7a-4d4e-bf8d-7ca76a920457, sni: douyincdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国|洛杉矶-2, server: transit1.fanqiang.eu, port: 15009, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: us4.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點, server: 59.148.152.78, port: 12306, type: trojan, password: e6c107d1-ca7a-4d4e-bf8d-7ca76a920457, sni: douyincdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 JPN 02 x1.0 Trojan測試性節點, server: cm.3sx.xyz, port: 12309, type: trojan, password: d80412a5-1757-48a5-b493-e2de1265cc11, sni: douyincdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG CM.A/03 x1.0, server: cm.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
-  - {name: 🇭🇰 HKG CM.B/03 x1.0, server: cmb.3sx.xyz, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
-  - {name: 🇺🇸 美国|西雅图-下载专用-倍率0.2, server: us8.fanqiang.eu, port: 19999, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: us8.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|春川-流媒体-2, server: transit1.fanqiang.eu, port: 15019, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: cc2.fanqiang.eu, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 Hongkong, Tj - B Group", server: b.t.n4.gfwairport.xyz, port: 50001, type: trojan, password: 55324bee-e79b-483b-8075-3b0516e011fd, skip-cert-verify: false, udp: true}
+  - {name: 全球直连①, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JPN CM.A/02 x1.0, server: cm.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20730, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |, server: azgy001.xiba1.xyz, port: 20714, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国A, server: 120.241.236.93, port: 51700, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree1.jiantian.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国B, server: 120.241.236.93, port: 59143, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: usfree2.jiantian.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港A-公益, server: 120.241.236.93, port: 34955, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20740, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 美国 G204 | 沪日隧道 | 0x, server: 36.134.114.49, port: 32003, type: trojan, password: c7Vjyu, sni: s02cdn.t4v.fun, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |, server: AZQT001.xiba1.xyz, port: 20739, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港B-公益, server: 120.241.236.93, port: 46061, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP-BGP, server: cdn2.myuuusss.com, port: 20021, type: ss, cipher: aes-128-gcm, password: dbdc16e3-1f61-41bb-99a6-5f29d8b86f82, udp: true}
-  - {name: "🇭🇰 香港 [免流] 0.1x", server: dnsfreexianggang01.gleeze.com, port: 80, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇮🇩 印尼|雅加达-流媒体, server: transit1.fanqiang.eu, port: 15017, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: yn.fanqiang.eu, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HKG CM.A/05 x1.0, server: cm.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: d80412a5-1757-48a5-b493-e2de1265cc11, udp: true}
+  - {name: 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x, server: 36.134.114.49, port: 59281, type: trojan, password: c7Vjyu, sni: s02cdn.t4v.fun, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港A-公益, server: 120.241.236.93, port: 34955, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x", server: 120.232.132.71, port: 25680, type: trojan, password: 3b4a79d, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国|西雅图-下载专用-倍率0.2, server: us8.fanqiang.eu, port: 19999, type: trojan, password: 7259391b-9f01-4ede-90dc-3955cf1c4998, sni: us8.fanqiang.eu, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: 93768960-75fc-34e5-8025-7ff0cc5a0aa6, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇭🇰 香港 [直连B] 1x", server: dnsfreexianggang01.gleeze.com, port: 20942, type: vmess, uuid: 26467dec-9f2b-4114-9c42-c8cc97493690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -93,174 +76,140 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
   - name: 🎥 NETFLIX
     type: select
@@ -268,87 +217,70 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
   - name: ⛔️ 广告拦截
     type: select
@@ -368,117 +300,99 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港高速
       - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
       - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 香港A-公益
-      - 🇭🇰 香港B-公益
+      - 🇭🇰 香港高速
+      - 🇭🇰 Az香港7
       - 🇭🇰 香港 [免流] 0.1x
+      - 🇨🇳 台湾-流媒体-1
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇭🇰 香港B-公益
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -486,174 +400,140 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
   - name: 🍎 苹果服务
     type: select
@@ -661,87 +541,70 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
   - name: 🎯 全球直连
     type: select
@@ -758,87 +621,70 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 搞鸡玩家-专属-解锁奈飞流媒体1
-      - 搞鸡玩家-专属-解锁奈飞流媒体7
-      - 搞鸡玩家-专属-解锁奈飞流媒体9
-      - 搞鸡玩家-专属-解锁奈飞流媒体8
-      - 搞鸡玩家-专属-解锁奈飞流媒体10
-      - 搞鸡玩家-专属-解锁奈飞流媒体3
-      - 搞鸡玩家-专属-解锁奈飞流媒体2
-      - 搞鸡玩家-专属-解锁奈飞流媒体5
-      - 搞鸡玩家-专属-解锁奈飞流媒体6
-      - 搞鸡玩家-专属-解锁奈飞流媒体4
-      - 🇸🇬 新加坡IDC宽频|NF解锁|SS|A01
-      - 🇭🇰 香港家庭宽频|NF解锁|SS|B01
-      - 🇭🇰 Az香港12
-      - 🇭🇰 Az香港7
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇲🇾 马来西亚 A01
+      - 🇺🇸 美国 B01
       - 🇭🇰 Az香港5
-      - 🇭🇰 AZ香港11
-      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
-      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
-      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
-      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | B | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港中速
+      - 🇭🇰 香港Azure-1-新加坡流媒体
+      - 🇭🇰 香港高速
       - 🇸🇬 新加坡  | Trojan | E1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 Az香港7
+      - 🇸🇬 新加坡  | Trojan | A1 | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | E | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 [免流] 0.1x
       - 🇸🇬 新加坡  | Trojan | F | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 HKG CM.B/03 x1.0
+      - 🇨🇳 台湾-流媒体-1
+      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | J | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇯🇵 JP-BGP
+      - 🇯🇵 日本|大阪-流媒体
+      - 🇰🇷 韩国|春川-流媒体-2
+      - 🇸🇬 新加坡  | Trojan | D | 1.0x | 青铜 |  AZ |
+      - 🇸🇬 新加坡  | Trojan | H | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇸🇬 新加坡  | Trojan | G | 1.0x | 青铜 |  AZ |
+      - 🇭🇰 香港HKT家庭宽带-流媒体
+      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇲🇾 马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
       - "🇺🇸 美国  | Trojan | A | 1.0x | 青銅 | AZ |\t"
-      - 🇸🇬 新加坡  | Trojan | D1 | 1.0x | 青铜 |  AZ |
-      - 🇲🇾 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
       - "🇺🇸 美国  | Trojan | D | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | F | 1.0x | 青銅 | AZ |\t"
       - "🇺🇸 美国  | Trojan | E | 1.0x | 青銅 | AZ |\t"
-      - 🇭🇰 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
-      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
-      - 🇸🇬 新加坡  | Trojan | A | 1.0x | 青铜 |  AZ |
-      - 🇭🇰 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 全球直连①
-      - 🇭🇰 香港高速
-      - 🇭🇰 香港中速
-      - 🇭🇰 HKG HKBN 01 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇮🇩 印尼|雅加达-流媒体
-      - 🇭🇰 香港HKT家庭宽带-流媒体
-      - 🇨🇳 台湾-流媒体-1
-      - 🇯🇵 日本|大阪-流媒体
-      - 🇭🇰 HKG DMIT 01 x3.0 [Trojan] [直連]
-      - 🇭🇰 香港Azure-1-新加坡流媒体
-      - 🇭🇰 HKG DMIT 02 x3.0 [Trojan] [直連]
-      - 🇯🇵 JPN CM.A/02 x1.0
-      - 🇸🇬 SGP 01 x1.0 [Trojan] [中轉]
       - 🇺🇸 美国|洛杉矶-2
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
       - 🇯🇵 JPN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.B/03 x1.0
-      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
-      - 🇰🇷 韩国|春川-流媒体-2
-      - 🇭🇰 Hongkong, Tj - B Group
+      - 全球直连①
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇸🇬 新加坡  | Trojan | C | 1.0x | 青铜 |  AZ |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | A | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | C | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | D | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | 體驗節點 | B | 10.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
+      - 🇺🇸 美国 | Trojan | A | 0.8x | 黃金 |
       - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 香港A-公益
+      - 🇸🇬 新加坡  | Trojan | B1 | 1.0x | 青铜 |  AZ |
+      - 🇯🇵 美国 G204 | 沪日隧道 | 0x
+      - 🇸🇬 新加坡  | Trojan | C1 | 1.0x | 青铜 |  AZ |
       - 🇭🇰 香港B-公益
-      - 🇯🇵 JP-BGP
-      - 🇭🇰 香港 [免流] 0.1x
+      - 🇮🇩 印尼|雅加达-流媒体
+      - 🇭🇰 HKG CM.A/05 x1.0
+      - 🇯🇵 乌克兰 B101 | 沪日隧道 | 0x
+      - 🇭🇰 香港A-公益
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国|西雅图-下载专用-倍率0.2
+      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇭🇰 香港 [直连B] 1x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
