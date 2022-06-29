@@ -5,487 +5,471 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 大萝卜鸡🇭🇰香港, server: trhk.moonfree.top, port: 443, type: trojan, password: 534fad63-f38a-4970-b3d1-41ac2de0afa5, sni: trhk.moonfree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡🇸🇬新加坡高速1, server: 626sg01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg01.fx6688.top}}, udp: true}
-  - {name: 🇺🇸 大萝卜鸡🇺🇸美国0.1, server: trus.moonfree.top, port: 443, type: trojan, password: 534fad63-f38a-4970-b3d1-41ac2de0afa5, sni: trus.moonfree.top, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x", server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 G51 | 直连 | 0x, server: 141.98.168.251, port: 443, type: trojan, password: LiX1tV, sni: cdnu2.ft2.us, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 台湾✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 39675, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 日本✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 64340, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: rb1.riben1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 印度✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 33346, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 22818, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇮🇳 印度✈️中转  [湖南长沙BGP]", server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湖南长沙BGP]", server: cs.bgp.liuliangzhuanfa.xyz, port: 32510, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 美国✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: mg3.meiguo01.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇮🇳 印度✈️中转   [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 47718, type: trojan, password: 3536a621-0a73-426c-a9f5-880d21bfd7ac, sni: yd1.fengzi.uk, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 日本 负载(4台)2x, server: hunan.zhongzhuanjizhongzhuanji.cf, port: 13691, type: ss, cipher: chacha20-ietf-poly1305, password: b30c429b-2ec9-415d-9152-4cfd1044def4, udp: true}
+  - {name: 🇺🇸 United States 03, server: 165.154.235.49, port: 443, type: trojan, password: 495d2078-9268-33ed-a33a-c16f56e27c95, sni: 20020627.luohuaxian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United States 02, server: 45.137.97.205, port: 443, type: trojan, password: 495d2078-9268-33ed-a33a-c16f56e27c95, sni: 20020526.luohuaxian.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 大萝卜鸡🇸🇬新加坡高速2, server: 626sg02.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg02.fx6688.top}}, udp: true}
-  - {name: "🇭🇰 日本✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 64340, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: rb1.riben1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 台湾✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 39675, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇮🇳 印度✈️中转   [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 47718, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: yd1.fengzi.uk, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 印度✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 33346, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: yd1.fengzi.uk, skip-cert-verify: false, udp: true}
-  - {name: "🇮🇳 印度✈️中转  [湖南长沙BGP]", server: cs.bgp.liuliangzhuanfa.xyz, port: 33514, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: yd1.fengzi.uk, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 美国✈️中转 [香港Azure]", server: az.az-bgp.chuangshi999.xyz, port: 31250, type: trojan, password: eae49aca-72e6-4465-a863-f5ab350997ef, sni: mg3.meiguo01.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡1, server: 626sg01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg01.fx6688.top}}, udp: true}
+  - {name: 🇸🇬 大萝卜鸡🇸🇬新加坡高速1, server: 626sg01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg01.fx6688.top}}, udp: true}
+  - {name: 🇭🇰 大萝卜鸡🇭🇰香港高速, server: 625hk03.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 625hk03.fx6688.top}}, udp: true}
   - {name: 🇸🇬 新加坡2, server: 626sg02.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg02.fx6688.top}}, udp: true}
-  - {name: 🇭🇰 香港2, server: 625hk01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 625hk01.fx6688.top}}, udp: true}
+  - {name: 🇸🇬 新加坡1, server: 626sg01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg01.fx6688.top}}, udp: true}
+  - {name: 🇭🇰 香港3, server: 625hk03.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 625hk03.fx6688.top}}, udp: true}
   - {name: 🇨🇳 台湾1-三网优化-强加密, server: 625tw01.fx6688.top, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 625tw01.fx6688.top}}, udp: true}
-  - {name: "🇨🇳 台湾 03[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12343, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 台湾 02[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12342, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 台湾 07[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 30913, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 台湾 08[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 30914, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 台湾 05[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 30911, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 台湾 01[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12341, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 台湾 04[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12344, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇯🇵 日本 01[实验免流] 1x", server: janpanbpjcyos.loseyourip.com, port: 80, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 04[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12347, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "台北 A[稳定] 10x", server: taipei.bpjc.xyz, port: 30915, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 05[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12348, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 距离下次重置剩余：29 天, server: 120.232.238.137, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: c84849ea-4970-444c-9c61-3b7251fb7269, udp: true}
   - {name: "🇭🇰 香港 07[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12350, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇨🇳 台湾 06[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 30912, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 08[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12351, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 02[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12345, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 03[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12346, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 10[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12353, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 09[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12352, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "🇭🇰 香港 06[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12349, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇨🇳 台湾 02[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12342, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇭🇰 香港 免流1x, server: bpjchongkong.kozow.com, port: 80, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
   - {name: "🇯🇵 日本 01[不限速] 1x", server: janpanbpjcyos.loseyourip.com, port: 29471, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 🇷🇺 俄罗斯D, server: 46.29.161.205, port: 9571, type: ssr, cipher: rc4, password: lncn.org 6h, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯T, server: 45.8.159.129, port: 9571, type: ssr, cipher: rc4, password: lncn.org m6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯C, server: 46.29.160.120, port: 9571, type: ssr, cipher: rc4, password: lncn.org 6h, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯N, server: 91.206.92.68, port: 9571, type: ssr, cipher: rc4, password: lncn.org j6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯O, server: 194.5.78.96, port: 9571, type: ssr, cipher: rc4, password: lncn.org j6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯M, server: 194.50.171.214, port: 9571, type: ssr, cipher: rc4, password: lncn.org j6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯Q, server: 194.50.170.229, port: 9571, type: ssr, cipher: rc4, password: lncn.org m6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯P, server: 194.156.121.174, port: 9571, type: ssr, cipher: rc4, password: lncn.org j6, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇷🇺 俄罗斯B, server: 46.17.47.13, port: 9571, type: ssr, cipher: rc4, password: lncn.org 6h, protocol: origin, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇨🇳 随机节点-龟速cn中转不保证能用, server: best.fovi.tk, port: 54345, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxany.fovi.tk}}, udp: true}
-  - {name: 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用, server: best.fovi.tk, port: 54345, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}, udp: true}
-  - {name: 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用, server: best.fovi.tk, port: 54345, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz3.fovi.tk}}, udp: true}
-  - {name: 🇺🇸 USA🇺🇸-龟速cn中转不保证能用, server: best.fovi.tk, port: 54345, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusa.fovi.tk}}, udp: true}
-  - {name: 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20726, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾 03[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12343, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 02[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12345, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇨🇳 台湾 08[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 30914, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇨🇳 台湾 04[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12344, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 08[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12351, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 03[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12346, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 06[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12349, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 10[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12353, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇯🇵 日本 01[实验免流] 1x", server: janpanbpjcyos.loseyourip.com, port: 80, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇯🇵 SS IEPL - 日本 用完即止 50x, server: 120.232.238.137, port: 10106, type: ss, cipher: chacha20-ietf-poly1305, password: c84849ea-4970-444c-9c61-3b7251fb7269, udp: true}
+  - {name: "🇭🇰 香港 04[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12347, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 05[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12348, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |, server: HJ001.xiba1.xyz, port: 20768, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |, server: HJ001.xiba1.xyz, port: 20767, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t", server: HJ001.xiba1.xyz, port: 20762, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: frchigj, server: cdn01.122888.xyz, port: 26001, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
-  - {name: yrscbkjj, server: hk7.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: odexhgjn, server: gkdcm.myjcbbcn.top, port: 25892, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: 🇭🇰 JCBB_香港07【vip1】, server: gkdcm.myjcbbcn.top, port: 25896, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 opc日本1, server: 138.2.35.172, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: TW02-V2-直连, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: 🇭🇰 Az香港8, server: hk8.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 JCBB_台湾01【vip2】, server: gkdcm.myjcbbcn.top, port: 25890, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: 🇭🇰 Az香港2, server: hk2.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Opc日本3, server: 138.2.59.97, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 JCBB_香港12【vip3】, server: gkdcm1.myjcbbcn.top, port: 25892, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JCBB_日本02【vip1】, server: gkdcu.myjcbbcn.top, port: 25888, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇨🇳 JCBB_台湾03【vip2】, server: gkdcm.myjcbbcn.top, port: 25889, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcm.myjcbbcn.top}}, udp: true}
-  - {name: JP01-V2-AWSBJ, server: bj1.xlao.cn, port: 30002, type: vmess, uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: 🇭🇰 Az香港3, server: hk3.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 JCBB_香港08【vip1】, server: gkdcm1.myjcbbcn.top, port: 25896, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcm1.myjcbbcn.top}}, udp: true}
-  - {name: 🇰🇷 JCBB_韩国02【vip2】, server: gkdcu.myjcbbcn.top, port: 25881, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gkdcu.myjcbbcn.top}}, udp: true}
-  - {name: 🇯🇵 日本², server: jpgmo.crunode.top, port: 1400, type: trojan, password: fc578146-8cfb-3c32-97e0-67621c90b130, sni: jpgmo.crunode.top, skip-cert-verify: false, udp: true}
-  - {name: JP02-V2-AWSBJ, server: bj1.xlao.cn, port: 30003, type: vmess, uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: gggdchgb, server: 626sg.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg.ok365.cyou, skip-cert-verify: false, udp: true}
-  - {name: kkfsefcvvb, server: 20.239.156.36, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |, server: HJ001.xiba1.xyz, port: 20770, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: AZHJ001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: igsbhgkhj, server: cdn01.122888.xyz, port: 26001, type: ssr, cipher: chacha20-ietf, password: NZLAIb7anGV3Jrnb, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 1454:ANN4bqEunef35mOH, obfs-param: 0f6c61454.microsoft.com, udp: true}
+  - {name: gdcjuhkj, server: hk7.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: kjdefbjjj, server: hk5.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: igfsbnvnm, server: hk2.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: l g d xv h c j n, server: hk8.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: kgrgjjj, server: hk13.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: ghnhvn, server: 20.24.85.15, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: ffxbhwgnjk, server: 20.24.92.151, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: fdehvjfjv, server: 626hk02.ok365.cyou, port: 80, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626hk02.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: gfwykhjg, server: 20.210.141.128, port: 443, type: vmess, uuid: 93168692-9bf5-4725-a31d-88030558a399, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: frfjvjbkgkm, server: 626sg05.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg05.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: fweubcbkh, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: deyvfdkij, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: lhercjukk, server: 36.139.154.162, port: 45303, type: trojan, password: 45a02ace-0d89-45a8-92a1-ecaf81d870b9, sni: hg01.chunyua.online, skip-cert-verify: false, udp: true}
+  - {name: oyedhcjgjj, server: 20.239.156.36, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
   - {name: kkedvhghh, server: 20.24.92.151, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: lkgrrfvtf, server: 20.24.85.15, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
-  - {name: rrtcbjuyujjkj, server: 626sg05.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg05.ok365.cyou, skip-cert-verify: false, udp: true}
-  - {name: lgggvgyeeyj, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 625tw.ok365.cyou, skip-cert-verify: false, udp: true}
-  - {name: khddecbjbn, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: wwdcyvju, server: 626hk02.ok365.cyou, port: 80, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626hk02.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Az香港8, server: hk8.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: yrscbkjj, server: hk7.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: kkfsefcvvb, server: 20.239.156.36, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: ghjhjm, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: gggdchgb, server: 626sg.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: vbjfhjn, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: eeuhcjvj, server: 20.210.141.128, port: 443, type: vmess, uuid: 93168692-9bf5-4725-a31d-88030558a399, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: tdcjvkjn, server: 36.139.154.162, port: 45303, type: trojan, password: 45a02ace-0d89-45a8-92a1-ecaf81d870b9, sni: hg01.chunyua.online, skip-cert-verify: false, udp: true}
+  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
+  - {name: 42, server: 103.173.255.127, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: false, udp: true}
+  - {name: fdtjuduhyjh, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: rrcvbhdgghf, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: zcvmnvznv, server: 8.214.33.158, port: 8088, type: ss, cipher: aes-256-gcm, password: songyu0504, udp: true}
+  - {name: lkgrrfvtf, server: 20.24.85.15, port: 8313, type: ss, cipher: chacha20-ietf-poly1305, password: ljqdalu13.., udp: true}
+  - {name: vfdbnhbb, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: jkjgjkm, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: rrtcbjuyujjkj, server: 626sg05.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626sg05.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: dfhbijhh, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
+  - {name: 48, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
+  - {name: TW02-V2-直连, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
+  - {name: "🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 41, server: gzyd1.52147.top, port: 20110, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: false, udp: true}
   - {name: 47, server: 120.232.132.71, port: 25680, type: trojan, password: 3b4a79d, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: 42, server: 103.173.255.127, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: false, udp: true}
-  - {name: jkjgjkm, server: AZHJ001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 48, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: 44, server: 103.173.255.21, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: false, udp: true}
-  - {name: vgjchkjm, server: 182.237.0.232, port: 443, type: ss, cipher: aes-256-gcm, password: f1cfcd3cda46, udp: true}
-  - {name: dfhbijhh, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: fdtjuduhyjh, server: AZHJ001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: fdbkhm, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: vbjfhjn, server: AZHJ001.xiba1.xyz, port: 20721, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: vfdbnhbb, server: AZHJ001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 多台负载均衡 A 1.5x, server: 112.64.98.133, port: 63088, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22tw-load-balancer.myn1des.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 日本 多台负载均衡 B 1.5x, server: 116.129.254.65, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22jp-balancer.myn1des.com%22%7D"}}, udp: true}
-  - {name: kgechjn, server: 112.64.98.133, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua}, udp: true}
-  - {name: ghjhjm, server: AZHJ001.xiba1.xyz, port: 20720, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: kui, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
-  - {name: kjdsvvukqj, server: 27.102.106.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 40d5089833fc, udp: true}
+  - {name: "🇭🇰 香港 03[Asia Load] 1x 2", server: bpjchongkong.kozow.com, port: 12346, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾 04[动态IP] 1x 2", server: bpjcjapan.loseyourip.com, port: 12344, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 09[Asia Load] 1x", server: bpjchongkong.kozow.com, port: 12352, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2, server: HJ001.xiba1.xyz, port: 20768, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 日本 01[不限速] 1x 2", server: janpanbpjcyos.loseyourip.com, port: 29471, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: JP02-V2-AWSBJ, server: bj1.xlao.cn, port: 30003, type: vmess, uuid: b3ea4273-e3a8-46a3-93b2-1aaa1c9dbd61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
+  - {name: "🇨🇳 台湾 05[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 30911, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇨🇳 台湾 07[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 30913, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 🇭🇰 Az香港2, server: hk2.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾 01[动态IP] 1x", server: bpjcjapan.loseyourip.com, port: 12341, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
   - {name: 52, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: ooidcvbb, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
   - {name: 54, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
   - {name: 55, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
-  - {name: kjddvhjn, server: 159.27.90.254, port: 63088, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua}, udp: true}
   - {name: 49, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
-  - {name: ooidcvbb, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
-  - {name: mmcdeiicj, server: 112.64.53.176, port: 63088, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua}, udp: true}
-  - {name: "🇨🇳 新加坡 多台负载均衡 A 1.5x\t", server: 112.64.98.133, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22sg-balancer.tencent.best%22%7D"}}, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 44, server: 103.173.255.21, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: false, udp: true}
+  - {name: kjdsvvukqj, server: 27.102.106.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 40d5089833fc, udp: true}
+  - {name: 🇸🇬 新加坡1 2, server: 626sg01.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg01.fx6688.top}}, udp: true}
+  - {name: 🇸🇬 新加坡2 2, server: 626sg02.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 626sg02.fx6688.top}}, udp: true}
   - {name: 🇨🇳 日本 多台负载均衡 A 1.5x, server: 112.64.98.133, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22jp-balancer.myn1des.com%22%7D"}}, udp: true}
-  - {name: 关注TG频道@Jsnzk, server: hinet.52147.top, port: 28443, type: trojan, password: 5aeb5fae-c271-4e1c-be08-4c0dd70df7e6, sni: huayun.xyz, skip-cert-verify: false, udp: true}
+  - {name: wwdcyvju, server: 626hk02.ok365.cyou, port: 80, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 626hk02.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾 03[动态IP] 1x 2", server: bpjcjapan.loseyourip.com, port: 12343, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: tdcjvkjn, server: 36.139.154.162, port: 45303, type: trojan, password: 45a02ace-0d89-45a8-92a1-ecaf81d870b9, sni: hg01.chunyua.online, skip-cert-verify: false, udp: true}
+  - {name: fdbkhm, server: 120.232.132.71, port: 25680, type: trojan, password: Mfd9ca63, sni: cdnt71.dt1.fun, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港 07[Asia Load] 1x 2", server: bpjchongkong.kozow.com, port: 12350, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 10[Asia Load] 1x 2", server: bpjchongkong.kozow.com, port: 12353, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "🇭🇰 香港 08[Asia Load] 1x 2", server: bpjchongkong.kozow.com, port: 12351, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: lgggvgyeeyj, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 02f61efe-8380-413a-9233-6328ef8997f4, sni: 625tw.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Opc日本3, server: 138.2.59.97, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港 05[Asia Load] 1x 2", server: bpjchongkong.kozow.com, port: 12348, type: vmess, uuid: c84849ea-4970-444c-9c61-3b7251fb7269, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -504,536 +488,523 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇭🇰 日本✈️中转 [香港Azure]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇭🇰 香港2
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
+      - 🇨🇳 台湾 03[动态IP] 1x
       - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
       - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
       - 🇭🇰 香港 06[Asia Load] 1x
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - 🇭🇰 JCBB_香港07【vip1】
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - gdcjuhkj
       - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - vgjchkjm
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
       - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 🇨🇳 日本 多台负载均衡 A 1.5x
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - 🇭🇰 香港 05[Asia Load] 1x 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1049,122 +1020,118 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 大萝卜鸡🇭🇰香港
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
-      - 🇺🇸 大萝卜鸡🇺🇸美国0.1
-      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
-      - 🇭🇰 日本✈️中转 [香港Azure]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾 I5 | IEPL,限时体验8小时 | 0x
+      - 🇺🇸 美国 G51 | 直连 | 0x
       - 🇭🇰 台湾✈️中转 [香港Azure]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇭🇰 日本✈️中转 [香港Azure]
       - 🇭🇰 印度✈️中转 [香港Azure]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [香港Azure]
       - 🇮🇳 印度✈️中转  [湖南长沙BGP]
+      - 🇭🇰 香港✈️中转 [湖南长沙BGP]
       - 🇭🇰 美国✈️中转 [香港Azure]
-      - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇮🇳 印度✈️中转   [湘沪BGP]
+      - 🇨🇳 日本 负载(4台)2x
+      - 🇺🇸 United States 03
+      - 🇺🇸 United States 02
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速2
+      - 🇸🇬 大萝卜鸡🇸🇬新加坡高速1
+      - 🇭🇰 大萝卜鸡🇭🇰香港高速
       - 🇸🇬 新加坡2
-      - 🇭🇰 香港2
+      - 🇸🇬 新加坡1
+      - 🇭🇰 香港3
       - 🇨🇳 台湾1-三网优化-强加密
-      - 🇨🇳 台湾 03[动态IP] 1x
-      - 🇨🇳 台湾 02[动态IP] 1x
-      - 🇨🇳 台湾 07[动态IP] 1x
-      - 🇨🇳 台湾 08[动态IP] 1x
-      - 🇨🇳 台湾 05[动态IP] 1x
-      - 🇨🇳 台湾 01[动态IP] 1x
-      - 🇨🇳 台湾 04[动态IP] 1x
-      - 🇯🇵 日本 01[实验免流] 1x
-      - 🇭🇰 香港 04[Asia Load] 1x
-      - 台北 A[稳定] 10x
-      - 🇭🇰 香港 05[Asia Load] 1x
+      - 距离下次重置剩余：29 天
       - 🇭🇰 香港 07[Asia Load] 1x
-      - 🇨🇳 台湾 06[动态IP] 1x
-      - 🇭🇰 香港 08[Asia Load] 1x
-      - 🇭🇰 香港 02[Asia Load] 1x
-      - 🇭🇰 香港 03[Asia Load] 1x
-      - 🇭🇰 香港 10[Asia Load] 1x
-      - 🇭🇰 香港 09[Asia Load] 1x
-      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇨🇳 台湾 02[动态IP] 1x
+      - 🇭🇰 香港 免流1x
       - 🇯🇵 日本 01[不限速] 1x
-      - 🇷🇺 俄罗斯D
-      - 🇷🇺 俄罗斯T
-      - 🇷🇺 俄罗斯C
-      - 🇷🇺 俄罗斯N
-      - 🇷🇺 俄罗斯O
-      - 🇷🇺 俄罗斯M
-      - 🇷🇺 俄罗斯Q
-      - 🇷🇺 俄罗斯P
-      - 🇷🇺 俄罗斯B
-      - 🇨🇳 随机节点-龟速cn中转不保证能用
-      - 🇨🇳 GER2🇩🇪-龟速cn中转不保证能用
-      - 🇨🇳 GER3🇩🇪-龟速cn中转不保证能用
-      - 🇺🇸 USA🇺🇸-龟速cn中转不保证能用
-      - 🇭🇰 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 🇭🇰 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇨🇳 台湾 03[动态IP] 1x
+      - 🇭🇰 香港 02[Asia Load] 1x
+      - 🇨🇳 台湾 08[动态IP] 1x
+      - 🇨🇳 台湾 04[动态IP] 1x
+      - 🇭🇰 香港 08[Asia Load] 1x
+      - 🇭🇰 香港 03[Asia Load] 1x
+      - 🇭🇰 香港 06[Asia Load] 1x
+      - 🇭🇰 香港 10[Asia Load] 1x
+      - 🇯🇵 日本 01[实验免流] 1x
+      - 🇯🇵 SS IEPL - 日本 用完即止 50x
+      - 🇭🇰 香港 04[Asia Load] 1x
+      - 🇭🇰 香港 05[Asia Load] 1x
+      - 🇭🇰 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - 🇭🇰 香港 | Trojan | C | 0.8x | 黃金 | 港區流媒體解鎖 |
       - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP |
-      - 🇨🇳 台湾 | Trojan | A | 5.0x | 黄金 | 原生動態IP |
-      - "🇷🇺 俄罗斯 | Trojan | A | 0.0x | 黃金 | 官網 | ninihao.cc | \t"
-      - frchigj
-      - yrscbkjj
-      - odexhgjn
-      - TW01-V2-直连
-      - 🇭🇰 JCBB_香港07【vip1】
-      - 🇯🇵 opc日本1
-      - TW02-V2-直连
-      - 🇭🇰 Az香港8
-      - 🇨🇳 JCBB_台湾01【vip2】
-      - 🇭🇰 Az香港2
-      - 🇯🇵 Opc日本3
-      - 🇭🇰 JCBB_香港12【vip3】
-      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
-      - 🇯🇵 JCBB_日本02【vip1】
-      - 🇨🇳 JCBB_台湾03【vip2】
-      - JP01-V2-AWSBJ
-      - 🇭🇰 Az香港3
-      - 🇭🇰 JCBB_香港08【vip1】
-      - 🇰🇷 JCBB_韩国02【vip2】
-      - 🇯🇵 日本²
-      - JP02-V2-AWSBJ
-      - gggdchgb
-      - kkfsefcvvb
+      - 🇨🇳 台湾 | Trojan | D | 5.0x | 黄金 | 原生動態IP |
+      - 🇭🇰 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
+      - igsbhgkhj
+      - gdcjuhkj
+      - kjdefbjjj
+      - igfsbnvnm
+      - l g d xv h c j n
+      - kgrgjjj
+      - ghnhvn
+      - ffxbhwgnjk
+      - fdehvjfjv
+      - gfwykhjg
+      - frfjvjbkgkm
+      - fweubcbkh
+      - deyvfdkij
+      - lhercjukk
+      - oyedhcjgjj
       - kkedvhghh
-      - lkgrrfvtf
-      - rrtcbjuyujjkj
-      - lgggvgyeeyj
-      - khddecbjbn
-      - wwdcyvju
+      - 🇭🇰 Az香港8
+      - yrscbkjj
+      - kkfsefcvvb
+      - ghjhjm
+      - gggdchgb
+      - vbjfhjn
       - eeuhcjvj
-      - tdcjvkjn
+      - TW01-V2-直连
+      - 42
+      - fdtjuduhyjh
       - rrcvbhdgghf
-      - zcvmnvznv
+      - lkgrrfvtf
+      - vfdbnhbb
+      - jkjgjkm
+      - rrtcbjuyujjkj
+      - dfhbijhh
+      - 48
+      - TW02-V2-直连
+      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
       - 41
       - 47
-      - 42
-      - jkjgjkm
-      - 48
-      - 44
-      - vgjchkjm
-      - dfhbijhh
-      - fdtjuduhyjh
-      - fdbkhm
-      - vbjfhjn
-      - vfdbnhbb
-      - 🇨🇳 台湾 多台负载均衡 A 1.5x
-      - 🇨🇳 日本 多台负载均衡 B 1.5x
-      - kgechjn
-      - ghjhjm
-      - kui
-      - kjdsvvukqj
+      - 🇭🇰 香港 03[Asia Load] 1x 2
+      - 🇭🇰 [LV2·原生] 香港02 | IEPL 专线 | 3x
+      - 🇨🇳 台湾 04[动态IP] 1x 2
+      - 🇭🇰 香港 09[Asia Load] 1x
+      - 🇨🇳 台湾 | Trojan | B | 5.0x | 黄金 | 原生動態IP | 2
+      - 🇯🇵 日本 01[不限速] 1x 2
+      - JP02-V2-AWSBJ
+      - 🇨🇳 台湾 05[动态IP] 1x
+      - 🇨🇳 台湾 07[动态IP] 1x
+      - 🇭🇰 Az香港2
+      - 🇨🇳 台湾 01[动态IP] 1x
       - 52
+      - ooidcvbb
       - 54
       - 55
-      - kjddvhjn
       - 49
-      - ooidcvbb
-      - mmcdeiicj
-      - "🇨🇳 新加坡 多台负载均衡 A 1.5x\t"
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
+      - 44
+      - kjdsvvukqj
+      - 🇸🇬 新加坡1 2
+      - 🇸🇬 新加坡2 2
       - 🇨🇳 日本 多台负载均衡 A 1.5x
-      - 关注TG频道@Jsnzk
+      - wwdcyvju
+      - 🇨🇳 台湾 03[动态IP] 1x 2
+      - tdcjvkjn
+      - fdbkhm
+      - 🇭🇰 香港 07[Asia Load] 1x 2
+      - 🇭🇰 香港 10[Asia Load] 1x 2
+      - 🇭🇰 香港 08[Asia Load] 1x 2
+      - lgggvgyeeyj
+      - 🇯🇵 Opc日本3
+      - 🇭🇰 香港 05[Asia Load] 1x 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
