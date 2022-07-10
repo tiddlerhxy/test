@@ -5,239 +5,211 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 全球直连③, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: hkt.52147.top, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 免流, server: 54.255.233.147, port: 80, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇯🇵 Tokyo 2x, server: 13.230.221.12, port: 443, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2213.230.221.12%22%7D"}}, udp: true}
+  - {name: 免费节点定期失效, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: 全球直连①, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: 全球直连④, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20020, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20020, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet-河移 | 解锁流媒体, server: hnyd.52147.top, port: 30010, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-2号, server: 164.70.68.67, port: 28443, type: trojan, password: a3da3376-881c-4f5a-93cd-e3289e853475, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体, server: 164.70.68.67, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: TW02-V2-直连, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 7016e349-afae-4ece-a3bb-f02e113d8c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 7016e349-afae-4ece-a3bb-f02e113d8c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點, server: 59.148.127.157, port: 12306, type: trojan, password: a997fd8e-59d7-47cf-afe8-2204bd286017, sni: 103-135-251-39.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HKG CM.B/05 x1.0, server: cmb.3sx.xyz, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
-  - {name: 🇭🇰 HKG CM.B/02 x1.0, server: cmb.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
-  - {name: 🇭🇰 HKG CM.B/01 x1.0, server: cmb.3sx.xyz, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
-  - {name: 🇭🇰 HKG CT/03 x1.0, server: 125.124.254.165, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
-  - {name: 🇭🇰 HKG CT/04 x1.0, server: 125.124.254.165, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体, server: gzyd1.52147.top, port: 30010, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet-广移2 | 解锁流媒体, server: gzyd2.52147.top, port: 30010, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体 2, server: hinet.52147.top, port: 28000, type: trojan, password: 4cb63fcd-23e1-46e4-b55b-0d4b9bb4d2a3, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HKG IEPL.A/05 x3.0, server: 71.131.222.153, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇭🇰 HKG IEPL.A/03 x3.0, server: 71.131.222.153, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇭🇰 HKG IEPL.A/01 x3.0, server: 71.131.222.153, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇨🇳 TWN IEPL.A/01 x3.0, server: 71.131.222.153, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇯🇵 JPN CM.B/01 x1.0, server: cmb.3sx.xyz, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇭🇰 HKG CM.A/02 x1.0, server: 71.131.222.153, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇨🇳 TWN CM.A/01 x1.0, server: 71.131.222.153, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇯🇵 JPN IEPL.A/02 x3.0, server: 71.131.222.153, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇯🇵 JPN CM.A/02 x1.0, server: 71.131.222.153, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇯🇵 JPN CM.B/02 x1.0, server: cmb.3sx.xyz, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇭🇰 HKG CM.B/04 x1.0, server: cmb.3sx.xyz, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇨🇳 TWN IEPL.A/02 x3.0, server: 71.131.222.153, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: "🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]", server: 54.255.146.140, port: 12306, type: trojan, password: a997fd8e-59d7-47cf-afe8-2204bd286017, sni: 103-135-251-39.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JPN CT/02 x1.0, server: 125.124.254.165, port: 11002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
   - {name: 🇭🇰 HKG CM.A/04 x1.0, server: 71.131.222.153, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
-  - {name: 🇭🇰 HKG CM.A/03 x1.0, server: 71.131.222.153, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
-  - {name: 🇭🇰 HKG CM.A/01 x1.0, server: 71.131.222.153, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
   - {name: 🇭🇰 HKG CM.A/05 x1.0, server: 71.131.222.153, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
-  - {name: 🇸🇬 新加坡✈️32, server: 32.72img.xyz, port: 443, type: trojan, password: b605dc8f-249f-4f08-9793-571acf746dab, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡✈️31, server: 31.72img.xyz, port: 443, type: trojan, password: b605dc8f-249f-4f08-9793-571acf746dab, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo 2x, server: 13.230.221.12, port: 443, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇸🇬 新加坡 免流, server: 54.255.233.147, port: 80, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 🇭🇰 香港①, server: cm.awslcn.cc, port: 25234, type: vmess, uuid: b75021e7-cc0a-43e8-b863-ca038d78fbc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇲🇾 马来01, server: cm.awslcn.cc, port: 25228, type: vmess, uuid: b75021e7-cc0a-43e8-b863-ca038d78fbc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 香港⑤, server: cm.awslcn.cc, port: 25236, type: vmess, uuid: b75021e7-cc0a-43e8-b863-ca038d78fbc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇯🇵 日本05, server: cu.awslcn.cc, port: 25237, type: vmess, uuid: b75021e7-cc0a-43e8-b863-ca038d78fbc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇭🇰 HKG CM.B/02 x1.0, server: cmb.3sx.xyz, port: 21002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇨🇳 TWN CM.A/02 x1.0, server: 71.131.222.153, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇯🇵 JPN CM.A/01 x1.0, server: 71.131.222.153, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇯🇵 JPN CT/03 x1.0, server: 125.124.254.165, port: 11003, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇭🇰 HKG IEPL.A/04 x3.0, server: 71.131.222.153, port: 21004, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: 🇭🇰 HKG CM.A/03 x1.0, server: 71.131.222.153, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: a997fd8e-59d7-47cf-afe8-2204bd286017, udp: true}
+  - {name: ✔, server: 3.34.255.166, port: 443, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇮🇳 孟买, server: 3.110.213.243, port: 80, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇭🇰 [专线]香港 04 1x", server: hongkongaead.bpnet.club, port: 12003, type: trojan, password: 3c3c1285-303a-4a91-b97f-6fbf48ea998d, sni: hongkongaead.bpnet.club, skip-cert-verify: false, udp: true}
   - {name: "🇭🇰 [专线]香港 03 1x", server: hongkongaead.bpnet.club, port: 12002, type: trojan, password: 3c3c1285-303a-4a91-b97f-6fbf48ea998d, sni: hongkongaead.bpnet.club, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港B3 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK 001, server: xmrh001.xmrth-node.xyz, port: 15880, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: 87318706-ws.va.huya.com}}, udp: true}
+  - {name: 🇭🇰 HK 002, server: xmrh002.xmrth-node.xyz, port: 15880, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: 87318706-ws.va.huya.com}}, udp: true}
   - {name: 🇨🇳 TW 002, server: xmrt002.xmrth-node.xyz, port: 15880, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: file-1250914413.cos.ap-hongkong.myqcloud.com}}, udp: true}
-  - {name: 🇭🇰 HK 011, server: xmrh011.xmrth-node.xyz, port: 15885, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: 87318706-ws.va.huya.com}}, udp: true}
-  - {name: 🇭🇰 香港家宽 02丨1x HK, server: activity.huawei.daanyht.com, port: 13105, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港商宽丨1x HK, server: activity.huawei.daanyht.com, port: 12405, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 02丨1x HK, server: activity.huawei.daanyht.com, port: 12023, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港家宽 03丨1x HK, server: activity.huawei.daanyht.com, port: 13112, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 01丨1x HK, server: activity.huawei.daanyht.com, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 14丨1x HK, server: activity.huawei.daanyht.com, port: 12722, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 04丨1x HK, server: activity.huawei.daanyht.com, port: 12025, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 08丨1x HK, server: activity.huawei.daanyht.com, port: 12029, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 13丨1x HK, server: activity.huawei.daanyht.com, port: 12721, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 12丨1x HK, server: activity.huawei.daanyht.com, port: 12033, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 05丨1x HK, server: activity.huawei.daanyht.com, port: 12026, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 11丨1x HK, server: activity.huawei.daanyht.com, port: 12032, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 10丨1x HK, server: activity.huawei.daanyht.com, port: 12031, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7c0817db7e17.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港505 中继, server: db.xmrthnode.com, port: 42005, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /th, headers: {Host: 802941729-server.s0.aicdn.com}}, udp: true}
+  - {name: 🇭🇰 香港501 中继, server: db.xmrthnode.com, port: 42001, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /th, headers: {Host: 802941729-server.s0.aicdn.com}}, udp: true}
+  - {name: 🇭🇰 HK 000, server: xmrh000.xmrth-node.xyz, port: 15880, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: file-1250914411.cos.ap-hongkong.myqcloud.com}}, udp: true}
+  - {name: 🇭🇰 香港503 中继, server: db.xmrthnode.com, port: 42003, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /th, headers: {Host: 802941729-server.s0.aicdn.com}}, udp: true}
+  - {name: 🇭🇰 香港504 中继, server: db.xmrthnode.com, port: 42004, type: vmess, uuid: f34f0236-1813-3429-840e-141748f60253, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /th, headers: {Host: 802941729-server.s0.aicdn.com}}, udp: true}
+  - {name: 🇯🇵 80-日本1号, server: jp1.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.chaoxn.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -256,268 +228,227 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 香港①
-      - 🇭🇰 香港⑤
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -533,60 +464,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 全球直连③
-      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇸🇬 新加坡 免流
+      - 🇯🇵 Tokyo 2x
+      - 免费节点定期失效
+      - 全球直连①
+      - 全球直连④
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet-河移 | 解锁流媒体
+      - 🇯🇵 日本NTT-2号
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - TW02-V2-直连
-      - TW01-V2-直连
-      - 🇭🇰 HKG HKBN 02 x1.0 Trojan測試性節點
-      - 🇭🇰 HKG CM.B/05 x1.0
-      - 🇭🇰 HKG CM.B/02 x1.0
-      - 🇭🇰 HKG CM.B/01 x1.0
-      - 🇭🇰 HKG CT/03 x1.0
-      - 🇭🇰 HKG CT/04 x1.0
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-广移2 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体 2
+      - 🇭🇰 HKG IEPL.A/05 x3.0
+      - 🇭🇰 HKG IEPL.A/03 x3.0
+      - 🇭🇰 HKG IEPL.A/01 x3.0
+      - 🇨🇳 TWN IEPL.A/01 x3.0
+      - 🇯🇵 JPN CM.B/01 x1.0
+      - 🇭🇰 HKG CM.A/02 x1.0
+      - 🇨🇳 TWN CM.A/01 x1.0
+      - 🇯🇵 JPN IEPL.A/02 x3.0
+      - 🇯🇵 JPN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.B/02 x1.0
+      - 🇭🇰 HKG CM.B/04 x1.0
+      - 🇨🇳 TWN IEPL.A/02 x3.0
+      - 🇸🇬 SGP AWS 01 x0.1 [Trojan] [直連]
+      - 🇯🇵 JPN CT/02 x1.0
       - 🇭🇰 HKG CM.A/04 x1.0
-      - 🇭🇰 HKG CM.A/03 x1.0
-      - 🇭🇰 HKG CM.A/01 x1.0
       - 🇭🇰 HKG CM.A/05 x1.0
-      - 🇸🇬 新加坡✈️32
-      - 🇸🇬 新加坡✈️31
-      - 🇯🇵 Tokyo 2x
-      - 🇸🇬 新加坡 免流
-      - 🇭🇰 香港①
-      - 🇲🇾 马来01
-      - 🇭🇰 香港⑤
-      - 🇯🇵 日本05
-      - 🇺🇸 :美国-ss-38.75.136.21:8080-可用-直连-仅支持美国地区NF自制剧
-      - 🇯🇵 :日本-ss-85.208.108.60:8882-可用-中转:85.208.108.58-仅支持日本地区NF自制剧
-      - 🇺🇸 :美国-ss-38.114.114.19:5003-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:8888-可用-直连-仅支持美国地区NF自制剧
-      - 🇺🇸 :美国-ss-38.75.136.21:5004-可用-直连-仅支持美国地区NF自制剧
+      - 🇭🇰 HKG CM.B/02 x1.0
+      - 🇨🇳 TWN CM.A/02 x1.0
+      - 🇯🇵 JPN CM.A/01 x1.0
+      - 🇯🇵 JPN CT/03 x1.0
+      - 🇭🇰 HKG IEPL.A/04 x3.0
+      - 🇭🇰 HKG CM.A/03 x1.0
+      - ✔
+      - 🇮🇳 孟买
+      - 🇭🇰 [专线]香港 04 1x
       - 🇭🇰 [专线]香港 03 1x
-      - 🇭🇰 [LV2·原生] 香港B3 | 中转
-      - 🇭🇰 [LV2·原生] 香港03 | IEPL 专线 | 3x
-      - 🇭🇰 [LV2·原生] 香港01 | IEPL 专线 | 3x
-      - 🇭🇰 HK 001
+      - 🇭🇰 HK 002
       - 🇨🇳 TW 002
-      - 🇭🇰 HK 011
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇭🇰 香港商宽丨1x HK
-      - 🇭🇰 香港 02丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港 14丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港 13丨1x HK
-      - 🇭🇰 香港 12丨1x HK
-      - 🇭🇰 香港 05丨1x HK
-      - 🇭🇰 香港 11丨1x HK
-      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港505 中继
+      - 🇭🇰 香港501 中继
+      - 🇭🇰 HK 000
+      - 🇭🇰 香港503 中继
+      - 🇭🇰 香港504 中继
+      - 🇯🇵 80-日本1号
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
