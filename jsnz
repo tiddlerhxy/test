@@ -5,139 +5,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 B | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hk2, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: "🇭🇰 [5x]IEPL 专线 香港 NO.1", server: a692d29eaa2fa14b.treenewbe.club, port: 50012, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇸🇬 [3x]IEPL 专线 新加坡 NO.1", server: a692d29eaa2fa14b.treenewbe.club, port: 50019, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇸🇬 [3x]IEPL 专线 新加坡 NO.2", server: a692d29eaa2fa14b.treenewbe.club, port: 50020, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇭🇰 [5x]IEPL 专线 香港 NO.2", server: a692d29eaa2fa14b.treenewbe.club, port: 50013, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇭🇰 [5x]IEPL 专线 香港 NO.3", server: a692d29eaa2fa14b.treenewbe.club, port: 50014, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇨🇳 [3x]IEPL 专线 台湾 NO.1", server: a692d29eaa2fa14b.treenewbe.club, port: 50010, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇨🇳 [3x]IEPL 专线 台湾 NO.2", server: a692d29eaa2fa14b.treenewbe.club, port: 50011, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇯🇵 [3x]IEPL 专线 日本 NO.2", server: a692d29eaa2fa14b.treenewbe.club, port: 50007, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇯🇵 [3x]IEPL 专线 日本 NO.1", server: a692d29eaa2fa14b.treenewbe.club, port: 50006, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: "🇭🇰 [5x]IEPL 专线 香港 NO.4", server: a692d29eaa2fa14b.treenewbe.club, port: 50015, type: ss, cipher: aes-128-gcm, password: 8732ca72-8bc5-4981-aff0-d86163138e56, udp: true}
+  - {name: 🇭🇰 香港⑤, server: cm.awslcn.cc, port: 25236, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇭🇰 香港①, server: cm.awslcn.cc, port: 25234, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇲🇾 马来01, server: cm.awslcn.cc, port: 25228, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇨🇳 台湾②, server: cm.awslcn.cc, port: 25232, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇭🇰 香港02, server: cm1.awslcn.cc, port: 25242, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az1.bgp.zhongzhuan1.xyz, port: 30484, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 D | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgc, headers: {Host: freewaytunnel.dev}}, udp: true}
   - {name: 🇯🇵 日本 B | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jp2, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 🇨🇳 台湾 C | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tw3, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 🇯🇵 日本 C | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jp3, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 美國 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /us1, headers: {Host: hk.ntt-1.oceancloud.asia}}, udp: true}
-  - {name: 德國 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /de, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 🇨🇭 瑞士 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ch, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 🇮🇹 意大利 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /it, headers: {Host: hk.cf-1.oceancloud.us}}, udp: true}
-  - {name: 🇹🇷 土耳其 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tr, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20140, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 距离下次重置剩余：7 天, server: 164.70.68.67, port: 28443, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-2号, server: 164.70.68.67, port: 28443, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-河南移动 | (中转), server: hnyd.52147.top, port: 20120, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20170, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 CM-HK-1, server: h797152.waihuizhibiaowang.com, port: 12543, type: trojan, password: 70557347-1938-4717-a0cc-185b9b0de635, sni: h797152.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 CM-HK-1 2, server: h797152.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: 70557347-1938-4717-a0cc-185b9b0de635, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CM-TW-1, server: h3816tw.strongpipe.live, port: 28443, type: vmess, uuid: 70557347-1938-4717-a0cc-185b9b0de635, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 CM-JP-1, server: h797152.waihuizhibiaowang.com, port: 12443, type: trojan, password: 70557347-1938-4717-a0cc-185b9b0de635, sni: h797152.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 CTVIP-HK-1, server: h453998.waihuizhibiaowang.com, port: 12543, type: trojan, password: 70557347-1938-4717-a0cc-185b9b0de635, sni: h453998.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 CM-JP-1 2, server: h797152.waihuizhibiaowang.com, port: 12443, type: vmess, uuid: 70557347-1938-4717-a0cc-185b9b0de635, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az1.bgp.zhongzhuan1.xyz, port: 30484, type: trojan, password: 78e54ce3-3706-466b-b471-ad330a318d30, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港6, server: 103.253.43.228, port: 38000, type: trojan, password: acd057d0-106f-4ce4-8f58-81482579c4e7, sni: www.download.windowsupdate.lol, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 South Korea 20, server: hk20.bp777.buzz, port: 21665, type: vmess, uuid: 62840602-e13f-4563-b492-8afd969e207d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk20.bp777.buzz}}, udp: true}
-  - {name: 0.0000001, server: bai-piao-wang-zhe.hk.884899.cf, port: 20944, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 0.0000002, server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港3, server: 103.253.43.228, port: 38000, type: trojan, password: 175c218a-fb8d-46b0-a7af-b9ff6a719856, sni: www.download.windowsupdate.lol, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港4, server: 103.253.43.228, port: 38000, type: trojan, password: bb17cd59-0839-4824-b734-ace2b6bca6d4, sni: www.download.windowsupdate.lol, skip-cert-verify: false, udp: true}
-  - {name: t w, server: 103.186.187.52, port: 28443, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tw1, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇭🇰 香港 F | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkt, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20020, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Sky | 解锁流媒体, server: 103.186.187.52, port: 28443, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: fade393a-2ffe-4d02-9492-e22a027dc611, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 全球直连④, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: "网址: hazz.win/reg", server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: edge.apple.com, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 South Korea 03, server: hk03.bp777.buzz, port: 21665, type: vmess, uuid: bcaf96ca-d524-4931-bb85-14247ad3801c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk03.bp777.buzz}}, udp: true}
+  - {name: 🇰🇷 South Korea 04, server: hk04.bp777.buzz, port: 21665, type: vmess, uuid: b0fa6b76-5817-416e-8034-7b0c129c7f7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk04.bp777.buzz}}, udp: true}
+  - {name: 🇺🇸 United States 02, server: 45.137.97.205, port: 443, type: trojan, password: 16c6cd63-60dc-34fc-9aab-3f58570b24bb, sni: 20020526.luohuaxian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 South Korea 17, server: hk17.bp777.buzz, port: 21665, type: vmess, uuid: a5b66531-e930-4b5c-8d09-1b779e5c91bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk17.bp777.buzz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,150 +172,177 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇭🇰 香港6
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -315,35 +358,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 🇯🇵 日本 B | 中继 | Prepaid Users
-      - 🇨🇳 台湾 C | 中继 | Prepaid Users
-      - 🇯🇵 日本 C | 中继 | Prepaid Users
-      - 美國 01 | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
-      - 🇨🇭 瑞士 A | 中继 | Prepaid Users
-      - 🇮🇹 意大利 A | 中继 | Prepaid Users
-      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
-      - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
-      - 距离下次重置剩余：7 天
-      - 🇯🇵 日本NTT-2号
-      - 🇯🇵 日本NTT-河南移动 | (中转)
-      - 🇭🇰 香港HKT-广移2(中转) | 解锁流媒体
-      - 🇻🇳 越南-4号
-      - 🇭🇰 CM-HK-1
-      - 🇭🇰 CM-HK-1 2
-      - 🇨🇳 CM-TW-1
-      - 🇯🇵 CM-JP-1
-      - 🇭🇰 CTVIP-HK-1
-      - 🇯🇵 CM-JP-1 2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.1
+      - 🇸🇬 [3x]IEPL 专线 新加坡 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.2
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.3
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.1
+      - 🇨🇳 [3x]IEPL 专线 台湾 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.2
+      - 🇯🇵 [3x]IEPL 专线 日本 NO.1
+      - 🇭🇰 [5x]IEPL 专线 香港 NO.4
+      - 🇭🇰 香港⑤
+      - 🇭🇰 香港①
+      - 🇲🇾 马来01
+      - 🇨🇳 台湾②
+      - 🇭🇰 香港02
       - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港6
-      - 🇰🇷 South Korea 20
-      - 0.0000001
-      - 0.0000002
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - t w
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇯🇵 日本 B | 中继 | Prepaid Users
+      - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 F | 中继 | Prepaid Users
+      - 🇨🇳 台湾Hinet ～广州移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Sky | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 全球直连④
+      - "网址: hazz.win/reg"
+      - 🇰🇷 South Korea 03
+      - 🇰🇷 South Korea 04
+      - 🇺🇸 United States 02
+      - 🇰🇷 South Korea 17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
