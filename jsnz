@@ -5,143 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 台湾Sky | 解锁流媒体, server: 103.186.187.52, port: 28443, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: hkt.52147.top, port: 28443, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT-广移(中转) | 解锁流媒体, server: gzyd1.52147.top, port: 20170, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT-河移(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20170, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20020, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [岛主公益节点]香港微软云10Gbps", server: krhqecxyye.eastasia.cloudapp.azure.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: false, udp: true}
+  - {name: azjp.gd1214b.tech:443, server: azjp.gd1214b.tech, port: 443, type: vmess, uuid: 039c184e-9f50-46ec-80a3-c506c78c2a44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/3f8d7a9ba6?ed=2048", headers: {Host: azjp.gd1214b.tech}}, udp: true}
+  - {name: jsrbbn, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [岛主公益节点]香港微软云10Gbps 2", server: krhqecxyye.eastasia.cloudapp.azure.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: false, udp: true}
+  - {name: kfstbn, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ogsvnb, server: jgwxn4.gaox.ml, port: 443, type: trojan, password: e8c1ab3c-89b3-4933-92df-682e6dce7819, sni: jgwxn4.gaox.ml, skip-cert-verify: false, udp: true}
+  - {name: US_1, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 SG, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: false, udp: true}
+  - {name: US_2, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: false, udp: true}
+  - {name: US_6, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体, server: 157.120.35.234, port: 28443, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20140, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-广州移动2 | (中转), server: gzyd2.52147.top, port: 20120, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28443, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 20140, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体, server: hnyd.52147.top, port: 20020, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-广州移动2 | (中转), server: gzyd2.52147.top, port: 20120, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-广州移动 | (中转), server: gzyd1.52147.top, port: 20120, type: trojan, password: 09553aee-5191-4870-a312-51d053ea668b, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡G-Core | 解锁流媒体, server: 91.243.81.248, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡Az | 解锁流媒体, server: node.sin.entrance.cyou, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体 2, server: 157.120.35.234, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港HKT-广移 | 解锁流媒体, server: gzyd1.52147.top, port: 30180, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT | 解锁流媒体 2, server: hkt.52147.top, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体 2, server: 203.138.98.199, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港HKT-河移 | 解锁流媒体, server: hnyd.52147.top, port: 30180, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体, server: gzyd1.52147.top, port: 30010, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 东京 01【3 LB】, server: aaa-666.txwd.xyz, port: 30004, type: ss, cipher: aes-128-gcm, password: GXFdcGZb5wPiGNf8, udp: true}
-  - {name: 🇺🇸 美国 凤凰城 01【4 LB】, server: aaa-666.txwd.xyz, port: 30006, type: ss, cipher: aes-128-gcm, password: GXFdcGZb5wPiGNf8, udp: true}
-  - {name: 🇰🇷 韩国 春川 01【4 LB】, server: aaa-666.txwd.xyz, port: 30007, type: ss, cipher: aes-128-gcm, password: GXFdcGZb5wPiGNf8, udp: true}
-  - {name: 🇨🇳 台湾 Metro 04, server: 1e659d63-dce3-40a9-adca-80be663d74ee.rfsconfig.xyz, port: 45243, type: ss, cipher: chacha20-ietf-poly1305, password: e88f82d2-9816-4f6b-a29c-632904bbfec0, udp: true}
-  - {name: 🇨🇳 台湾 Metro 03, server: 1e659d63-dce3-40a9-adca-80be663d74ee.rfsconfig.xyz, port: 45241, type: ss, cipher: chacha20-ietf-poly1305, password: e88f82d2-9816-4f6b-a29c-632904bbfec0, udp: true}
-  - {name: 🇨🇳 台湾 Metro 01, server: 1e659d63-dce3-40a9-adca-80be663d74ee.rfsconfig.xyz, port: 45214, type: ss, cipher: chacha20-ietf-poly1305, password: e88f82d2-9816-4f6b-a29c-632904bbfec0, udp: true}
-  - {name: 🇨🇳 台湾 04, server: sh2.xn--ltwa5413a.com, port: 24410, type: ss, cipher: chacha20-ietf-poly1305, password: e88f82d2-9816-4f6b-a29c-632904bbfec0, udp: true}
-  - {name: 🇸🇬 新加坡 Metro 01, server: 1e659d63-dce3-40a9-adca-80be663d74ee.rfsconfig.xyz, port: 45254, type: trojan, password: e88f82d2-9816-4f6b-a29c-632904bbfec0, sni: dosg1.ridefullspeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港⑤, server: cm.awslcn.cc, port: 25236, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇭🇰 香港①, server: cm.awslcn.cc, port: 25234, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇨🇳 台湾②, server: cm.awslcn.cc, port: 25232, type: vmess, uuid: acc1d543-c769-48aa-a93b-03e66f10539c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30130, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30080, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
   - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 747f7f97-813e-49e4-85b0-73c28dd18fba, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 F | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hkt, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 🇭🇰 香港 B | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hk2, headers: {Host: freewaytunnel.dev}}, udp: true}
-  - {name: 德國 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /de, headers: {Host: freewaytunnel.dev}}, udp: true}
   - {name: 🇨🇳 台湾 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tw1, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇮🇳 印度 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /in, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇭🇰 香港 E | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wtt, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇭🇰 香港 D | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgc, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇹🇷 土耳其 01 | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 3ba517b0-5a6d-3a9d-9e3e-3db1c49d706e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tr, headers: {Host: freewaytunnel.dev}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,169 +184,184 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -338,36 +377,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾Sky | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 香港HKT-广移(中转) | 解锁流媒体
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps
+      - azjp.gd1214b.tech:443
+      - jsrbbn
+      - 🇭🇰 [岛主公益节点]香港微软云10Gbps 2
+      - kfstbn
+      - ogsvnb
+      - US_1
+      - 🇸🇬 SG
+      - US_2
+      - US_6
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇨🇳 台湾Sky-河移负载均衡(中转) | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - 🇨🇳 台湾Sky-广移2负载均衡(中转) | 解锁流媒体
       - 🇨🇳 台湾Hinet～河南移动(中转) | 解锁流媒体
-      - 🇯🇵 日本NTT-广州移动2 | (中转)
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇯🇵 日本NTT-广州移动 | (中转)
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇸🇬 新加坡Az | 解锁流媒体
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港HKT | 解锁流媒体 2
       - 🇯🇵 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体 2
       - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
-      - 🇯🇵 日本 东京 01【3 LB】
-      - 🇺🇸 美国 凤凰城 01【4 LB】
-      - 🇰🇷 韩国 春川 01【4 LB】
-      - 🇨🇳 台湾 Metro 04
-      - 🇨🇳 台湾 Metro 03
-      - 🇨🇳 台湾 Metro 01
-      - 🇨🇳 台湾 04
-      - 🇸🇬 新加坡 Metro 01
-      - 🇭🇰 香港⑤
-      - 🇭🇰 香港①
-      - 🇨🇳 台湾②
+      - 🇯🇵 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 🇩🇪 德国-广移双线负载均衡 | 解锁流媒体
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 F | 中继 | Prepaid Users
-      - 🇭🇰 香港 B | 中继 | Prepaid Users
-      - 德國 01 | 中继 | Prepaid Users
       - 🇨🇳 台湾 A | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇹🇷 土耳其 01 | 中继 | Prepaid Users
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
