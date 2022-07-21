@@ -5,7 +5,6 @@ mode: Rule
 port: 7890
 proxies:
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|斯洛伐克(SK)Slovakia/Bratislava_1
   name: '[07-21]|oslook|斯洛伐克(SK)Slovakia/Bratislava_1'
   password: TEzjfAYq2IjtuoS
   port: 6697
@@ -13,7 +12,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_2
   name: '[07-21]|oslook|中国台湾(TW)Taiwan/CityOffice_2'
   network: ws
   port: 33792
@@ -26,7 +24,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_3
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_3'
   network: ws
   port: 26104
@@ -40,14 +37,12 @@ proxies:
       host: V104.bgpnet.top
     path: /admin
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_4
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_4'
   password: e0uyakendg7
   port: 30031
   server: x.gotout.work
   type: ss
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_5
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_5'
   password: e0uyakendg7
   port: 30012
@@ -55,7 +50,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/LosAngeles_6
   name: '[07-21]|oslook|美国(US)USA/LosAngeles_6'
   network: ws
   port: 60060
@@ -70,7 +64,6 @@ proxies:
     path: /AY920UMR
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|新加坡(SG)Singapore/Singapore_7
   name: '[07-21]|oslook|新加坡(SG)Singapore/Singapore_7'
   network: ws
   port: 30526
@@ -83,16 +76,14 @@ proxies:
     headers:
       host: v2-2.godlight.xyz
     path: /54f634fs
-- country: mattkaydiary.com|新加坡(SG)Singapore/Singapore_8
-  name: '[07-21]|oslook|新加坡(SG)Singapore/Singapore_8'
+- name: '[07-21]|oslook|新加坡(SG)Singapore/Singapore_8'
   password: 7Z29DRr1ts
   port: 50275
   server: cp-asus.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: mattkaydiary.com|日本(JP)Japan/Osaka_9
-  name: '[07-21]|oslook|日本(JP)Japan/Osaka_9'
+- name: '[07-21]|oslook|日本(JP)Japan/Osaka_9'
   password: c19d1432-8b3e-4818-8837-3d160cf65908
   port: 443
   server: jgwdb2.gaox.ml
@@ -101,7 +92,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_10
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_10'
   network: tcp
   port: 47389
@@ -116,7 +106,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/LosAngeles_11
   name: '[07-21]|oslook|美国(US)USA/LosAngeles_11'
   network: ws
   port: 46983
@@ -129,8 +118,7 @@ proxies:
     headers:
       host: 45.76.71.233
     path: /1tGK82lU/
-- country: mattkaydiary.com|美国(US)USA/Scottsdale_12
-  name: '[07-21]|oslook|美国(US)USA/Scottsdale_12'
+- name: '[07-21]|oslook|美国(US)USA/Scottsdale_12'
   password: e5d46365e25e31d94279c2bcf93390a2
   port: 443
   server: usa-sr-105.mitoption.com
@@ -139,7 +127,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/SanJose_13
   name: '[07-21]|oslook|美国(US)USA/SanJose_13'
   network: tcp
   port: 14564
@@ -154,7 +141,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/PiscatawayTownship_14
   name: '[07-21]|oslook|美国(US)USA/PiscatawayTownship_14'
   network: tcp
   port: 42383
@@ -169,7 +155,6 @@ proxies:
     path: /xrenblog/
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/LosAngeles_15
   name: '[07-21]|oslook|美国(US)USA/LosAngeles_15'
   network: ws
   port: 46983
@@ -180,8 +165,7 @@ proxies:
   uuid: 69099258-1476-46dd-a51b-84e915e941be
   ws-opts:
     path: /1tGK82lU/
-- country: mattkaydiary.com|日本(JP)Japan/Tokyo_16
-  name: '[07-21]|oslook|日本(JP)Japan/Tokyo_16'
+- name: '[07-21]|oslook|日本(JP)Japan/Tokyo_16'
   password: da777aae-defb-41d0-a183-2c27da2b4677
   port: 443
   server: jgwdj3.gaox.ml
@@ -190,7 +174,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_17
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_17'
   network: tcp
   port: 47389
@@ -205,7 +188,6 @@ proxies:
     path: /564dfa20/
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/Clifton_18
   name: '[07-21]|oslook|美国(US)USA/Clifton_18'
   network: ws
   port: 443
@@ -220,7 +202,6 @@ proxies:
     path: /fastssh/3102637493qqcom/626cf7d8bd49b/
 - alterId: 2
   cipher: auto
-  country: mattkaydiary.com|中国香港特别行政区(HK)HongkongSARChina/HongKong_19
   name: '[07-21]|oslook|中国香港特别行政区(HK)HongkongSARChina/HongKong_19'
   network: ws
   port: 443
@@ -235,7 +216,6 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Beijing/小东的程序未能精准识别(可能是中转节点)_20
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Beijing/(可能是中转节点)_20'
   network: tcp
   port: 26309
@@ -250,7 +230,6 @@ proxies:
     path: /admin
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/SanJose_21
   name: '[07-21]|oslook|美国(US)USA/SanJose_21'
   network: tcp
   port: 14564
@@ -265,7 +244,6 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国台湾(TW)Taiwan/CityOffice_22
   name: '[07-21]|oslook|中国台湾(TW)Taiwan/CityOffice_22'
   network: ws
   port: 33792
@@ -280,7 +258,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_23
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_23'
   network: tcp
   port: 26203
@@ -295,7 +272,6 @@ proxies:
     path: /admin
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/SanJose_24
   name: '[07-21]|oslook|美国(US)USA/SanJose_24'
   network: tcp
   port: 14564
@@ -306,8 +282,7 @@ proxies:
   uuid: 4a0da379-a7cc-4389-88d7-45514b896883
   ws-opts:
     path: /
-- country: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_25
-  name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25'
+- name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25'
   password: cfbabf31-2cf6-40ca-9688-abbb682370aa
   port: 32002
   server: cn.speedabc.xyz
@@ -315,24 +290,21 @@ proxies:
   sni: jp-bgp.speedaccelerate.com
   type: trojan
   udp: true
-- country: mattkaydiary.com|印度(IN)India/Hyderabad_26
-  name: '[07-21]|oslook|印度(IN)India/Hyderabad_26'
+- name: '[07-21]|oslook|印度(IN)India/Hyderabad_26'
   password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
   port: 443
   server: jgwhdlb3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: mattkaydiary.com|英国(GB)United+Kiongdom/Slough_27
-  name: '[07-21]|oslook|英国(GB)United+Kiongdom/Slough_27'
+- name: '[07-21]|oslook|英国(GB)United+Kiongdom/Slough_27'
   password: 71b55a84-3fac-4458-abff-eaad79219c91
   port: 443
   server: jgwld3.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-- country: mattkaydiary.com|新加坡(SG)Singapore/Singapore_28
-  name: '[07-21]|oslook|新加坡(SG)Singapore/Singapore_28'
+- name: '[07-21]|oslook|新加坡(SG)Singapore/Singapore_28'
   password: e5d46365e25e31d94279c2bcf93390a2
   port: 443
   server: sg-sr-116.mitoption.com
@@ -341,7 +313,6 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|日本(JP)Japan/Tokyo_29
   name: '[07-21]|oslook|日本(JP)Japan/Tokyo_29'
   network: tcp
   port: 8888
@@ -356,7 +327,6 @@ proxies:
     path: /s/c27821f.fm.icloud.com:16708
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_30
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_30'
   network: tcp
   port: 26203
@@ -368,7 +338,6 @@ proxies:
   ws-opts:
     path: /
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|美国(US)USA/Los+Angeles_31
   name: '[07-21]|oslook|美国(US)USA/Los+Angeles_31'
   password: XKFKl2rULjIp74
   port: 8009
@@ -376,7 +345,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/SanFrancisco_32
   name: '[07-21]|oslook|美国(US)USA/SanFrancisco_32'
   network: ws
   port: 443
@@ -390,7 +358,6 @@ proxies:
       host: yzkoyeb-7595333.koyeb.app
     path: /
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|美国(US)USA/Los+Angeles_33
   name: '[07-21]|oslook|美国(US)USA/Los+Angeles_33'
   password: cdBIDV42DCwnfIN
   port: 8118
@@ -398,7 +365,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/Washington_34
   name: '[07-21]|oslook|美国(US)USA/Washington_34'
   network: ws
   port: 443
@@ -412,7 +378,6 @@ proxies:
       host: 1.ezydfdd.com
     path: /nmsl
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|美国(US)USA/Los+Angeles_35
   name: '[07-21]|oslook|美国(US)USA/Los+Angeles_35'
   password: e4FCWrgpkji3QY
   port: 9101
@@ -420,7 +385,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|美国(US)USA/PiscatawayTownship_36
   name: '[07-21]|oslook|美国(US)USA/PiscatawayTownship_36'
   network: tcp
   port: 42383
@@ -434,7 +398,6 @@ proxies:
       host: 207.246.94.28
     path: /
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)_37
   name: '[07-21]|oslook|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_37'
   password: e0uyakendg7
   port: 30041
@@ -442,7 +405,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  country: mattkaydiary.com|日本(JP)Japan/Tokyo_38
   name: '[07-21]|oslook|日本(JP)Japan/Tokyo_38'
   network: tcp
   port: 8888
@@ -456,28 +418,24 @@ proxies:
       host: 140.238.48.194
     path: /
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|美国(US)USA/Dallas_39
   name: '[07-21]|oslook|美国(US)USA/Dallas_39'
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.68.135.19
   type: ss
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|日本(JP)Japan/Osaka_40
   name: '[07-21]|oslook|日本(JP)Japan/Osaka_40'
   password: Y6R9pAtvxxzmGC
   port: 5601
   server: 158.247.205.87
   type: ss
 - cipher: aes-256-gcm
-  country: mattkaydiary.com|日本(JP)Japan/Osaka_41
   name: '[07-21]|oslook|日本(JP)Japan/Osaka_41'
   password: pKEW8JPByTVTLtM
   port: 443
   server: 158.247.205.87
   type: ss
-- country: mattkaydiary.com|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
-  name: '[07-21]|oslook|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42'
+- name: '[07-21]|oslook|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42'
   password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: ssl.tcpbbr.net
