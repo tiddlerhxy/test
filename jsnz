@@ -5,311 +5,283 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Jsnzkpg, server: 185.172.113.106, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP_03 @WangCai_1, server: 185.172.113.106, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP_09 @WangCai_1, server: 185.172.113.106, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP_05 @WangCai_1, server: 185.172.113.106, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP_11 @WangCai_1, server: 185.172.113.106, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: JP_04 @WangCai_1, server: 185.172.113.106, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: JP_06 @WangCai_1, server: 185.172.113.106, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: JP_12 @WangCai_1, server: 185.172.113.106, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_07 @WangCai_1, server: 185.172.113.106, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: JP_10 @WangCai_1, server: 185.172.113.106, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇭🇰 V1香港A13丨1x, server: sz-cm-kl.hinetwork.tw, port: 11185, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A03丨1x, server: gz-cm-kl.hinetwork.tw, port: 11175, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A17丨1x, server: sz-cm-kl.hinetwork.tw, port: 11189, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A24丨1x, server: sz-cm-kl.hinetwork.tw, port: 11196, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A25丨1x, server: sz-cm-kl.hinetwork.tw, port: 11211, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A27丨1x, server: sz-cm-kl.hinetwork.tw, port: 11213, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A04丨1x, server: gz-cm1-kl.hinetwork.tw, port: 11176, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A20丨1x, server: sz-cm-kl.hinetwork.tw, port: 11192, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A30丨1x, server: sz-cm-kl.hinetwork.tw, port: 11216, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A19丨1x, server: sz-cm-kl.hinetwork.tw, port: 11191, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A23丨1x, server: sz-cm-kl.hinetwork.tw, port: 11195, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V2香港A02丨1x丨流媒体, server: gz-cm1-kl.hinetwork.tw, port: 11174, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A08丨1x, server: sz-cm-kl.hinetwork.tw, port: 11180, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A15丨1x, server: sz-cm-kl.hinetwork.tw, port: 11187, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V1香港A31丨1x, server: sz-cm-kl.hinetwork.tw, port: 11217, type: trojan, password: 258f1db1-a4bc-3cab-ac7b-0ebc681c0580, sni: sz-cm-kl.hinetwork.tw, skip-cert-verify: false, udp: true}
-  - {name: SG_886, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: false, udp: true}
-  - {name: TW_908, server: 2.58.242.43, port: 443, type: trojan, password: 7a9a3bb7-43b4YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false, udp: true}
-  - {name: TW_906, server: tw-oo-01.click, port: 443, type: trojan, password: q8uTrVmj95aTrFAa, skip-cert-verify: false, udp: true}
-  - {name: TW_902, server: mv-tw05.link, port: 443, type: trojan, password: s6rIg1Mkke73fwZU, skip-cert-verify: false, udp: true}
-  - {name: TW_907, server: tw-oo-01.click, port: 443, type: trojan, password: s6rIg1Mkke73fwZU, skip-cert-verify: false, udp: true}
-  - {name: HK_448, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: false, udp: true}
-  - {name: TW_905, server: 2.58.242.43, port: 443, type: trojan, password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT, skip-cert-verify: false, udp: true}
-  - {name: TW_901, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, skip-cert-verify: false, udp: true}
-  - {name: US_1500, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, skip-cert-verify: false, udp: true}
-  - {name: US_1472, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: false, udp: true}
-  - {name: US_1470, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: false, udp: true}
-  - {name: US_1466, server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: false, udp: true}
-  - {name: JP_499, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, skip-cert-verify: false, udp: true}
-  - {name: US_1473, server: share.softbank.mjj-home.com, port: 443, type: trojan, password: share.mjj-home.com, skip-cert-verify: false, udp: true}
-  - {name: JP_512, server: tky3.ssgnode.ga, port: 443, type: trojan, password: 82a115db-6e59-4319-973lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 1e599051-4192-4e19-b7d7-2b772ed32556, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 1e599051-4192-4e19-b7d7-2b772ed32556, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN/56, server: 120.241.236.113, port: 16113, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN/114, server: 120.241.236.218, port: 16246, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN/113, server: 120.241.236.113, port: 16246, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN/115, server: 120.233.150.132, port: 16129, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CN/107, server: 120.233.150.132, port: 16260, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 KR/87, server: 3.36.149.10, port: 56763, type: ss, cipher: chacha20-ietf-poly1305, password: nofifUphu, udp: true}
-  - {name: 🇨🇳 CN/110, server: 120.241.236.113, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP/96, server: 185.172.113.101, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇯🇵 JP/100, server: 185.172.113.106, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇮🇳 IN/8, server: 3.111.242.2, port: 51846, type: ss, cipher: chacha20-ietf-poly1305, password: RekWopdog8, udp: true}
-  - {name: 🇯🇵 JP/70, server: 185.172.113.102, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 🇸🇬 vpnpool-Singapore-OVH-nf_19, server: 120.233.29.168, port: 16227, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 vpnpool-Singapore-OVH-nf_20, server: 120.233.29.168, port: 16229, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-Hanoi-Vinameed-dip_2, server: 120.233.29.168, port: 16256, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_44, server: 120.233.150.132, port: 16213, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 台北PNI-dip_5, server: 120.241.236.113, port: 16215, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: JP_03 @WangCai_1, server: 185.172.113.106, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_09 @WangCai_1, server: 185.172.113.106, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_02 @WangCai_1, server: 185.172.113.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.155.72, port: 443, type: trojan, password: 2774dfc7-6cb9-4802-81ee-306e85089744, sni: download.windowsupdate.lol, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本, server: 20.89.58.96, port: 80, type: vmess, uuid: 396d9ce2-7631-4955-bff9-60db03ce8026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "?ed=2048"}, udp: true}
+  - {name: 🇭🇰 香港, server: 20.255.16.51, port: 80, type: vmess, uuid: 396d9ce2-7631-4955-bff9-60db03ce8026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "?ed=2048"}, udp: true}
+  - {name: 🇨🇳 台湾_TG@nodesharing_86, server: hinet.52147.top, port: 443, type: trojan, password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本_TG@nodesharing_151, server: 185.172.113.101, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本_TG@nodesharing_71, server: 185.172.113.102, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本_TG@nodesharing_153, server: 185.172.113.101, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本_TG@nodesharing_10, server: 20.89.58.96, port: 80, type: vmess, uuid: 396d9ce2-7631-4955-bff9-60db03ce8026, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "?ed=2048"}, udp: true}
+  - {name: 🇯🇵 日本_TG@nodesharing_154, server: 185.172.113.102, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "🇭🇰 HK, New Territories", server: 18.140.1.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇸🇬 SG, Singapore", server: 54.179.88.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇺🇸 US, Houston", server: 3.36.99.11, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇺🇸 US, Dallas 2", server: 3.38.214.27, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇨🇦 CA, Vancouver", server: 52.79.138.77, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇭🇰 HK, Kowloon", server: 13.124.190.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇯🇵 JP, Tokyo 2", server: 3.39.227.103, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "🇰🇷 KR, Incheon", server: 13.209.18.199, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 SG/38, server: 217.197.160.117, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 SG/37, server: 217.197.160.117, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 SG/32, server: 217.197.160.117, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇰🇷 KR/3, server: 13.124.94.224, port: 52870, type: ss, cipher: chacha20-ietf-poly1305, password: eFsB1r#5Nrb2Jbp_U6, udp: true}
+  - {name: 🇸🇬 SG/23, server: 217.197.160.117, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP/74, server: 185.172.113.106, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 SG/40, server: 217.197.160.117, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP/103, server: 185.172.113.102, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 SG/22, server: 217.197.160.117, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 SG/36, server: 217.197.160.117, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP/85, server: 185.172.113.106, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 SG/42, server: 217.197.160.117, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇭🇰 HK/112, server: 73hk02.ok365.cyou, port: 12399, type: trojan, password: 4b0a60e7-4975-43e8-b9b0-1d156ce98693, sni: 73hk02.ok365.cyou, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP/84, server: 185.172.113.101, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇸🇬 SG/30, server: 217.197.160.117, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP/93, server: 185.172.113.106, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇮🇳 IN/15, server: 3.111.242.2, port: 51846, type: ss, cipher: chacha20-ietf-poly1305, password: RekWopdog8, udp: true}
+  - {name: 🇯🇵 JP/68, server: 185.172.113.102, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇮🇳 IN/19, server: 65.0.246.144, port: 50800, type: ss, cipher: chacha20-ietf-poly1305, password: i1)l6p$pp72cg4xQau, udp: true}
+  - {name: 🇯🇵 JP/69, server: 185.172.113.106, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 JP/81, server: 185.172.113.102, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇺🇸 US/2, server: 178.157.62.49, port: 50500, type: trojan, password: c5d997fe-cde6-463c-a671-a296b47289a6, sni: jp.bw5.hyperlinkvpn.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 深圳移动-香港-iepl@vpnpool_1, server: 120.233.7.221, port: 18002, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 vpnpool-Tokyo-Oracle-nf_1, server: 120.233.150.132, port: 16119, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_11, server: 120.241.236.215, port: 16112, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: vpnpool-台北PNI-dip_43, server: 120.233.150.132, port: 16111, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_37, server: 120.241.236.218, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_46, server: 120.233.150.132, port: 16244, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 vpnpool-Singapore-OVH-nf_5, server: 120.241.236.113, port: 16228, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_38, server: 120.241.236.218, port: 16215, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 vpnpool-彰化Hinet-dip_4, server: 120.233.150.132, port: 16133, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_15, server: 120.241.236.215, port: 16214, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_23, server: 120.241.236.216, port: 16112, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 vpnpool-彰化Hinet-dip_7, server: 120.233.150.132, port: 16226, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_24, server: 120.241.236.216, port: 16113, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: vpnpool-台北PNI-dip_31, server: 120.241.236.216, port: 16245, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 [直连]新加坡 03", server: supersouth.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 [直连]新加坡 02", server: supersouth.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_34, server: 120.241.236.218, port: 16112, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_22, server: 120.241.236.216, port: 16111, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_2, server: 120.241.236.113, port: 16113, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 深圳移动-台湾-iepl@vpnpool_3, server: 120.233.7.221, port: 32003, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 vpnpool-Singapore-OVH-nf_7, server: 120.241.236.215, port: 16107, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_10, server: 120.241.236.215, port: 16111, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 深圳移动-台湾-iepl@vpnpool_1, server: 120.233.7.221, port: 18004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_35, server: 120.241.236.218, port: 16113, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_13, server: 120.241.236.215, port: 16114, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 北京移动-台湾@vpnpool_1, server: 36.139.115.52, port: 11204, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: vpnpool-台北PNI-dip_25, server: 120.241.236.216, port: 16114, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: YouTube梦歌|Netflix_9, server: 20.78.82.163, port: 443, type: trojan, password: 99a7f6f0-38a9-4739-b5b9-5f1c93a557b7, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: YouTube梦歌|Netflix_26, server: gzyd1.52147.top, port: 30070, type: trojan, password: 99a7f6f0-38a9-4739-b5b9-5f1c93a557b7, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: YouTube梦歌|Netflix_2, server: hnyd.52147.top, port: 30160, type: trojan, password: 99a7f6f0-38a9-4739-b5b9-5f1c93a557b7, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: YouTube梦歌|Netflix_21, server: 20.191.187.243, port: 443, type: trojan, password: 99a7f6f0-38a9-4739-b5b9-5f1c93a557b7, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -328,344 +300,302 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -681,78 +611,71 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Jsnzkpg
-      - JP_03 @WangCai_1
-      - JP_09 @WangCai_1
-      - JP_05 @WangCai_1
-      - JP_11 @WangCai_1
       - JP_04 @WangCai_1
       - JP_06 @WangCai_1
-      - JP_12 @WangCai_1
+      - JP_07 @WangCai_1
       - JP_10 @WangCai_1
-      - 🇭🇰 V1香港A13丨1x
-      - 🇭🇰 V1香港A03丨1x
-      - 🇭🇰 V1香港A17丨1x
-      - 🇭🇰 V1香港A24丨1x
-      - 🇭🇰 V1香港A25丨1x
-      - 🇭🇰 V1香港A27丨1x
-      - 🇭🇰 V1香港A04丨1x
-      - 🇭🇰 V1香港A20丨1x
-      - 🇭🇰 V1香港A30丨1x
-      - 🇭🇰 V1香港A19丨1x
-      - 🇭🇰 V1香港A23丨1x
-      - 🇭🇰 V2香港A02丨1x丨流媒体
-      - 🇭🇰 V1香港A08丨1x
-      - 🇭🇰 V1香港A15丨1x
-      - 🇭🇰 V1香港A31丨1x
-      - SG_886
-      - TW_908
-      - TW_906
-      - TW_902
-      - TW_907
-      - HK_448
-      - TW_905
-      - TW_901
-      - US_1500
-      - US_1472
-      - US_1470
-      - US_1466
-      - JP_499
-      - US_1473
-      - JP_512
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇨🇳 CN/56
-      - 🇨🇳 CN/114
-      - 🇨🇳 CN/113
-      - 🇨🇳 CN/115
-      - 🇨🇳 CN/107
-      - 🇰🇷 KR/87
-      - 🇨🇳 CN/110
-      - 🇯🇵 JP/96
-      - 🇯🇵 JP/100
-      - 🇮🇳 IN/8
-      - 🇯🇵 JP/70
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_19
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_20
-      - vpnpool-Hanoi-Vinameed-dip_2
-      - vpnpool-台北PNI-dip_44
-      - 台北PNI-dip_5
+      - JP_03 @WangCai_1
+      - JP_09 @WangCai_1
+      - JP_02 @WangCai_1
+      - 🇻🇳 越南-1号
+      - 🇯🇵 日本
+      - 🇭🇰 香港
+      - 🇨🇳 台湾_TG@nodesharing_86
+      - 🇯🇵 日本_TG@nodesharing_151
+      - 🇯🇵 日本_TG@nodesharing_71
+      - 🇯🇵 日本_TG@nodesharing_153
+      - 🇯🇵 日本_TG@nodesharing_10
+      - 🇯🇵 日本_TG@nodesharing_154
+      - 🇭🇰 HK, New Territories
+      - 🇸🇬 SG, Singapore
+      - 🇺🇸 US, Houston
+      - 🇺🇸 US, Dallas 2
+      - 🇨🇦 CA, Vancouver
+      - 🇭🇰 HK, Kowloon
+      - 🇯🇵 JP, Tokyo 2
+      - 🇰🇷 KR, Incheon
+      - 🇸🇬 SG/38
+      - 🇸🇬 SG/37
+      - 🇸🇬 SG/32
+      - 🇰🇷 KR/3
+      - 🇸🇬 SG/23
+      - 🇯🇵 JP/74
+      - 🇸🇬 SG/40
+      - 🇯🇵 JP/103
+      - 🇸🇬 SG/22
+      - 🇸🇬 SG/36
+      - 🇯🇵 JP/85
+      - 🇸🇬 SG/42
+      - 🇭🇰 HK/112
+      - 🇯🇵 JP/84
+      - 🇸🇬 SG/30
+      - 🇯🇵 JP/93
+      - 🇮🇳 IN/15
+      - 🇯🇵 JP/68
+      - 🇮🇳 IN/19
+      - 🇯🇵 JP/69
+      - 🇯🇵 JP/81
+      - 🇺🇸 US/2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇯🇵 vpnpool-Tokyo-Oracle-nf_1
+      - vpnpool-台北PNI-dip_11
       - vpnpool-台北PNI-dip_43
-      - vpnpool-台北PNI-dip_37
-      - vpnpool-台北PNI-dip_46
-      - 🇸🇬 vpnpool-Singapore-OVH-nf_5
-      - vpnpool-台北PNI-dip_38
-      - 🇨🇳 vpnpool-彰化Hinet-dip_4
-      - vpnpool-台北PNI-dip_15
-      - vpnpool-台北PNI-dip_23
-      - 🇨🇳 vpnpool-彰化Hinet-dip_7
-      - vpnpool-台北PNI-dip_24
-      - vpnpool-台北PNI-dip_31
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇸🇬 [直连]新加坡 03
-      - 🇸🇬 [直连]新加坡 02
+      - vpnpool-台北PNI-dip_34
+      - vpnpool-台北PNI-dip_22
+      - vpnpool-台北PNI-dip_2
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇸🇬 vpnpool-Singapore-OVH-nf_7
+      - vpnpool-台北PNI-dip_10
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_1
+      - vpnpool-台北PNI-dip_35
+      - vpnpool-台北PNI-dip_13
+      - 🇨🇳 北京移动-台湾@vpnpool_1
+      - vpnpool-台北PNI-dip_25
+      - YouTube梦歌|Netflix_9
+      - YouTube梦歌|Netflix_26
+      - YouTube梦歌|Netflix_2
+      - YouTube梦歌|Netflix_21
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
