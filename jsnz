@@ -5,355 +5,463 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 444, server: 18.142.180.184, port: 80, type: vmess, uuid: 9341cd63-f637-410b-a169-b5a1ef11c0ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 0, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 00, server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: uDTmEAGwuCUZXZvwhWJk, skip-cert-verify: false, udp: true}
+  - {name: 000, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: false, udp: true}
+  - {name: 0000, server: 20.214.203.221, port: 80, type: vmess, uuid: e4d70d1b-1bd0-456b-be49-df0aa59399b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 00000, server: 20.249.23.59, port: 80, type: vmess, uuid: 18a28d40-fb08-942f-a220-01a34c1d608d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 000000, server: 20.196.201.209, port: 80, type: vmess, uuid: 8b7a3be5-a6b8-45de-b51d-44301f2ef081, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 1111, server: 45.33.61.143, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 222, server: 172.104.63.112, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 555, server: 141.94.141.20, port: 80, type: vmess, uuid: 9341cd63-f637-410b-a169-b5a1ef11c0ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 333, server: 170.187.182.64, port: 443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 草蜥国1, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wszjjmmydk4y.sina.cn}, udp: true}
-  - {name: 袋鼠国3, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wszrkmmydk4y.sina.cn}, udp: true}
-  - {name: 袋鼠国5, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wszzummydk4y.sina.cn}, udp: true}
-  - {name: "🇭🇰 Lv3 香港 09 [2.0]", server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: "🇭🇰 Lv3 香港 02 [3.0]", server: debian10.domainsv3.com, port: 8002, type: ss, cipher: chacha20-ietf-poly1305, password: b725df014956e837936b4fa5dbf88f04, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: "🇭🇰 Lv3 香港 06 [3.0]", server: debian10.updatensv3.com, port: 8015, type: ss, cipher: chacha20-ietf-poly1305, password: d6fa3a869c3a4a3edb8416e36a59e4aa, plugin: obfs, plugin-opts: {mode: http, host: 924af1d4735e.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港 B, server: 47.242.93.89, port: 8088, type: vmess, uuid: cb8a1ab2-7ebb-3ec8-90de-c0df1e0b66ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22download.windowsupdate.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 香港_TG@nodesharing_30, server: 00000000000000000000000000000000000000000000000000000000000031a.rui77.com, port: 12356, type: vmess, uuid: d35280d3-731c-4f2b-b6df-323aaa07f1a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡_TG@nodesharing_47, server: 00000000000000000000000000000000000000000000000000000000000036a.rui77.com, port: 12356, type: vmess, uuid: d35280d3-731c-4f2b-b6df-323aaa07f1a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国_TG@nodesharing_100, server: 00000000000000000000000000000000000000000000000000000000000027a.rui77.com, port: 52356, type: vmess, uuid: d35280d3-731c-4f2b-b6df-323aaa07f1a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本_TG@nodesharing_79, server: 00000000000000000000000000000000000000000000000000000000000023a.rui77.com, port: 52356, type: vmess, uuid: d35280d3-731c-4f2b-b6df-323aaa07f1a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡B01|IDC|, server: 14.119.87.189, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 2338203e-7b1a-4e03-8684-31075b9eb66c, udp: true}
-  - {name: 🇸🇬 Lv3 新加坡 02 IPLC, server: linux.nameserversv3.com, port: 9203, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: "🇸🇬 Lv3 新加坡 04 [2.0]", server: linux.nameserversv3.com, port: 9206, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 🇯🇵 日本A01|IDC|, server: 116.63.103.11, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 2338203e-7b1a-4e03-8684-31075b9eb66c, udp: true}
-  - {name: "🇭🇰 [主力]移动2→香港gc", server: cm2.baidu.gbnodex.com, port: 18000, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: A01| 原生解锁, server: 116.63.103.11, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 2338203e-7b1a-4e03-8684-31075b9eb66c, udp: true}
-  - {name: "🇨🇳 [主力][Netflix]移动1→台湾", server: cm1.qqcdnxb.com, port: 17000, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 Lv3 美国 02 IPLC, server: sadfsn.domainsv3.com, port: 9403, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: "🏳️‍🌈 [大流量]联通→日本s", server: hncu.qq.gbnodex.com, port: 18000, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 Lv3 美国 03 IPLC, server: uiug.expirationv3.com, port: 9405, type: ss, cipher: aes-256-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 🇭🇰 香港B01|原生解锁, server: 14.119.87.189, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: 2338203e-7b1a-4e03-8684-31075b9eb66c, udp: true}
-  - {name: 🇭🇰 香港B01|IDC|解锁, server: 14.119.87.189, port: 45239, type: vmess, uuid: 2338203e-7b1a-4e03-8684-31075b9eb66c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇸🇬 新加坡|X1, server: n24.emovpn.xyz, port: 1275, type: ss, cipher: chacha20-ietf-poly1305, password: ddd420d6-a1c5-445f-aa13-1ac9c3f7827b, udp: true}
-  - {name: 🇵🇭 菲律宾B01|IDC, server: 14.119.87.189, port: 25019, type: ss, cipher: chacha20-ietf-poly1305, password: 2338203e-7b1a-4e03-8684-31075b9eb66c, udp: true}
-  - {name: 🇯🇵 日本A01|IDC|解锁_2, server: 116.63.103.11, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: 2338203e-7b1a-4e03-8684-31075b9eb66c, udp: true}
-  - {name: 🇸🇬 新加坡B01|IDC|解锁_2, server: 14.119.87.189, port: 45144, type: ss, cipher: chacha20-ietf-poly1305, password: 2338203e-7b1a-4e03-8684-31075b9eb66c, udp: true}
-  - {name: 🇭🇰 香港01【SS】「1x」, server: hk.v2gyy.top, port: 26001, type: ss, cipher: chacha20-ietf-poly1305, password: e2892d66-7e9f-4e4b-93f1-0e488f406adf, udp: true}
-  - {name: 🇭🇰 香港04（流媒体解锁）【SS】「2x」, server: media.v2gyy.top, port: 62008, type: ss, cipher: chacha20-ietf-poly1305, password: e2892d66-7e9f-4e4b-93f1-0e488f406adf, udp: true}
-  - {name: 🇭🇰 香港01（流媒体解锁）【SS】「2x」, server: media.v2gyy.top, port: 62001, type: ss, cipher: chacha20-ietf-poly1305, password: e2892d66-7e9f-4e4b-93f1-0e488f406adf, udp: true}
-  - {name: 🇭🇰 香港03（流媒体解锁）【SS】「2x」, server: media.v2gyy.top, port: 62007, type: ss, cipher: chacha20-ietf-poly1305, password: e2892d66-7e9f-4e4b-93f1-0e488f406adf, udp: true}
-  - {name: 🇸🇬 新加坡03【SS】「1x」, server: sg.v2gyy.top, port: 43993, type: ss, cipher: chacha20-ietf-poly1305, password: e2892d66-7e9f-4e4b-93f1-0e488f406adf, udp: true}
-  - {name: 🇸🇬 新加坡02【SS】「1x」, server: sg.v2gyy.top, port: 43992, type: ss, cipher: chacha20-ietf-poly1305, password: e2892d66-7e9f-4e4b-93f1-0e488f406adf, udp: true}
-  - {name: 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 30150, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 48a4133a-250c-4637-a37e-3bb093392f8d, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 48a4133a-250c-4637-a37e-3bb093392f8d, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: 48a4133a-250c-4637-a37e-3bb093392f8d, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 48a4133a-250c-4637-a37e-3bb093392f8d, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: 48a4133a-250c-4637-a37e-3bb093392f8d, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 48a4133a-250c-4637-a37e-3bb093392f8d, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡免流003, server: sg5.elkcloud.cf, port: 80, type: vmess, uuid: 568c77a9-464b-3d90-8aca-75e30e221b57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 30010, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 东京tcp, server: 168.138.193.140, port: 40746, type: vmess, uuid: d3cd3663-52b4-43e9-d1c0-3904034ac627, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: hkt.52147.top, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南1G-1号 | 解锁流媒体, server: 103.195.236.24, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港HKT-河移(中转) | 解锁流媒体, server: hnyd.52147.top, port: 30180, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 v1|美国03|MPTCP|★★★, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wszjemmydk4y.sina.cn}, udp: true}
-  - {name: 🇺🇸 v1|美国02|MPTCP|★★★, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wsyjummydk4y.sina.cn}, udp: true}
-  - {name: 🇺🇸 v1|美国01|原生|★★★, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wszjnmmydk4y.sina.cn}, udp: true}
-  - {name: 🇭🇰 v1|香港05|MPTCP|★★★, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wszrtmmydk4y.sina.cn}, udp: true}
-  - {name: 🇸🇬 v1|新加坡03|原生|★★☆, server: 221.131.165.151, port: 38090, type: ss, cipher: aes-128-gcm, password: 4d97ca51dadd, plugin: obfs, plugin-opts: {mode: http, host: uhaxcsld5cb4wszjzmmydk4y.sina.cn}, udp: true}
-  - {name: HK_159, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: false, udp: true}
-  - {name: HK_158, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 东京-80 3Gbps, server: 168.138.194.241, port: 80, type: vmess, uuid: 0c601fd9-2d43-4a2e-8d90-58a4438d0c01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 东京80, server: 155.248.166.198, port: 80, type: vmess, uuid: 9dff28b7-a986-4527-fe59-034df1705b2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 东京tcp, server: 155.248.166.198, port: 40746, type: vmess, uuid: d3cd3663-52b4-43e9-d1c0-3904034ac627, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 首尔tcp节点, server: 146.56.167.171, port: 35983, type: vmess, uuid: 89f44ea6-648e-464f-a3de-73b15ec31fa7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 首尔ws协议/防dns污染, server: 146.56.167.171, port: 33892, type: vmess, uuid: d52c1079-b138-4153-c49f-55883dd30bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 东京ws, server: 168.138.193.140, port: 10562, type: vmess, uuid: 02140cf3-8470-4b3d-e4a8-8d40fc2f7867, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体, server: gzyd2.52147.top, port: 30010, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 东京2-80, server: 138.2.22.167, port: 80, type: vmess, uuid: ab607826-c62c-44e3-bd74-8fb2657e5edf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 TJ-HK-ALI-8, server: mtahk8.agood.email, port: 993, type: trojan, password: 013FA557-18BB-ED5A-664C-B657A578326D, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 TJ-HK-ALI-3, server: mtahk3.agood.email, port: 993, type: trojan, password: 013FA557-18BB-ED5A-664C-B657A578326D, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 TJ-HK-ALI-4, server: mtahk4.agood.email, port: 993, type: trojan, password: 013FA557-18BB-ED5A-664C-B657A578326D, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 TJ-TW-HiNet-5, server: mtatw5.agood.email, port: 993, type: trojan, password: 013FA557-18BB-ED5A-664C-B657A578326D, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 TJ-HK-ALI-1, server: mtahk1.agood.email, port: 993, type: trojan, password: 013FA557-18BB-ED5A-664C-B657A578326D, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [v3] 香港・08", server: yd-04.paofunlink.com, port: 5987, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v3] 香港・02", server: yd-04.paofunlink.com, port: 5981, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v3] 香港・07", server: yd-04.paofunlink.com, port: 5986, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・04", server: yd-01.paofunlink.com, port: 5983, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・09", server: yd-01.paofunlink.com, port: 5988, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v3] 香港・10", server: yd-04.paofunlink.com, port: 5989, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v3] 香港・06", server: yd-04.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・08", server: yd-01.paofunlink.com, port: 5987, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・05", server: yd-02.paofunlink.com, port: 1194, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・02", server: yd-01.paofunlink.com, port: 5981, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・03", server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・06", server: yd-01.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・04", server: yd-02.paofunlink.com, port: 1193, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [v3] 新加坡・02", server: yd-03.paofunlink.com, port: 1196, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [v3] 新加坡・04", server: yd-03.paofunlink.com, port: 1198, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・02", server: yd-02.paofunlink.com, port: 1191, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・05", server: yd-01.paofunlink.com, port: 5984, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v1] 香港・10", server: yd-01.paofunlink.com, port: 5989, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v3] 香港・03", server: yd-04.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・01", server: yd-02.paofunlink.com, port: 1190, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [v3] 新加坡・01", server: yd-03.paofunlink.com, port: 1195, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: "🇭🇰 [v3] 香港・05", server: yd-04.paofunlink.com, port: 5984, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: ce568107841.microsoft.com}, udp: true}
+  - {name: HK_106, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: false, udp: true}
+  - {name: HK_107, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, skip-cert-verify: false, udp: true}
+  - {name: cm2.baidu.gbnodex.com:19111, server: cm2.baidu.gbnodex.com, port: 19111, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: cm2.baidu.gbnodex.com:17000, server: cm2.baidu.gbnodex.com, port: 17000, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: cm2.baidu.gbnodex.com:19011, server: cm2.baidu.gbnodex.com, port: 19011, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: cm2.baidu.gbnodex.com:17001, server: cm2.baidu.gbnodex.com, port: 17001, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 A, server: 47.243.104.105, port: 8090, type: vmess, uuid: cb8a1ab2-7ebb-3ec8-90de-c0df1e0b66ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: "%7B%22Host%22:%22download.windowsupdate.com%22%7D"}}, udp: true}
+  - {name: "🇮🇳 [Netflix]移动2→印度", server: cm2.baidu.gbnodex.com, port: 19017, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇰🇷 [Netflix]移动2→韩国cc", server: cm2.baidu.gbnodex.com, port: 19111, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 [均衡]联通→美国1", server: hncu.qq.gbnodex.com, port: 19079, type: vmess, uuid: bb26aee4-5f72-4996-8ade-3f883f93d4df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡|X1, server: n24.emovpn.xyz, port: 1275, type: ss, cipher: chacha20-ietf-poly1305, password: ddd420d6-a1c5-445f-aa13-1ac9c3f7827b, udp: true}
+  - {name: 🇸🇬 新加坡_2, server: sg1.crunode.top, port: 1200, type: trojan, password: f0521113-222b-3cf3-996a-d2f362b9f970, sni: sg1.crunode.top, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡_1, server: sg1.nodegz.top, port: 1400, type: trojan, password: f0521113-222b-3cf3-996a-d2f362b9f970, sni: sg1.nodegz.top, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇭 柬埔寨, server: kh1.nodegz.top, port: 443, type: trojan, password: f0521113-222b-3cf3-996a-d2f362b9f970, sni: kh1.nodegz.top, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 E | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wtt, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇭🇰 香港 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hk1, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇭🇰 香港 D | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hgc, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇭🇰 香港 B | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hk2, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇮🇳 印度 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /in, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇰🇷 韓國 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /kr, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇯🇵 东京80, server: 168.138.193.140, port: 80, type: vmess, uuid: 9dff28b7-a986-4527-fe59-034df1705b2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 东京-80 3Gbps, server: 138.2.25.235, port: 80, type: vmess, uuid: 0c601fd9-2d43-4a2e-8d90-58a4438d0c01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 东京ws|防dns暴毙, server: 138.2.25.235, port: 54421, type: vmess, uuid: b3f4d3da-059a-43cd-90e6-023a49757ec6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 首尔大带宽80端口, server: 146.56.167.171, port: 80, type: vmess, uuid: df802c71-9ae8-41cd-f77f-6285db8aac24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 东京-tcp 3Gbps, server: 168.138.194.241, port: 25201, type: vmess, uuid: 0f772cda-91f1-4f19-e859-86f5b80a844b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 东京2-80, server: 138.2.21.63, port: 80, type: vmess, uuid: ab607826-c62c-44e3-bd74-8fb2657e5edf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 东京ws, server: 155.248.166.198, port: 10562, type: vmess, uuid: 02140cf3-8470-4b3d-e4a8-8d40fc2f7867, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇯🇵 东京-tcp 3Gbps, server: 138.2.25.235, port: 25201, type: vmess, uuid: 0f772cda-91f1-4f19-e859-86f5b80a844b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 首尔-免流80, server: 146.56.161.42, port: 80, type: vmess, uuid: 34de61ad-66d1-410e-b7ad-c1bafc69e8ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 首尔小水管, server: 146.56.161.42, port: 27926, type: vmess, uuid: 21ae8edc-eaa0-4155-f988-f80fecf22d80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 东京ws 2, server: 168.138.193.140, port: 10562, type: vmess, uuid: 02140cf3-8470-4b3d-e4a8-8d40fc2f7867, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 付费用户请联系群主！！, server: HK-02.Standard.KuaiLian-Node.cyou, port: 13154, type: ss, cipher: aes-256-gcm, password: 69d5a067-94fc-4a51-b218-4210fdd31592, udp: true}
   - {name: 🇻🇳 -越南---85, server: 103.173.155.72, port: 443, type: trojan, password: 68e5d5f2-878f-4887-884f-2c51e7021f19, sni: download.windowsupdate.lol, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 -台湾---43, server: hinet2.52147.top, port: 28443, type: trojan, password: 68e5d5f2-878f-4887-884f-2c51e7021f19, sni: download.windowsupdate.lol, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 -香港---79, server: 210.0.158.220, port: 28443, type: trojan, password: 68e5d5f2-878f-4887-884f-2c51e7021f19, sni: download.windowsupdate.lol, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 US LAX CTG 01 TR(trojan), server: us-lax-ctg-01-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HK HKG IT2 SVM TR(trojan), server: hk-hkg-it2-svm-tr.node.inforun.work, port: 13889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 TW TPE H TR(trojan), server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HK HKG SH-HK 02 TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 SG SIN KRN TR(trojan), server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JP, Tokyo", server: 13.124.29.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇭🇰 HK HKG GZ.HK HKT TR A(trojan), server: hk-hkg-gz-hk-hkt-v2.node.inforun.work, port: 60089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP TYO 04 TR(trojan), server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK HKG GZ.HK HKT TR B(trojan), server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 US, California", server: 199.115.228.30, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
-  - {name: 🇨🇳 花莲Hinet-dip@vpnpool, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 上海移动-香港@vpnpool_1, server: 36.138.178.22, port: 13001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 上海移动-台湾@vpnpool_1, server: 36.138.178.22, port: 13004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 上海移动-香港@vpnpool_3, server: 36.138.178.22, port: 13003, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 深圳移动-US-iepl@vpnpool_2, server: 120.233.7.221, port: 18007, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 深圳移动-香港-iepl@vpnpool_1, server: 120.233.7.221, port: 18002, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 深圳移动-香港-iepl@vpnpool_3, server: 120.233.7.221, port: 32002, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 深圳移动-台湾-iepl@vpnpool_2, server: 120.233.7.221, port: 18005, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 上海移动-台湾@vpnpool_2, server: 36.138.178.22, port: 13005, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11345, server: h63956.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11445, server: h63956.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 深圳移动-US-iepl@vpnpool_3, server: 120.233.7.221, port: 32006, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 上海移动-台湾@vpnpool_1, server: 36.138.178.22, port: 13004, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11345, server: h63956.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11545, server: h961359.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11245, server: h63956.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11245, server: h961359.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11445, server: h63956.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -372,382 +480,501 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇭🇰 [主力]移动2→香港gc
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港HKT | 解锁流媒体
       - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇨🇳 -台湾---43
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇭🇰 [v3] 香港・05
+      - 🇭🇰 香港 A
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
       - 🇭🇰 -香港---79
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -763,89 +990,116 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 444
+      - 0
+      - 00
+      - 000
+      - 0000
+      - 00000
+      - 000000
+      - 1111
       - 222
-      - 555
       - 333
-      - 草蜥国1
-      - 袋鼠国3
-      - 袋鼠国5
-      - 🇭🇰 Lv3 香港 09 [2.0]
-      - 🇭🇰 Lv3 香港 02 [3.0]
-      - 🇭🇰 Lv3 香港 06 [3.0]
-      - 🇭🇰 香港 B
-      - 🇭🇰 香港_TG@nodesharing_30
-      - 🇸🇬 新加坡_TG@nodesharing_47
-      - 🇰🇷 韩国_TG@nodesharing_100
-      - 🇯🇵 日本_TG@nodesharing_79
-      - 🇸🇬 新加坡B01|IDC|
-      - 🇸🇬 Lv3 新加坡 02 IPLC
-      - 🇸🇬 Lv3 新加坡 04 [2.0]
-      - 🇯🇵 日本A01|IDC|
-      - 🇭🇰 [主力]移动2→香港gc
-      - A01| 原生解锁
-      - 🇨🇳 [主力][Netflix]移动1→台湾
-      - 🇺🇸 Lv3 美国 02 IPLC
-      - 🏳️‍🌈 [大流量]联通→日本s
-      - 🇺🇸 Lv3 美国 03 IPLC
-      - 🇭🇰 香港B01|原生解锁
-      - 🇭🇰 香港B01|IDC|解锁
-      - 🇸🇬 新加坡|X1
-      - 🇵🇭 菲律宾B01|IDC
-      - 🇯🇵 日本A01|IDC|解锁_2
-      - 🇸🇬 新加坡B01|IDC|解锁_2
-      - 🇭🇰 香港01【SS】「1x」
-      - 🇭🇰 香港04（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港01（流媒体解锁）【SS】「2x」
-      - 🇭🇰 香港03（流媒体解锁）【SS】「2x」
-      - 🇸🇬 新加坡03【SS】「1x」
-      - 🇸🇬 新加坡02【SS】「1x」
-      - 🇨🇳 台湾Hinet2-广移2负载均衡(中转) | 解锁流媒体
-      - 🇻🇳 越南-1号
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡免流003
+      - 🇻🇳 越南-3号
       - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
-      - 🇺🇸 v1|美国03|MPTCP|★★★
-      - 🇺🇸 v1|美国02|MPTCP|★★★
-      - 🇺🇸 v1|美国01|原生|★★★
-      - 🇭🇰 v1|香港05|MPTCP|★★★
-      - 🇸🇬 v1|新加坡03|原生|★★☆
-      - HK_159
-      - HK_158
-      - 🇯🇵 东京-80 3Gbps
-      - 🇯🇵 东京80
+      - 🇻🇳 越南-1号
       - 🇯🇵 东京tcp
-      - 🇰🇷 首尔tcp节点
-      - 🇰🇷 首尔ws协议/防dns污染
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇻🇳 越南1G-1号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港HKT-河移(中转) | 解锁流媒体
+      - 🇯🇵 东京ws
+      - 🇨🇳 台湾Hinet～广州移动2(中转) | 解锁流媒体
+      - 🇯🇵 东京2-80
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 TJ-HK-ALI-8
+      - 🇭🇰 TJ-HK-ALI-3
+      - 🇭🇰 TJ-HK-ALI-4
+      - 🇨🇳 TJ-TW-HiNet-5
+      - 🇭🇰 TJ-HK-ALI-1
+      - 🇭🇰 [v3] 香港・08
+      - 🇭🇰 [v3] 香港・02
+      - 🇭🇰 [v3] 香港・07
+      - 🇭🇰 [v1] 香港・04
+      - 🇭🇰 [v1] 香港・09
+      - 🇭🇰 [v3] 香港・10
+      - 🇭🇰 [v3] 香港・06
+      - 🇭🇰 [v1] 香港・08
+      - 🇸🇬 [v1] 新加坡・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇭🇰 [v1] 香港・03
+      - 🇭🇰 [v1] 香港・06
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・02
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・10
+      - 🇭🇰 [v3] 香港・03
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v3] 新加坡・01
+      - 🇭🇰 [v3] 香港・05
+      - HK_106
+      - HK_107
+      - cm2.baidu.gbnodex.com:19111
+      - cm2.baidu.gbnodex.com:17000
+      - cm2.baidu.gbnodex.com:19011
+      - cm2.baidu.gbnodex.com:17001
+      - 🇭🇰 香港 A
+      - 🇮🇳 [Netflix]移动2→印度
+      - 🇰🇷 [Netflix]移动2→韩国cc
+      - 🇺🇸 [均衡]联通→美国1
+      - 🇸🇬 新加坡|X1
+      - 🇸🇬 新加坡_2
+      - 🇸🇬 新加坡_1
+      - 🇰🇭 柬埔寨
+      - 🇭🇰 香港 E | 中继 | Prepaid Users
+      - 🇭🇰 香港 A | 中继 | Prepaid Users
+      - 🇭🇰 香港 D | 中继 | Prepaid Users
+      - 🇭🇰 香港 B | 中继 | Prepaid Users
+      - 🇮🇳 印度 A | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - 🇯🇵 东京80
+      - 🇯🇵 东京-80 3Gbps
+      - 🇯🇵 东京ws|防dns暴毙
       - 🇰🇷 首尔大带宽80端口
       - 🇯🇵 东京-tcp 3Gbps
-      - 🇯🇵 东京2-80
-      - 🇯🇵 东京ws
+      - 🇰🇷 首尔-免流80
+      - 🇰🇷 首尔小水管
+      - 🇯🇵 东京ws 2
+      - 付费用户请联系群主！！
       - 🇻🇳 -越南---85
-      - 🇨🇳 -台湾---43
       - 🇭🇰 -香港---79
       - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
       - 🇨🇳 TW TPE H TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇯🇵 JP, Tokyo
+      - 🇭🇰 HK HKG GZ.HK HKT TR A(trojan)
+      - 🇯🇵 JP TYO 04 TR(trojan)
+      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
       - 🇺🇸 US, California
-      - 🇨🇳 花莲Hinet-dip@vpnpool
-      - 🇭🇰 上海移动-香港@vpnpool_1
-      - 🇨🇳 上海移动-台湾@vpnpool_1
-      - 🇭🇰 上海移动-香港@vpnpool_3
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_2
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_1
+      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
+      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
       - 🇨🇳 上海移动-台湾@vpnpool_2
-      - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
+      - 🇨🇳 上海移动-台湾@vpnpool_1
       - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
       - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11445
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
