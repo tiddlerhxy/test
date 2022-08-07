@@ -5,283 +5,271 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇭🇰 [CT/CM]香港 02", server: cmonline02.duraker.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: "🇭🇰 [CT/CM]香港 13", server: cmonline02.duraker.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: "🇭🇰 [CT/CM]香港 10", server: zggdzj03.tttflix.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: "🇭🇰 [CT/CM]香港 09", server: cngzcm.duraker.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: "🇭🇰 [CT/CM]香港 06", server: gdzjhk01.tttflix.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 35195:123510, obfs-param: "", udp: true}
-  - {name: 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR, server: mhfv46.cdn.node.a.ddns-ounk.xyz, port: 40257, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
-  - {name: 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR, server: pg57.cdn.node.a.ddns-ounk.xyz, port: 40304, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
-  - {name: 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR, server: pg57.cdn.node.a.ddns-ounk.xyz, port: 40329, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
-  - {name: 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR, server: pg57.cdn.node.a.ddns-ounk.xyz, port: 40120, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
-  - {name: 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR, server: pg57.cdn.node.a.ddns-ounk.xyz, port: 40203, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 50001:HJAFGE, obfs-param: fa02750001.microsoft.com, udp: true}
+  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: 64df808e-9fd3-4eb0-afe8-7a800984d321, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 C | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hk3, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇨🇳 台湾 C | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tw3, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: 🇰🇷 韓國 A | 中继 | Prepaid Users, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /kr, headers: {Host: freewaytunnel.dev}}, udp: true}
+  - {name: h63956.strongpipe.live:11545, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h517439.strongpipe.live:11543, server: h517439.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.strongpipe.live:11544, server: h63956.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h192837.strongpipe.live:11543, server: h192837.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h890361.strongpipe.live:11544, server: h890361.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h192837.strongpipe.live:11544, server: h192837.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h890361.strongpipe.live:11545, server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.strongpipe.live:11543, server: h63956.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20783, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本2-80|×2, server: rb2.qinghuanyun.top, port: 80, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22rb2.qinghuanyun.top%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本3-443|×2, server: rb3.qinghuanyun.top, port: 443, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22rb3.qinghuanyun.top%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港6-80|中转×2, server: hk6.qinghuanyun.top, port: 80, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk6.qinghuanyun.top%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本4-443|×2, server: rb4.qinghuanyun.top, port: 443, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22rb4.qinghuanyun.top%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港3-443|×2, server: hk3.qinghuanyun.top, port: 443, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk3.qinghuanyun.top%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港9-443|中转×2, server: hk9.qinghuanyun.top, port: 443, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk9.qinghuanyun.top%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本5-443|×2, server: jp5.qinghuanyun.top, port: 443, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22jp5.qinghuanyun.top%22%7D"}}, udp: true}
+  - {name: 🇳🇴 挪威-443|×2, server: nw.qinghuanyun.top, port: 443, type: vmess, uuid: 070cc8bd-07e9-3293-b1d0-d523e3f1c60f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22nw.qinghuanyun.top%22%7D"}}, udp: true}
   - {name: 🇭🇰 香港93, server: avuhk093.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk093.xiaohouzi.club}}, udp: true}
-  - {name: 🇭🇰 香港94, server: avuhk094.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk094.xiaohouzi.club}}, udp: true}
-  - {name: 🇭🇰 香港92, server: avuhk092.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk092.xiaohouzi.club}}, udp: true}
   - {name: 🇭🇰 香港91, server: avuhk091.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk091.xiaohouzi.club}}, udp: true}
+  - {name: 🇭🇰 香港07, server: avuhk07.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk07.xiaohouzi.club}}, udp: true}
+  - {name: 🇺🇸 V2RAY-VULTR-美国01, server: aus01.xiaohouzi.club, port: 10058, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港09, server: avuhk09.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk09.xiaohouzi.club}}, udp: true}
   - {name: 🇭🇰 香港04, server: avuhk04.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk04.xiaohouzi.club}}, udp: true}
+  - {name: 🇭🇰 香港06, server: avuhk06.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk06.xiaohouzi.club}}, udp: true}
+  - {name: 🇭🇰 香港08, server: avuhk08.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk08.xiaohouzi.club}}, udp: true}
+  - {name: 🇭🇰 香港02, server: avuhk02.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk02.xiaohouzi.club}}, udp: true}
+  - {name: 🇭🇰 香港01, server: avuhk01.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk01.xiaohouzi.club}}, udp: true}
+  - {name: ABC-×2.6, server: am.abc.wdpdk.link, port: 10193, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wmsxwd, headers: {Host: abczz.ddns.566366.xyz}}, udp: true}
   - {name: 🇨🇳 台湾01-HiNet-×1, server: tw.566366.xyz, port: 545, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wmsxwd, headers: {Host: tw.566366.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡中转01-×1.5, server: ve.4185.mapow.link, port: 60101, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wmsxwd, headers: {Host: sg60-v2-01.ddns.177588.xyz}}, udp: true}
-  - {name: ABC-×2.6, server: am.abc.wdpdk.link, port: 10193, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wmsxwd, headers: {Host: abczz.ddns.566366.xyz}}, udp: true}
-  - {name: 🇨🇳 台湾03-HiNet-×1, server: 003.dpd.wdpdk.link, port: 10202, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wmsxwd, headers: {Host: tw-3-50.ddns.566366.xyz}}, udp: true}
   - {name: 🇸🇬 新加坡73-ZZ-×2.5, server: sdv.hyt.mclqp.link, port: 10238, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: sg73zz.ddns.177588.xyz}}, udp: true}
-  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡Az | 解锁流媒体, server: 20.24.44.110, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M", server: 126.wgong3.xyz, port: 52226, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M", server: 107.wgong2.xyz, port: 52207, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M", server: 130.wgong3.xyz, port: 52330, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix", server: 136.wgong3.xyz, port: 52436, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M", server: 88.wgong3.xyz, port: 52288, type: vmess, uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 v2-香港, server: hk.v206.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: hk.v206.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 v2-香港 2, server: hk.v206.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: hk.v206.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 v2-香港-1, server: zfhk.v206-2.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: zfhk.v206-2.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 v2-香港 3, server: hk.v206.top, port: 15554, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: Apple.com}}, udp: true}
-  - {name: 🇭🇰 v2-香港-1 2, server: zfhk.v206-2.top, port: 37916, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: Apple.com}}, udp: true}
-  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: eeaf314b-125d-43be-95db-594344a31531, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本1, server: jp1.pepsicola.me, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, sni: ssl.seagullsdream.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港2, server: hk2.pepsicola.me, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, sni: ssl.seagullsdream.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港1, server: hk1.pepsicola.me, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, sni: ssl.seagullsdream.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国1, server: 164.92.72.30, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, sni: ssl.seagullsdream.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国3, server: 143.198.76.4, port: 41001, type: trojan, password: 30a21874-8a2b-4a61-a3e3-ce95effdab20, sni: ssl.seagullsdream.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡72-ZZ-×2.5, server: sdfv.gyr.mclqp.link, port: 10127, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: sg72zz.ddns.177588.xyz}}, udp: true}
+  - {name: 🇯🇵 日本60-ZZ-NTT-×3, server: n99.gm.wdpdk.link, port: 10240, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /download, headers: {Host: jp60zz.ddns.136932.xyz}}, udp: true}
+  - {name: 🇭🇰 香港04-HKT-×0.9, server: bp.335.wdpdk.link, port: 10093, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /wmsxwd, headers: {Host: dzhkt.ddns.357159.xyz}}, udp: true}
+  - {name: 🇯🇵 日本52-ZZ-×2.5, server: m9.003.wdpdk.link, port: 10207, type: vmess, uuid: 83e22035-d597-300c-aa47-2a106b4365d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 v2-香港2, server: g.v215.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: g.v215.top, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 v2-日本, server: jp.v208.top, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: jp.v208.top, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 v2-新加坡, server: pssrv.ru.v239p.top, port: 27169, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: Apple.com}}, udp: true}
+  - {name: 🇺🇸 v2-美国, server: us.v207.fun, port: 14444, type: vmess, uuid: 9c7a49a2-ddff-4654-925b-baa7913dbc56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: Apple.com}}, udp: true}
+  - {name: 🇺🇸 v2-美国 2, server: us.v207.fun, port: 443, type: trojan, password: 9c7a49a2-ddff-4654-925b-baa7913dbc56, sni: us.v207.fun, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡 | Singapore | V2, server: sgp.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zcjd, headers: {Host: sgp.jcnf.app}}, udp: true}
   - {name: 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2, server: dubai.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zcjd, headers: {Host: dubai.jcnf.app}}, udp: true}
   - {name: 🇮🇳 印度 | India | V2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zcjd, headers: {Host: india.jcnf.app}}, udp: true}
-  - {name: 🇺🇸 US LAX CTG 01 TR(trojan), server: us-lax-ctg-01-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK HKG IT2 SVM TR(trojan), server: hk-hkg-it2-svm-tr.node.inforun.work, port: 13889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 TW TPE H TR(trojan), server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK HKG SH-HK 02 TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK HKG GZ.HK HKT TR B(trojan), server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 深圳移动-香港-iepl@vpnpool_3, server: 120.233.7.221, port: 32002, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 深圳移动-台湾-iepl@vpnpool_2, server: 120.233.7.221, port: 18005, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 深圳移动-US-iepl@vpnpool_3, server: 120.233.7.221, port: 32006, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 深圳移动-SG-iepl@vpnpool, server: 120.233.7.221, port: 32005, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 深圳移动-台湾-iepl@vpnpool_3, server: 120.233.7.221, port: 32003, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11345, server: h63956.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11445, server: h63956.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11245, server: h63956.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan), server: sh-hk-hgc-1g-tr.node.inforun.work, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 SG SIN KRN TR(trojan), server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 TW TPE HQ TR(trojan), server: tw-tpe-hq-tr.node.inforun.work, port: 10189, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US SJC NA TR(trojan), server: us-sjc-na-tr.node.inforun.work, port: 10689, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US SJC AP TR(trojan), server: us-sjc-ap-tr.node.inforun.work, port: 789, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h181902.waihuizhibiaowang.com:11745, server: h181902.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -300,320 +288,295 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇭🇰 香港6-80|中转×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇭🇰 v2-香港2
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -629,71 +592,68 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 [CT/CM]香港 02
-      - 🇭🇰 [CT/CM]香港 13
-      - 🇭🇰 [CT/CM]香港 10
-      - 🇭🇰 [CT/CM]香港 09
-      - 🇭🇰 [CT/CM]香港 06
-      - 🇭🇰 V2-#257|广东-香港HKT|x1.5|SSR
-      - 🇭🇰 V1-#304|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#329|IPLC-深圳-香港HKT|x4.0|SSR
-      - 🇭🇰 V1-#120|IPLC-深圳-香港|x4.0|SSR
-      - 🇭🇰 V1-#203|IPLC-深圳-香港HKT|NF|x4.0|SSR
-      - 🇭🇰 香港93
-      - 🇭🇰 香港94
-      - 🇭🇰 香港92
-      - 🇭🇰 香港91
-      - 🇭🇰 香港04
-      - 🇨🇳 台湾01-HiNet-×1
-      - 🇸🇬 新加坡中转01-×1.5
-      - ABC-×2.6
-      - 🇨🇳 台湾03-HiNet-×1
-      - 🇸🇬 新加坡73-ZZ-×2.5
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇭🇰 [vip3]︱V2ray︱⑫游戏｜IPLC 深港专线｜深圳｜新加坡 ｜×5x｜限速1000M
-      - 🇸🇬 ︱V2ray︱㉒[vip2]中转｜广移｜新加坡｜×3x---200M
-      - 🇭🇰 [vip3]︱V2ray︱⑯游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇯🇵 [vip4]︱V2ray︱①游戏｜IPLC 深日专线｜深圳｜日本｜×1x｜不限速｜独享宽带｜原生IP｜Netflix
-      - 🇭🇰 [vip3]︱V2ray︱②游戏｜IPLC 深港专线｜深圳｜日本｜×5x｜限速1000M
-      - 🇭🇰 v2-香港
-      - 🇭🇰 v2-香港 2
-      - 🇭🇰 v2-香港-1
-      - 🇭🇰 v2-香港 3
-      - 🇭🇰 v2-香港-1 2
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇸🇬 新加坡✈️中转  [湘沪BGP]
       - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇯🇵 日本1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇺🇸 美国1
-      - 🇺🇸 美国3
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港 C | 中继 | Prepaid Users
+      - 🇨🇳 台湾 C | 中继 | Prepaid Users
+      - 🇰🇷 韓國 A | 中继 | Prepaid Users
+      - h63956.strongpipe.live:11545
+      - h517439.strongpipe.live:11543
+      - h63956.strongpipe.live:11544
+      - h192837.strongpipe.live:11543
+      - h890361.strongpipe.live:11544
+      - h192837.strongpipe.live:11544
+      - h890361.strongpipe.live:11545
+      - h63956.strongpipe.live:11543
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇯🇵 日本2-80|×2
+      - 🇯🇵 日本3-443|×2
+      - 🇭🇰 香港6-80|中转×2
+      - 🇯🇵 日本4-443|×2
+      - 🇭🇰 香港3-443|×2
+      - 🇭🇰 香港9-443|中转×2
+      - 🇯🇵 日本5-443|×2
+      - 🇳🇴 挪威-443|×2
+      - 🇭🇰 香港93
+      - 🇭🇰 香港91
+      - 🇭🇰 香港07
+      - 🇺🇸 V2RAY-VULTR-美国01
+      - 🇭🇰 香港09
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港08
+      - 🇭🇰 香港02
+      - 🇭🇰 香港01
+      - ABC-×2.6
+      - 🇨🇳 台湾01-HiNet-×1
+      - 🇸🇬 新加坡中转01-×1.5
+      - 🇸🇬 新加坡73-ZZ-×2.5
+      - 🇸🇬 新加坡72-ZZ-×2.5
+      - 🇯🇵 日本60-ZZ-NTT-×3
+      - 🇭🇰 香港04-HKT-×0.9
+      - 🇯🇵 日本52-ZZ-×2.5
+      - 🇭🇰 v2-香港2
+      - 🇯🇵 v2-日本
+      - 🇸🇬 v2-新加坡
+      - 🇺🇸 v2-美国
+      - 🇺🇸 v2-美国 2
       - 🇸🇬 新加坡 | Singapore | V2
       - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
       - 🇮🇳 印度 | India | V2
-      - 🇺🇸 US LAX CTG 01 TR(trojan)
-      - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
-      - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 深圳移动-香港-iepl@vpnpool_3
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_2
-      - 🇺🇸 深圳移动-US-iepl@vpnpool_3
-      - 🇸🇬 深圳移动-SG-iepl@vpnpool
-      - 🇨🇳 深圳移动-台湾-iepl@vpnpool_3
-      - h63956.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11245
+      - 🇭🇰 HK HKG SH.HK HGC 1G TR(trojan)
+      - 🇸🇬 SG SIN KRN TR(trojan)
+      - 🇨🇳 TW TPE HQ TR(trojan)
+      - 🇺🇸 US SJC NA TR(trojan)
+      - 🇺🇸 US SJC AP TR(trojan)
       - h63956.waihuizhibiaowang.com:11545
-      - h181902.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
