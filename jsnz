@@ -5,275 +5,355 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港咖喱鱼蛋 01-D, server: 20.205.14.195, port: 12377, type: trojan, password: f725e70a-1aec-4158-8b02-ecc3b5bb7bb3, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港煎酿三宝 04-D, server: 20.239.81.91, port: 12388, type: trojan, password: f725e70a-1aec-4158-8b02-ecc3b5bb7bb3, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港丝袜奶茶 02-D, server: 20.187.83.84, port: 12339, type: trojan, password: f725e70a-1aec-4158-8b02-ecc3b5bb7bb3, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾04|优选原生IP|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e58d8ff-1174-4e26-a51b-855756a5e071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hinet04, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇨🇳 scloud台湾05—可下载, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e58d8ff-1174-4e26-a51b-855756a5e071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /scloudhinet05, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇨🇳 scloud台湾06-原生IP, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 8e58d8ff-1174-4e26-a51b-855756a5e071, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /scloudhinet06, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇭🇰 香港 阿里云, server: hk.jtnet.xyz, port: 443, type: vmess, uuid: 8193488a-705d-3c55-a2c1-6151d9518ff1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cdn, headers: {Host: hk.jtnet.xyz}}, udp: true}
-  - {name: 🇯🇵 日本 aws, server: jp-tun.jtnet.cf, port: 443, type: vmess, uuid: 8193488a-705d-3c55-a2c1-6151d9518ff1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /awsl, headers: {Host: jp-tun.jtnet.cf}}, udp: true}
-  - {name: 🇯🇵 日本 西瓜2 (suica), server: melon2.jtnet.cf, port: 443, type: vmess, uuid: 8193488a-705d-3c55-a2c1-6151d9518ff1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cable, headers: {Host: melon2.jtnet.cf}}, udp: true}
-  - {name: 🇺🇸 美国 西雅图 (Loki), server: nitmali.ml, port: 443, type: vmess, uuid: 8193488a-705d-3c55-a2c1-6151d9518ff1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /tun, headers: {Host: nitmali.ml}}, udp: true}
-  - {name: 🇺🇸 美国 圣何塞 CN2 (kklkk), server: sjc.jtnet.cf, port: 443, type: vmess, uuid: 8193488a-705d-3c55-a2c1-6151d9518ff1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /tun, headers: {Host: sjc.jtnet.cf}}, udp: true}
-  - {name: 🇺🇸 美国 洛杉矶 ST, server: infinidash.jtnet.cf, port: 10443, type: vmess, uuid: 8193488a-705d-3c55-a2c1-6151d9518ff1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cable, headers: {Host: infinidash.jtnet.cf}}, udp: true}
+  - {name: Linode, server: 170.187.230.86, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: 🇸🇬 新加坡 1｜杭州中转, server: cm3.xn--ltwa5413a.com, port: 13518, type: trojan, password: a6805832-cec1-462d-9411-8ce4b44d6c97, sni: 1.xjpjiedian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 2｜上海中转, server: cm3.xn--ltwa5413a.com, port: 31380, type: trojan, password: a6805832-cec1-462d-9411-8ce4b44d6c97, sni: 2.xjpjiedian.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 2｜杭州中转, server: cm3.xn--ltwa5413a.com, port: 31346, type: trojan, password: a6805832-cec1-462d-9411-8ce4b44d6c97, sni: vir.jpjiedian01.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国1｜高速直连, server: 1.usjiedian01.xyz, port: 12312, type: trojan, password: a6805832-cec1-462d-9411-8ce4b44d6c97, sni: 1.usjiedian01.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 3｜高速直连, server: 3.usjiedian01.xyz, port: 12312, type: trojan, password: a6805832-cec1-462d-9411-8ce4b44d6c97, sni: 3.usjiedian01.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 V1 HK 05, server: hk05.swty.buzz, port: 12155, type: vmess, uuid: b39f53aa-a9cb-4b71-8a3e-1de55e760fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk05.swty.buzz%22%7D"}}, udp: true}
+  - {name: 🇭🇰 V1 HK 06, server: hk06.swty.buzz, port: 12155, type: vmess, uuid: b39f53aa-a9cb-4b71-8a3e-1de55e760fdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk06.swty.buzz%22%7D"}}, udp: true}
+  - {name: 🇸🇬 3 | 新加坡 | 亚马逊云, server: 3.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 3.vpnfanqiang.com}}, udp: true}
+  - {name: 🇸🇬 1 | 新加坡 | 亚马逊云, server: 1.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 1.vpnfanqiang.com}}, udp: true}
+  - {name: HKiplc, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
+  - {name: yongjiy, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
+  - {name: HKlepl, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
+  - {name: 🇭🇰 0 | 香港 | 微软云, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
+  - {name: 🇭🇰 香港 07丨1x HK, server: activity.huawei.daanyht.com, port: 12028, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港家宽 03丨1x HK, server: activity.huawei.daanyht.com, port: 13112, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 09丨1x HK, server: activity.huawei.daanyht.com, port: 12030, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 03丨1x HK, server: activity.huawei.daanyht.com, port: 12024, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 13丨1x HK, server: activity.huawei.daanyht.com, port: 12721, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 01丨1x HK, server: activity.huawei.daanyht.com, port: 12022, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 14丨1x HK, server: activity.huawei.daanyht.com, port: 12722, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 11丨1x HK, server: activity.huawei.daanyht.com, port: 12032, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 04丨1x HK, server: activity.huawei.daanyht.com, port: 12025, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 12丨1x HK, server: activity.huawei.daanyht.com, port: 12033, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 08丨1x HK, server: activity.huawei.daanyht.com, port: 12029, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 10丨1x HK, server: activity.huawei.daanyht.com, port: 12031, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港家宽 02丨1x HK, server: activity.huawei.daanyht.com, port: 13105, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港 05丨1x HK, server: activity.huawei.daanyht.com, port: 12026, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港商宽丨1x HK, server: activity.huawei.daanyht.com, port: 12405, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 7df0df9abf59.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港-中环2, server: 20.187.95.117, port: 8443, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, sni: wx.qq.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇳 蒙古2, server: 103.153.141.202, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, sni: wx.qq.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇳 蒙古3, server: 103.168.56.67, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, sni: wx.qq.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20786, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20787, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20783, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20790, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20785, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20788, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港01, server: avuhk01.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk01.xiaohouzi.club}}, udp: true}
-  - {name: 🇭🇰 香港06, server: avuhk06.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk06.xiaohouzi.club}}, udp: true}
-  - {name: 🇭🇰 香港02, server: avuhk02.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk02.xiaohouzi.club}}, udp: true}
-  - {name: 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01, server: nh-hinet01.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: nh-hinet01.xiaohouzi.club}}, udp: true}
-  - {name: 🇭🇰 香港03, server: avuhk03.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk03.xiaohouzi.club}}, udp: true}
-  - {name: 🇭🇰 香港92, server: avuhk092.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk092.xiaohouzi.club}}, udp: true}
-  - {name: 🇭🇰 香港04, server: avuhk04.xiaohouzi.club, port: 1558, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: avuhk04.xiaohouzi.club}}, udp: true}
-  - {name: 🇺🇸 美国-01-VULTR, server: aus01.xiaohouzi.club, port: 10058, type: vmess, uuid: 6dc17fdb-9bcd-3231-ad6a-6af308aef4cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 | Singapore | V2, server: sgp.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zcjd, headers: {Host: sgp.jcnf.app}}, udp: true}
-  - {name: 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2, server: dubai.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zcjd, headers: {Host: dubai.jcnf.app}}, udp: true}
-  - {name: 🇮🇳 印度 | India | V2, server: india.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zcjd, headers: {Host: india.jcnf.app}}, udp: true}
-  - {name: 🇹🇷 土耳其 | Turkey | V2, server: turkey.jcnf.app, port: 443, type: vmess, uuid: c753e8a8-e180-4e76-a486-c917273d718b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zcjd, headers: {Host: turkey.jcnf.app}}, udp: true}
+  - {name: 🇺🇸 US LAX CTG 01 TR(trojan), server: us-lax-ctg-01-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HK HKG SH-HK 02 TR(trojan), server: hk-hkg-sh-hk-02-tr.cdn.savoy.click, port: 21089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 JP TYO 04 TR(trojan), server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HK HKG IT2 SVM TR(trojan), server: hk-hkg-it2-svm-tr.node.inforun.work, port: 13889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG SIN KRN TR(trojan), server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 TW TPE H TR(trojan), server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: RrtlDxQADjwemQkcYGqJHPcSjDtXIuHn, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 大萝卜鸡日本1, server: 116.129.254.226, port: 12000, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港, server: 116.129.254.226, port: 11012, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇯🇵 大萝卜鸡日本4, server: 116.129.253.114, port: 41106, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇨🇳 大萝卜鸡台北, server: 116.129.254.226, port: 11011, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇨🇳 大萝卜鸡台北 2, server: 116.129.253.114, port: 11011, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港 2, server: 116.129.253.114, port: 41107, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港 3, server: 116.129.254.226, port: 11000, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
   - {name: 🇯🇵 大萝卜鸡日本2, server: 116.129.254.226, port: 32003, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本, server: 116.129.253.114, port: 41113, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本 2, server: 116.129.253.114, port: 20529, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本 3, server: 116.129.254.226, port: 14003, type: ssr, cipher: aes-256-cfb, password: zxOmdD, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 22593:Gpt71x, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇯🇵 SS|日本A01|IDC| 解锁, server: 124.225.25.39, port: 45183, type: ss, cipher: chacha20-ietf-poly1305, password: bace9a8f-b633-4a15-b6d5-5dd1972b2496, udp: true}
-  - {name: 🇸🇬 新加坡01, server: v2sg02.connauto.com, port: 443, type: trojan, password: 208d536b-a83e-3006-97d7-9c5e15dc3669, sni: v2sg02.connauto.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 SS|香港A01|原生解锁, server: 124.225.25.39, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: bace9a8f-b633-4a15-b6d5-5dd1972b2496, udp: true}
-  - {name: 🇰🇷 SS|韩国A01|IDC| 解锁, server: 124.225.25.39, port: 25010, type: ss, cipher: chacha20-ietf-poly1305, password: bace9a8f-b633-4a15-b6d5-5dd1972b2496, udp: true}
-  - {name: 🇺🇸 SS|美国A01|IDC| 解锁, server: 124.225.25.39, port: 45190, type: ss, cipher: chacha20-ietf-poly1305, password: bace9a8f-b633-4a15-b6d5-5dd1972b2496, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet2 | 解锁流媒体, server: hinet1.52147.top, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x, server: gzyd2.52147.top, port: 30030, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 96d2badf-4ef7-41a9-be8b-19bb09468d28, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 流媒体解锁_2, server: sh2.xn--ltwa5413a.com, port: 14156, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 流媒体解锁_1, server: sh2.xn--ltwa5413a.com, port: 18243, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 流媒体解锁_1, server: cm4.xn--ltwa5413a.com, port: 42116, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 流媒体解锁_3, server: sh2.xn--ltwa5413a.com, port: 37413, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 线路_1, server: cm4.xn--ltwa5413a.com, port: 55996, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 hk, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 洛杉矶, server: us1.crunode.top, port: 1200, type: trojan, password: ab0d7f7f-7aac-38f4-a8c3-e687621cef18, sni: us1.crunode.top, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国, server: dg.yuzex.top, port: 32451, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: dg.yuzex.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇺 匈牙利, server: xyl.hootfun.top, port: 52322, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: xyl.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  线路_4, server: sh2.xn--ltwa5413a.com, port: 61969, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 线路_2, server: cm4.xn--ltwa5413a.com, port: 36083, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国 Disney解锁_2, server: sh2.xn--ltwa5413a.com, port: 17458, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 流媒体解锁_1, server: sh2.xn--ltwa5413a.com, port: 35635, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 流媒体解锁_3, server: sh2.xn--ltwa5413a.com, port: 17564, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 流媒体解锁_2, server: cm4.xn--ltwa5413a.com, port: 33034, type: vmess, uuid: 3217887f-5174-4597-b9cd-211bb3f7aab5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11445, server: h63956.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11345, server: h63956.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11545, server: h961359.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11445, server: h63956.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11745, server: h961359.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11345, server: h63956.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11245, server: h63956.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11445, server: h961359.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11245, server: h961359.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -292,89 +372,123 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇭🇰 SS|香港A01|原生解锁
+      - 🇭🇰 大萝卜鸡香港
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
       - 🇭🇰 hk
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -382,206 +496,266 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -597,69 +771,89 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇨🇳 台湾04|优选原生IP|1x
-      - 🇨🇳 scloud台湾05—可下载
-      - 🇨🇳 scloud台湾06-原生IP
-      - 🇭🇰 香港 阿里云
-      - 🇯🇵 日本 aws
-      - 🇯🇵 日本 西瓜2 (suica)
-      - 🇺🇸 美国 西雅图 (Loki)
-      - 🇺🇸 美国 圣何塞 CN2 (kklkk)
-      - 🇺🇸 美国 洛杉矶 ST
+      - Linode
+      - 🇸🇬 新加坡 1｜杭州中转
+      - 🇸🇬 新加坡 2｜上海中转
+      - 🇯🇵 日本 2｜杭州中转
+      - 🇺🇸 美国1｜高速直连
+      - 🇺🇸 美国 3｜高速直连
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇭🇰 V1 HK 05
+      - 🇭🇰 V1 HK 06
+      - 🇸🇬 3 | 新加坡 | 亚马逊云
+      - 🇸🇬 1 | 新加坡 | 亚马逊云
+      - HKiplc
+      - yongjiy
+      - HKlepl
+      - 🇭🇰 0 | 香港 | 微软云
+      - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港家宽 03丨1x HK
+      - 🇭🇰 香港 09丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 13丨1x HK
+      - 🇭🇰 香港 01丨1x HK
+      - 🇭🇰 香港 14丨1x HK
+      - 🇭🇰 香港 11丨1x HK
+      - 🇭🇰 香港 04丨1x HK
+      - 🇭🇰 香港 12丨1x HK
+      - 🇭🇰 香港 08丨1x HK
+      - 🇭🇰 香港 10丨1x HK
+      - 🇭🇰 香港家宽 02丨1x HK
+      - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港商宽丨1x HK
       - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古2
-      - 🇲🇳 蒙古3
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
+      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E1 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 香港01
-      - 🇭🇰 香港06
-      - 🇭🇰 香港02
-      - 🇨🇳 V2RAY-台湾hinet-NETFLIX-迪斯尼01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港92
-      - 🇭🇰 香港04
-      - 🇺🇸 美国-01-VULTR
-      - 🇸🇬 新加坡 | Singapore | V2
-      - 🇦🇪 迪拜阿聯酋 | Etihad Rail | V2
-      - 🇮🇳 印度 | India | V2
-      - 🇹🇷 土耳其 | Turkey | V2
+      - 🇺🇸 US LAX CTG 01 TR(trojan)
       - 🇭🇰 HK HKG SH-HK 02 TR(trojan)
       - 🇯🇵 JP TYO 04 TR(trojan)
       - 🇭🇰 HK HKG IT2 SVM TR(trojan)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇨🇳 TW TPE H TR(trojan)
+      - 🇯🇵 大萝卜鸡日本1
+      - 🇭🇰 大萝卜鸡香港
+      - 🇯🇵 大萝卜鸡日本4
+      - 🇨🇳 大萝卜鸡台北
+      - 🇨🇳 大萝卜鸡台北 2
+      - 🇭🇰 大萝卜鸡香港 2
+      - 🇭🇰 大萝卜鸡香港 3
       - 🇯🇵 大萝卜鸡日本2
-      - 🇯🇵 大萝卜鸡日本
-      - 🇯🇵 大萝卜鸡日本 2
-      - 🇯🇵 大萝卜鸡日本 3
-      - 🇯🇵 SS|日本A01|IDC| 解锁
-      - 🇸🇬 新加坡01
-      - 🇭🇰 SS|香港A01|原生解锁
-      - 🇰🇷 SS|韩国A01|IDC| 解锁
-      - 🇺🇸 SS|美国A01|IDC| 解锁
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇻🇳 越南-4号
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动2负载均衡(中转) | 解锁流媒体 | 0.1x
+      - 🇻🇳 越南-2号
+      - 🇨🇳 台湾 流媒体解锁_2
+      - 🇨🇳 台湾 流媒体解锁_1
+      - 🇭🇰 香港 流媒体解锁_1
+      - 🇨🇳 台湾 流媒体解锁_3
+      - 🇯🇵 日本 线路_1
       - 🇭🇰 hk
-      - 🇺🇸 洛杉矶
-      - 🇩🇪 德国
-      - 🇭🇺 匈牙利
-      - h63956.waihuizhibiaowang.com:11545
+      - 🇸🇬 新加坡  线路_4
+      - 🇸🇬 新加坡 线路_2
+      - 🇰🇷 韩国 Disney解锁_2
+      - 🇺🇸 美国 流媒体解锁_1
+      - 🇺🇸 美国 流媒体解锁_3
+      - 🇺🇸 美国 流媒体解锁_2
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11445
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11345
       - h755658.waihuizhibiaowang.com:11345
+      - h961359.waihuizhibiaowang.com:11545
+      - h63956.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h63956.waihuizhibiaowang.com:11345
       - h63956.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11245
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
