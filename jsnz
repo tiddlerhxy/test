@@ -5,275 +5,183 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 IEPL SS 台湾, server: a01-cn-s1k111.cdnlive.straycloud.xyz, port: 620, type: ss, cipher: aes-128-gcm, password: b87d2f82-16cc-42b8-826a-bc7df12159a5, udp: true}
-  - {name: 🇯🇵 日本 线路_3, server: gy.bzcv.cn, port: 11708, type: vmess, uuid: 8469e3b1-52e2-4189-b3f6-5c585f47a6fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 流媒体解锁_2, server: sh2.xn--ltwa5413a.com, port: 14156, type: vmess, uuid: 8469e3b1-52e2-4189-b3f6-5c585f47a6fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 线路_1, server: cm4.xn--ltwa5413a.com, port: 55996, type: vmess, uuid: 8469e3b1-52e2-4189-b3f6-5c585f47a6fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯, server: twgame05.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯, server: tw04.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯, server: twct05.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯, server: twgame03.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯, server: twgame04.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯, server: twgame08.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯, server: twct04.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯, server: twct07.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯, server: twgame02.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯, server: twgame09.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯, server: twct02.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯, server: tw03.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯, server: tw07.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯, server: twct10.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
-  - {name: 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯, server: twct11.mellanox.info, port: 33732, type: ss, cipher: rc4-md5, password: KvznTE, udp: true}
+  - {name: Linode, server: 170.187.230.86, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: faad1df1-fa50-4246-b973-34e92a015055, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: faad1df1-fa50-4246-b973-34e92a015055, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: faad1df1-fa50-4246-b973-34e92a015055, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: faad1df1-fa50-4246-b973-34e92a015055, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: faad1df1-fa50-4246-b973-34e92a015055, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: faad1df1-fa50-4246-b973-34e92a015055, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 【直连】大阪 - 原生解锁 - 8, server: 008.AP.POP.SMALLAIRPORT.NET, port: 22356, type: vmess, uuid: 64e7211f-51df-40cc-af06-8dac3a039534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 【直连】台湾 - 原生解锁 - A, server: 011.AP.POP.SMALLAIRPORT.NET, port: 45315, type: vmess, uuid: 64e7211f-51df-40cc-af06-8dac3a039534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 011.AP.POP.SMALLAIRPORT.NET}}, udp: true}
+  - {name: 距离下次重置剩余：20 天, server: 3.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 3.vpnfanqiang.com}}, udp: true}
+  - {name: 🇸🇬 免费 | 新加坡 | 亚马逊云, server: 3.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 3.vpnfanqiang.com}}, udp: true}
+  - {name: 🇭🇰 会员 | 香港 | 微软云, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
   - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet|解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡Az|解锁流媒体, server: 20.24.44.110, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet|解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-1号|解锁流媒体, server: 203.138.98.199, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x, server: gzyd2.52147.top, port: 30030, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x, server: 45.82.253.234, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x, server: 45.88.148.234, port: 28443, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 香港 03〖中转-CN2线路〗\t", server: cm1.jdweblink.club, port: 32186, type: vmess, uuid: b4c72d46-172a-316f-aabb-700205fd309b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-  - {name: 🇭🇰 香港 01〖中转-CN2线路〗, server: gz-1.jdweblink.club, port: 32184, type: vmess, uuid: b4c72d46-172a-316f-aabb-700205fd309b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-  - {name: 🇭🇰 香港 02〖中转-CN2线路〗, server: gz-2.jdweblink.club, port: 32185, type: vmess, uuid: b4c72d46-172a-316f-aabb-700205fd309b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-  - {name: 🇯🇵 日本 04〖中转-1.5x〗, server: cm2.jdweblink.club, port: 32168, type: vmess, uuid: b4c72d46-172a-316f-aabb-700205fd309b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /video, headers: {Host: www.bing.com}}, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: de3b9af1-00b6-46ec-98e8-11fb0a452c4c, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
-  - {name: 距离下次重置剩余：21 天, server: 3.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 3.vpnfanqiang.com}}, udp: true}
-  - {name: 🇸🇬 新 新加坡 | 亚马逊云, server: 3.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 3.vpnfanqiang.com}}, udp: true}
-  - {name: 🇭🇰 香港 | 微软云, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
-  - {name: 🇸🇬 新加坡 | 亚马逊云, server: 1.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 1.vpnfanqiang.com}}, udp: true}
-  - {name: 🇭🇰 香港-中环2, server: 20.187.95.117, port: 8443, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, sni: wx.qq.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇳 蒙古3, server: 103.168.56.67, port: 8848, type: trojan, password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de, sni: wx.qq.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港2, server: 810hk03.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk03.fx6688.top}}, udp: true}
+  - {name: 🇭🇰 香港0, server: 810hk01.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk01.fx6688.top}}, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20713, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20789, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20788, type: trojan, password: b2100b79-d571-354a-b706-6b0f7b55d343, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 大萝卜鸡, server: 103.56.60.235, port: 3381, type: trojan, password: ab29af390ff9f4a7, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港高速, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
   - {name: 🇸🇬 大萝卜鸡新加坡, server: 170.187.230.86, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港高速, server: 0.vpnfanqiang.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: 0.vpnfanqiang.com}}, udp: true}
+  - {name: 🇺🇸 大萝卜鸡美国, server: 45.137.97.205, port: 443, type: trojan, password: c12ea574-639e-3cd6-983d-644403b8399f, sni: 20020526.luohuaxian.xyz, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11445, server: h63956.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11545, server: h961359.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11345, server: h63956.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11545, server: h961359.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11445, server: h961359.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11245, server: h63956.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11245, server: h961359.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h181902.waihuizhibiaowang.com:11745, server: h181902.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11745, server: h961359.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -292,306 +200,196 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 IEPL SS 台湾
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 🇨🇳 台湾Hinet|解锁流媒体
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
       - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇭🇰 香港 | 微软云
-      - 🇭🇰 香港-中环2
-      - 🇭🇰 大萝卜鸡香港高速
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 🇭🇰 会员 | 香港 | 微软云
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -607,69 +405,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 IEPL SS 台湾
-      - 🇯🇵 日本 线路_3
-      - 🇨🇳 台湾 流媒体解锁_2
-      - 🇯🇵 日本 线路_1
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 🇨🇳 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 🇨🇳 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - Linode
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇯🇵 【直连】大阪 - 原生解锁 - 8
+      - 🇨🇳 【直连】台湾 - 原生解锁 - A
+      - 距离下次重置剩余：20 天
+      - 🇸🇬 免费 | 新加坡 | 亚马逊云
+      - 🇭🇰 会员 | 香港 | 微软云
       - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇨🇳 台湾Hinet|解锁流媒体
       - 🇻🇳 越南-2号
       - 🇻🇳 越南-3号
-      - 🇸🇬 新加坡Az|解锁流媒体
+      - 🇨🇳 台湾Hinet|解锁流媒体
+      - 🇯🇵 日本NTT-1号|解锁流媒体
+      - 🇻🇳 越南-4号
       - 🇺🇸 美国圣何塞-广州移动2负载均衡|解锁流媒体|0.1x
-      - 🇺🇸 美国圣何塞-2号|解锁流媒体|0.1x
-      - 🇺🇸 美国洛杉矶-1号|解锁流媒体|0.1x
-      - "🇭🇰 香港 03〖中转-CN2线路〗\t"
-      - 🇭🇰 香港 01〖中转-CN2线路〗
-      - 🇭🇰 香港 02〖中转-CN2线路〗
-      - 🇯🇵 日本 04〖中转-1.5x〗
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 距离下次重置剩余：21 天
-      - 🇸🇬 新 新加坡 | 亚马逊云
-      - 🇭🇰 香港 | 微软云
-      - 🇸🇬 新加坡 | 亚马逊云
-      - 🇭🇰 香港-中环2
-      - 🇲🇳 蒙古3
+      - 🇭🇰 香港2
+      - 🇭🇰 香港0
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | A | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | B | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | C | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | F2 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
       - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E5 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港高速
-      - 🇭🇰 大萝卜鸡香港
       - 🇸🇬 大萝卜鸡新加坡
-      - h755658.waihuizhibiaowang.com:11345
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 大萝卜鸡香港高速
+      - 🇺🇸 大萝卜鸡美国
+      - h63956.waihuizhibiaowang.com:11545
+      - h755658.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11445
-      - h961359.waihuizhibiaowang.com:11545
       - h63956.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11345
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11545
+      - h961359.waihuizhibiaowang.com:11445
       - h63956.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h181902.waihuizhibiaowang.com:11745
-      - h961359.waihuizhibiaowang.com:11745
-      - h755658.waihuizhibiaowang.com:11545
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
