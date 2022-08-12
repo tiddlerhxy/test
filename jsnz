@@ -10,20 +10,23 @@ proxies:
   - {name: 🇯🇵 「黄金」09日本高级IEPL, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 🇯🇵 「黄金」01日本高级IEPL, server: 85.208.108.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 🇯🇵 「黄金」07日本高级IEPL, server: 85.208.108.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇯🇵 「黄金」02日本高级IEPL, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇯🇵 「黄金」06日本高级IEPL, server: 85.208.108.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: Linode, server: 170.187.230.86, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
   - {name: 「🇰🇷」妖书「解锁⦻1」, server: tt3.tjvpn.top, port: 2053, type: trojan, password: 51927c2a-3603-4797-8b34-62e3adf7bb46, sni: tt3.tjvpn.top, skip-cert-verify: false, udp: true}
   - {name: 「🇺🇸」魔书「直连⦻1」, server: tt2.tjvpn.top, port: 520, type: trojan, password: 51927c2a-3603-4797-8b34-62e3adf7bb46, sni: tt2.tjvpn.top, skip-cert-verify: false, udp: true}
-  - {name: "[V2ray·1.1x]旧金山#CloudFlare#公益", server: sfo1.nuker.biz, port: 443, type: vmess, uuid: 3ca92817-53ca-4e61-8573-79c3f9b63f39, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22sfo1.nuker.biz%22%7D"}}, udp: true}
   - {name: "🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益", server: 45.136.244.204, port: 44368, type: vmess, uuid: 3ca92817-53ca-4e61-8573-79c3f9b63f39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "[V2ray·1.1x]旧金山#CloudFlare#公益", server: sfo1.nuker.biz, port: 443, type: vmess, uuid: 3ca92817-53ca-4e61-8573-79c3f9b63f39, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22sfo1.nuker.biz%22%7D"}}, udp: true}
+  - {name: 距离下次重置剩余：19 天, server: free.fanqiangvpn.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
+  - {name: 免费 | 备用, server: free.fanqiangvpn.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
   - {name: 🇯🇵 Japan, server: metapod.defun.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: metapod.defun.us, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 Japan 2, server: caterpie.defun.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: caterpie.defun.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 3, server: hawaii.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: hawaii.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 11, server: florida.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: florida.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港-ByWave 03, server: 210194c475687be6.jijifun.com, port: 40012, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港-ByWave 02, server: 210194c475687be6.jijifun.com, port: 40003, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港-ByWave 01, server: 2e2d7fbdea1afc51.jijifun.com, port: 40002, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港-ByWave 04, server: 210194c475687be6.jijifun.com, port: 40013, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
+  - {name: 🇸🇬 新加坡-DP 02, server: 2e2d7fbdea1afc51.jijifun.com, port: 40043, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
   - {name: 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0, server: pro-iplc-hk1-8.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0, server: pro-iplc-hk2-8.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0, server: pro-iplc-hk1-5.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
@@ -41,15 +44,11 @@ proxies:
   - {name: "🇯🇵 [沪日]韩国", server: shcu.r.swingones1.xyz, port: 44600, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: "🇯🇵 [沪日]澳大利亚", server: shcu.r.swingones1.xyz, port: 44623, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: "🇭🇰 [广港]新加坡1•1.5x", server: gdcm.r.swingones1.xyz, port: 44605, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN, server: 104.18.245.229, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 2, server: 104.18.243.114, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 3, server: 104.17.122.239, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 4, server: 104.18.105.170, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 5, server: 104.19.20.0, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 6, server: 104.19.152.121, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 7, server: 104.17.159.250, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 8, server: 104.17.117.7, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
-  - {name: DigitalOcean｜Cloudflare CDN 9, server: 104.19.173.112, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean1, server: 104.18.245.229, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean2, server: 104.18.243.114, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean3, server: 104.17.122.239, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean4, server: 104.18.105.170, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean5, server: 104.19.20.0, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
   - {name: 🇭🇰 隧道｜NF｜香港 03, server: kqs-moble.gatknqh.cn, port: 53304, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
   - {name: 🇸🇬 隧道｜NF｜新加坡 01, server: kqs-moble.gatknqh.cn, port: 47147, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
   - {name: 🇸🇬 隧道｜NF｜新加坡 04, server: kqs-moble.gatknqh.cn, port: 19511, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
@@ -71,17 +70,9 @@ proxies:
   - {name: 🇰🇷 韩国 -L3|沪韩专线B, server: 116.129.253.175, port: 4412, type: ssr, cipher: rc4-md5, password: ybYNwh, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 198119:rxcSA4, obfs-param: 88b73198119.wns.windows.com, udp: true}
   - {name: 🇨🇳 台湾 -L2|湘联|02, server: 116.129.254.111, port: 1363, type: ssr, cipher: rc4-md5, password: ybYNwh, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 198119:rxcSA4, obfs-param: 88b73198119.wns.windows.com, udp: true}
   - {name: 🇭🇰 香港2, server: 810hk03.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk03.fx6688.top}}, udp: true}
-  - {name: 距离下次重置剩余：19 天, server: free.fanqiangvpn.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
-  - {name: 免费 | 备用, server: free.fanqiangvpn.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
-  - {name: 大萝卜鸡, server: 103.56.60.185, port: 3383, type: trojan, password: ab29af390ff9f4a7, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港, server: cn05.downloadmovie.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn05.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 大萝卜鸡韩国, server: krcc4.feethree.top, port: 9038, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: krcc4.feethree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 大萝卜鸡德国, server: cn04.downloadmovie.cn, port: 65057, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇺🇸 大萝卜鸡美国, server: unicom04.downloadmovie.cn, port: 65014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22unicom04.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: h181902.waihuizhibiaowang.com:11745, server: h181902.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h181902.waihuizhibiaowang.com:11745, server: h181902.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h181902.waihuizhibiaowang.com:11245, server: h181902.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h181902.waihuizhibiaowang.com:11145, server: h181902.waihuizhibiaowang.com, port: 11145, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
@@ -97,20 +88,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -128,15 +122,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -158,17 +148,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
@@ -183,20 +165,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -214,15 +199,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -244,17 +225,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
@@ -270,20 +243,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -301,15 +277,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -331,17 +303,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
@@ -369,20 +333,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -400,15 +367,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -430,17 +393,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
@@ -467,7 +422,6 @@ proxy-groups:
       - 🇭🇰 香港 -L2|湘联|01
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 大萝卜鸡香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -479,20 +433,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -510,15 +467,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -540,17 +493,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
@@ -565,20 +510,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -596,15 +544,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -626,17 +570,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
@@ -652,20 +588,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -683,15 +622,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -713,17 +648,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
@@ -748,20 +675,23 @@ proxy-groups:
       - 🇯🇵 「黄金」09日本高级IEPL
       - 🇯🇵 「黄金」01日本高级IEPL
       - 🇯🇵 「黄金」07日本高级IEPL
-      - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「黄金」06日本高级IEPL
       - Linode
       - 「🇰🇷」妖书「解锁⦻1」
       - 「🇺🇸」魔书「直连⦻1」
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
       - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
       - 🇯🇵 Japan
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 3
+      - 🇺🇸 United-States 11
       - 🇭🇰 香港-ByWave 03
       - 🇭🇰 香港-ByWave 02
       - 🇭🇰 香港-ByWave 01
       - 🇭🇰 香港-ByWave 04
+      - 🇸🇬 新加坡-DP 02
       - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
       - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
@@ -779,15 +709,11 @@ proxy-groups:
       - 🇯🇵 [沪日]韩国
       - 🇯🇵 [沪日]澳大利亚
       - 🇭🇰 [广港]新加坡1•1.5x
-      - DigitalOcean｜Cloudflare CDN
-      - DigitalOcean｜Cloudflare CDN 2
-      - DigitalOcean｜Cloudflare CDN 3
-      - DigitalOcean｜Cloudflare CDN 4
-      - DigitalOcean｜Cloudflare CDN 5
-      - DigitalOcean｜Cloudflare CDN 6
-      - DigitalOcean｜Cloudflare CDN 7
-      - DigitalOcean｜Cloudflare CDN 8
-      - DigitalOcean｜Cloudflare CDN 9
+      - DigitalOcean1
+      - DigitalOcean2
+      - DigitalOcean3
+      - DigitalOcean4
+      - DigitalOcean5
       - 🇭🇰 隧道｜NF｜香港 03
       - 🇸🇬 隧道｜NF｜新加坡 01
       - 🇸🇬 隧道｜NF｜新加坡 04
@@ -809,17 +735,9 @@ proxy-groups:
       - 🇰🇷 韩国 -L3|沪韩专线B
       - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 距离下次重置剩余：19 天
-      - 免费 | 备用
-      - 大萝卜鸡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇯🇵 大萝卜鸡日本
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇩🇪 大萝卜鸡德国
-      - 🇺🇸 大萝卜鸡美国
+      - h181902.waihuizhibiaowang.com:11745
       - h755658.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11345
-      - h181902.waihuizhibiaowang.com:11745
       - h181902.waihuizhibiaowang.com:11245
       - h63956.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11145
