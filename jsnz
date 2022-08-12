@@ -5,295 +5,347 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 「黄金」05日本高级IEPL, server: 85.208.108.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 🇯🇵 「白银」08日本高级IEPL, server: 85.208.108.20, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 🇯🇵 「黄金」08日本高级IEPL, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 🇯🇵 「黄金」09日本高级IEPL, server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇯🇵 「黄金」01日本高级IEPL, server: 85.208.108.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 🇯🇵 「黄金」07日本高级IEPL, server: 85.208.108.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 🇯🇵 「黄金」02日本高级IEPL, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 🇯🇵 「白银」05日本高级IEPL, server: 85.208.108.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇯🇵 「黄金」03日本高级IEPL, server: 85.208.108.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 🇯🇵 「白银」07日本高级IEPL, server: 85.208.108.20, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 7934b860-42ce-46bc-bff5-2c359cced9ed, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 7934b860-42ce-46bc-bff5-2c359cced9ed, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: 7934b860-42ce-46bc-bff5-2c359cced9ed, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 7934b860-42ce-46bc-bff5-2c359cced9ed, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: 7934b860-42ce-46bc-bff5-2c359cced9ed, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 7934b860-42ce-46bc-bff5-2c359cced9ed, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 0878d70d-f85a-3b22-852a-7a90627412c0, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20786, type: trojan, password: 0878d70d-f85a-3b22-852a-7a90627412c0, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |, server: azgy001.xiba1.xyz, port: 20791, type: trojan, password: 0878d70d-f85a-3b22-852a-7a90627412c0, sni: ssl.ssl12.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Lv3 IEPL专线 香港B, server: node-adsl-lv3-hk.rdns.link, port: 11043, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇭🇰 Lv2 BGP中继 香港C, server: node-adsl-lv2-hk.rdns.link, port: 32103, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇭🇰 Lv2 BGP中继 香港A, server: node-adsl-lv2-hk.rdns.link, port: 32103, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Lv1 台湾B ☀, server: node-adsl-lv1.rdns.link, port: 51656, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇭🇰 Lv3 IEPL专线 香港C, server: node-adsl-lv3-hk.rdns.link, port: 11043, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Lv1 台湾A ☀, server: node-adsl-lv1.rdns.link, port: 51655, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Lv1 台湾C ☀, server: node-adsl-lv1.rdns.link, port: 51657, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Lv2 BGP中继 台湾C, server: node-adsl-lv2-tw.rdns.link, port: 32101, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Lv3 IEPL专线 台湾A, server: node-adsl-lv3-tw.rdns.link, port: 11044, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇨🇳 Lv3 IEPL专线 台湾B, server: node-adsl-lv3-tw.rdns.link, port: 11044, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: 🇯🇵 Lv1 日本A ☀, server: node-adsl-lv1.rdns.link, port: 15049, type: ssr, cipher: aes-256-cfb, password: adsl.cloud, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 84:BQFPTy, obfs-param: 3e5ca84.software-download.microsoft.com, udp: true}
-  - {name: "🇭🇰 HongKong0106[Relay]", server: q7rxpd.mispeed.org, port: 20106, type: trojan, password: 063508e1-e54e-44a9-b011-09b003160267, sni: hk01.zhicloud.co, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT-河移 | 解锁流媒体, server: hnyd.52147.top, port: 30180, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡Az | 解锁流媒体, server: 20.24.44.110, port: 28443, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28443, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x, server: gzyd2.52147.top, port: 30030, type: trojan, password: c3a2639c-bb97-41ee-82a7-aa872980fd49, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 V2-香港 PATHX 1-1x, server: speedtest-rtc.xtspeeder002.xyz, port: 20001, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇸🇬 V2-新加坡 PATHX 1-1x, server: speedtest-rtc.xtspeeder002.xyz, port: 20011, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇸🇬 V1-新加坡 IEPL-1x, server: speedtest-rtc.xtspeeder001.xyz, port: 20010, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇨🇳 V2-台湾 PATHX 1-1x, server: speedtest-rtc.xtspeeder002.xyz, port: 20031, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇨🇳 V1-台湾 IEPL 1-1x, server: speedtest-rtc.xtspeeder001.xyz, port: 20030, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇯🇵 V1-日本 IEPL 1-1x, server: speedtest-rtc.xtspeeder001.xyz, port: 20020, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇺🇸 V2-美国 PATHX 1-1x, server: speedtest-rtc.xtspeeder002.xyz, port: 20041, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇺🇸 V1-美国 IEPL 1-1x, server: speedtest-rtc.xtspeeder001.xyz, port: 20040, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇯🇵 V2-日本 PATHX 1-1x, server: speedtest-rtc.xtspeeder002.xyz, port: 20021, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇷🇺 V1-俄罗斯 IEPL 1-1x, server: speedtest-rtc.xtspeeder001.xyz, port: 20050, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
-  - {name: 🇷🇺 V2-俄罗斯 PATHX 1-1x, server: speedtest-rtc.xtspeeder002.xyz, port: 20051, type: ss, cipher: chacha20-ietf, password: 43ZBWt, plugin: obfs, plugin-opts: {mode: http, host: 26489294de.microsoft.com}, udp: true}
+  - {name: 🇯🇵 「黄金」06日本高级IEPL, server: 85.208.108.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Linode, server: 170.187.230.86, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: 「🇰🇷」妖书「解锁⦻1」, server: tt3.tjvpn.top, port: 2053, type: trojan, password: 51927c2a-3603-4797-8b34-62e3adf7bb46, sni: tt3.tjvpn.top, skip-cert-verify: false, udp: true}
+  - {name: 「🇺🇸」魔书「直连⦻1」, server: tt2.tjvpn.top, port: 520, type: trojan, password: 51927c2a-3603-4797-8b34-62e3adf7bb46, sni: tt2.tjvpn.top, skip-cert-verify: false, udp: true}
+  - {name: "[V2ray·1.1x]旧金山#CloudFlare#公益", server: sfo1.nuker.biz, port: 443, type: vmess, uuid: 3ca92817-53ca-4e61-8573-79c3f9b63f39, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22sfo1.nuker.biz%22%7D"}}, udp: true}
+  - {name: "🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益", server: 45.136.244.204, port: 44368, type: vmess, uuid: 3ca92817-53ca-4e61-8573-79c3f9b63f39, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan, server: metapod.defun.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: metapod.defun.us, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan 2, server: caterpie.defun.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: caterpie.defun.us, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-ByWave 03, server: 210194c475687be6.jijifun.com, port: 40012, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港-ByWave 02, server: 210194c475687be6.jijifun.com, port: 40003, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港-ByWave 01, server: 2e2d7fbdea1afc51.jijifun.com, port: 40002, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
+  - {name: 🇭🇰 香港-ByWave 04, server: 210194c475687be6.jijifun.com, port: 40013, type: ss, cipher: aes-256-gcm, password: !<str> 114514, plugin: obfs, plugin-opts: {mode: http, host: 0a39aabe55.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0, server: pro-iplc-hk1-8.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0, server: pro-iplc-hk2-8.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0, server: pro-iplc-hk1-5.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0, server: pro-iplc-hk1-7.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0, server: pro-iplc-hk2-6.nrojat.com, port: 465, type: trojan, password: U2BEkfW3hbbTyZ7Prh, skip-cert-verify: false, udp: true}
+  - {name: HimarsTrojan, server: himarsforever.accesscam.org, port: 443, type: trojan, password: f1b04cd7-e110-4fd1-930b-7ecb551caf32, sni: Himarsforever.accesscam.org, skip-cert-verify: false, udp: true}
+  - {name: strangegRPC, server: strange.accesscam.org, port: 443, type: trojan, password: b058e091-d8d4-45d1-9209-8f227d52cd83, sni: strange.accesscam.org, skip-cert-verify: false, udp: true}
+  - {name: strangeTrojan, server: strange.accesscam.org, port: 443, type: trojan, password: b058e091-d8d4-45d1-9209-8f227d52cd83, sni: strange.accesscam.org, skip-cert-verify: false, udp: true}
+  - {name: rcp, server: rcp.mjji.net, port: 80, type: vmess, uuid: db5e996d-2e2e-4ce7-8ead-693b7ed37c4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: rcp.mjji.net}}, udp: true}
+  - {name: gy, server: gy.hope.mba, port: 80, type: vmess, uuid: bea6f36a-4e9e-4684-892b-b42c561da544, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gy.hope.mba}}, udp: true}
+  - {name: cc, server: cc.mjji.net, port: 80, type: vmess, uuid: 59979991-c6de-450c-ea22-13e5bf05023d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cc.mjji.net}}, udp: true}
+  - {name: ccp, server: ccp.mjji.net, port: 80, type: vmess, uuid: 530b2dbc-52b4-40a1-9f80-08150f11e1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ccp.mjji.net}}, udp: true}
+  - {name: "🇭🇰 [广港]香港5•HKT•1.5x", server: gdcm.r.swingones1.xyz, port: 44609, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [广港]台湾1•1.5x", server: gdcm.r.swingones1.xyz, port: 44608, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 [沪日]韩国", server: shcu.r.swingones1.xyz, port: 44600, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 [沪日]澳大利亚", server: shcu.r.swingones1.xyz, port: 44623, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [广港]新加坡1•1.5x", server: gdcm.r.swingones1.xyz, port: 44605, type: trojan, password: c758ff12-9d01-430f-a880-ffbd36f292e1, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN, server: 104.18.245.229, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 2, server: 104.18.243.114, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 3, server: 104.17.122.239, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 4, server: 104.18.105.170, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 5, server: 104.19.20.0, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 6, server: 104.19.152.121, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 7, server: 104.17.159.250, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 8, server: 104.17.117.7, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN 9, server: 104.19.173.112, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: zero, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /20, headers: {Host: dosg.azure.bond}}, udp: true}
+  - {name: 🇭🇰 隧道｜NF｜香港 03, server: kqs-moble.gatknqh.cn, port: 53304, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
+  - {name: 🇸🇬 隧道｜NF｜新加坡 01, server: kqs-moble.gatknqh.cn, port: 47147, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
+  - {name: 🇸🇬 隧道｜NF｜新加坡 04, server: kqs-moble.gatknqh.cn, port: 19511, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
+  - {name: 🇸🇬 隧道｜NF｜新加坡 02, server: kqs-moble.gatknqh.cn, port: 24400, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
+  - {name: 🇸🇬 隧道｜NF｜新加坡 08, server: kqs-moble.gatknqh.cn, port: 22284, type: ss, cipher: aes-256-gcm, password: 29426116-ddb9-439d-9fac-462600a2c434, udp: true}
+  - {name: "🇭🇰 Lv3 香港 10 [2.0]", server: centos7.websitesv3.com, port: 8759, type: ss, cipher: aes-128-gcm, password: 9809fef3071ac28569959264b5ca2bb8, plugin: obfs, plugin-opts: {mode: http, host: a23798d909ba.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 03 [3.0]", server: debian10.domainsv3.com, port: 8003, type: ss, cipher: chacha20-ietf-poly1305, password: 0a00fe526e3592521559427839020652, plugin: obfs, plugin-opts: {mode: http, host: a23798d909ba.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 05 [3.0]", server: debian10.updatensv3.com, port: 8010, type: ss, cipher: chacha20-ietf-poly1305, password: 68ece1cafb98b06aa7a3edfefdf91de4, plugin: obfs, plugin-opts: {mode: http, host: a23798d909ba.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 06 [3.0]", server: debian10.updatensv3.com, port: 8015, type: ss, cipher: chacha20-ietf-poly1305, password: d6fa3a869c3a4a3edb8416e36a59e4aa, plugin: obfs, plugin-opts: {mode: http, host: a23798d909ba.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 08 [2.0]", server: centos7.websitesv3.com, port: 8763, type: ss, cipher: aes-128-gcm, password: 3e5d82b03956c907373cd5615e46704c, plugin: obfs, plugin-opts: {mode: http, host: a23798d909ba.microsoft.com}, udp: true}
+  - {name: 🇯🇵 日本 大阪 01【4 LB】, server: 40.73.113.150, port: 30005, type: ss, cipher: aes-128-gcm, password: OpS5dpCyR3WVnqvu, udp: true}
+  - {name: 🇰🇷 韩国 春川 01【4 LB】, server: 40.73.113.150, port: 30007, type: ss, cipher: aes-128-gcm, password: OpS5dpCyR3WVnqvu, udp: true}
+  - {name: 🇯🇵 日本 东京 01【3 LB】, server: 40.73.113.150, port: 30004, type: ss, cipher: aes-128-gcm, password: OpS5dpCyR3WVnqvu, udp: true}
+  - {name: 🇩🇪 德国 法兰克福 01 【4 LB】, server: 40.73.113.150, port: 30008, type: ss, cipher: aes-128-gcm, password: OpS5dpCyR3WVnqvu, udp: true}
+  - {name: 🇺🇸 美国 洛杉矶 01, server: 40.73.113.150, port: 30015, type: ss, cipher: aes-128-gcm, password: OpS5dpCyR3WVnqvu, udp: true}
+  - {name: 🇭🇰 中国香港-Aliyun, server: 8.210.227.61, port: 7777, type: ssr, cipher: aes-128-ctr, password: osttsStudio, protocol: auth_sha1_v4, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 🇭🇰 香港 -L2|湘联|04, server: 116.129.254.111, port: 1429, type: ssr, cipher: rc4-md5, password: ybYNwh, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 198119:rxcSA4, obfs-param: 88b73198119.wns.windows.com, udp: true}
+  - {name: 🇭🇰 香港 -L2|湘联|01, server: 116.129.254.111, port: 1406, type: ssr, cipher: rc4-md5, password: ybYNwh, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 198119:rxcSA4, obfs-param: 88b73198119.wns.windows.com, udp: true}
+  - {name: 🇰🇷 韩国 -L3|沪韩专线B, server: 116.129.253.175, port: 4412, type: ssr, cipher: rc4-md5, password: ybYNwh, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 198119:rxcSA4, obfs-param: 88b73198119.wns.windows.com, udp: true}
+  - {name: 🇨🇳 台湾 -L2|湘联|02, server: 116.129.254.111, port: 1363, type: ssr, cipher: rc4-md5, password: ybYNwh, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 198119:rxcSA4, obfs-param: 88b73198119.wns.windows.com, udp: true}
   - {name: 🇭🇰 香港2, server: 810hk03.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk03.fx6688.top}}, udp: true}
-  - {name: 🇭🇰 香港1, server: 810hk05.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk05.fx6688.top}}, udp: true}
-  - {name: 🇭🇰 香港0, server: 810hk01.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk01.fx6688.top}}, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本, server: japanosaka.bpnet.club, port: 12001, type: trojan, password: 6df6964f-f669-45fa-a871-5b1768c1f885, sni: japanosaka.bpnet.club, skip-cert-verify: false, udp: true}
+  - {name: 距离下次重置剩余：19 天, server: free.fanqiangvpn.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
+  - {name: 免费 | 备用, server: free.fanqiangvpn.com, port: 80, type: vmess, uuid: 0b54a38a-584a-421e-9e41-35a95cf3baed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /fanqiangvpn.com, headers: {Host: free.fanqiangvpn.com}}, udp: true}
+  - {name: 大萝卜鸡, server: 103.56.60.185, port: 3383, type: trojan, password: ab29af390ff9f4a7, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港, server: cn05.downloadmovie.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn05.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 🇯🇵 大萝卜鸡日本, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 大萝卜鸡韩国, server: krcc4.feethree.top, port: 9038, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: krcc4.feethree.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 大萝卜鸡美国, server: v20.emovpn.xyz, port: 1256, type: vmess, uuid: 739c597d-2de2-4306-bdb7-1a0901750d4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港, server: bpbpbpbpml.xn--z4q48lcvp.com, port: 35470, type: trojan, password: 6df6964f-f669-45fa-a871-5b1768c1f885, sni: bpbpbpbpml.xn--z4q48lcvp.com, skip-cert-verify: false, udp: true}
   - {name: 🇩🇪 大萝卜鸡德国, server: cn04.downloadmovie.cn, port: 65057, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 HK/TG-LUFFY分享/6, server: 1063975e-d559-89b3-5d40-2faae0a79030.cnnic.rip, port: 80, type: vmess, uuid: bf548263-6398-4b61-a2c8-92e372f4f2f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇸🇬 SG/TG-LUFFY分享/9, server: sg1.keai.shop, port: 6633, type: trojan, password: 69cfb0b1-c2cb-4fea-843d-664ab8197801, sni: sg1.keai.shop, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG/TG-LUFFY分享/24, server: 810hk01.ok365.cyou, port: 443, type: trojan, password: e7e5b769-2632-40f4-afb0-3b92bcfebd2b, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 JP/TG-LUFFY分享/7, server: 8d49eb19-e567-f096-6c26-144f87cea476.cnnic.rip, port: 80, type: vmess, uuid: bf548263-6398-4b61-a2c8-92e372f4f2f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
-  - {name: 🇸🇬 SG/TG-LUFFY分享/25, server: 89hk02.ok365.cyou, port: 443, type: trojan, password: e7e5b769-2632-40f4-afb0-3b92bcfebd2b, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG/TG-LUFFY分享/20, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: e7e5b769-2632-40f4-afb0-3b92bcfebd2b, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US/TG-LUFFY分享/4, server: a50b4b64-7622-5a34-45ab-b8656951647e.cnnic.rip, port: 80, type: vmess, uuid: bf548263-6398-4b61-a2c8-92e372f4f2f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a50b4b64-7622-5a34-45ab-b8656951647e.cnnic.rip}}, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11445, server: h63956.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11345, server: h63956.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 大萝卜鸡美国, server: unicom04.downloadmovie.cn, port: 65014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22unicom04.downloadmovie.cn%22%7D"}}, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11245, server: h63956.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h181902.waihuizhibiaowang.com:11745, server: h181902.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h181902.waihuizhibiaowang.com:11245, server: h181902.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h181902.waihuizhibiaowang.com:11145, server: h181902.waihuizhibiaowang.com, port: 11145, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -312,98 +364,109 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
       - 🇭🇰 大萝卜鸡香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -411,221 +474,260 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -641,74 +743,87 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 「黄金」05日本高级IEPL
+      - 🇯🇵 「白银」08日本高级IEPL
+      - 🇯🇵 「黄金」08日本高级IEPL
+      - 🇯🇵 「黄金」09日本高级IEPL
+      - 🇯🇵 「黄金」01日本高级IEPL
+      - 🇯🇵 「黄金」07日本高级IEPL
       - 🇯🇵 「黄金」02日本高级IEPL
-      - 🇯🇵 「白银」05日本高级IEPL
-      - 🇯🇵 「黄金」03日本高级IEPL
-      - 🇯🇵 「白银」07日本高级IEPL
-      - 🇭🇰 香港✈️中转 [湘沪BGP]
-      - 🇨🇳 台湾✈️中转  [湘沪BGP]
-      - 🇰🇷 韩国✈️中转 [广州BGP]
-      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
-      - 🇸🇬 新加坡✈️中转 [广州BGP]
-      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | D | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 2.5x | 簽到可免費使用 | 體驗節點 | E3 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇺🇸 美国 | 25x | 簽到可免費使用 | 體驗節點 | F4 | 官網 | ninihao.cc | 体验节点不等于付费节点效果喔 |
-      - 🇭🇰 Lv3 IEPL专线 香港B
-      - 🇭🇰 Lv2 BGP中继 香港C
-      - 🇭🇰 Lv2 BGP中继 香港A
-      - 🇨🇳 Lv1 台湾B ☀
-      - 🇭🇰 Lv3 IEPL专线 香港C
-      - 🇨🇳 Lv1 台湾A ☀
-      - 🇨🇳 Lv1 台湾C ☀
-      - 🇨🇳 Lv2 BGP中继 台湾C
-      - 🇨🇳 Lv3 IEPL专线 台湾A
-      - 🇨🇳 Lv3 IEPL专线 台湾B
-      - 🇯🇵 Lv1 日本A ☀
-      - 🇭🇰 HongKong0106[Relay]
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇻🇳 越南-2号
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇻🇳 越南-1号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇸🇬 新加坡Az | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇺🇸 美国圣何塞-广州移动2负载均衡 | 解锁流媒体 | 0.1x
-      - 🇭🇰 V2-香港 PATHX 1-1x
-      - 🇸🇬 V2-新加坡 PATHX 1-1x
-      - 🇸🇬 V1-新加坡 IEPL-1x
-      - 🇨🇳 V2-台湾 PATHX 1-1x
-      - 🇨🇳 V1-台湾 IEPL 1-1x
-      - 🇯🇵 V1-日本 IEPL 1-1x
-      - 🇺🇸 V2-美国 PATHX 1-1x
-      - 🇺🇸 V1-美国 IEPL 1-1x
-      - 🇯🇵 V2-日本 PATHX 1-1x
-      - 🇷🇺 V1-俄罗斯 IEPL 1-1x
-      - 🇷🇺 V2-俄罗斯 PATHX 1-1x
+      - 🇯🇵 「黄金」06日本高级IEPL
+      - Linode
+      - 「🇰🇷」妖书「解锁⦻1」
+      - 「🇺🇸」魔书「直连⦻1」
+      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
+      - 🇷🇺 [直连][V2ray·0.5x]莫斯科 GT#公益
+      - 🇯🇵 Japan
+      - 🇨🇳 Taiwan
+      - 🇯🇵 Japan 2
+      - 🇭🇰 香港-ByWave 03
+      - 🇭🇰 香港-ByWave 02
+      - 🇭🇰 香港-ByWave 01
+      - 🇭🇰 香港-ByWave 04
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-8-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-5-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK1-7-Rate:1.0
+      - 🇭🇰 HongKong-PRO-IPLC-HK2-6-Rate:1.0
+      - HimarsTrojan
+      - strangegRPC
+      - strangeTrojan
+      - rcp
+      - gy
+      - cc
+      - ccp
+      - 🇭🇰 [广港]香港5•HKT•1.5x
+      - 🇭🇰 [广港]台湾1•1.5x
+      - 🇯🇵 [沪日]韩国
+      - 🇯🇵 [沪日]澳大利亚
+      - 🇭🇰 [广港]新加坡1•1.5x
+      - DigitalOcean｜Cloudflare CDN
+      - DigitalOcean｜Cloudflare CDN 2
+      - DigitalOcean｜Cloudflare CDN 3
+      - DigitalOcean｜Cloudflare CDN 4
+      - DigitalOcean｜Cloudflare CDN 5
+      - DigitalOcean｜Cloudflare CDN 6
+      - DigitalOcean｜Cloudflare CDN 7
+      - DigitalOcean｜Cloudflare CDN 8
+      - DigitalOcean｜Cloudflare CDN 9
+      - 🇭🇰 隧道｜NF｜香港 03
+      - 🇸🇬 隧道｜NF｜新加坡 01
+      - 🇸🇬 隧道｜NF｜新加坡 04
+      - 🇸🇬 隧道｜NF｜新加坡 02
+      - 🇸🇬 隧道｜NF｜新加坡 08
+      - 🇭🇰 Lv3 香港 10 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 Lv3 香港 05 [3.0]
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇯🇵 日本 大阪 01【4 LB】
+      - 🇰🇷 韩国 春川 01【4 LB】
+      - 🇯🇵 日本 东京 01【3 LB】
+      - 🇩🇪 德国 法兰克福 01 【4 LB】
+      - 🇺🇸 美国 洛杉矶 01
+      - 🇭🇰 中国香港-Aliyun
+      - 🇭🇰 香港 -L2|湘联|04
+      - 🇭🇰 香港 -L2|湘联|01
+      - 🇰🇷 韩国 -L3|沪韩专线B
+      - 🇨🇳 台湾 -L2|湘联|02
       - 🇭🇰 香港2
-      - 🇭🇰 香港1
-      - 🇭🇰 香港0
+      - 距离下次重置剩余：19 天
+      - 免费 | 备用
+      - 大萝卜鸡
+      - 🇭🇰 大萝卜鸡香港
       - 🇯🇵 大萝卜鸡日本
       - 🇰🇷 大萝卜鸡韩国
-      - 🇺🇸 大萝卜鸡美国
-      - 🇭🇰 大萝卜鸡香港
       - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 HK/TG-LUFFY分享/6
-      - 🇸🇬 SG/TG-LUFFY分享/9
-      - 🇸🇬 SG/TG-LUFFY分享/24
-      - 🇯🇵 JP/TG-LUFFY分享/7
-      - 🇸🇬 SG/TG-LUFFY分享/25
-      - 🇸🇬 SG/TG-LUFFY分享/20
-      - 🇺🇸 US/TG-LUFFY分享/4
-      - h63956.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
-      - h63956.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11345
-      - h63956.waihuizhibiaowang.com:11345
+      - 🇺🇸 大萝卜鸡美国
       - h755658.waihuizhibiaowang.com:11545
-      - h63956.waihuizhibiaowang.com:11245
+      - h755658.waihuizhibiaowang.com:11345
+      - h181902.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11245
+      - h63956.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
