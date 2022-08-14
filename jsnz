@@ -6,122 +6,77 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 免流, server: 112.45.34.12, port: 80, type: vmess, uuid: 92d43d21-7093-4f46-abc2-1050a5017a29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: DigitalOcean（电信不能用）, server: 163.47.11.31, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 🇭🇰 香港C📺｜3x｜专线, server: 120.233.7.76, port: 59266, type: ss, cipher: chacha20-ietf-poly1305, password: 44b00949-15fc-4c6a-aa46-d6d50e2b0c4e, udp: true}
-  - {name: 🇭🇰 香港D📺｜3x｜专线, server: 120.233.7.76, port: 59288, type: ss, cipher: chacha20-ietf-poly1305, password: 44b00949-15fc-4c6a-aa46-d6d50e2b0c4e, udp: true}
-  - {name: 🇭🇰 香港B📺｜1.5x, server: hk2.zz8.shop, port: 59222, type: ss, cipher: chacha20-ietf-poly1305, password: 44b00949-15fc-4c6a-aa46-d6d50e2b0c4e, udp: true}
-  - {name: 🇸🇬 新加坡A📺｜1x, server: sg1.zz8.shop, port: 59666, type: ss, cipher: chacha20-ietf-poly1305, password: 44b00949-15fc-4c6a-aa46-d6d50e2b0c4e, udp: true}
-  - {name: 🇭🇰 VIP香港2-HeBGP, server: h1kbgp.hootfun.top, port: 41511, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: h1kbgp.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 圣何塞-CN2, server: us218.hootfun.top, port: 32411, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: us218.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇺 匈牙利-1000M直连, server: xyl.hootfun.top, port: 24112, type: ss, cipher: chacha20-ietf-poly1305, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, udp: true}
-  - {name: 🇩🇪 德国G口, server: dg.hootfun.top, port: 31324, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: dg.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-2-G口, server: dg.hootfun.top, port: 32451, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: dg.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 俄罗斯2-电信联通优化, server: ru.hootfun.top, port: 32411, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: ru.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 俄罗斯-电信联通优化, server: ru.hootfun.top, port: 23144, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: ru.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 VIP香港-HeBGP, server: h1kbgp.hootfun.top, port: 23151, type: trojan, password: dd8a44f9-7c1d-4286-8f6f-4e4f19cb7998, sni: h1kbgp.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 Microsoft|IN|1x, server: 20.219.51.125, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: Microsoft|JP2|1x, server: 20.210.208.95, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 26539, type: trojan, password: 06541af5-a8f7-4b25-98ed-f52e7c2c5d17, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 06541af5-a8f7-4b25-98ed-f52e7c2c5d17, sni: xg1.xianggang1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 06541af5-a8f7-4b25-98ed-f52e7c2c5d17, sni: aa1.liumeit.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 新加坡✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 30484, type: trojan, password: 06541af5-a8f7-4b25-98ed-f52e7c2c5d17, sni: xjp1.xinjiapo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇰🇷 韩国✈️中转 [广州BGP]", server: az.az-bgp.chuangshi999.xyz, port: 39124, type: trojan, password: 06541af5-a8f7-4b25-98ed-f52e7c2c5d17, sni: hg1.hanguo1.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇷🇺 俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 06541af5-a8f7-4b25-98ed-f52e7c2c5d17, sni: els1.eluosi1.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 「443」海外·美国, server: us.msuoolwbcmkrefye.spnet.vip, port: 443, type: vmess, uuid: fc003c8b-c06c-4782-854f-08d3d5dd5678, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇺🇸 「绿通」海外·美国｜US, server: 23.94.123.76, port: 46794, type: vmess, uuid: 02bc60c4-59e7-4f08-931c-93405ef1aada, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
   - {name: 🇭🇰 Microsoft|HK|1x, server: 104.208.97.180, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇯🇵 Microsoft|JP|1x, server: 20.243.78.85, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: Microsoft|JP2|1x, server: 20.210.208.95, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇰🇷 Microsoft|KR|1x, server: 20.214.169.141, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 CC|2|US|0.1x, server: 198.211.4.60, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 🇺🇸 CC|US|0.1x, server: 198.211.4.61, port: 80, type: vmess, uuid: c2212831-2be1-4927-bec6-d7cf242b81a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: HeBGP, server: h1kbgp.hootfun.top, port: 23151, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: h1kbgp.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: CN2, server: us218.hootfun.top, port: 42222, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: us218.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 1000M直连, server: xyl.hootfun.top, port: 24112, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, udp: true}
-  - {name: G口, server: dg.hootfun.top, port: 31324, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: dg.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国口, server: dg.hootfun.top, port: 32451, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: dg.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 电信联通优化, server: ru.hootfun.top, port: 32411, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: ru.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 圣何塞-C, server: us218.hootfun.top, port: 32411, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: us218.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: VIBGP, server: h1kbgp.hootfun.top, port: 41511, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: h1kbgp.hootfun.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡07|负载均衡IPV6, server: cn03.downloadmovie.cn, port: 65017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇸🇬 新加坡05|负载均衡IPV6, server: cn01.downloadmovie.cn, port: 65015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn01.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇯🇵 日本02|负载均衡, server: cn02.downloadmovie.cn, port: 65005, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn02.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇸🇬 新加坡02|负载均衡IPV6, server: cn02.downloadmovie.cn, port: 65016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn02.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇯🇵 日本03|负载均衡, server: cn03.downloadmovie.cn, port: 65006, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇯🇵 日本04|负载均衡, server: cn04.downloadmovie.cn, port: 65042, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 菲律宾01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65067, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 菲律宾04|深港专线, server: sgzx-cn04.gatknqh.cn, port: 65067, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn04.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 香港07|原生解锁, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn02.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 菲律宾03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65067, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 香港08|原生解锁, server: cn03.downloadmovie.cn, port: 65041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 泰国03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 菲律宾02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65067, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 澳大利亚01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65064, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 泰国01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 澳大利亚04|深港专线, server: sgzx-cn04.gatknqh.cn, port: 65064, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn04.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 德国03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65042, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 泰国04|深港专线, server: sgzx-cn04.gatknqh.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn04.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 孟加拉国01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65069, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 迪拜01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65066, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 迪拜03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65066, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 越南04|深港专线, server: sgzx-cn04.gatknqh.cn, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn04.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 越南01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 瑞士01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65079, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 瑞士02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65079, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 俄罗斯01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65072, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 俄罗斯02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65072, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇩🇪 德国G口, server: dg.hootfun.top, port: 31324, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: dg.hootfun.top, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-2-G口, server: dg.hootfun.top, port: 32451, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: dg.hootfun.top, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 俄罗斯2-电信联通优化, server: ru.hootfun.top, port: 32411, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: ru.hootfun.top, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 VIP香港2-HeBGP, server: h1kbgp.hootfun.top, port: 41511, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: h1kbgp.hootfun.top, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 圣何塞-CN2, server: us218.hootfun.top, port: 32411, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: us218.hootfun.top, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 越南02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 越南04|深港专线, server: sgzx-cn04.gatknqh.cn, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn04.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 越南03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇸🇬 新加坡03|负载均衡IPV6, server: cn03.downloadmovie.cn, port: 65017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 菲律宾01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65067, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
   - {name: 🇭🇰 澳大利亚03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65064, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 荷兰01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65076, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 瑞士04|深港专线, server: sgzx-cn04.gatknqh.cn, port: 65079, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn04.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 捷克02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65077, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 迪拜02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65066, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 泰国02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 捷克03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65077, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
-  - {name: 🇯🇵 V0-东京3, server: gyjp3.333003.xyz, port: 56914, type: ss, cipher: chacha20-ietf-poly1305, password: a97965aa-4f11-4174-8416-f3c0ee370626, udp: true}
-  - {name: 🇯🇵 V0-东京2, server: gyjp2.333003.xyz, port: 19780, type: trojan, password: a97965aa-4f11-4174-8416-f3c0ee370626, sni: gjp2.333003.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [广港]香港5•HKT•1.5x", server: gdcm.r.swingones1.xyz, port: 44609, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [广港]香港3•HGC", server: gdcm.r.swingones1.xyz, port: 44601, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [广港]菲律宾马尼拉•1.2x", server: gdcm.r.swingones1.xyz, port: 44615, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 欢迎使用 Welink welink345.233.tw, server: tw.n.optage.moe, port: 44608, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: tw.node.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [广港]印度尼西亚•1.2x", server: gdcm.r.swingones1.xyz, port: 44607, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 [直连]台湾1", server: tw.n.optage.moe, port: 44608, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: tw.node.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [广港]泰国曼谷•1.2x", server: gdcm.r.swingones1.xyz, port: 44614, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [广港]台湾1•1.5x", server: gdcm.r.swingones1.xyz, port: 44608, type: trojan, password: d0f8631c-09f5-4501-a973-fc6604719fe2, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡G-Core | 解锁流媒体, server: 91.243.81.42, port: 28443, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港07|原生解锁, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn02.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 🇸🇬 新加坡05|负载均衡IPV6, server: cn01.downloadmovie.cn, port: 65015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn01.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 澳大利亚01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65064, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 澳大利亚02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65064, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇸🇬 新加坡01|负载均衡IPV6, server: cn01.downloadmovie.cn, port: 65015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn01.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 瑞士01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65079, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 德国02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65057, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 越南01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 德国04|深港专线, server: sgzx-cn04.gatknqh.cn, port: 65057, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn04.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 印度02|深港专线, server: sgzx-cn02.gatknqh.cn, port: 65091, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn02.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 西班牙03|深港专线, server: sgzx-cn03.gatknqh.cn, port: 65088, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn03.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 德国01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65057, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 柬埔寨01|深港专线, server: sgzx-cn01.gatknqh.cn, port: 65068, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22sgzx-cn01.gatknqh.cn%22%7D"}}, udp: true}
+  - {name: 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体, server: gzyd1.52147.top, port: 30010, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28443, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x, server: gzyd1.52147.top, port: 30030, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT-河移 | 解锁流媒体, server: hnyd.52147.top, port: 30180, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT-广移 | 解锁流媒体, server: gzyd1.52147.top, port: 30180, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28443, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 V0-东京, server: gyjp1.333003.xyz, port: 59324, type: trojan, password: e8700c50-f4e0-4363-91bb-4b26cbb9318a, sni: gjp.333003.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 V0-东京2 2, server: gyjp2.333003.xyz, port: 19780, type: trojan, password: e8700c50-f4e0-4363-91bb-4b26cbb9318a, sni: gjp2.333003.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 28cc373c-0da8-45b0-a423-256c72fe232d, sni: www.download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 Japan, server: metapod.defun.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: metapod.defun.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 7, server: editors.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: editors.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 United-States 10, server: music.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: music.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 2, server: nevada.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: nevada.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港1, server: 810hk05.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 810hk05.fx6688.top}}, udp: true}
-  - {name: 🇨🇳 台湾, server: 716tw.fx6688.top, port: 443, type: vmess, uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: 716tw.fx6688.top}}, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港1, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn02.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港2, server: cn05.downloadmovie.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn05.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本1, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港3, server: cn03.downloadmovie.cn, port: 65041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇰🇷 大萝卜鸡韩国, server: krcc4.feethree.top, port: 9038, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: krcc4.feethree.top, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 12, server: fresh.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: fresh.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States-L2 2, server: antechinus.fireplay.io, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: antechinus.fireplay.io, skip-cert-verify: false, udp: true}
+  - {name: h192837.strongpipe.live:11343, server: h192837.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇵🇭 大萝卜鸡菲律宾, server: cn03.downloadmovie.cn, port: 65067, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 🇰🇷 大萝卜鸡韩国, server: krcc4.feethree.top, port: 9038, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: krcc4.feethree.top, skip-cert-verify: false, udp: true}
+  - {name: h192837.strongpipe.live:11744, server: h192837.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港, server: cn02.downloadmovie.cn, port: 65040, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn02.downloadmovie.cn%22%7D"}}, udp: true}
   - {name: 🇺🇸 大萝卜鸡美国高速, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: static.dingtalk.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 大萝卜鸡德国, server: cn04.downloadmovie.cn, port: 65057, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 香港ttt, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 SS|台湾A01| 原生解锁, server: 36.137.176.31, port: 45392, type: ss, cipher: chacha20-ietf-poly1305, password: 9cfbb6f0-8930-46a2-b716-c603737c3b03, udp: true}
-  - {name: TW01-V2-直连, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: fd9aa42d-ab9b-4efe-9b2e-054cadf20f0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
-  - {name: TW02-SS-HZCM, server: hzcm.henet.cyou, port: 30012, type: ss, cipher: chacha20-ietf-poly1305, password: fd9aa42d-ab9b-4efe-9b2e-054cadf20f0b, udp: true}
-  - {name: TW01-SS-HZCM, server: hzcm.henet.cyou, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: e5a2bd1a-53da-473e-a81b-573b4758b66b, udp: true}
-  - {name: TW01-SS-SZCM, server: szcm.henet.cyou, port: 30011, type: ss, cipher: chacha20-ietf-poly1305, password: e5a2bd1a-53da-473e-a81b-573b4758b66b, udp: true}
-  - {name: 🇨🇳 V2|台湾A01| 原生解锁, server: 36.137.176.31, port: 45394, type: vmess, uuid: 9cfbb6f0-8930-46a2-b716-c603737c3b03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 SS|俄罗斯A01|IDC, server: 36.137.176.31, port: 25015, type: ss, cipher: chacha20-ietf-poly1305, password: 9cfbb6f0-8930-46a2-b716-c603737c3b03, udp: true}
+  - {name: 🇭🇰 香港警方, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港特区政府, server: hk-5.netflixssr.com, port: 644, type: vmess, uuid: 62da8622-8fd6-302e-88e7-c68f6cd9ea52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v1/stream, headers: {Host: "%7B%22Host%22:%22hk-5.netflixssr.com%22%7D"}}, udp: true}
   - {name: 🇯🇵 JP TYO 04 TR(trojan), server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: LTKPTMbjBDYisdMxKEBDzcduXacOvIVY, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 V2|印度A01|IDC, server: 36.137.176.31, port: 25004, type: vmess, uuid: 9cfbb6f0-8930-46a2-b716-c603737c3b03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇷🇺 V2|俄罗斯A01|IDC, server: 36.137.176.31, port: 25014, type: vmess, uuid: 9cfbb6f0-8930-46a2-b716-c603737c3b03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇹🇷 SS|土耳其A01|IDC, server: 36.137.176.31, port: 25013, type: ss, cipher: chacha20-ietf-poly1305, password: 9cfbb6f0-8930-46a2-b716-c603737c3b03, udp: true}
+  - {name: HKkkk, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡668, server: 139.162.1.91, port: 28316, type: vmess, uuid: c5db7e7e-1a21-4c0b-ef58-f51acfcf9c23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 圣何塞555, server: us218.hootfun.top, port: 42222, type: trojan, password: 3bcb1854-0485-45b6-91ce-c3953dd2ec5f, sni: us218.hootfun.top, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 [专线]新加坡 01 1x", server: singapore.bpnet.club, port: 30241, type: trojan, password: fcb26379-5505-432e-9ab6-e2c96e94102d, sni: singapore.bpnet.club, skip-cert-verify: false, udp: true}
+  - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11545, server: h961359.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h755658.waihuizhibiaowang.com:11345, server: h755658.waihuizhibiaowang.com, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11445, server: h961359.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h181902.waihuizhibiaowang.com:11745, server: h181902.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11545, server: h961359.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h181902.waihuizhibiaowang.com:11245, server: h181902.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11245, server: h961359.waihuizhibiaowang.com, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11745, server: h961359.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h181902.waihuizhibiaowang.com:11145, server: h181902.waihuizhibiaowang.com, port: 11145, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11445, server: h961359.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -129,244 +84,154 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -374,122 +239,77 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -509,178 +329,105 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
       - 🇭🇰 VIP香港2-HeBGP
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - 🇨🇳 V2|台湾A01| 原生解锁
+      - 🇭🇰 香港07|原生解锁
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 大萝卜鸡香港
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -688,244 +435,154 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -933,122 +590,77 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1065,122 +677,77 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 免流
-      - DigitalOcean（电信不能用）
-      - 🇭🇰 香港C📺｜3x｜专线
-      - 🇭🇰 香港D📺｜3x｜专线
-      - 🇭🇰 香港B📺｜1.5x
-      - 🇸🇬 新加坡A📺｜1x
-      - 🇭🇰 VIP香港2-HeBGP
-      - 🇺🇸 圣何塞-CN2
-      - 🇭🇺 匈牙利-1000M直连
-      - 🇩🇪 德国G口
-      - 🇩🇪 德国-2-G口
-      - 🇷🇺 俄罗斯2-电信联通优化
-      - 🇷🇺 俄罗斯-电信联通优化
-      - 🇭🇰 VIP香港-HeBGP
-      - 🇮🇳 Microsoft|IN|1x
-      - Microsoft|JP2|1x
+      - 🇸🇬 新加坡✈️中转  [湘沪BGP]
+      - 🇭🇰 香港✈️中转 [湘沪BGP]
+      - 🇨🇳 台湾✈️中转  [湘沪BGP]
+      - 🇸🇬 新加坡✈️中转 [广州BGP]
+      - 🇰🇷 韩国✈️中转 [广州BGP]
+      - 🇷🇺 俄罗斯✈️中转  [湘沪BGP]
+      - 🇺🇸 「443」海外·美国
+      - 🇺🇸 「绿通」海外·美国｜US
       - 🇭🇰 Microsoft|HK|1x
-      - 🇯🇵 Microsoft|JP|1x
+      - Microsoft|JP2|1x
       - 🇰🇷 Microsoft|KR|1x
       - 🇺🇸 CC|2|US|0.1x
       - 🇺🇸 CC|US|0.1x
-      - HeBGP
-      - CN2
-      - 1000M直连
-      - G口
-      - 🇩🇪 德国口
-      - 电信联通优化
-      - 🇺🇸 圣何塞-C
-      - VIBGP
-      - 🇸🇬 新加坡07|负载均衡IPV6
-      - 🇸🇬 新加坡05|负载均衡IPV6
-      - 🇯🇵 日本02|负载均衡
-      - 🇸🇬 新加坡02|负载均衡IPV6
-      - 🇯🇵 日本03|负载均衡
-      - 🇯🇵 日本04|负载均衡
-      - 🇭🇰 菲律宾01|深港专线
-      - 🇭🇰 菲律宾04|深港专线
-      - 🇭🇰 香港07|原生解锁
-      - 🇭🇰 菲律宾03|深港专线
-      - 🇭🇰 香港08|原生解锁
-      - 🇭🇰 泰国03|深港专线
-      - 🇭🇰 菲律宾02|深港专线
-      - 🇭🇰 澳大利亚01|深港专线
-      - 🇭🇰 泰国01|深港专线
-      - 🇭🇰 澳大利亚04|深港专线
-      - 🇭🇰 德国03|深港专线
-      - 🇭🇰 泰国04|深港专线
-      - 🇭🇰 孟加拉国01|深港专线
-      - 🇭🇰 迪拜01|深港专线
-      - 🇭🇰 迪拜03|深港专线
-      - 🇭🇰 越南04|深港专线
-      - 🇭🇰 越南01|深港专线
-      - 🇭🇰 瑞士01|深港专线
-      - 🇭🇰 瑞士02|深港专线
-      - 🇭🇰 俄罗斯01|深港专线
-      - 🇭🇰 俄罗斯02|深港专线
+      - 🇩🇪 德国G口
+      - 🇩🇪 德国-2-G口
+      - 🇷🇺 俄罗斯2-电信联通优化
+      - 🇭🇰 VIP香港2-HeBGP
+      - 🇺🇸 圣何塞-CN2
       - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南04|深港专线
+      - 🇭🇰 越南03|深港专线
+      - 🇸🇬 新加坡03|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 澳大利亚03|深港专线
-      - 🇭🇰 荷兰01|深港专线
-      - 🇭🇰 瑞士04|深港专线
-      - 🇭🇰 捷克02|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 泰国02|深港专线
-      - 🇭🇰 捷克03|深港专线
-      - 🇯🇵 V0-东京3
-      - 🇯🇵 V0-东京2
-      - 🇭🇰 [广港]香港5•HKT•1.5x
-      - 🇭🇰 [广港]香港3•HGC
-      - 🇭🇰 [广港]菲律宾马尼拉•1.2x
-      - 🇨🇳 欢迎使用 Welink welink345.233.tw
-      - 🇭🇰 [广港]印度尼西亚•1.2x
-      - 🇨🇳 [直连]台湾1
-      - 🇭🇰 [广港]泰国曼谷•1.2x
-      - 🇭🇰 [广港]台湾1•1.5x
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇭🇰 香港07|原生解锁
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 澳大利亚01|深港专线
+      - 🇭🇰 澳大利亚02|深港专线
+      - 🇸🇬 新加坡01|负载均衡IPV6
+      - 🇭🇰 瑞士01|深港专线
+      - 🇭🇰 德国02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 德国04|深港专线
+      - 🇭🇰 印度02|深港专线
+      - 🇭🇰 西班牙03|深港专线
+      - 🇭🇰 德国01|深港专线
+      - 🇭🇰 柬埔寨01|深港专线
+      - 🇨🇳 台湾Hinet-广州移动 | 解锁流媒体
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇺🇸 美国圣何塞-广州移动负载均衡 | 解锁流媒体 | 0.1x
       - 🇻🇳 越南-3号
-      - 🇻🇳 越南-4号
-      - 🇭🇰 香港HKT-河移 | 解锁流媒体
       - 🇻🇳 越南-2号
-      - 🇭🇰 香港HKT-广移 | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇯🇵 V0-东京
-      - 🇯🇵 V0-东京2 2
-      - 🇨🇳 Taiwan
+      - 🇻🇳 越南-1号
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 10
-      - 🇺🇸 United-States 2
-      - 🇭🇰 香港1
-      - 🇨🇳 台湾
-      - 🇭🇰 大萝卜鸡香港1
-      - 🇭🇰 大萝卜鸡香港2
-      - 🇯🇵 大萝卜鸡日本1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇰🇷 大萝卜鸡韩国
+      - 🇺🇸 United-States 12
+      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States-L2 2
+      - h192837.strongpipe.live:11343
       - 🇵🇭 大萝卜鸡菲律宾
+      - 🇰🇷 大萝卜鸡韩国
+      - h192837.strongpipe.live:11744
+      - 🇭🇰 大萝卜鸡香港
       - 🇺🇸 大萝卜鸡美国高速
-      - 🇩🇪 大萝卜鸡德国
-      - 🇭🇰 香港ttt
-      - 🇨🇳 SS|台湾A01| 原生解锁
-      - TW01-V2-直连
-      - TW02-SS-HZCM
-      - TW01-SS-HZCM
-      - TW01-SS-SZCM
-      - 🇨🇳 V2|台湾A01| 原生解锁
-      - 🇷🇺 SS|俄罗斯A01|IDC
+      - 🇭🇰 香港警方
+      - 🇭🇰 香港特区政府
       - 🇯🇵 JP TYO 04 TR(trojan)
-      - 🇮🇳 V2|印度A01|IDC
-      - 🇷🇺 V2|俄罗斯A01|IDC
-      - 🇹🇷 SS|土耳其A01|IDC
+      - HKkkk
+      - 🇸🇬 新加坡668
+      - 🇺🇸 圣何塞555
+      - 🇸🇬 [专线]新加坡 01 1x
+      - h63956.waihuizhibiaowang.com:11545
       - h755658.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h755658.waihuizhibiaowang.com:11345
-      - h961359.waihuizhibiaowang.com:11445
+      - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11545
+      - h181902.waihuizhibiaowang.com:11245
       - h961359.waihuizhibiaowang.com:11245
-      - h961359.waihuizhibiaowang.com:11745
+      - h181902.waihuizhibiaowang.com:11145
+      - h755658.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11445
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
