@@ -5,307 +5,419 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 09 HKT家宽（0.1x）, server: f1604a02-cdb8-457a-8369-6a64e4922e70.zj.node.touhou.place, port: 8301, type: vmess, uuid: c3f40dcf-ccbe-11eb-8aa6-f23c91d8700f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 5bb57fe0-3f90-4d92-bf03-1d917e11ce7b.hk.node.touhou.place}}, udp: true}
-  - {name: 🇨🇳 台湾 02 HiNet, server: 83041227-55a7-4080-b7e1-9dfc7478ddb0.gz.node.touhou.place, port: 8402, type: vmess, uuid: c3f40dcf-ccbe-11eb-8aa6-f23c91d8700f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: 5d228bfa-9dcf-435a-8dc5-a27c61c4d72c.tw.node.touhou.place}}, udp: true}
-  - {name: 🇯🇵 日本 09 IIJ, server: f1604a02-cdb8-457a-8369-6a64e4922e70.zj.node.touhou.place, port: 8205, type: vmess, uuid: c3f40dcf-ccbe-11eb-8aa6-f23c91d8700f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: fd88d3e2-d36d-467c-a4a2-6b6ae4f0f479.jp.node.touhou.place}}, udp: true}
-  - {name: 🇭🇰 【直连】HKG/香港 - 2, server: 00000000000000000000000000000000000000000000000000000000000022a.rui77.com, port: 52356, type: vmess, uuid: f68bf891-3c33-45c8-bfe8-89c3af94d2e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 【直连】HKG/香港 - 4, server: 00000000000000000000000000000000000000000000000000000000000032a.rui77.com, port: 12356, type: vmess, uuid: f68bf891-3c33-45c8-bfe8-89c3af94d2e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 【直连】HKG/香港 - 1, server: 00000000000000000000000000000000000000000000000000000000000021a.rui77.com, port: 52356, type: vmess, uuid: f68bf891-3c33-45c8-bfe8-89c3af94d2e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 【直连】SIN/狮城 - 2, server: 00000000000000000000000000000000000000000000000000000000000026a.rui77.com, port: 52356, type: vmess, uuid: f68bf891-3c33-45c8-bfe8-89c3af94d2e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 【直连】SIN/狮城 - 1, server: 00000000000000000000000000000000000000000000000000000000000025a.rui77.com, port: 52356, type: vmess, uuid: f68bf891-3c33-45c8-bfe8-89c3af94d2e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 [V2] 新加坡 500M A04", server: baicao.hjspyto.cn, port: 32500, type: vmess, uuid: c58b5a1f-af92-3108-997e-ca513b1c9747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sga4, headers: {Host: baidu.com}}, udp: true}
-  - {name: "🇸🇬 [V2] 新加坡 500M A01", server: baicao.hjspyto.cn, port: 32500, type: vmess, uuid: c58b5a1f-af92-3108-997e-ca513b1c9747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sga1, headers: {Host: baidu.com}}, udp: true}
-  - {name: "🇨🇳 [V2] 台湾 Hinet A04 [流媒体]", server: baicao.hjspyto.cn, port: 32500, type: vmess, uuid: c58b5a1f-af92-3108-997e-ca513b1c9747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /twa4, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港咖喱鱼蛋 01-D, server: 20.205.14.195, port: 12377, type: trojan, password: 6150c97e-ed9e-4759-9134-90aa5352d638, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 洛杉矶-MyShadowsocks4, server: cne.cloudorg.uk, port: 17081, type: ss, cipher: chacha20-ietf-poly1305, password: 682574b1-18e5-431b-9b24-d7ce4fe507bf, udp: true}
-  - {name: 🇺🇸 洛杉矶-MyTrojan4, server: cne.cloudorg.uk, port: 2096, type: trojan, password: 682574b1-18e5-431b-9b24-d7ce4fe507bf, sni: cne.cloudorg.uk, skip-cert-verify: false, udp: true}
-  - {name: SG_06 @WangCai_1, server: 81.90.189.52, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: SG_02 @WangCai_1, server: 81.90.189.52, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: SG_07 @WangCai_1, server: 81.90.189.52, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK_03 @WangCai_1, server: 62.216.92.168, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: HK_08 @WangCai_1, server: 62.216.92.168, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_3389 @WangCai_1, server: 85.208.108.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_5000 @WangCai_1, server: 85.208.108.19, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: JP_8118 @WangCai_1, server: 85.208.108.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 🇭🇰 香港HKT-优化2, server: 120-241-236-214.nhost.00cdn.com, port: 16620, type: vmess, uuid: eea6906b-c9d9-4f5d-b4be-4ed523e1e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 120-241-236-214.nhost.00cdn.com}}, udp: true}
+  - {name: 🇭🇰 香港HKT-优化3, server: t.cccao.cyou, port: 16620, type: vmess, uuid: eea6906b-c9d9-4f5d-b4be-4ed523e1e70d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 06 [3.0]", server: debian10.updatensv3.com, port: 8015, type: ss, cipher: chacha20-ietf-poly1305, password: d6fa3a869c3a4a3edb8416e36a59e4aa, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 07 [2.0]", server: debian10.updatensv3.com, port: 8765, type: ss, cipher: aes-128-gcm, password: 24ffe5a4c321e0b926dc335a91c2d78a, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 08 [2.0]", server: centos7.websitesv3.com, port: 8763, type: ss, cipher: aes-128-gcm, password: 3e5d82b03956c907373cd5615e46704c, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 09 [2.0]", server: centos7.websitesv3.com, port: 8761, type: ss, cipher: aes-128-gcm, password: 72aeb07ee55b1f9e331da9572e3c2261, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: "🇭🇰 Lv3 香港 03 [3.0]", server: debian10.domainsv3.com, port: 8003, type: ss, cipher: chacha20-ietf-poly1305, password: 0a00fe526e3592521559427839020652, plugin: obfs, plugin-opts: {mode: http, host: eb19780f3835.microsoft.com}, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 03 [2.0]", server: ersgdf.passwordv2.com, port: 7402, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
+  - {name: "🇸🇬 Lv2 新加坡 02 [1.5]", server: ersgdf.passwordv2.com, port: 7401, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
+  - {name: "🇯🇵 Lv2 日本 04 [2.0]", server: sdfwh.guaranteev2.com, port: 7413, type: ss, cipher: aes-128-gcm, password: 1197b38cb1e8a1a07b93e9269126bccd, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}, udp: true}
+  - {name: "🇯🇵 Lv2 日本 01 [2.0]", server: sdfwh.guaranteev2.com, port: 7410, type: ss, cipher: aes-128-gcm, password: 5478031491c1d1373c959397435f2a35, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}, udp: true}
+  - {name: "🇯🇵 Lv2 日本 05 [2.0]", server: oadht.guaranteev2.com, port: 7414, type: ss, cipher: aes-128-gcm, password: 9d7dbacfbd2d308e4ded7c6434770bc3, plugin: obfs, plugin-opts: {mode: http, host: a68f742ca034.microsoft.com}, udp: true}
+  - {name: 🇭🇰 标准|香港01解锁|x1.0x, server: zfd-moble.gatknqh.cn, port: 16111, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 标准|香港04解锁|x1.0x, server: zfd-moble.gatknqh.cn, port: 16114, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 标准|香港02解锁|x1.0x, server: zfd-moble.gatknqh.cn, port: 16112, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 标准|香港03解锁|x1.0x, server: zfd-moble.gatknqh.cn, port: 16113, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 标准|新加坡02解锁|x1.0x, server: zfd-moble.gatknqh.cn, port: 16108, type: vmess, uuid: 7cd050f1-0a72-3c8c-9650-b00faa5bacbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IEPL香港 III, server: mzqlpieszcm.julvab.com, port: 58811, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IEPL香港  VI, server: mzqlpieszcm.julvab.com, port: 59955, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: support.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 IEPL香港 V, server: mzqlpieszcm.julvab.com, port: 59933, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: support.microsoft.com}}, udp: true}
+  - {name: 🇨🇳 台湾 IV, server: mzqlpieszcm.julvab.com, port: 27717, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: support.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 IEPL香港 IV, server: cunicom.julvab.com, port: 50922, type: vmess, uuid: bb8830d9-492f-3a51-bab3-721e49887638, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /microsoft/support, headers: {Host: support.microsoft.com}}, udp: true}
+  - {name: "🇯🇵 [B]-普通-日本C", server: b-entry.linkdns.xyz, port: 40256, type: vmess, uuid: 95ebc6b2-7b4c-3816-bc9b-63f56f775373, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /test, headers: {Host: map.baidu.com}}, udp: true}
+  - {name: "🇯🇵 [B]-普通-日本I", server: b-entry.linkdns.xyz, port: 40262, type: vmess, uuid: 95ebc6b2-7b4c-3816-bc9b-63f56f775373, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /test, headers: {Host: map.baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港 ❀大妮妮2号❀1x, server: da.kanao.xyz, port: 58819, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 ❀小妮妮1号❀1x, server: xi.kanao.xyz, port: 58804, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 ❀大妮妮1号❀1x, server: da.kanao.xyz, port: 58803, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 ❀原生❀小妮妮❀1x, server: xi.kanao.xyz, port: 58820, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 ❀大妮妮❀1x, server: da.kanao.xyz, port: 58807, type: trojan, password: f5b6ace4-a1f3-48a0-9663-84adfab416d1, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港, server: relay.wl-node1.com, port: 39002, type: ss, cipher: aes-128-gcm, password: dded6ef8-0bc4-4c84-98ec-8e74eba97b00, udp: true}
+  - {name: 🇭🇰 香港I, server: relay1.wl-node1.com, port: 39001, type: vmess, uuid: dded6ef8-0bc4-4c84-98ec-8e74eba97b00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 樱花备用1号, server: 153.121.32.77, port: 19999, type: ss, cipher: aes-128-gcm, password: 68d69ff4-03eb-425c-97b0-64a3e16d8af8, udp: true}
+  - {name: 🇭🇰 香港一<流媒体>, server: ddns.0318.cyou, port: 25070, type: ss, cipher: aes-128-gcm, password: 68d69ff4-03eb-425c-97b0-64a3e16d8af8, udp: true}
+  - {name: 🇭🇰 香港二, server: ddns.0318.cyou, port: 25070, type: ss, cipher: aes-128-gcm, password: 68d69ff4-03eb-425c-97b0-64a3e16d8af8, udp: true}
+  - {name: "🇭🇰 Lv2.[V2ray].广州->香港A", server: node3.onenode.top, port: 10015, type: vmess, uuid: 4667f1db-6ee3-3302-86ae-10183f9b8a3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: microsoft.com}}, udp: true}
+  - {name: "🇯🇵 Lv2.[V2ray]广州->日本-5", server: node3.onenode.top, port: 40009, type: vmess, uuid: 4667f1db-6ee3-3302-86ae-10183f9b8a3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: microsoft.com}}, udp: true}
+  - {name: SG_01 @WangCai_1, server: 81.90.189.41, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_8881 @WangCai_1, server: 38.114.114.104, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: US_5001 @WangCai_1, server: 38.114.114.104, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_8091 @WangCai_1, server: 38.114.114.104, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 🇰🇷 kr, server: iq0m0t3xlr3f.cf, port: 56115, type: ss, cipher: chacha20-ietf-poly1305, password: Zd07906YjHbCki4wC6UB, udp: true}
-  - {name: 🇺🇸 US SJC CTG 02 TR(trojan), server: us-sjc-ctg-02-tr.node.inforun.work, port: 889, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: US_8080 @WangCai_1, server: 38.114.114.104, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_7306 @WangCai_1, server: 38.114.114.104, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 🇺🇸 US SJC CTG 02 V2(vmess), server: us-sjc-ctg-02-v2.node.inforun.work, port: 888, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: 🇸🇬 SG SIN KRN TR(trojan), server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 UK LHR GD>GB TR(trojan), server: sh-gb-01-tr.node.inforun.work, port: 11889, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 TW TPE HQ V2(vmess), server: tw-tpe-hq-v2.node.inforun.work, port: 10188, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: 🇸🇬 SG SIN KRN V2(vmess), server: sg-sin-krn-v2.node.inforun.work, port: 12888, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
+  - {name: 🇺🇸 US SJC AP TR(trojan), server: us-sjc-ap-tr.node.inforun.work, port: 789, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 US SJC AP V2(vmess), server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: 🇭🇰 柬埔寨01|深港专线, server: aliyun.sgzx01.downloadmovie.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx01.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 柬埔寨04|深港专线, server: aliyun.sgzx04.downloadmovie.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇸🇬 新加坡04|负载均衡IPV6, server: aliyun.moble04.vnupgcn.cn, port: 65045, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.moble04.vnupgcn.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 柬埔寨02|深港专线, server: aliyun.sgzx02.downloadmovie.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx02.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇸🇬 新加坡03|负载均衡IPV6, server: aliyun.moble03.vnupgcn.cn, port: 65017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.moble03.vnupgcn.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 柬埔寨03|深港专线, server: aliyun.sgzx03.downloadmovie.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx03.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 印度04|深港专线, server: aliyun.sgzx04.downloadmovie.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 迪拜04|深港专线, server: aliyun.sgzx04.downloadmovie.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 越南03|深港专线, server: aliyun.sgzx03.downloadmovie.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx03.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 迪拜02|深港专线, server: aliyun.sgzx02.downloadmovie.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx02.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇭🇰 迪拜03|深港专线, server: aliyun.sgzx03.downloadmovie.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.sgzx03.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港08|原生解锁, server: aliyun.moble03.vnupgcn.cn, port: 65041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.moble03.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 越南03|深港专线, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install03.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 越南02|深港专线, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install02.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 越南01|深港专线, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install01.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 柬埔寨03|深港专线, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install03.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港10|原生解锁, server: aliyun.moble05.vnupgcn.cn, port: 65083, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.moble05.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇸🇬 新加坡08|负载均衡IPV6, server: aliyun.moble04.vnupgcn.cn, port: 65045, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.moble04.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 柬埔寨01|深港专线, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install01.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 柬埔寨04|深港专线, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install04.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇸🇬 新加坡05|负载均衡IPV6, server: aliyun.moble01.vnupgcn.cn, port: 65015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.moble01.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 菲律宾01|深港专线, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install01.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 柬埔寨02|深港专线, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install02.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 菲律宾02|深港专线, server: aliyun.install02.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install02.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 菲律宾04|深港专线, server: aliyun.install04.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install04.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇸🇬 新加坡06|负载均衡IPV6, server: aliyun.moble02.vnupgcn.cn, port: 65016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.moble02.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 韩国04|深港专线, server: aliyun.install04.vnupgcn.cn, port: 11924, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install04.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 韩国03|深港专线, server: aliyun.install03.vnupgcn.cn, port: 11924, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install03.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 韩国02|深港专线, server: aliyun.install02.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install02.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 菲律宾03|深港专线, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install03.vnupgcn.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 印度02|深港专线, server: aliyun.install02.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22aliyun.install02.vnupgcn.cn%22%7D"}}, udp: true}
   - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States, server: books.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: books.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 7, server: editors.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: editors.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 United-States 9, server: texas.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: texas.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 United-States 11, server: florida.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: florida.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 大萝卜鸡首尔, server: 007.AP.POP.SMALLAIRPORT.NET, port: 22356, type: vmess, uuid: 64e7211f-51df-40cc-af06-8dac3a039534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 14, server: pride.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pride.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 6, server: kansas.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: kansas.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 大萝卜鸡日本, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 大萝卜鸡香港高速, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港, server: cn03.downloadmovie.cn, port: 65041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn03.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 🇺🇸 大萝卜鸡美国, server: 165.154.243.157, port: 48002, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: zaelot.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 大萝卜鸡美国西雅图, server: 165.154.243.157, port: 48006, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: zaelot.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港, server: 165.154.243.157, port: 48001, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 大萝卜, server: 165.154.243.157, port: 48007, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: zaelot.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-Basic-09-负载集群b, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港1, server: 103.103.245.125, port: 50418, type: trojan, password: a70b39d1-62ea-4d9e-b681-9c5408352234, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港-Pro-08-负载集群d, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 120.233.7.54:11545, server: 120.233.7.54, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港1, server: 203.184.132.249, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /situ-hgc4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: 🇭🇰 香港2, server: 203.184.132.247, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /situ-hgc2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: 🇭🇰 香港3, server: 203.184.132.246, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /situ-hgc1, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: 5, server: yqy2356.melissauvc.com, port: 2356, type: trojan, password: 5efbd50f-6ff4-3f47-93c4-08f49b860087, sni: cdn-debian.org, skip-cert-verify: false, udp: true}
-  - {name: 6, server: yqy2357.melissauvc.com, port: 2357, type: trojan, password: 5efbd50f-6ff4-3f47-93c4-08f49b860087, sni: cdn-debian.org, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港丝袜奶茶 02-D, server: 20.239.185.238, port: 12339, type: trojan, password: 6150c97e-ed9e-4759-9134-90aa5352d638, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港煎酿三宝 04-D, server: 20.24.95.111, port: 12388, type: trojan, password: 6150c97e-ed9e-4759-9134-90aa5352d638, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 [V2] 新加坡 500M A01 2", server: baicao.hjspyto.cn, port: 32500, type: vmess, uuid: c58b5a1f-af92-3108-997e-ca513b1c9747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sga1, headers: {Host: baidu.com}}, udp: true}
-  - {name: "🇸🇬 [V2] 新加坡 500M A02", server: baicao.hjspyto.cn, port: 32500, type: vmess, uuid: c58b5a1f-af92-3108-997e-ca513b1c9747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sga2, headers: {Host: baidu.com}}, udp: true}
-  - {name: 1, server: yqy2351.melissauvc.com, port: 2351, type: trojan, password: 5efbd50f-6ff4-3f47-93c4-08f49b860087, sni: cdn-debian.org, skip-cert-verify: false, udp: true}
-  - {name: 7, server: yqy2358.melissauvc.com, port: 2358, type: trojan, password: 5efbd50f-6ff4-3f47-93c4-08f49b860087, sni: cdn-debian.org, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [V2] 日本 Vultr A01", server: baicao.hjspyto.cn, port: 32500, type: vmess, uuid: c58b5a1f-af92-3108-997e-ca513b1c9747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jpa1, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇯🇵 日本, server: 45.78.54.36, port: 50128, type: trojan, password: c466028e-c69e-4f8f-bda2-66476de2c8e6, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: static.dingtalk.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港2, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-Basic-09-负载集群b 2, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港3, server: 103.103.245.125, port: 50206, type: trojan, password: 789d73af-b985-4778-9872-211047c28015, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港4, server: 203.184.132.248, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /situ-hgc3, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
+  - {name: 🇭🇰 香港5, server: 203.184.132.249, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /situ-hgc4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
+  - {name: 🇯🇵 日本, server: 45.78.54.36, port: 50020, type: trojan, password: b1593d7b-af38-40fc-a469-df07fad47683, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港7, server: azure.xlzlucky.ml, port: 24285, type: vmess, uuid: 6e0efce1-d794-40d8-ddb6-c9b9605ea0ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本1, server: 45.78.54.36, port: 50134, type: trojan, password: 3ebff89d-8a2a-4620-aa71-1a7dd8561e8e, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港6, server: 203.184.132.247, port: 4399, type: vmess, uuid: b315a93b-cec1-34cb-a658-be53ffda7cd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /situ-hgc2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
+  - {name: 🇺🇸 美国, server: 199.19.109.161, port: 50178, type: trojan, password: 9aa046a9-3be4-403e-b4a2-015cfe36d594, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 Singapore 6, server: 20.24.44.110, port: 28443, type: trojan, password: 91ddf170-fe8a-4c14-ac16-a0ec55192782, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [V2] 美国 洛杉矶  A03", server: baicao.hjspyto.cn, port: 32500, type: vmess, uuid: c58b5a1f-af92-3108-997e-ca513b1c9747, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /usa3, headers: {Host: baidu.com}}, udp: true}
-  - {name: h63956.waihuizhibiaowang.com:11545, server: h63956.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11445, server: h961359.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h755658.waihuizhibiaowang.com:11445, server: h755658.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11545, server: h961359.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h181902.waihuizhibiaowang.com:11745, server: h181902.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11445, server: h961359.waihuizhibiaowang.com, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11745, server: h961359.waihuizhibiaowang.com, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h755658.waihuizhibiaowang.com:11545, server: h755658.waihuizhibiaowang.com, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -324,335 +436,477 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇭🇰 香港-Pro-08-负载集群d
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
+      - 🇭🇰 香港7
+      - 🇭🇰 香港6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -668,77 +922,105 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 09 HKT家宽（0.1x）
-      - 🇨🇳 台湾 02 HiNet
-      - 🇯🇵 日本 09 IIJ
-      - 🇭🇰 【直连】HKG/香港 - 2
-      - 🇭🇰 【直连】HKG/香港 - 4
-      - 🇭🇰 【直连】HKG/香港 - 1
-      - 🇸🇬 【直连】SIN/狮城 - 2
-      - 🇸🇬 【直连】SIN/狮城 - 1
-      - 🇸🇬 [V2] 新加坡 500M A04
-      - 🇸🇬 [V2] 新加坡 500M A01
-      - 🇨🇳 [V2] 台湾 Hinet A04 [流媒体]
-      - 🇭🇰 香港咖喱鱼蛋 01-D
-      - 🇺🇸 洛杉矶-MyShadowsocks4
-      - 🇺🇸 洛杉矶-MyTrojan4
-      - SG_06 @WangCai_1
-      - SG_02 @WangCai_1
-      - SG_07 @WangCai_1
+      - HK_03 @WangCai_1
+      - HK_08 @WangCai_1
+      - JP_3389 @WangCai_1
+      - JP_5000 @WangCai_1
+      - JP_8118 @WangCai_1
+      - 🇭🇰 香港HKT-优化2
+      - 🇭🇰 香港HKT-优化3
+      - 🇭🇰 Lv3 香港 06 [3.0]
+      - 🇭🇰 Lv3 香港 07 [2.0]
+      - 🇭🇰 Lv3 香港 08 [2.0]
+      - 🇭🇰 Lv3 香港 09 [2.0]
+      - 🇭🇰 Lv3 香港 03 [3.0]
+      - 🇸🇬 Lv2 新加坡 03 [2.0]
+      - 🇸🇬 Lv2 新加坡 02 [1.5]
+      - 🇯🇵 Lv2 日本 04 [2.0]
+      - 🇯🇵 Lv2 日本 01 [2.0]
+      - 🇯🇵 Lv2 日本 05 [2.0]
+      - 🇭🇰 标准|香港01解锁|x1.0x
+      - 🇭🇰 标准|香港04解锁|x1.0x
+      - 🇭🇰 标准|香港02解锁|x1.0x
+      - 🇭🇰 标准|香港03解锁|x1.0x
+      - 🇸🇬 标准|新加坡02解锁|x1.0x
+      - 🇭🇰 IEPL香港 III
+      - 🇭🇰 IEPL香港  VI
+      - 🇭🇰 IEPL香港 V
+      - 🇨🇳 台湾 IV
+      - 🇭🇰 IEPL香港 IV
+      - 🇯🇵 [B]-普通-日本C
+      - 🇯🇵 [B]-普通-日本I
+      - 🇭🇰 香港 ❀大妮妮2号❀1x
+      - 🇭🇰 香港 ❀小妮妮1号❀1x
+      - 🇭🇰 香港 ❀大妮妮1号❀1x
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇸🇬 新加坡 ❀大妮妮❀1x
+      - 🇭🇰 香港
+      - 🇭🇰 香港I
+      - 樱花备用1号
+      - 🇭🇰 香港一<流媒体>
+      - 🇭🇰 香港二
+      - 🇭🇰 Lv2.[V2ray].广州->香港A
+      - 🇯🇵 Lv2.[V2ray]广州->日本-5
+      - SG_01 @WangCai_1
+      - US_8881 @WangCai_1
       - US_5001 @WangCai_1
-      - US_8091 @WangCai_1
-      - 🇰🇷 kr
-      - 🇺🇸 US SJC CTG 02 TR(trojan)
+      - US_8080 @WangCai_1
+      - US_7306 @WangCai_1
       - 🇺🇸 US SJC CTG 02 V2(vmess)
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇬🇧 UK LHR GD>GB TR(trojan)
+      - 🇨🇳 TW TPE HQ V2(vmess)
+      - 🇸🇬 SG SIN KRN V2(vmess)
+      - 🇺🇸 US SJC AP TR(trojan)
       - 🇺🇸 US SJC AP V2(vmess)
+      - 🇭🇰 香港08|原生解锁
+      - 🇭🇰 越南03|深港专线
+      - 🇭🇰 越南02|深港专线
+      - 🇭🇰 越南01|深港专线
+      - 🇭🇰 柬埔寨03|深港专线
+      - 🇭🇰 香港10|原生解锁
+      - 🇸🇬 新加坡08|负载均衡IPV6
       - 🇭🇰 柬埔寨01|深港专线
       - 🇭🇰 柬埔寨04|深港专线
-      - 🇸🇬 新加坡04|负载均衡IPV6
+      - 🇸🇬 新加坡05|负载均衡IPV6
+      - 🇭🇰 菲律宾01|深港专线
       - 🇭🇰 柬埔寨02|深港专线
-      - 🇸🇬 新加坡03|负载均衡IPV6
-      - 🇭🇰 柬埔寨03|深港专线
-      - 🇭🇰 印度04|深港专线
-      - 🇭🇰 迪拜04|深港专线
-      - 🇭🇰 越南03|深港专线
-      - 🇭🇰 迪拜02|深港专线
-      - 🇭🇰 迪拜03|深港专线
+      - 🇭🇰 菲律宾02|深港专线
+      - 🇭🇰 菲律宾04|深港专线
+      - 🇸🇬 新加坡06|负载均衡IPV6
+      - 🇭🇰 韩国04|深港专线
+      - 🇭🇰 韩国03|深港专线
+      - 🇭🇰 韩国02|深港专线
+      - 🇭🇰 菲律宾03|深港专线
+      - 🇭🇰 印度02|深港专线
       - 🇨🇳 Taiwan
-      - 🇺🇸 United-States
-      - 🇺🇸 United-States 7
       - 🇺🇸 United-States 9
       - 🇺🇸 United-States 11
-      - 🇰🇷 大萝卜鸡首尔
+      - 🇺🇸 United-States 14
+      - 🇺🇸 United-States 6
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡香港高速
       - 🇭🇰 大萝卜鸡香港
-      - 🇺🇸 大萝卜鸡美国
-      - 🇺🇸 大萝卜鸡美国西雅图
-      - 🇭🇰 香港-Pro-08-负载集群d
-      - 120.233.7.54:11545
+      - 大萝卜
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇭🇰 香港1
+      - 🇭🇰 香港-Pro-08-负载集群d
       - 🇭🇰 香港2
+      - 🇭🇰 香港-Basic-09-负载集群b 2
       - 🇭🇰 香港3
-      - 5
-      - 6
-      - 🇭🇰 香港丝袜奶茶 02-D
-      - 🇭🇰 香港煎酿三宝 04-D
-      - 🇸🇬 [V2] 新加坡 500M A01 2
-      - 🇸🇬 [V2] 新加坡 500M A02
-      - 1
-      - 7
-      - 🇯🇵 [V2] 日本 Vultr A01
+      - 🇭🇰 香港4
+      - 🇭🇰 香港5
       - 🇯🇵 日本
-      - 🇸🇬 新加坡
+      - 🇭🇰 香港7
+      - 🇯🇵 日本1
+      - 🇭🇰 香港6
+      - 🇺🇸 美国
       - 🇸🇬 Singapore 6
-      - 🇺🇸 [V2] 美国 洛杉矶  A03
-      - h63956.waihuizhibiaowang.com:11545
-      - h961359.waihuizhibiaowang.com:11445
-      - h755658.waihuizhibiaowang.com:11545
-      - h755658.waihuizhibiaowang.com:11445
       - h961359.waihuizhibiaowang.com:11545
       - h181902.waihuizhibiaowang.com:11745
+      - h961359.waihuizhibiaowang.com:11445
+      - h961359.waihuizhibiaowang.com:11745
+      - h755658.waihuizhibiaowang.com:11545
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
