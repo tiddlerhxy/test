@@ -6,100 +6,102 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 120.233.7.54:11545, server: 120.233.7.54, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 日本05{移动①}", server: cm.awslcn.cc, port: 25219, type: vmess, uuid: 51a2f266-8382-49b8-9564-f059b1312fd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: "🇯🇵 日本02{移动①}", server: cm.awslcn.cc, port: 25237, type: vmess, uuid: 51a2f266-8382-49b8-9564-f059b1312fd8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇯🇵 日本微软云, server: 20.89.129.74, port: 80, type: vmess, uuid: fc86a82c-6020-4753-b09a-40fa32a4189c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: doSG, server: do.22665.ml, port: 47339, type: trojan, password: 8251fe19-72a3-4e69-b3c1-493c47d36a5e, sni: do.22665.ml, skip-cert-verify: false, udp: true}
+  - {name: SG_09 @WangCai_1, server: 81.90.189.52, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG_05 @WangCai_1, server: 81.90.189.52, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG_02 @WangCai_1, server: 81.90.189.52, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG_01 @WangCai_1, server: 81.90.189.52, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG_06 @WangCai_1, server: 81.90.189.52, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇭🇰 Hong Kong|IEPL|D|5.0, server: gyiepl.1aba.cn, port: 36566, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 环球电讯|香港4|深圳移动|1.0x, server: sy.balink.buzz, port: 28600, type: ss, cipher: chacha20-ietf-poly1305, password: c9fd34af-ec18-41cb-bf93-9b723cc8b002, udp: true}
+  - {name: 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu, server: 103.135.249.57, port: 36565, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan|IEPL|A|5.0, server: gyiepl.1aba.cn, port: 22017, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 01 | 1.5x, server: n3.10tz.top, port: 11407, type: ss, cipher: aes-256-gcm, password: 94cb2284-085e-41e1-9d9c-38ffc3ad7063, udp: true}
+  - {name: 🇸🇬 狮城 01 | 1x, server: n1.sgys1024.xyz, port: 44101, type: ss, cipher: aes-256-gcm, password: 94cb2284-085e-41e1-9d9c-38ffc3ad7063, udp: true}
+  - {name: 🇭🇰 香港 02 | 2.5x, server: n4.nufsx.top, port: 24103, type: ss, cipher: chacha20-ietf-poly1305, password: 94cb2284-085e-41e1-9d9c-38ffc3ad7063, udp: true}
+  - {name: 🇭🇰 Hong Kong深港|D|1.5, server: 120.197.129.50, port: 25577, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong|CN2|A|3.0, server: portforward.one, port: 20238, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 狮城 03 | 1x, server: n3.nufsx.top, port: 24105, type: ss, cipher: chacha20-ietf-poly1305, password: 94cb2284-085e-41e1-9d9c-38ffc3ad7063, udp: true}
+  - {name: 「🇸🇬」猕猴桃 x1, server: n15.emovpn.xyz, port: 1266, type: ss, cipher: chacha20-ietf-poly1305, password: 4d66c561-e5df-4b5e-b599-38f146217074, udp: true}
+  - {name: 🇭🇰 Taiwan|深港|A|1.5, server: 120.197.129.50, port: 22451, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡1|深新链路|1.0x, server: sz.balink.buzz, port: 38610, type: ss, cipher: chacha20-ietf-poly1305, password: c9fd34af-ec18-41cb-bf93-9b723cc8b002, udp: true}
+  - {name: 🇸🇬 Singapore|深新|C|1.0, server: 120.197.129.50, port: 25877, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan|CN2|A|3.0, server: portforward.one, port: 24445, type: vmess, uuid: 279f8388-f821-4922-9a74-80d456809e40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 狮城 02 | 2x, server: n2.nufsx.top, port: 24101, type: ss, cipher: chacha20-ietf-poly1305, password: 94cb2284-085e-41e1-9d9c-38ffc3ad7063, udp: true}
+  - {name: 🇯🇵 日本01, server: cm.kapoknode.com, port: 21205, type: ss, cipher: chacha20-ietf-poly1305, password: 742bc08e-edce-406b-9977-35affaa5ecd4, udp: true}
+  - {name: "🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]", server: ie.ednovas.cloud, port: 22157, type: vmess, uuid: 99aebb87-89a8-4f46-b49f-0a0320e352e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]", server: ie.ednovas.cloud, port: 22135, type: vmess, uuid: 99aebb87-89a8-4f46-b49f-0a0320e352e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]", server: ie.ednovas.cloud, port: 22133, type: vmess, uuid: 99aebb87-89a8-4f46-b49f-0a0320e352e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Hong Kong2 [NF][D ]", server: ie.ednovas.cloud, port: 22134, type: vmess, uuid: 99aebb87-89a8-4f46-b49f-0a0320e352e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 深港专线3[Trojan][倍率:2.5]", server: cnsg.6g5kca.ccddn4.icu, port: 65523, type: trojan, password: 1544af57-7ebf-30de-b731-fdaf00f68501, sni: dl.sg3.cc.tjcct.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]", server: cnsg.6g5kca.ccddn4.icu, port: 65401, type: trojan, password: 1544af57-7ebf-30de-b731-fdaf00f68501, sni: dl.sghgcbb3.cc.tjcct.xyz, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 深港专线[Trojan][倍率:2.5]", server: cnsg.sfn32g.ccddn4.icu, port: 65522, type: trojan, password: 1544af57-7ebf-30de-b731-fdaf00f68501, sni: dl.sg1.cc.tjcct.xyz, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_34, server: 20.239.162.164, port: 12369, type: trojan, password: 6150c97e-ed9e-4759-9134-90aa5352d638, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_13, server: 20.239.162.164, port: 12369, type: trojan, password: e1c386fa-7d0e-4e85-a4c9-c62d21699d4f, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_4, server: hg.super2020travel.xyz, port: 10112, type: vmess, uuid: c1774159-5992-3104-bf52-02d24c524001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22hg.super2020travel.xyz%22%7D"}}, udp: true}
+  - {name: Cow Vagina_14, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_23, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: KR2, server: kr2.317542476.tk, port: 51092, type: trojan, password: DJkRVQUXIJ3wo9f4J3YO, sni: xsoluvxn-ljxxz.run.goorm.io, skip-cert-verify: false, udp: true}
+  - {name: KR3, server: kr3.317542476.tk, port: 56877, type: trojan, password: wC9cZcIPWq1qdnISfLeU, sni: egfhkkyhbb-upufp.run.goorm.io, skip-cert-verify: false, udp: true}
+  - {name: US5, server: us5.317542476.tk, port: 59898, type: trojan, password: OLpCw9CG3Y90o0BLRq1y, sni: ffunkbedofx-gskqs.run-us-west2.goorm.io, skip-cert-verify: false, udp: true}
   - {name: _Cow Vagina 4, server: nas5.travelerv2.xyz, port: 21872, type: vmess, uuid: c1774159-5992-3104-bf52-02d24c524001, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: "%7B%22Host%22:%22nas5.travelerv2.xyz%22%7D"}}, udp: true}
-  - {name: _Cow Vagina 2, server: 43.248.116.201, port: 32443, type: trojan, password: 16549817-fc61-4434-9317-734348b592ec, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⒋[vip1]广移-中转-日本", server: 6.mxyun1.top, port: 41206, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP", server: 51.mxyun2.top, port: 43351, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⑬V2RAY [vip2]广移-中转-日本", server: 39.mxyun2.top, port: 42239, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本", server: 36.mxyun2.top, port: 42036, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡", server: 43.mxyun2.top, port: 42243, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⒛[vip1]广移-中转-AWS-日本", server: 25.mxyun1.top, port: 41225, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本", server: 9.mxyun1.top, port: 41109, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⒔V2RAY [vip1]广移-中转-日本", server: 15.mxyun1.top, port: 41115, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⒕V2RAY [vip1]电信-中转-日本", server: 16.mxyun1.top, port: 41116, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 ⒖V2RAY [vip1]广移-中转-日本", server: 17.mxyun1.top, port: 41117, type: vmess, uuid: 4bae39ae-8e06-3fab-a719-32e14dfd3de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 标准|香港03解锁|x1.0x, server: gtx20.ppy-moble.downloadmovie.cn, port: 26012, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线|香港02解锁|x1.0x, server: gtx20.ppy-moble.downloadmovie.cn, port: 26029, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线|香港03解锁|x1.0x, server: gtx20.ppy-moble.downloadmovie.cn, port: 26030, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 标准|香港04解锁|x1.0x, server: gtx20.ppy-moble.downloadmovie.cn, port: 26013, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 专线|香港04解锁|x1.0x, server: gtx20.ppy-moble.downloadmovie.cn, port: 26031, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 标准|日本02解锁|x1.0x, server: gtx20.ppy-moble.downloadmovie.cn, port: 26007, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 标准|日本03解锁|x1.0x, server: gtx20.ppy-moble.downloadmovie.cn, port: 26008, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇭 专线|柬埔寨01原生|x5.0x, server: aliyun.sgzx02.downloadmovie.cn, port: 26082, type: vmess, uuid: df775409-eb69-3872-8bc3-453908dd7a3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 中转, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 US 5, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK 3, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HK 15, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK 12, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US 2, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, skip-cert-verify: false, udp: true}
-  - {name: 中转, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK 9, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US 31, server: pp1.zhengzhongfeizhu.xyz, port: 32000, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, skip-cert-verify: false, udp: true}
-  - {name: KR1, server: kr1.317542476.tk, port: 57387, type: trojan, password: DJkRVQUXIJ3wo9f4J3YO, sni: xsoluvxn-ljxxz.run.goorm.io, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 KR, server: kr.317542476.tk, port: 59166, type: trojan, password: aWmxc9WC6JTZ2bRG, sni: kewrymcz-htckf.run.goorm.io, skip-cert-verify: false, udp: true}
-  - {name: US4, server: us4.317542476.tk, port: 58569, type: trojan, password: AE0WOT7fyK1X2oJ918Mj, sni: srlxkvovl-fwtva.run-us-west2.goorm.io, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港09|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9010, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南01|内网专线|HồChíMinh, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港06|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港10|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9011, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港07|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南02|内网专线|HồChíMinh, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾02|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾05|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾01|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港08|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9009, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾03|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 菲律宾03|内网专线|Manila, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国01|内网专线|한국, server: aliyun.install01.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度03|内网专线|भारत गणराज्य, server: aliyun.install03.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 菲律宾01|内网专线|Manila, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 孟加拉国02|内网专线|বাংলাদেশ, server: aliyun.install02.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾10|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9021, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾06|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 俄罗斯04|内网专线|Россия, server: aliyun.install04.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇮 芬兰04|内网专线|Suomi, server: aliyun.install04.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国02|内网专线|한국, server: aliyun.install02.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港06|原生解锁|CMIHK, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇪🇸 西班牙04|内网专线|España, server: aliyun.install04.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇪 阿联酋04|内网专线|Dubai, server: aliyun.install04.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇪 阿联酋01|内网专线|Dubai, server: aliyun.install01.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇪 阿联酋02|内网专线|Dubai, server: aliyun.install02.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国08|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9029, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国04|原生解锁|APERNET, server: aliyun.unicom.vnupgcn.cn, port: 9025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾02|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 荷兰01|内网专线|Nederland, server: aliyun.install01.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国03|内网专线|LINODE, server: aliyun.install03.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国01|内网专线|LINODE, server: aliyun.install01.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 Japan, server: metapod.defun.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: metapod.defun.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 14, server: pride.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: pride.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 2, server: nevada.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: nevada.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 11, server: florida.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: florida.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 大萝卜鸡越南, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港1, server: aliyun.moble.vnupgcn.cn, port: 9011, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan 2, server: caterpie.defun.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: caterpie.defun.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 8, server: hacks.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: hacks.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 5, server: picks.missionsec.us, port: 443, type: trojan, password: ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U, sni: picks.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 大萝卜鸡台湾1, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港3, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港2, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港1, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 大萝卜鸡日本, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 大萝卜鸡俄罗斯, server: aliyun.install02.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 大萝卜鸡台湾2, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 大萝卜鸡台湾3, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 大萝卜鸡印度, server: aliyun.install03.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇭 大萝卜鸡柬埔寨, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 大萝卜鸡菲律宾, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 大萝卜鸡澳大利亚, server: aliyun.install02.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本1, server: aliyun.moble.vnupgcn.cn, port: 9037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 大萝卜鸡孟加拉, server: aliyun.install02.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本2, server: aliyun.moble.vnupgcn.cn, port: 9032, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡新加坡, server: aliyun.moble.vnupgcn.cn, port: 9044, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 大萝卜鸡德国, server: aliyun.install03.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇪🇸 大萝卜鸡西班牙, server: aliyun.install04.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇿 大萝卜鸡捷克, server: aliyun.install02.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇮 大萝卜鸡芬兰, server: aliyun.install04.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇱 大萝卜鸡智利, server: aliyun.install01.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇪 大萝卜鸡阿联酋, server: aliyun.install01.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港2, server: 165.154.243.157, port: 48001, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
   - {name: 🇬🇧 大萝卜鸡英国, server: aliyun.install03.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本3, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SG SIN KRN TR(trojan), server: sg-sin-krn-tr.node.inforun.work, port: 12889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK HKG GZ.HK HKT TR B(trojan), server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK HKG HGC B TR(trojan), server: hk-hkg-hgc-b-tr.jd.cjhh.mom, port: 889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 TW TPE H V2(vmess), server: tw-tpe-h-v2.jd.cjhh.mom, port: 10088, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: 🇺🇸 US SJC 01-TR(trojan), server: us-sjc-01-tr.nodes.cjhh.one, port: 889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US SJC NA TR(trojan), server: us-sjc-na-tr.jd.cjhh.mom, port: 10689, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, sni: cdn.savoy.click, skip-cert-verify: false, udp: true}
-  - {name: 666, server: www.xyxdbp.xyz, port: 34136, type: vmess, uuid: 52e9ffc9-0831-4c9d-e8ec-e4312caad4c6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 大萝卜鸡德国, server: aliyun.install03.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇿🇦 大萝卜鸡南非, server: aliyun.install03.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港3, server: ssl.tcpbbr.net, port: 12163, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 大萝卜鸡加拿大, server: aliyun.install03.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 大萝卜鸡西雅图, server: 212.90.123.130, port: 28443, type: trojan, password: 75599052-d014-478d-b575-455346f4f660, sni: zaelot.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-Basic-09-负载集群b, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 Singapore 6, server: 20.24.44.110, port: 28443, type: trojan, password: 91ddf170-fe8a-4c14-ac16-a0ec55192782, sni: download.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US SJC 01-V2(vmess), server: us-sjc-01-v2.jd.cjhh.mom, port: 888, type: vmess, uuid: d0aec6f9-a2d0-4238-893d-73571c4e9cee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /je5x3pBN1vez3NQudNkB, headers: {Host: cdn.savoy.click}}, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -107,200 +109,204 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -308,100 +314,102 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -421,126 +429,125 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇨🇳 台湾02|原生解锁|中華電信
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
+      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -548,200 +555,204 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -749,100 +760,102 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -859,100 +872,102 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 120.233.7.54:11545
-      - 🇯🇵 日本05{移动①}
-      - 🇯🇵 日本02{移动①}
+      - 🇯🇵 日本微软云
+      - doSG
+      - SG_09 @WangCai_1
+      - SG_05 @WangCai_1
+      - SG_02 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_06 @WangCai_1
+      - 🇭🇰 Hong Kong|IEPL|D|5.0
+      - 🇭🇰 环球电讯|香港4|深圳移动|1.0x
+      - 🇭🇰 Hong Kong|DMIT体验包|感谢DuckXiu
+      - 🇨🇳 Taiwan|IEPL|A|5.0
+      - 🇭🇰 香港 01 | 1.5x
+      - 🇸🇬 狮城 01 | 1x
+      - 🇭🇰 香港 02 | 2.5x
+      - 🇭🇰 Hong Kong深港|D|1.5
+      - 🇭🇰 Hong Kong|CN2|A|3.0
+      - 🇸🇬 狮城 03 | 1x
+      - 「🇸🇬」猕猴桃 x1
+      - 🇭🇰 Taiwan|深港|A|1.5
+      - 🇸🇬 新加坡1|深新链路|1.0x
+      - 🇸🇬 Singapore|深新|C|1.0
+      - 🇨🇳 Taiwan|CN2|A|3.0
+      - 🇸🇬 狮城 02 | 2x
+      - 🇯🇵 日本01
+      - 🇭🇰 [IEPL]HE HKIX 🇭🇰 Hong Kong 3 [NF][D ]
+      - 🇭🇰 3x[IEPL]NR 🇭🇰 Hong Kong3 [NF][D ]
+      - 🇭🇰 NR 🇭🇰 Hong Kong1 [NF][D ]
+      - 🇭🇰 Hong Kong2 [NF][D ]
+      - 🇭🇰 深港专线3[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线转香港HGC商宽4[Trojan][倍率:2.5]
+      - 🇭🇰 深港专线[Trojan][倍率:2.5]
+      - Cow Vagina_34
+      - Cow Vagina_13
+      - Cow Vagina_4
+      - Cow Vagina_14
+      - Cow Vagina_23
+      - KR2
+      - KR3
+      - US5
       - _Cow Vagina 4
-      - _Cow Vagina 2
-      - 🇯🇵 ⒋[vip1]广移-中转-日本
-      - 🇸🇬 ㉓V2RAY [vip2]IPLC专线-游戏|新加坡原生IP
-      - 🇯🇵 ⑬V2RAY [vip2]广移-中转-日本
-      - 🇯🇵 ⑩V2RAY [vip2]IPLC专线-游戏|深圳|日本
-      - 🇸🇬 ⑰V2RAY [vip2]北京BGP-中转-新加坡
-      - 🇯🇵 ⒛[vip1]广移-中转-AWS-日本
-      - 🇯🇵 ⒎V2RAY [vip1]北京BGP-中转-日本
-      - 🇯🇵 ⒔V2RAY [vip1]广移-中转-日本
-      - 🇯🇵 ⒕V2RAY [vip1]电信-中转-日本
-      - 🇯🇵 ⒖V2RAY [vip1]广移-中转-日本
-      - 🇭🇰 标准|香港03解锁|x1.0x
-      - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 专线|香港03解锁|x1.0x
-      - 🇭🇰 标准|香港04解锁|x1.0x
-      - 🇭🇰 专线|香港04解锁|x1.0x
-      - 🇯🇵 标准|日本02解锁|x1.0x
-      - 🇯🇵 标准|日本03解锁|x1.0x
-      - 🇰🇭 专线|柬埔寨01原生|x5.0x
-      - 🇺🇸 US 5
-      - 🇭🇰 HK 3
-      - 🇭🇰 HK 15
-      - 🇭🇰 HK 12
-      - 🇺🇸 US 2
       - 中转
-      - 🇭🇰 HK 9
-      - 🇺🇸 US 31
-      - KR1
-      - 🇰🇷 KR
-      - US4
-      - 🇭🇰 香港09|原生解锁|CMIHK
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇭🇰 香港06|原生解锁|CMIHK
-      - 🇭🇰 香港10|原生解锁|CMIHK
-      - 🇭🇰 香港07|原生解锁|CMIHK
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇨🇳 台湾02|原生解锁|中華電信
-      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇺🇸 US 5
+      - 🇭🇰 HK 15
       - 🇨🇳 台湾01|原生解锁|中華電信
-      - 🇭🇰 香港08|原生解锁|CMIHK
-      - 🇨🇳 台湾03|原生解锁|中華電信
-      - 🇰🇭 柬埔寨01|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨02|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇭 柬埔寨03|内网专线|ក្រុងភ្នំពេញ
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇰🇭 柬埔寨04|内网专线|ក្រុងភ្នំពេញ
-      - 🇰🇷 韩国01|内网专线|한국
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇵🇭 菲律宾01|内网专线|Manila
+      - 孟加拉国02|内网专线|বাংলাদেশ
+      - 🇨🇳 台湾10|原生解锁|中華電信
+      - 🇨🇳 台湾06|原生解锁|中華電信
+      - 🇷🇺 俄罗斯04|内网专线|Россия
+      - 🇫🇮 芬兰04|内网专线|Suomi
+      - 🇰🇷 韩国02|内网专线|한국
+      - 🇭🇰 香港06|原生解锁|CMIHK
+      - 🇪🇸 西班牙04|内网专线|España
+      - 🇦🇪 阿联酋04|内网专线|Dubai
+      - 🇦🇪 阿联酋01|内网专线|Dubai
+      - 🇦🇪 阿联酋02|内网专线|Dubai
+      - 🇺🇸 美国08|原生解锁|APERNET
+      - 🇺🇸 美国04|原生解锁|APERNET
+      - 🇨🇳 台湾02|原生解锁|中華電信
+      - 🇳🇱 荷兰01|内网专线|Nederland
+      - 🇩🇪 德国03|内网专线|LINODE
+      - 🇩🇪 德国01|内网专线|LINODE
       - 🇨🇳 Taiwan
       - 🇯🇵 Japan
-      - 🇺🇸 United-States 14
-      - 🇺🇸 United-States 2
-      - 🇺🇸 United-States 11
-      - 🇻🇳 大萝卜鸡越南
-      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 Japan 2
+      - 🇺🇸 United-States 8
+      - 🇺🇸 United-States 5
       - 🇨🇳 大萝卜鸡台湾1
-      - 🇭🇰 大萝卜鸡香港3
-      - 🇭🇰 大萝卜鸡香港2
+      - 🇭🇰 大萝卜鸡香港1
+      - 🇯🇵 大萝卜鸡日本
+      - 🇷🇺 大萝卜鸡俄罗斯
       - 🇨🇳 大萝卜鸡台湾2
-      - 🇨🇳 大萝卜鸡台湾3
-      - 🇮🇳 大萝卜鸡印度
-      - 🇰🇭 大萝卜鸡柬埔寨
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇦🇺 大萝卜鸡澳大利亚
-      - 🇯🇵 大萝卜鸡日本1
-      - 大萝卜鸡孟加拉
-      - 🇯🇵 大萝卜鸡日本2
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇩🇪 大萝卜鸡德国
+      - 🇪🇸 大萝卜鸡西班牙
+      - 🇨🇿 大萝卜鸡捷克
+      - 🇫🇮 大萝卜鸡芬兰
+      - 🇨🇱 大萝卜鸡智利
+      - 🇦🇪 大萝卜鸡阿联酋
+      - 🇭🇰 大萝卜鸡香港2
       - 🇬🇧 大萝卜鸡英国
-      - 🇯🇵 大萝卜鸡日本3
-      - 🇸🇬 SG SIN KRN TR(trojan)
-      - 🇭🇰 HK HKG GZ.HK HKT TR B(trojan)
-      - 🇭🇰 HK HKG HGC B TR(trojan)
-      - 🇨🇳 TW TPE H V2(vmess)
-      - 🇺🇸 US SJC 01-TR(trojan)
-      - 🇺🇸 US SJC NA TR(trojan)
-      - 666
+      - 🇩🇪 大萝卜鸡德国
+      - 🇿🇦 大萝卜鸡南非
+      - 🇭🇰 大萝卜鸡香港3
+      - 🇨🇦 大萝卜鸡加拿大
+      - 🇺🇸 大萝卜鸡西雅图
+      - 🇭🇰 香港-Basic-09-负载集群b
       - 🇸🇬 Singapore 6
-      - 🇺🇸 US SJC 01-V2(vmess)
-      - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
       - h649960.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11743
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11343
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
