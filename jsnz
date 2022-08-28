@@ -6,106 +6,49 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "Go加速 - V1 IEPL | HK2\n", server: i1.go001.buzz, port: 31102, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: 🇭🇰 USA 广港双端BGP, server: 36.139.9.191, port: 45399, type: vmess, uuid: 4fef1fe7-29c1-4445-f625-a5fbc816531b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: "Go加速 - V1 IEPL | GB1\n", server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
   - {name: Linode, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 🇭🇰 IEPL 香港 ₃.₅ₓ, server: iepl.linghun3.xyz, port: 39990, type: ss, cipher: aes-256-gcm, password: 81369ad1-2e03-4eaf-beea-797fdca4d2dd, udp: true}
-  - {name: 🇭🇰 G 香港1, server: hk1.linghun3.xyz, port: 40000, type: ss, cipher: aes-256-gcm, password: 81369ad1-2e03-4eaf-beea-797fdca4d2dd, udp: true}
-  - {name: 🇭🇰 G 香港3, server: hk3.linghun3.xyz, port: 40003, type: ss, cipher: aes-256-gcm, password: 81369ad1-2e03-4eaf-beea-797fdca4d2dd, udp: true}
-  - {name: 🇨🇳 TW 001, server: xmrt001.xmrth-node.xyz, port: 15880, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: file-1250914413.cos.ap-hongkong.myqcloud.com}}, udp: true}
-  - {name: 🇨🇳 TW 002, server: xmrt002.xmrth-node.xyz, port: 15880, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: file-1250914413.cos.ap-hongkong.myqcloud.com}}, udp: true}
-  - {name: 🇭🇰 HK 000, server: xmrh000.xmrth-node.xyz, port: 15880, type: vmess, uuid: 4dff0033-dda6-3855-a341-40feb116b911, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index, headers: {Host: 87318706-ws.va.huya.com}}, udp: true}
-  - {name: "🇭🇰 Lv2 香港 05 [2.5]", server: apt.v2-install.mipglxi.cn, port: 5005, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
-  - {name: "🇭🇰 Lv2 香港 07 [2.5]", server: apt.v2-install.mipglxi.cn, port: 5007, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
-  - {name: 6004 @WangCai_1, server: 120.233.24.162, port: 6004, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 6008 @WangCai_1, server: 120.233.24.162, port: 6008, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 6001 @WangCai_1, server: 120.233.24.162, port: 6001, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 6003 @WangCai_1, server: 120.233.24.162, port: 6003, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 6007 @WangCai_1, server: 120.233.24.162, port: 6007, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
+  - {name: "🇭🇰 Lv3 香港 02 [2.0]", server: yum-y.update.mipglxi.cn, port: 6002, type: ss, cipher: aes-128-gcm, password: b69b7845-f505-4ad2-b0ee-00f755a77e1d, udp: true}
+  - {name: "🇸🇬 Lv3 新加坡 04 [2.0]", server: yum-y.update.mipglxi.cn, port: 6012, type: ss, cipher: aes-128-gcm, password: b69b7845-f505-4ad2-b0ee-00f755a77e1d, udp: true}
+  - {name: "🇯🇵 Lv3 日本 06 [2.0]", server: yum-y.update.mipglxi.cn, port: 6020, type: ss, cipher: aes-128-gcm, password: b69b7845-f505-4ad2-b0ee-00f755a77e1d, udp: true}
+  - {name: "🇯🇵 Lv3 日本 01 [2.0]", server: yum-y.update.mipglxi.cn, port: 6015, type: ss, cipher: aes-128-gcm, password: b69b7845-f505-4ad2-b0ee-00f755a77e1d, udp: true}
   - {name: 6002 @WangCai_1, server: 120.233.24.162, port: 6002, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
+  - {name: 6001 @WangCai_1, server: 120.233.24.162, port: 6001, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
+  - {name: 6004 @WangCai_1, server: 120.233.24.162, port: 6004, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
   - {name: 6006 @WangCai_1, server: 120.233.24.162, port: 6006, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 6005 @WangCai_1, server: 120.233.24.162, port: 6005, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: 6025 @WangCai_1, server: 120.233.24.162, port: 6025, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
-  - {name: "🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)", server: kaizen-tw-5.mielink-dns2.com, port: 443, type: trojan, password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink, sni: paydiu.com, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)", server: tw.tcpbbr.net, port: 443, type: trojan, password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)", server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: false, udp: true}
+  - {name: 6015 @WangCai_1, server: 120.233.24.162, port: 6015, type: ss, cipher: aes-128-gcm, password: 269f71b9-c45b-43f3-8c48-eb5f986aa707, udp: true}
   - {name: "🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)", server: kaizen-sg-01.mielink-dns2.com, port: 443, type: trojan, password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink, sni: paydiu.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)", server: kaizen-tw-5.mielink-dns2.com, port: 443, type: trojan, password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink, sni: paydiu.com, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)", server: tw.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, skip-cert-verify: false, udp: true}
   - {name: "🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)", server: kaizen-tw-3.mielink-dns2.com, port: 443, type: trojan, password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink, sni: paydiu.com, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)", server: kaizen-jp-12.mielink-dns2.com, port: 443, type: trojan, password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink, sni: paydiu.com, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)", server: kaizen-hk-11.mielink-dns2.com, port: 443, type: trojan, password: acf40985-ef35-3d1d-ae64-1e165e309eebmielink, sni: paydiu.com, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 Lv3 香港 08 [2.0]", server: yum-y.update.mipglxi.cn, port: 6008, type: ss, cipher: aes-128-gcm, password: b69b7845-f505-4ad2-b0ee-00f755a77e1d, udp: true}
-  - {name: "🇭🇰 Lv3 香港 03 [2.0]", server: yum-y.update.mipglxi.cn, port: 6003, type: ss, cipher: aes-128-gcm, password: b69b7845-f505-4ad2-b0ee-00f755a77e1d, udp: true}
+  - {name: iplc专线02|直连|限速8mbps|3x, server: jgwdj.bbxy.cloud, port: 48888, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: iplc专线01|直连|限速8mbps|3x, server: jgwdj.bbxy.cloud, port: 48888, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 Scould台湾01|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /scloudhinet01, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇨🇳 scloud台湾07—原生IP, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /scloudhinet07, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇨🇳 台湾04|优选原生IP|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hinet04, headers: {Host: cs.daxun.cyou}}, udp: true}
   - {name: 🇨🇳 Scloud台湾02|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /scloudhinet02, headers: {Host: cs.daxun.cyou}}, udp: true}
   - {name: 🇭🇰 香港HKT-中转|1x, server: 165.154.243.157, port: 48007, type: trojan, password: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, sni: zaelot.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾05|优选原生IP|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hinet04, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: "🇸🇬 Lv2 新加坡 04 [2.5]", server: apt.v2-install.mipglxi.cn, port: 5012, type: ss, cipher: aes-128-gcm, password: c0b4efb0-ab81-46f8-87af-815b62351089, udp: true}
-  - {name: 🇭🇰 香港BGP03|优选原生IP|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /BGP03, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇭🇰 香港BGP02|优选原生IP|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /BGP02, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇭🇰 香港BGP01|优选原生IP|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /BGP01, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇯🇵 日本01|三网优化|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /linodejp01, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇸🇬 新加坡02|三网优化|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /doxjp03, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇯🇵 日本04|三网优化|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /japanese03, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇸🇬 新加坡01|三网优化|解锁流媒体|1x, server: cs.daxun.cyou, port: 20631, type: vmess, uuid: 5bea44cd-f17c-4bd2-aa75-4936bb4bf493, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /doxjp06, headers: {Host: cs.daxun.cyou}}, udp: true}
-  - {name: 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1, server: guangzhouddns.xyz, port: 11804, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 12023:raOppQ, obfs-param: 018ab12023.microsoft.com, udp: true}
-  - {name: 🇸🇬 湖南-新加坡 M247丨全解锁丨A2, server: guangzhouddns.xyz, port: 11846, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 12023:raOppQ, obfs-param: 018ab12023.microsoft.com, udp: true}
-  - {name: 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1, server: liaoningddns.xyz, port: 11427, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 12023:raOppQ, obfs-param: 018ab12023.microsoft.com, udp: true}
-  - {name: 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1, server: guangzhouddns.xyz, port: 22848, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 12023:raOppQ, obfs-param: 018ab12023.microsoft.com, udp: true}
-  - {name: 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4, server: guangzhouddns.xyz, port: 11803, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 12023:raOppQ, obfs-param: 018ab12023.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本🇯🇵｜Oracle, server: jgwamddj.356930.xyz, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: jgwamddj.356930.xyz}}, udp: true}
-  - {name: 🇩🇪 德国🇩🇪｜Do, server: do5.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: do5.hgdbk.ga}}, udp: true}
-  - {name: 🇵🇱 波兰🇵🇱｜Woiden, server: zz.jgwaad.tk, port: 1002, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: zz.jgwaad.tk}}, udp: true}
-  - {name: ID1, server: idv-2.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-wmvqpcqevgp3", headers: {Host: idv-2.openv2ray.com}}, udp: true}
-  - {name: Cow Vagina_17, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡🇸🇬｜Do, server: do4.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: do4.hgdbk.ga}}, udp: true}
+  - {name: DE1, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-qe27t3x1m924z140b9rv, sni: det-1.opensvr.net, skip-cert-verify: false, udp: true}
+  - {name: SG3, server: sgv-3.openv2ray.com, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-3j999etu7c1f", headers: {Host: sgv-3.openv2ray.com}}, udp: true}
+  - {name: Cow Vagina_10, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: Cow Vagina_7, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: Cow Vagina_5, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: Cow Vagina_6, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: Cow Vagina_10, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 菲律宾03|内网专线|Manila, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度03|内网专线|भारत गणराज्य, server: aliyun.install03.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度01|内网专线|भारत गणराज्य, server: aliyun.install01.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度02|内网专线|भारत गणराज्य, server: aliyun.install02.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国03|内网专线|LINODE, server: aliyun.install03.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇱 荷兰01|内网专线|Nederland, server: aliyun.install01.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇿 捷克03|内网专线|Česko, server: aliyun.install03.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇿 捷克02|内网专线|Česko, server: aliyun.install02.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国01|内网专线|LINODE, server: aliyun.install01.vnupgcn.cn, port: 11903, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 菲律宾04|内网专线|Manila, server: aliyun.install04.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南01|内网专线|HồChíMinh, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度04|内网专线|भारत गणराज्य, server: aliyun.install04.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南02|内网专线|HồChíMinh, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ★自动选择|美国最优线路, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇿 捷克04|内网专线|Česko, server: aliyun.install04.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 澳大利亚02|内网专线|Australia, server: aliyun.install02.vnupgcn.cn, port: 11925, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本, server: aliyun.moble.vnupgcn.cn, port: 9033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇿 大萝卜鸡捷克, server: aliyun.install02.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 大萝卜鸡印度, server: aliyun.install03.vnupgcn.cn, port: 11929, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 大萝卜鸡台湾, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 大萝卜鸡菲律宾, server: aliyun.install04.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡新加坡, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: static.dingtalk.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|直连|1.0x, server: hg.cycfly.xyz, port: 53525, type: vmess, uuid: e4da905b-b046-4bbe-8031-6a6d6a7fc21d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_2, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 大萝卜鸡韩国, server: aliyun.install04.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本-优化3, server: t.cccao.cyou, port: 16617, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 🇭🇰 香港HKT-优化2, server: 120-241-236-214.nhost.00cdn.com, port: 16620, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 120-241-236-214.nhost.00cdn.com}}, udp: true}
-  - {name: 🇩🇪 德国-优化2, server: 120-241-236-214.nhost.00cdn.com, port: 23309, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 120-241-236-214.nhost.00cdn.com}}, udp: true}
-  - {name: 🇯🇵 日本|直连|1.0x, server: 144.48.80.99, port: 52148, type: vmess, uuid: e4da905b-b046-4bbe-8031-6a6d6a7fc21d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 英国-优化2, server: 120-241-236-214.nhost.00cdn.com, port: 16644, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 120-241-236-214.nhost.00cdn.com}}, udp: true}
-  - {name: 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io, server: pv21508zronm, port: 0, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io, server: pv21508zronm, port: 0, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io, server: pv21508zronm, port: 0, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io, server: pv21508zronm, port: 0, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇳 蒙古-优化3, server: t.cccao.cyou, port: 16631, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇺🇸 美国LA-优化2, server: u.cccao.cyou, port: 16648, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
+  - {name: 🇨🇦 加拿大-优化2, server: 120-241-236-214.nhost.00cdn.com, port: 16641, type: vmess, uuid: a0cc7c8c-6912-4851-a570-a04b9475e797, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 120-241-236-214.nhost.00cdn.com}}, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11343, server: h649960.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -113,212 +56,98 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -326,106 +155,49 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -445,135 +217,61 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
+      - 🇭🇰 USA 广港双端BGP
+      - 🇭🇰 Lv3 香港 02 [2.0]
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
       - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇭🇰 大萝卜鸡香港
-      - 🇭🇰 香港HKT-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -581,212 +279,98 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -794,106 +378,49 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -910,106 +437,49 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "Go加速 - V1 IEPL | HK2\n"
+      - 🇭🇰 USA 广港双端BGP
       - "Go加速 - V1 IEPL | GB1\n"
       - Linode
-      - 🇭🇰 IEPL 香港 ₃.₅ₓ
-      - 🇭🇰 G 香港1
-      - 🇭🇰 G 香港3
-      - 🇨🇳 TW 001
-      - 🇨🇳 TW 002
-      - 🇭🇰 HK 000
-      - 🇭🇰 Lv2 香港 05 [2.5]
-      - 🇭🇰 Lv2 香港 07 [2.5]
-      - 6004 @WangCai_1
-      - 6008 @WangCai_1
-      - 6001 @WangCai_1
-      - 6003 @WangCai_1
-      - 6007 @WangCai_1
+      - 🇭🇰 Lv3 香港 02 [2.0]
+      - 🇸🇬 Lv3 新加坡 04 [2.0]
+      - 🇯🇵 Lv3 日本 06 [2.0]
+      - 🇯🇵 Lv3 日本 01 [2.0]
       - 6002 @WangCai_1
+      - 6001 @WangCai_1
+      - 6004 @WangCai_1
       - 6006 @WangCai_1
-      - 6005 @WangCai_1
-      - 6025 @WangCai_1
-      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9)
-      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
+      - 6015 @WangCai_1
       - 🇸🇬 [trojan]🇸🇬[SG]kaizen-sg-01.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-5.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
+      - 🇨🇳 [trojan]🇹🇼[TW]tw.tcpbbr.net:443(5c7b33c6-6d83-11eb-b77b-f23c913c8d2b)
       - 🇨🇳 [trojan]🇹🇼[TW]kaizen-tw-3.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇯🇵 [trojan]🇯🇵[JP]kaizen-jp-12.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 [trojan]🇭🇰[HK]kaizen-hk-11.mielink-dns2.com:443(acf40985-ef35-3d1d-ae64-1e165e309eebmielink)
-      - 🇭🇰 Lv3 香港 08 [2.0]
-      - 🇭🇰 Lv3 香港 03 [2.0]
+      - iplc专线02|直连|限速8mbps|3x
+      - iplc专线01|直连|限速8mbps|3x
       - 🇨🇳 Scould台湾01|解锁流媒体|1x
-      - 🇨🇳 scloud台湾07—原生IP
-      - 🇨🇳 台湾04|优选原生IP|1x
       - 🇨🇳 Scloud台湾02|解锁流媒体|1x
       - 🇭🇰 香港HKT-中转|1x
-      - 🇨🇳 台湾05|优选原生IP|1x
-      - 🇸🇬 Lv2 新加坡 04 [2.5]
-      - 🇭🇰 香港BGP03|优选原生IP|1x
-      - 🇭🇰 香港BGP02|优选原生IP|1x
-      - 🇭🇰 香港BGP01|优选原生IP|1x
-      - 🇯🇵 日本01|三网优化|1x
-      - 🇸🇬 新加坡02|三网优化|解锁流媒体|1x
-      - 🇯🇵 日本04|三网优化|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇺🇸 湖南-美国 KirinoNET丨全解锁丨A1
-      - 🇸🇬 湖南-新加坡 M247丨全解锁丨A2
-      - 🇺🇸 辽宁-美国 KirinoNET丨全解锁丨A1
-      - 🇷🇺 湖南-俄罗斯 LLC BAXET丨半解锁丨A1
-      - 🇰🇷 湖南-韩国 Oracle丨全解锁丨A4
-      - 🇯🇵 日本🇯🇵｜Oracle
-      - 🇩🇪 德国🇩🇪｜Do
-      - 🇵🇱 波兰🇵🇱｜Woiden
-      - ID1
-      - Cow Vagina_17
+      - 🇸🇬 新加坡🇸🇬｜Do
+      - DE1
+      - SG3
+      - Cow Vagina_10
       - Cow Vagina_7
       - Cow Vagina_5
-      - Cow Vagina_6
-      - Cow Vagina_10
-      - 🇵🇭 菲律宾03|内网专线|Manila
-      - 🇮🇳 印度03|内网专线|भारत गणराज्य
-      - 🇮🇳 印度01|内网专线|भारत गणराज्य
-      - 🇮🇳 印度02|内网专线|भारत गणराज्य
-      - 🇩🇪 德国03|内网专线|LINODE
-      - 🇳🇱 荷兰01|内网专线|Nederland
-      - 🇨🇿 捷克03|内网专线|Česko
-      - 🇨🇿 捷克02|内网专线|Česko
-      - 🇩🇪 德国01|内网专线|LINODE
-      - 🇵🇭 菲律宾04|内网专线|Manila
-      - 🇻🇳 越南01|内网专线|HồChíMinh
-      - 🇮🇳 印度04|内网专线|भारत गणराज्य
-      - 🇻🇳 越南02|内网专线|HồChíMinh
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇿 捷克04|内网专线|Česko
-      - 🇦🇺 澳大利亚02|内网专线|Australia
-      - 🇯🇵 大萝卜鸡日本
-      - 🇨🇿 大萝卜鸡捷克
-      - 🇮🇳 大萝卜鸡印度
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇵🇭 大萝卜鸡菲律宾
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇭🇰 大萝卜鸡香港
-      - 🇰🇷 韩国|直连|1.0x
+      - Cow Vagina_2
+      - 🇰🇷 大萝卜鸡韩国
       - 🇯🇵 日本-优化3
-      - 🇭🇰 香港HKT-优化2
-      - 🇩🇪 德国-优化2
-      - 🇯🇵 日本|直连|1.0x
-      - 🇬🇧 英国-优化2
-      - 🇭🇰 pv21508zronm:lzu58u8z1qft@hkg.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@cgk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@bkk.socks.privado.io
-      - pv21508zronm:lzu58u8z1qft@dfw.socks.privado.io
+      - 🇲🇳 蒙古-优化3
+      - 🇺🇸 美国LA-优化2
+      - 🇨🇦 加拿大-优化2
       - h745768.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11343
-      - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
+      - h649960.waihuizhibiaowang.com:11543
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
