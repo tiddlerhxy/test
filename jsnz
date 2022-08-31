@@ -5,355 +5,263 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Cow Vagina 11, server: nk5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: Cow Vagina 12, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: Cow Vagina 9, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: Cow Vagina 3, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: Cow Vagina 10, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: Cow Vagina, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: Cow Vagina 5, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: Cow Vagina 2, server: bs2-2.getnjnd.com, port: 6503, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 94794:lSBlA5, obfs-param: ZjE0NDI5NDc5NC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: Cow Vagina 6, server: bs2-2.getnjnd.com, port: 6501, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 94794:lSBlA5, obfs-param: ZjE0NDI5NDc5NC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: Cow Vagina 8, server: bs2-2.getnjnd.com, port: 6502, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 94794:lSBlA5, obfs-param: ZjE0NDI5NDc5NC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: Cow Vagina 4, server: bs2-2.getnjnd.com, port: 6500, type: ssr, cipher: chacha20-ietf, password: renzhecloud, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 94794:lSBlA5, obfs-param: ZjE0NDI5NDc5NC5taWNyb3NvZnQuY29t, udp: true}
-  - {name: 🇹🇭 泰国03|内网专线|ประเทศไทย, server: aliyun.install03.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇭 泰国01|内网专线|ประเทศไทย, server: aliyun.install01.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 ★自动选择|美国最优线路, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾05|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 俄罗斯01|内网专线|Россия, server: aliyun.install01.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港丨SSR丨HKBN丨, server: tuna01.mcddns01.com, port: 31201, type: ssr, cipher: chacha20-ietf, password: zXWxopD1, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 14869:MpGZbvEZ, obfs-param: b8d4914869.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港丨SSR丨CN02丨HKBN, server: tuna07.mcddns01.com, port: 33312, type: ssr, cipher: chacha20-ietf, password: zXWxopD1, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 14869:MpGZbvEZ, obfs-param: b8d4914869.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港丨V2RAY丨HKBN丨, server: tuna01.mcddns01.com, port: 34101, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /search, headers: {Host: image.baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港丨V2RAY丨CN02丨HKBN, server: tuna09.mcddns01.com, port: 34311, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /search, headers: {Host: image.baidu.com}}, udp: true}
-  - {name: 🇸🇬 新加坡丨SSR丨, server: tuna03.mcddns01.com, port: 31601, type: ssr, cipher: chacha20-ietf, password: zXWxopD1, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 14869:MpGZbvEZ, obfs-param: b8d4914869.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾丨SSR丨CN02丨HINET, server: tuna07.mcddns01.com, port: 33322, type: ssr, cipher: chacha20-ietf, password: zXWxopD1, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 14869:MpGZbvEZ, obfs-param: b8d4914869.microsoft.com, udp: true}
-  - {name: 🇸🇬 新加坡丨SSR丨CN02丨, server: tuna07.mcddns01.com, port: 33332, type: ssr, cipher: chacha20-ietf, password: zXWxopD1, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 14869:MpGZbvEZ, obfs-param: b8d4914869.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本丨SSR丨CN02丨, server: tuna07.mcddns01.com, port: 33352, type: ssr, cipher: chacha20-ietf, password: zXWxopD1, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 14869:MpGZbvEZ, obfs-param: b8d4914869.microsoft.com, udp: true}
-  - {name: 🇨🇳 台湾丨V2RAY丨CN02丨HINET, server: tuna09.mcddns01.com, port: 34321, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: pan.baidu.com}}, udp: true}
-  - {name: 🇨🇳 台湾丨V2RAY丨HINET丨, server: tuna02.mcddns01.com, port: 34201, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: pan.baidu.com}}, udp: true}
-  - {name: 🇸🇬 新加坡丨V2RAY丨, server: tuna03.mcddns01.com, port: 34301, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: pan.baidu.com}}, udp: true}
-  - {name: 🇸🇬 新加坡丨V2RAY丨CN02, server: tuna09.mcddns01.com, port: 34331, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: pan.baidu.com}}, udp: true}
-  - {name: 🇯🇵 日本丨V2RAY丨CN02, server: tuna09.mcddns01.com, port: 34351, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: pan.baidu.com}}, udp: true}
-  - {name: 🇯🇵 日本丨V2RAY丨, server: tuna05.mcddns01.com, port: 34501, type: vmess, uuid: a87cf29b-4174-3627-bf02-24697638f327, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /share, headers: {Host: pan.baidu.com}}, udp: true}
-  - {name: 🇨🇳 台湾丨SSR丨HINET丨, server: tuna02.mcddns01.com, port: 31401, type: ssr, cipher: chacha20-ietf, password: zXWxopD1, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 14869:MpGZbvEZ, obfs-param: b8d4914869.microsoft.com, udp: true}
-  - {name: HK_VIP 1 @WangCai_1, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: www.baidu.com, udp: true}
-  - {name: HK_普通 B @WangCai_1, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: www.baidu.com, udp: true}
-  - {name: 🇭🇰 广港|IEPL|10, server: bs1-1.getnjnd.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: 🇭🇰 广港|IEPL|16, server: bs2-1.getnjnd.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: HK_VIP 2 @WangCai_1, server: nk2.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: www.baidu.com, udp: true}
-  - {name: HK_普通 F @WangCai_1, server: ntemp20.boom.skin, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 441548:D84Cy7, obfs-param: www.baidu.com, udp: true}
-  - {name: 🇭🇰 广港|IEPL|20, server: bs2-1.getnjnd.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: 🇭🇰 广港|IEPL|06, server: bs1-1.getnjnd.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: 🇸🇬 广新|IEPL|05, server: bs2-2.getnjnd.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: f144294794.microsoft.com}, udp: true}
-  - {name: 台北Hinet_7, server: 60.249.3.231, port: 3389, type: trojan, password: d02058f4f819dced, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_1, server: 60.249.3.231, port: 3389, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_4, server: 60.249.3.231, port: 3389, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_6, server: 60.249.3.126, port: 3389, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_3, server: 60.249.3.126, port: 3389, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_9, server: 60.249.3.126, port: 3389, type: trojan, password: d02058f4f819dced, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_5, server: 116.129.253.177, port: 3389, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo-EDCL_7, server: 116.129.253.134, port: 3382, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_2, server: 116.129.253.177, port: 3389, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo-EDCL_3, server: 116.129.253.134, port: 3382, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo-EDCL_6, server: 116.129.254.29, port: 3382, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo-EDCL_4, server: 116.129.254.47, port: 3382, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo-EDCL_2, server: 116.129.254.29, port: 3382, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: 台北Hinet_8, server: 116.129.253.177, port: 3389, type: trojan, password: d02058f4f819dced, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 彰化Hinet_1, server: 116.129.254.47, port: 3383, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国｜春川｜奥利给, server: 129.154.61.32, port: 80, type: vmess, uuid: 93c8fd94-17de-4730-8977-d55e304e9a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo-EDCL_9, server: 116.129.254.47, port: 3382, type: trojan, password: d02058f4f819dced, skip-cert-verify: false, udp: true}
+  - {name: Go加速 - V2 IEPL | TW1, server: i1.go001.buzz, port: 32201, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: "Go加速 - V2 IEPL | US1\n", server: i1.go001.buzz, port: 32601, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: "Go加速 - V1 IEPL | TR1\n", server: i1.go001.buzz, port: 31901, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: "Go加速 - V1 IEPL | GB1\n\n", server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: "🇭🇰 v2ray 香港HKBN(移动) [Netflix]", server: m.lwvzmdu.cn, port: 26609, type: vmess, uuid: 336a4233-3049-30dd-9146-18b49daae237, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: "🇭🇰 v2ray 香港HKBN(联通) [Netflix]", server: u.vvvao.cyou, port: 26609, type: vmess, uuid: 336a4233-3049-30dd-9146-18b49daae237, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.vvvao.cyou}}, udp: true}
+  - {name: "🇯🇵 v2ray 日本(联通) [Netflix]", server: u.vvvao.cyou, port: 26601, type: vmess, uuid: 336a4233-3049-30dd-9146-18b49daae237, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.vvvao.cyou}}, udp: true}
+  - {name: "🇯🇵 v2ray 日本(移动) [Netflix]", server: m.lwvzmdu.cn, port: 26601, type: vmess, uuid: 336a4233-3049-30dd-9146-18b49daae237, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: JP_09 @WangCai_1, server: 193.38.139.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_01 @WangCai_1, server: 193.38.139.204, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_02 @WangCai_1, server: 193.38.139.204, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_06 @WangCai_1, server: 193.38.139.203, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP_06 @WangCai_1 2, server: 193.38.139.204, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 🇯🇵 日本-智能, server: g.cccao.cyou, port: 16617, type: vmess, uuid: be34f600-ba79-4912-b448-c415fe56743c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: g.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 香港Az-优化3, server: t.cccao.cyou, port: 16627, type: vmess, uuid: be34f600-ba79-4912-b448-c415fe56743c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 香港Az-优化2, server: m.lwvzmdu.cn, port: 16627, type: vmess, uuid: be34f600-ba79-4912-b448-c415fe56743c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: 🇯🇵 日本-优化, server: u.cccao.cyou, port: 16617, type: vmess, uuid: be34f600-ba79-4912-b448-c415fe56743c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 香港HKT-优化, server: u.cccao.cyou, port: 16620, type: vmess, uuid: be34f600-ba79-4912-b448-c415fe56743c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 香港D, server: hkd-zf.jiashumao.net, port: 28481, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: hkd.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港A, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: ahbn.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 流媒体(港), server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: nf.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡, server: sg-zf.jiashumao.net, port: 29465, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: sg.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾A, server: twa-zf.jiashumao.net, port: 27919, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: twa.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本C, server: jpc-zf.jiashumao.net, port: 27301, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: jpc.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾B, server: twb-zf.jiashumao.net, port: 25888, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: twb.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇴 澳门, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: c6bd7759-2164-3587-a40c-a1bf63180b85, sni: ma-ctm.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 【中转】镇江BGP-纽约SS, server: zhongzhuan01.kaochangonline.online, port: 12233, type: ss, cipher: chacha20-ietf-poly1305, password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3, udp: true}
-  - {name: 🇸🇬 Singapore-Melbicom_8, server: 116.129.254.47, port: 3385, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度10g, server: 20.204.130.46, port: 80, type: vmess, uuid: 7e1521db-9b26-4f59-8874-e2d8952b551f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡🇸🇬｜Do｜测试, server: cs.hgdbk.ga, port: 443, type: vmess, uuid: 1b41d609-0d07-4dfd-b985-3cd08812dd5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: cs.hgdbk.ga}}, udp: true}
-  - {name: 🇨🇳 彰化Hinet_6, server: 116.129.254.29, port: 3383, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
-  - {name: HK004, server: j13.v2.gay, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 巴黎|中转|优选原生IP|1x, server: 165.154.243.157, port: 48008, type: trojan, password: 95ecb97c-e448-44f5-9192-6653edb57a07, sni: zaelot.cc, skip-cert-verify: false, udp: true}
-  - {name: Cow Vagina_22, server: aliyun.moble.vnupgcn.cn, port: 9009, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国西雅图-中转|1x, server: 165.154.243.157, port: 48006, type: trojan, password: 95ecb97c-e448-44f5-9192-6653edb57a07, sni: zaelot.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 彰化Hinet_4, server: 116.129.254.47, port: 3383, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 彰化Hinet_2, server: 116.129.254.29, port: 3383, type: trojan, password: 6222266fcd4ed224, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 彰化Hinet_12, server: 116.129.254.47, port: 3383, type: trojan, password: d02058f4f819dced, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_16, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: Cow Vagina_8, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: HK003, server: j2.v2.gay, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本, server: aliyun.moble.vnupgcn.cn, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 大萝卜鸡台湾, server: aliyun.moble.vnupgcn.cn, port: 9020, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 彰化Hinet_9, server: 116.129.254.47, port: 3383, type: trojan, password: d02058f4f819dced, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港10g-2, server: 20.24.85.244, port: 80, type: vmess, uuid: 7e1521db-9b26-4f59-8874-e2d8952b551f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇨🇳 彰化Hinet_8, server: 116.129.254.47, port: 3383, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾07|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾05|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇧🇬 保加利亚04|内网专线|България, server: aliyun.install04.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇪 阿联酋03|内网专线|Dubai, server: aliyun.install03.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南04|内网专线|HồChíMinh, server: aliyun.install04.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 大萝卜鸡香港, server: 118.140.206.180, port: 52142, type: vmess, uuid: e4da905b-b046-4bbe-8031-6a6d6a7fc21d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本zl, server: 40.115.212.243, port: 33004, type: vmess, uuid: 96532124-8ef6-41da-9303-dfa7ef2b1622, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 日, server: 40.115.212.243, port: 33004, type: vmess, uuid: 1ce245b5-6a47-44e3-9dc3-3cdddecdab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Bzl, server: 20.239.180.183, port: 33010, type: vmess, uuid: 96532124-8ef6-41da-9303-dfa7ef2b1622, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡负载C, server: zhenye.zhenyejd.net, port: 10004, type: vmess, uuid: fcef0e02-e0f2-4f1d-a44d-b2737f8916bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡负载B, server: zhenye.zhenyejd.net, port: 10003, type: vmess, uuid: 254ede3b-1630-44ce-9f11-0bc7b244fccf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港Azl, server: 20.239.179.56, port: 33009, type: vmess, uuid: 96532124-8ef6-41da-9303-dfa7ef2b1622, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本负载A, server: zhenye.zhenyejd.net, port: 10002, type: vmess, uuid: fcef0e02-e0f2-4f1d-a44d-b2737f8916bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 香, server: 20.239.180.183, port: 33010, type: vmess, uuid: bf140def-cb10-4ba5-a7cc-562ca387c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡负, server: zhenye.zhenyejd.net, port: 10004, type: vmess, uuid: bf140def-cb10-4ba5-a7cc-562ca387c22b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡负载A, server: zhenye.zhenyejd.net, port: 10001, type: vmess, uuid: fcef0e02-e0f2-4f1d-a44d-b2737f8916bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 印度zl, server: 20.219.4.59, port: 33003, type: vmess, uuid: 7b3eea5a-1ef6-4d2d-b3cd-e42b1584e244, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本-z-负载A, server: all.zhenyejd.net, port: 18444, type: vmess, uuid: 7d42ea41-00cf-4329-a1e8-592e0981fff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡-移动, server: wyyd.zhenyejd.net, port: 61001, type: vmess, uuid: 17267689-50dc-41d2-8698-5f1fa8f2fc07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本A-移动, server: wyyd.zhenyejd.net, port: 61002, type: vmess, uuid: 17267689-50dc-41d2-8698-5f1fa8f2fc07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本-z, server: all.zhenyejd.net, port: 18444, type: vmess, uuid: 1ce245b5-6a47-44e3-9dc3-3cdddecdab38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本B-移动, server: wyyd.zhenyejd.net, port: 61004, type: vmess, uuid: 17267689-50dc-41d2-8698-5f1fa8f2fc07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本-z-负载B, server: all.zhenyejd.net, port: 18445, type: vmess, uuid: 254ede3b-1630-44ce-9f11-0bc7b244fccf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 新加, server: wyyd.zhenyejd.net, port: 61003, type: vmess, uuid: 17267689-50dc-41d2-8698-5f1fa8f2fc07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 新加j, server: all.zhenyejd.net, port: 18441, type: vmess, uuid: 7d42ea41-00cf-4329-a1e8-592e0981fff4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -372,391 +280,282 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇨🇳 台湾A
+      - 🇨🇳 台湾B
+      - 🇨🇳 台湾07|原生解锁|中華電信
       - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 台北Hinet_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - 🇨🇳 彰化Hinet_6
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - 🇨🇳 彰化Hinet_12
       - 🇭🇰 大萝卜鸡香港
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇭🇰 香港Bzl
+      - 🇭🇰 香港Azl
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -772,89 +571,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Cow Vagina 11
-      - Cow Vagina 12
-      - Cow Vagina 9
-      - Cow Vagina 3
-      - Cow Vagina 10
-      - Cow Vagina
-      - Cow Vagina 5
-      - Cow Vagina 2
-      - Cow Vagina 6
-      - Cow Vagina 8
-      - Cow Vagina 4
-      - 🇹🇭 泰国03|内网专线|ประเทศไทย
-      - 🇹🇭 泰国01|内网专线|ประเทศไทย
-      - 🇺🇸 ★自动选择|美国最优线路
-      - 🇨🇳 台湾05|原生解锁|中華電信
-      - 🇷🇺 俄罗斯01|内网专线|Россия
-      - 🇭🇰 香港丨SSR丨HKBN丨
-      - 🇭🇰 香港丨SSR丨CN02丨HKBN
-      - 🇭🇰 香港丨V2RAY丨HKBN丨
-      - 🇭🇰 香港丨V2RAY丨CN02丨HKBN
-      - 🇸🇬 新加坡丨SSR丨
-      - 🇨🇳 台湾丨SSR丨CN02丨HINET
-      - 🇸🇬 新加坡丨SSR丨CN02丨
-      - 🇯🇵 日本丨SSR丨CN02丨
-      - 🇨🇳 台湾丨V2RAY丨CN02丨HINET
-      - 🇨🇳 台湾丨V2RAY丨HINET丨
-      - 🇸🇬 新加坡丨V2RAY丨
-      - 🇸🇬 新加坡丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨CN02
-      - 🇯🇵 日本丨V2RAY丨
-      - 🇨🇳 台湾丨SSR丨HINET丨
-      - HK_VIP 1 @WangCai_1
-      - HK_普通 B @WangCai_1
-      - 🇭🇰 广港|IEPL|10
-      - 🇭🇰 广港|IEPL|16
-      - HK_VIP 2 @WangCai_1
-      - HK_普通 F @WangCai_1
-      - 🇭🇰 广港|IEPL|20
-      - 🇭🇰 广港|IEPL|06
-      - 🇸🇬 广新|IEPL|05
-      - 台北Hinet_7
-      - 台北Hinet_1
-      - 台北Hinet_4
-      - 台北Hinet_6
-      - 台北Hinet_3
-      - 台北Hinet_9
-      - 台北Hinet_5
-      - 🇯🇵 Tokyo-EDCL_7
-      - 台北Hinet_2
-      - 🇯🇵 Tokyo-EDCL_3
-      - 🇯🇵 Tokyo-EDCL_6
-      - 🇯🇵 Tokyo-EDCL_4
-      - 🇯🇵 Tokyo-EDCL_2
-      - 台北Hinet_8
-      - 🇨🇳 彰化Hinet_1
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇰🇷 韩国｜春川｜奥利给
-      - 🇯🇵 Tokyo-EDCL_9
+      - Go加速 - V2 IEPL | TW1
+      - "Go加速 - V2 IEPL | US1\n"
+      - "Go加速 - V1 IEPL | TR1\n"
+      - "Go加速 - V1 IEPL | GB1\n\n"
+      - 🇭🇰 v2ray 香港HKBN(移动) [Netflix]
+      - 🇭🇰 v2ray 香港HKBN(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(联通) [Netflix]
+      - 🇯🇵 v2ray 日本(移动) [Netflix]
+      - JP_09 @WangCai_1
+      - JP_01 @WangCai_1
+      - JP_02 @WangCai_1
+      - JP_06 @WangCai_1
+      - JP_06 @WangCai_1 2
+      - 🇯🇵 日本-智能
+      - 🇭🇰 香港Az-优化3
+      - 🇭🇰 香港Az-优化2
+      - 🇯🇵 日本-优化
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港D
+      - 🇭🇰 香港A
+      - 🇭🇰 流媒体(港)
+      - 🇸🇬 新加坡
+      - 🇨🇳 台湾A
+      - 🇯🇵 日本C
+      - 🇨🇳 台湾B
+      - 🇲🇴 澳门
+      - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇨🇳 【中转】镇江BGP-纽约SS
-      - 🇸🇬 Singapore-Melbicom_8
-      - 🇮🇳 印度10g
-      - h961359.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡🇸🇬｜Do｜测试
-      - 🇨🇳 彰化Hinet_6
-      - HK004
-      - 🇫🇷 巴黎|中转|优选原生IP|1x
-      - Cow Vagina_22
-      - 🇺🇸 美国西雅图-中转|1x
-      - 🇨🇳 彰化Hinet_4
-      - 🇨🇳 彰化Hinet_2
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇨🇳 彰化Hinet_12
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
+      - Cow Vagina_16
       - Cow Vagina_8
+      - 🇨🇳 台湾07|原生解锁|中華電信
+      - 🇨🇳 台湾05|原生解锁|中華電信
+      - 🇧🇬 保加利亚04|内网专线|България
+      - 🇦🇪 阿联酋03|内网专线|Dubai
+      - 🇻🇳 越南04|内网专线|HồChíMinh
       - 🇭🇰 大萝卜鸡香港
-      - HK003
-      - 🇯🇵 大萝卜鸡日本
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇨🇳 彰化Hinet_9
-      - 🇭🇰 香港10g-2
-      - 🇨🇳 彰化Hinet_8
+      - 🇯🇵 日本zl
+      - 日
+      - 🇭🇰 香港Bzl
+      - 🇸🇬 新加坡负载C
+      - 🇸🇬 新加坡负载B
+      - 🇭🇰 香港Azl
+      - 🇯🇵 日本负载A
+      - 香
+      - 🇸🇬 新加坡负
+      - 🇸🇬 新加坡负载A
+      - 🇮🇳 印度zl
+      - 🇯🇵 日本-z-负载A
+      - 🇸🇬 新加坡-移动
+      - 🇯🇵 日本A-移动
+      - 🇯🇵 日本-z
+      - 🇯🇵 日本B-移动
+      - 🇯🇵 日本-z-负载B
+      - 新加
+      - 新加j
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
