@@ -5,207 +5,211 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港-直连Z2-1G, server: hkz2.1yuanfly.live, port: 32399, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-直连Z3-1G, server: hkz3.1yuanfly.live, port: 32399, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-直连Z1-1G, server: hkz1.1yuanfly.live, port: 32399, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国首尔-直连Z1-30M, server: krz1.1yuanfly.live, port: 32399, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡-免流M3-1G, server: sgm3.1yuanfly.live, port: 443, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /videos, headers: {Host: collab-ws.dingtalk.com}}, udp: true}
-  - {name: 🇸🇬 新加坡 01 | 直连, server: sg1.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.718be37e-804f-4696-968e-948430a90029.b1a0a095-825a-4ab6-8f9a-6cc9cb171dd2.yiyuan.cyou, port: 443, type: trojan, password: 4b315567-f078-4db5-b581-625d77942a31, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 02 | 直连, server: hk2.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.718be37e-804f-4696-968e-948430a90029.b1a0a095-825a-4ab6-8f9a-6cc9cb171dd2.yiyuan.cyou, port: 443, type: trojan, password: 4b315567-f078-4db5-b581-625d77942a31, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 03 | 直连, server: hk3.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.718be37e-804f-4696-968e-948430a90029.b1a0a095-825a-4ab6-8f9a-6cc9cb171dd2.yiyuan.cyou, port: 443, type: trojan, password: 4b315567-f078-4db5-b581-625d77942a31, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02 | 直连, server: sg2.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.718be37e-804f-4696-968e-948430a90029.b1a0a095-825a-4ab6-8f9a-6cc9cb171dd2.yiyuan.cyou, port: 443, type: trojan, password: 4b315567-f078-4db5-b581-625d77942a31, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 02 | 直连, server: jp01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 4b315567-f078-4db5-b581-625d77942a31, sni: 13-251-128-188.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港Az-优化3, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 🇭🇰 香港HKT-优化, server: u.cccao.cyou, port: 16620, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 AWS｜香港80-1｜三网, server: 16.163.129.226, port: 80, type: vmess, uuid: c31665cb-e40a-4106-b580-af55384615d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS｜香港2-tcp｜三网, server: 18.163.182.206, port: 9663, type: vmess, uuid: 2ef5a318-68ff-43df-c3e7-01f7249fd881, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS｜新加坡80｜三网, server: 13.212.225.207, port: 80, type: vmess, uuid: 760f3258-300e-4d14-822a-8dc771184201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS｜香港2-80｜三网, server: 18.163.182.206, port: 80, type: vmess, uuid: fca2674e-5367-469b-8d1b-add24d30d4b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS｜新加坡tcp｜三网, server: 13.212.225.207, port: 28380, type: vmess, uuid: 48ac8a74-eb9b-443b-b967-a165167e6b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS｜香港tcp-1｜三网, server: 16.163.129.226, port: 48153, type: vmess, uuid: 25dadc09-f9f7-491a-a324-6b5c4f15f151, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 微软｜香港tcp-2｜电信, server: 20.205.142.180, port: 26772, type: vmess, uuid: 4072048a-0423-4550-9a8c-3d74d90b2df1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 微软｜香港80-2｜电信, server: 20.205.142.180, port: 80, type: vmess, uuid: b73d5e48-6799-45ef-8a17-e95daf8438e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 微软｜香港tcp-1｜电信, server: 20.205.137.188, port: 37606, type: vmess, uuid: 0315134b-f4c0-4bf1-e8a4-42db3665a101, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS｜东京80｜三网, server: 13.113.250.124, port: 27111, type: vmess, uuid: d468c30d-9279-40e1-ece0-4c201d65b451, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS｜大阪80｜三网, server: 13.208.185.169, port: 80, type: vmess, uuid: 11dc2abb-97d6-4313-df36-9d57b135e481, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS｜东京80｜三网 2, server: 13.113.250.124, port: 80, type: vmess, uuid: 44f326cd-1fef-45f8-84d7-973413f77171, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 Oracle｜韩国tcp｜cn2, server: 193.122.117.52, port: 36309, type: vmess, uuid: b92b4069-566d-41b5-e561-7ff824429a62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 微软｜香港80-1｜电信, server: 20.205.137.188, port: 80, type: vmess, uuid: 226af1f9-478c-4f94-fcc3-68c72d2632b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Linode｜新加坡tcp-2｜联通, server: 103.3.61.141, port: 32223, type: vmess, uuid: b11eec7a-cdc4-4e6c-a14a-0b0316eefa21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Linode｜新加坡tcp-1｜联通, server: 172.104.190.80, port: 1080, type: vmess, uuid: 3e267897-bf74-4532-aff3-8920e71141a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Linode｜新加坡80-2｜联通, server: 103.3.61.141, port: 80, type: vmess, uuid: a3bc91a3-336d-42db-e1dd-ec72c171fe91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Linode｜新加坡80-1｜联通, server: 172.104.190.80, port: 80, type: vmess, uuid: ce6d9988-1265-4dc9-aa88-c8f0e526a971, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Linode｜新加坡ws-3｜联通, server: 170.187.231.171, port: 53174, type: vmess, uuid: 4139d072-8037-48d9-fe2f-4f85a5a5e421, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇭🇰 AWS｜香港3-tcp｜三网, server: 43.198.18.38, port: 48908, type: vmess, uuid: ba4b9312-88ed-44de-d973-e185723c72a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS｜香港3-80｜三网, server: 43.198.18.38, port: 80, type: vmess, uuid: 7e909f5f-a54b-42ce-93a1-27c004bb8291, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 Oracle｜韩国80｜cn2, server: 193.122.117.52, port: 80, type: vmess, uuid: 8478fdb2-e155-4830-dfc5-b1c8548fb6b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港Az-优化, server: u.cccao.cyou, port: 16627, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
-  - {name: 🇲🇾 马来西亚-优化3, server: t.cccao.cyou, port: 26623, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: 🇯🇵 日本-智能, server: g.cccao.cyou, port: 16617, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: g.cccao.cyou}}, udp: true}
-  - {name: 🇭🇰 TG捡的IEPL香港节点, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8127:2byaGS, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 🇭🇰 香港W2-直连, server: 18.162.144.55, port: 32552, type: vmess, uuid: d38ec2cc-6550-446e-a503-b40e41ae4d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 大萝卜鸡台湾, server: 120.240.47.74, port: 5710, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
-  - {name: 🇯🇵 日本A, server: 52.194.251.145, port: 30004, type: vmess, uuid: d38ec2cc-6550-446e-a503-b40e41ae4d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡W3-直连, server: 13.212.222.163, port: 43214, type: vmess, uuid: d38ec2cc-6550-446e-a503-b40e41ae4d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡W1-直连, server: 54.179.147.204, port: 43214, type: vmess, uuid: d38ec2cc-6550-446e-a503-b40e41ae4d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1, server: 20.187.77.38, port: 39000, type: vmess, uuid: 5fc69fcc-7b1c-370e-96af-a6771c5b5c7b, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zz, headers: {Host: 20.187.77.38}}, udp: true}
-  - {name: 🇰🇷 韩国W1-直连, server: 43.200.170.162, port: 32452, type: vmess, uuid: d38ec2cc-6550-446e-a503-b40e41ae4d29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 Oracle｜韩国80｜cn2, server: 193.123.229.95, port: 80, type: vmess, uuid: d5d64edd-7206-4c25-a346-6670caf7ea66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 银狐加速器, server: 31.192.232.217, port: 23456, type: ss, cipher: aes-256-gcm, password: !<str> 07305252, udp: true}
-  - {name: 🇩🇪 德国-直连-倍率x1, server: 185.129.110.41, port: 41235, type: ss, cipher: chacha20-ietf-poly1305, password: 7bd07d8f-49ff-4d47-b7ed-56d365681b2a, udp: true}
+  - {name: 🇭🇰 香港HKT-优化, server: u.cccao.cyou, port: 16620, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: Cow Vagina_14, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: Cow Vagina_24, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA, server: 8.209.220.34, port: 80, type: vmess, uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: lux.justu.ml}}, udp: true}
-  - {name: DE1, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-qe27t3x1m924z140b9rv, sni: det-1.opensvr.net, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: Cow Vagina_8, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-直连-倍率x1, server: 185.129.110.41, port: 41235, type: ss, cipher: chacha20-ietf-poly1305, password: 7bd07d8f-49ff-4d47-b7ed-56d365681b2a, udp: true}
+  - {name: 🇭🇰 香港-直连Z2-1G, server: hkz2.1yuanfly.live, port: 32399, type: vmess, uuid: 7cdfdb89-9279-3209-b322-57c76044b634, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 大萝卜鸡美国, server: 120.240.47.74, port: 7716, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
-  - {name: 🇰🇷 Oracle｜韩国tcp｜cn2, server: 193.123.229.95, port: 53481, type: vmess, uuid: 8b1c93a2-bb31-45e3-a88e-7f128fbb5bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾01|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: Cow Vagina_23, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 Oracle｜韩国tcp｜cn2 2, server: 193.123.229.95, port: 53481, type: vmess, uuid: 8b1c93a2-bb31-45e3-a88e-7f128fbb5bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 Oracle｜韩国80｜cn2 2, server: 193.123.229.95, port: 80, type: vmess, uuid: d5d64edd-7206-4c25-a346-6670caf7ea66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA, server: 8.209.220.34, port: 80, type: vmess, uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: lux.justu.ml}}, udp: true}
   - {name: 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA, server: v6.lux.cl0udf1are.cf, port: 8443, type: vmess, uuid: eea08729-7195-42be-ddb6-e3e1423afaf8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 越南04|内网专线|HồChíMinh, server: aliyun.install04.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: DE1, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-qe27t3x1m924z140b9rv, sni: det-1.opensvr.net, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇾 马来西亚-优化3, server: t.cccao.cyou, port: 26623, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇭🇰 香港Az-优化3, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 18b1c55b-c46b-4f7f-a99c-860d2452bed7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_24, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_23, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: Cow Vagina_1, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇨🇦 加拿大01|内网专线|OVHSAS, server: aliyun.install01.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾01|原生解锁|中華電信, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 TG捡的IEPL香港节点, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 8127:2byaGS, obfs-param: download.windowsupdate.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -224,225 +228,232 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
       - 🇭🇰 香港Az-优化
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
+      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港-直连Z2-1G
       - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - 🇭🇰 香港Az-优化3
       - 🇨🇳 台湾01|原生解锁|中華電信
+      - 🇭🇰 TG捡的IEPL香港节点
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -458,52 +469,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港-直连Z2-1G
-      - 🇭🇰 香港-直连Z3-1G
-      - 🇭🇰 香港-直连Z1-1G
-      - 🇰🇷 韩国首尔-直连Z1-30M
-      - 🇸🇬 新加坡-免流M3-1G
-      - 🇸🇬 新加坡 01 | 直连
-      - 🇭🇰 香港 02 | 直连
-      - 🇭🇰 香港 03 | 直连
-      - 🇸🇬 新加坡 02 | 直连
-      - 🇯🇵 日本 02 | 直连
-      - 🇭🇰 香港Az-优化3
-      - 🇭🇰 香港HKT-优化
-      - 🇭🇰 香港Az-优化
-      - 🇲🇾 马来西亚-优化3
-      - 🇯🇵 日本-智能
-      - 🇭🇰 TG捡的IEPL香港节点
-      - 🇭🇰 香港W2-直连
-      - 🇨🇳 大萝卜鸡台湾
-      - 🇯🇵 日本A
-      - 🇸🇬 新加坡W3-直连
-      - 🇸🇬 新加坡W1-直连
-      - 🇭🇰 Asia 香港06 | 迪士尼 | 直连 | 1.0x | V1
-      - 🇰🇷 韩国W1-直连
-      - 🇰🇷 Oracle｜韩国80｜cn2
-      - 银狐加速器
-      - 🇩🇪 德国-直连-倍率x1
-      - h650196.waihuizhibiaowang.com:11743
-      - Cow Vagina_14
-      - Cow Vagina_24
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - DE1
-      - h650196.waihuizhibiaowang.com:11243
-      - Cow Vagina_8
-      - h961359.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11743
-      - 🇺🇸 大萝卜鸡美国
+      - 🇭🇰 AWS｜香港80-1｜三网
+      - 🇭🇰 AWS｜香港2-tcp｜三网
+      - 🇸🇬 AWS｜新加坡80｜三网
+      - 🇭🇰 AWS｜香港2-80｜三网
+      - 🇸🇬 AWS｜新加坡tcp｜三网
+      - 🇭🇰 AWS｜香港tcp-1｜三网
+      - 🇭🇰 微软｜香港tcp-2｜电信
+      - 🇭🇰 微软｜香港80-2｜电信
+      - 🇭🇰 微软｜香港tcp-1｜电信
+      - 🇯🇵 AWS｜东京80｜三网
+      - 🇯🇵 AWS｜大阪80｜三网
+      - 🇯🇵 AWS｜东京80｜三网 2
       - 🇰🇷 Oracle｜韩国tcp｜cn2
-      - 🇨🇳 台湾01|原生解锁|中華電信
-      - Cow Vagina_23
+      - 🇭🇰 微软｜香港80-1｜电信
+      - 🇸🇬 Linode｜新加坡tcp-2｜联通
+      - 🇸🇬 Linode｜新加坡tcp-1｜联通
+      - 🇸🇬 Linode｜新加坡80-2｜联通
+      - 🇸🇬 Linode｜新加坡80-1｜联通
+      - 🇸🇬 Linode｜新加坡ws-3｜联通
+      - 🇭🇰 AWS｜香港3-tcp｜三网
+      - 🇭🇰 AWS｜香港3-80｜三网
+      - 🇰🇷 Oracle｜韩国80｜cn2
+      - 🇭🇰 香港Az-优化
+      - 🇭🇰 香港HKT-优化
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇩🇪 德国-直连-倍率x1
+      - 🇭🇰 香港-直连Z2-1G
+      - 🇺🇸 大萝卜鸡美国
+      - 🇰🇷 Oracle｜韩国tcp｜cn2 2
+      - 🇰🇷 Oracle｜韩国80｜cn2 2
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare三方中转_香港🇭🇰-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🏳️‍🌈 @aries_init-GRPC协议_iPv6直连_TLS-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
       - 🇻🇳 越南04|内网专线|HồChíMinh
-      - h961359.waihuizhibiaowang.com:11543
+      - DE1
+      - 🇲🇾 马来西亚-优化3
+      - 🇭🇰 香港Az-优化3
+      - h650196.waihuizhibiaowang.com:11243
+      - Cow Vagina_24
+      - Cow Vagina_23
       - Cow Vagina_1
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
       - 🇨🇦 加拿大01|内网专线|OVHSAS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇨🇳 台湾01|原生解锁|中華電信
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11743
+      - 🇭🇰 TG捡的IEPL香港节点
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
