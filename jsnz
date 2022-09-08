@@ -5,223 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CK, server: 103.135.251.200, port: 6800, type: ss, cipher: aes-256-gcm, password: abcd1234, udp: true}
-  - {name: 此订阅仅用于 Welink 内部技术测试, server: 45.33.109.70, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK, server: 64.112.42.53, port: 16999, type: ss, cipher: aes-256-gcm, password: CBYyPc0GwoaQ9m2oqWdE, udp: true}
-  - {name: 白嫖, server: fr.2121999.xyz, port: 8880, type: vmess, uuid: 2a3955be-acbc-48b6-ab96-559a967ae7fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr.2121999.xyz}}, udp: true}
-  - {name: 🇭🇰 香港 HK 05, server: dajbxhk.naikonode.top, port: 15005, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 7238:IytkGo, obfs-param: 335a17238.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HK 03, server: dajbxhk.naikonode.top, port: 15003, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 7238:IytkGo, obfs-param: 335a17238.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港 HK 04, server: dajbxhk.naikonode.top, port: 15004, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 7238:IytkGo, obfs-param: 335a17238.microsoft.com, udp: true}
-  - {name: 🇯🇵 日本W1-直连, server: 18.180.49.60, port: 54332, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本A, server: 52.194.251.145, port: 30004, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 巴黎W2-直连, server: 13.38.73.118, port: 54332, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本W3-直连, server: 18.178.89.96, port: 54332, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡W2-直连, server: 18.142.227.6, port: 43214, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 英国A, server: 51.142.233.54, port: 30006, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」, server: hk3.hktkcloud.cloud, port: 443, type: trojan, password: d4119dee-493a-407f-9109-a36d62153e19, sni: hk3.hktkcloud.cloud, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HongKong C | 直连 | x1.5, server: hk2.hktkcloud.cloud, port: 443, type: trojan, password: d4119dee-493a-407f-9109-a36d62153e19, sni: hk2.hktkcloud.cloud, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 V1-日本区1(JP), server: jp01.xniuniu888.xyz, port: 30124, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 V1-新加坡区04(SG), server: sg04.xniuniu888.xyz, port: 30467, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 V1-日本区3(JP), server: jp03.xniuniu888.xyz, port: 30326, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 V1-新加坡区05(SG), server: sg05.xniuniu888.xyz, port: 30568, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼, server: hk02.xniuniu888.xyz, port: 30205, type: trojan, password: cd0c924b-1862-3e80-86c5-a8c7898e83a0, sni: hk02.xniuniu888.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼, server: tw03.xniuniu888.xyz, port: 30341, type: trojan, password: cd0c924b-1862-3e80-86c5-a8c7898e83a0, sni: tw03.xniuniu888.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼, server: tw02.xniuniu888.xyz, port: 30240, type: trojan, password: cd0c924b-1862-3e80-86c5-a8c7898e83a0, sni: tw02.xniuniu888.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 V1-美国区01(US), server: us01.xniuniu888.xyz, port: 30149, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 V1-美国区03(US), server: us03.xniuniu888.xyz, port: 30351, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 V1-美国区02(US), server: us02.xniuniu888.xyz, port: 30250, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼, server: kr02.xniuniu888.xyz, port: 30260, type: trojan, password: cd0c924b-1862-3e80-86c5-a8c7898e83a0, sni: kr02.xniuniu888.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 V1-英国01, server: yg01.xniuniu888.xyz, port: 31336, type: vmess, uuid: cd0c924b-1862-3e80-86c5-a8c7898e83a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: "🇯🇵 [测试-CU]日本•0x", server: 172.105.236.208, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [测试-CT]美国•0x", server: 45.33.109.70, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 [测试-CM]新加坡•0x", server: 139.177.189.122, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: VN • Hà Nội 02 📶, server: hn2.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN • Hà Nội 05 🚀, server: hanoi05.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN • Hà Nội 03 🎮, server: hanoi03.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN • Hà Nội 04 🎮, server: hanoi04.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: VN • Hồ Chí Minh 05 🚀, server: hochiminh05.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️, server: hk1.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇭🇰 Hong Kong 2 - Garena, server: hk-2.4g.mkvn.net, port: 80, type: vmess, uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4g.mkvn.net, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 🇭🇰 Hong Kong 2 - Tiktok, server: hk-2.4g.mkvn.net, port: 80, type: vmess, uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4g.mkvn.net, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
-  - {name: sg10, server: 54.251.4.31, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false, udp: true}
-  - {name: sg5, server: 52.77.243.140, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false, udp: true}
-  - {name: jp7, server: 54.249.153.131, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false, udp: true}
-  - {name: us3, server: 54.188.168.172, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false, udp: true}
-  - {name: uk4, server: 13.40.154.20, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false, udp: true}
-  - {name: fr1, server: 35.180.247.162, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: NL1, server: nlt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-jp24kq02r78xxotwhkpm, sni: nlt-1.opensvr.net, skip-cert-verify: false, udp: true}
-  - {name: DE1, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-qe27t3x1m924z140b9rv, sni: det-1.opensvr.net, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡新加坡, server: 120.240.47.74, port: 6714, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
+  - {name: VN • Hà Nội 05 🚀, server: hanoi05.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: jp7, server: 54.249.153.131, port: 443, type: trojan, password: iyinglong, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 大萝卜鸡日本鬼子, server: 120.240.47.74, port: 3718, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
+  - {name: 🇯🇵 大萝卜鸡日本帝国, server: 120.240.47.74, port: 3716, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
   - {name: 🇯🇵 大萝卜鸡日本, server: 120.240.47.74, port: 3713, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
   - {name: 🇭🇰 大萝卜鸡美国香港, server: 120.240.47.72, port: 2719, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
-  - {name: 🇯🇵 大萝卜鸡日本帝国, server: 120.240.47.74, port: 3716, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
-  - {name: 🇬🇧 大萝卜鸡英国高速, server: 13.40.73.66, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 大萝卜鸡美国高速, server: 13.59.234.47, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 大萝卜鸡美国高速交警, server: 18.118.142.251, port: 30002, type: vmess, uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡新加坡代购, server: 120.240.47.74, port: 6716, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
+  - {name: VN • Hà Nội 04 🎮, server: hanoi04.vifast.net, port: 80, type: vmess, uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇺🇸 大萝卜鸡美国, server: 120.240.47.74, port: 7714, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
+  - {name: "🇺🇸 [测试-CT]美国•0x", server: 45.33.109.70, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: 此订阅仅用于 Welink 内部技术测试, server: 45.33.109.70, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 大萝卜鸡新加坡代购, server: 120.240.47.74, port: 6716, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
+  - {name: "🇸🇬 [测试-CM]新加坡•0x", server: 139.177.189.122, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: DE1, server: det-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-qe27t3x1m924z140b9rv, sni: det-1.opensvr.net, skip-cert-verify: false, udp: true}
+  - {name: 白嫖, server: fr.2121999.xyz, port: 8880, type: vmess, uuid: 2a3955be-acbc-48b6-ab96-559a967ae7fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: fr.2121999.xyz}}, udp: true}
+  - {name: 🇭🇰 HK, server: 64.112.42.53, port: 16999, type: ss, cipher: aes-256-gcm, password: CBYyPc0GwoaQ9m2oqWdE, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: NL1, server: nlt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-jp24kq02r78xxotwhkpm, sni: nlt-1.opensvr.net, skip-cert-verify: false, udp: true}
+  - {name: CK, server: 103.135.251.200, port: 6800, type: ss, cipher: aes-256-gcm, password: abcd1234, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -240,63 +184,49 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
       - 🇭🇰 大萝卜鸡美国香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -304,167 +234,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -480,56 +368,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CK
-      - 此订阅仅用于 Welink 内部技术测试
-      - 🇭🇰 HK
-      - 白嫖
-      - 🇭🇰 香港 HK 05
-      - 🇭🇰 香港 HK 03
-      - 🇭🇰 香港 HK 04
-      - 🇯🇵 日本W1-直连
-      - 🇯🇵 日本A
-      - 🇫🇷 巴黎W2-直连
-      - 🇯🇵 日本W3-直连
-      - 🇸🇬 新加坡W2-直连
-      - 🇬🇧 英国A
-      - 🇭🇰 HK C | 直连 | x1.5 「10G 带宽」
-      - 🇭🇰 HongKong C | 直连 | x1.5
+      - 🇯🇵 V1-日本区1(JP)
+      - 🇸🇬 V1-新加坡区04(SG)
+      - 🇯🇵 V1-日本区3(JP)
+      - 🇸🇬 V1-新加坡区05(SG)
+      - 🇭🇰 V1-香港02-05丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾03-41丨Trojan丨NETFLIX丨迪士尼
+      - 🇨🇳 V1-台湾02-40丨Trojan丨NETFLIX丨迪士尼
+      - 🇺🇸 V1-美国区01(US)
+      - 🇺🇸 V1-美国区03(US)
+      - 🇺🇸 V1-美国区02(US)
+      - 🇰🇷 V1-韩国02-60丨Trojan丨NETFLIX丨迪士尼
+      - 🇬🇧 V1-英国01
       - 🇯🇵 [测试-CU]日本•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - VN • Hà Nội 02 📶
-      - VN • Hà Nội 05 🚀
-      - VN • Hà Nội 03 🎮
-      - VN • Hà Nội 04 🎮
-      - VN • Hồ Chí Minh 05 🚀
-      - 🇭🇰 HONGKONG - Hongkong 1 🎮 ▶️
-      - 🇭🇰 Hong Kong 2 - Garena
-      - 🇭🇰 Hong Kong 2 - Tiktok
-      - sg10
-      - sg5
-      - jp7
-      - us3
-      - uk4
-      - fr1
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - NL1
-      - DE1
-      - 🇸🇬 大萝卜鸡新加坡
+      - VN • Hà Nội 05 🚀
+      - jp7
       - 🇯🇵 大萝卜鸡日本鬼子
+      - 🇯🇵 大萝卜鸡日本帝国
       - 🇯🇵 大萝卜鸡日本
       - 🇭🇰 大萝卜鸡美国香港
-      - 🇯🇵 大萝卜鸡日本帝国
-      - 🇬🇧 大萝卜鸡英国高速
-      - 🇺🇸 大萝卜鸡美国高速
-      - 🇺🇸 大萝卜鸡美国高速交警
-      - 🇸🇬 大萝卜鸡新加坡代购
+      - VN • Hà Nội 04 🎮
       - 🇺🇸 大萝卜鸡美国
+      - 🇺🇸 [测试-CT]美国•0x
+      - 此订阅仅用于 Welink 内部技术测试
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 大萝卜鸡新加坡代购
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - DE1
+      - 白嫖
+      - 🇭🇰 HK
+      - h961359.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - NL1
+      - CK
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
