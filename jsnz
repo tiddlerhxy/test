@@ -5,151 +5,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 【F】香港  VIP 9 - Nearoute, server: n60.boom.skin, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 442816:xeq6bk, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【M】香港 VIP D - Nearoute, server: nmd.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 442816:xeq6bk, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【F】香港  VIP 2 - Nearoute, server: n09.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 442816:xeq6bk, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【M】香港  VIP I - Nearoute, server: n74.boom.skin, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 442816:xeq6bk, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【F】香港  VIP 4 - Nearoute, server: n63.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 442816:xeq6bk, obfs-param: download.windowsupdate.com, udp: true}
   - {name: 🇯🇵 Japan 02, server: 910.48x.cc, port: 19374, type: ss, cipher: chacha20-ietf-poly1305, password: 90574f4f-9533-4fb1-afb1-2e48e57e1f0b, udp: true}
   - {name: 🇭🇰 香港Az-优化3, server: t.cccao.cyou, port: 16627, type: vmess, uuid: bb428734-bbe2-47eb-9a36-5221f5d948e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
   - {name: 🇭🇰 香港Az-优化2, server: m.lwvzmdu.cn, port: 16627, type: vmess, uuid: bb428734-bbe2-47eb-9a36-5221f5d948e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 🇰🇷 韩国-优化3, server: t.cccao.cyou, port: 16619, type: vmess, uuid: bb428734-bbe2-47eb-9a36-5221f5d948e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
-  - {name: "🇯🇵 Hotspot 🇯🇵[日本]", server: 3.112.46.160, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 Hotspot 🇭🇰[香港]", server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
-  - {name: "🇦🇺 Hotspot 🇦🇺[澳大利亚]", server: 13.210.76.227, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港专线02, server: c10s4.jamjams3.net, port: 16522, type: vmess, uuid: eea5d212-ebc9-4d5e-850c-4d0d08786cdc, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 新北Hinet-dip, server: 36.139.166.76, port: 19215, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡专线02, server: c10s801.jamjams3.net, port: 16522, type: vmess, uuid: eea5d212-ebc9-4d5e-850c-4d0d08786cdc, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国-优化3, server: t.cccao.cyou, port: 16619, type: vmess, uuid: bb428734-bbe2-47eb-9a36-5221f5d948e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: t.cccao.cyou}}, udp: true}
+  - {name: 🇯🇵 解锁奈飞｜韩国 日本, server: 193.122.117.52, port: 80, type: vmess, uuid: 8478fdb2-e155-4800-dfc5-b1c8548fb6b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Tokyo-M, server: 36.139.166.76, port: 19242, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港专线01, server: c10s3.jamjams3.net, port: 16522, type: vmess, uuid: eea5d212-ebc9-4d5e-850c-4d0d08786cdc, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
   - {name: DigitalOcean, server: 188.166.204.68, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: 🇯🇵 Tokyo-M, server: 36.139.166.76, port: 19242, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
-  - {name: Linode, server: 139.162.23.118, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: 🇺🇸 大萝卜鸡美国4, server: 120.240.47.74, port: 7714, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 新北Hinet-dip, server: 36.139.166.76, port: 19215, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡专线01, server: c10s5.jamjams3.net, port: 16522, type: vmess, uuid: eea5d212-ebc9-4d5e-850c-4d0d08786cdc, alterId: 0, cipher: aes-128-gcm, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC, server: rn.oppo.quest, port: 8443, type: trojan, password: iZa4DLy34n, sni: rn.oppo.quest, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 [测试-CM]新加坡•0x", server: 139.162.46.222, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 解锁奈飞｜韩国 日本, server: 193.122.117.52, port: 80, type: vmess, uuid: 8478fdb2-e155-4800-dfc5-b1c8548fb6b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇦🇺 [测试]澳大利亚•0x", server: 194.195.254.50, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA, server: cdn.bootloader.cf, port: 80, type: vmess, uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: lux.justu.ml}}, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇦 [测试-CT]加拿大•0x", server: 170.187.182.212, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [测试-CT]美国•0x", server: 45.33.57.17, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本专线02, server: c10s2.jamjams3.net, port: 16522, type: ss, cipher: aes-256-gcm, password: QB7rUb6qjPro24E8, udp: true}
   - {name: 🇯🇵 日本专线01, server: c10s1.jamjams3.net, port: 16522, type: ss, cipher: aes-256-gcm, password: QB7rUb6qjPro24E8, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 [测试-CM]新加坡•0x", server: 139.162.46.222, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: Linode, server: 139.162.23.118, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: "🇺🇸 [测试-CT]美国•0x", server: 45.33.57.17, port: 443, type: trojan, password: a1e12464-9208-4583-bd21-ab6889fdd242, sni: cdn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 大萝卜鸡美国4, server: 120.240.47.74, port: 7714, type: ss, cipher: rc4-md5, password: 5otzk5bmlo6, plugin: obfs, plugin-opts: {mode: http, host: 84fbd78736.microsoft.com}, udp: true}
+  - {name: 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC, server: rn.oppo.quest, port: 8443, type: trojan, password: iZa4DLy34n, sni: rn.oppo.quest, skip-cert-verify: false, udp: true}
+  - {name: 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA, server: cdn.bootloader.cf, port: 80, type: vmess, uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: lux.justu.ml}}, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "🇦🇺 Hotspot 🇦🇺[澳大利亚]", server: 13.210.76.227, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本专线02, server: c10s2.jamjams3.net, port: 16522, type: ss, cipher: aes-256-gcm, password: QB7rUb6qjPro24E8, udp: true}
+  - {name: "🇭🇰 Hotspot 🇭🇰[香港]", server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,161 +172,170 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇭🇰 Hotspot 🇭🇰[香港]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
       - 🇭🇰 香港专线01
+      - 🇨🇳 新北Hinet-dip
+      - 🇭🇰 Hotspot 🇭🇰[香港]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -338,38 +351,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 【F】香港  VIP 9 - Nearoute
+      - 🇭🇰 【M】香港 VIP D - Nearoute
+      - 🇭🇰 【F】香港  VIP 2 - Nearoute
+      - 🇭🇰 【M】香港  VIP I - Nearoute
+      - 🇭🇰 【F】香港  VIP 4 - Nearoute
       - 🇯🇵 Japan 02
       - 🇭🇰 香港Az-优化3
       - 🇭🇰 香港Az-优化2
-      - 🇰🇷 韩国-优化3
-      - 🇯🇵 Hotspot 🇯🇵[日本]
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
       - 🇭🇰 香港专线02
-      - 🇨🇳 新北Hinet-dip
-      - 🇸🇬 新加坡专线02
+      - 🇰🇷 韩国-优化3
+      - 🇯🇵 解锁奈飞｜韩国 日本
+      - 🇯🇵 Tokyo-M
       - 🇭🇰 香港专线01
       - DigitalOcean
-      - 🇯🇵 Tokyo-M
-      - Linode
-      - 🇺🇸 大萝卜鸡美国4
-      - h961359.waihuizhibiaowang.com:11543
+      - 🇨🇳 新北Hinet-dip
       - 🇸🇬 新加坡专线01
-      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇸🇬 [测试-CM]新加坡•0x
-      - 🇯🇵 解锁奈飞｜韩国 日本
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇦🇺 [测试]澳大利亚•0x
-      - h961359.waihuizhibiaowang.com:11743
-      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
-      - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇨🇦 [测试-CT]加拿大•0x
-      - 🇺🇸 [测试-CT]美国•0x
-      - 🇯🇵 日本专线02
       - 🇯🇵 日本专线01
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 [测试-CM]新加坡•0x
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11243
+      - Linode
+      - 🇺🇸 [测试-CT]美国•0x
+      - 🇺🇸 大萝卜鸡美国4
+      - 🇺🇸 @aries_init-RN-US🇺🇸_Trojan_gRPC
+      - 🏳️‍🌈 @aries_init-NoTLS-CloudFlare-CDN-卢森堡-BuyVM-无限流量-可刷流量/BT/抗DMCA
+      - h961359.waihuizhibiaowang.com:11443
+      - 🇦🇺 Hotspot 🇦🇺[澳大利亚]
+      - 🇯🇵 日本专线02
+      - 🇭🇰 Hotspot 🇭🇰[香港]
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
