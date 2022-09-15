@@ -5,191 +5,163 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HKG 08, server: bfb7573d.jvgnwn.sbs, port: 12008, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: WieI5z0WXR.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 HKG 10, server: bfb7573d.jvgnwn.sbs, port: 12010, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: WieI5z0WXR.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 HKG 20, server: bfb7573d.jvgnwn.sbs, port: 12020, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: WieI5z0WXR.download.windowsupdate.com}, udp: true}
-  - {name: 🇨🇳 TWN 05, server: bfb7573d.jvgnwn.sbs, port: 12055, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: WieI5z0WXR.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 HKG 04, server: bfb7573d.jvgnwn.sbs, port: 12004, type: ss, cipher: aes-128-gcm, password: 114514fuckimm, plugin: obfs, plugin-opts: {mode: http, host: WieI5z0WXR.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x, server: szyd.zlnode.com, port: 26402, type: trojan, password: b8ce2ff4-2952-3ff4-9206-a35c0cc14608, sni: ahkdm1.zlnode.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 A香港3|Lv10|隧道|流媒体|2x, server: szyd.zlnode.com, port: 26434, type: trojan, password: b8ce2ff4-2952-3ff4-9206-a35c0cc14608, sni: anearhk3-1.zlnode.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x, server: szyd.zlnode.com, port: 26402, type: trojan, password: b8ce2ff4-2952-3ff4-9206-a35c0cc14608, sni: admhk2.zlnode.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 Neko, server: access_south.txma.cn, port: 35000, type: ss, cipher: aes-256-gcm, password: b796f2a5-d0ce-469e-8b8f-59c46fce1baf, udp: true}
-  - {name: "🇯🇵 JP, Osaka", server: 13.125.228.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇭🇰 香港 HKT, server: access_south.txma.cn, port: 35001, type: ss, cipher: aes-256-gcm, password: b796f2a5-d0ce-469e-8b8f-59c46fce1baf, udp: true}
-  - {name: 🇯🇵 |日本-IEPL 01, server: IEPL01.mzthcj.cn, port: 20011, type: ss, cipher: aes-128-gcm, password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate1.com, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 HGC, server: access_south.txma.cn, port: 35002, type: ss, cipher: aes-256-gcm, password: b796f2a5-d0ce-469e-8b8f-59c46fce1baf, udp: true}
-  - {name: 🇸🇬 新加坡G-Core | 解锁流媒体, server: 91.243.81.42, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 JP, Tokyo 2", server: 3.34.191.43, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇭🇰 香港 广港隧道 1Gbps, server: gzyd.azzhuangaping.tw, port: 52729, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港 443端口, server: azhk.azzhuangaping.tw, port: 443, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: azhk.azzhuangaping.tw}}, udp: true}
+  - {name: 🇭🇰 香港 三网直连 10Gps A, server: azhk.azzhuangaping.tw, port: 80, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: azhk.azzhuangaping.tw}}, udp: true}
+  - {name: 🇭🇰 香港 5Gbps 移动优化, server: awshk.azzhuangaping.tw, port: 80, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 菲律宾 广港隧道 300m, server: gzyd.azzhuangaping.tw, port: 58875, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港 三网直连 10Gps B, server: b.azzhuangaping.tw, port: 80, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: b.azzhuangaping.tw}}, udp: true}
+  - {name: 🇭🇰 香港 移动直连 10Gps 流媒体, server: nf.azzhuangaping.tw, port: 80, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: nf.azzhuangaping.tw}}, udp: true}
+  - {name: 🇯🇵 日本 B, server: jp2.azzhuangaping.tw, port: 80, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: jp2.azzhuangaping.tw}}, udp: true}
+  - {name: 🇯🇵 日本 A, server: ocjp11.azzhuangaping.tw, port: 80, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: ocjp11.azzhuangaping.tw}}, udp: true}
+  - {name: 🇯🇵 日本 C, server: awsjp.azzhuangaping.tw, port: 80, type: vmess, uuid: f2dce51b-b7f7-3fcc-b7cb-ad15d3045cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /adobe, headers: {Host: awsjp.azzhuangaping.tw}}, udp: true}
   - {name: "🇭🇰 HK, Kowloon", server: 3.36.118.190, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇰🇷 |韩国-IEPL 02, server: IEPL01.mzthcj.cn, port: 20014, type: ss, cipher: aes-128-gcm, password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a, udp: true}
-  - {name: 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR, server: mhf6.cdn.node.a.ddns-ounk.com, port: 40243, type: ssr, cipher: chacha20-ietf, password: jL76UJd, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 90401:1WGQoi, obfs-param: 10bad90401.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港M247(移动网优化) | 解锁流媒体, server: 5.181.4.104, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南 A/01 x1.0, server: 117.164.185.220, port: 61025, type: ss, cipher: chacha20-ietf-poly1305, password: f408f22b-891b-4d2f-af1e-65efffd57f82, udp: true}
+  - {name: 🇸🇬 新加坡G-Core | 解锁流媒体, server: 91.243.81.42, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 JP, Osaka", server: 13.125.228.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇭🇰 香港 C/04 x1.0, server: 183.245.146.20, port: 21001, type: trojan, password: f408f22b-891b-4d2f-af1e-65efffd57f82, sni: 103-135-251-39.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 |香港-IEPL 04, server: IEPL02.mzthcj.cn, port: 21650, type: ss, cipher: aes-128-gcm, password: 6b4e840d-d3b6-4157-a4ae-b9cdaf84799a, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 新北Hinet-dip, server: 36.139.166.76, port: 19215, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate1.com, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 Tokyo-M, server: 36.139.166.76, port: 19242, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡B, server: sb.mealstream.xyz, port: 10022, type: vmess, uuid: e84732ae-bbf2-4a6e-9a40-d2cb40ec4f83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国, server: de1.ss.tunnel.cx, port: 8388, type: ss, cipher: aes-256-cfb, password: 3fb8bfdd, udp: true}
+  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 United-States 12, server: fresh.missionsec.us, port: 18331, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: fresh.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港M247(移动网优化) | 解锁流媒体, server: 5.181.4.104, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 games.missionsec.us:443, server: games.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 8, server: hacks.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: hacks.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 10, server: music.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: music.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国, server: de1.ss.tunnel.cx, port: 8388, type: ss, cipher: aes-256-cfb, password: 3fb8bfdd, udp: true}
+  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: cdb27d4d-320a-4569-a7cf-0bd381fdd35f, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 8, server: hacks.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: hacks.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 movies.missionsec.us:18331, server: movies.missionsec.us, port: 18331, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 10, server: music.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: music.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡B, server: sb.mealstream.xyz, port: 10022, type: vmess, uuid: e84732ae-bbf2-4a6e-9a40-d2cb40ec4f83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,208 +180,179 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇭🇰 香港 HKT
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇭🇰 |香港-IEPL 04
       - 🇨🇳 新北Hinet-dip
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
+      - 🇭🇰 香港HKT | 解锁流媒体
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -425,48 +368,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HKG 08
-      - 🇭🇰 HKG 10
-      - 🇭🇰 HKG 20
-      - 🇨🇳 TWN 05
-      - 🇭🇰 HKG 04
-      - 🇭🇰 A香港2-1|Lv10|隧道|流媒体|3x
-      - 🇭🇰 A香港3|Lv10|隧道|流媒体|2x
-      - 🇭🇰 A香港2-2|Lv10|隧道|流媒体|3x
-      - 🇭🇰 香港 Neko
-      - 🇯🇵 JP, Osaka
-      - 🇭🇰 香港 HKT
-      - 🇯🇵 |日本-IEPL 01
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇭🇰 香港 HGC
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇯🇵 JP, Tokyo 2
+      - 🇭🇰 香港 广港隧道 1Gbps
+      - 🇭🇰 香港 443端口
+      - 🇭🇰 香港 三网直连 10Gps A
+      - 🇭🇰 香港 5Gbps 移动优化
+      - 🇭🇰 菲律宾 广港隧道 300m
+      - 🇭🇰 香港 三网直连 10Gps B
+      - 🇭🇰 香港 移动直连 10Gps 流媒体
+      - 🇯🇵 日本 B
+      - 🇯🇵 日本 A
+      - 🇯🇵 日本 C
       - 🇭🇰 HK, Kowloon
-      - 🇰🇷 |韩国-IEPL 02
-      - 🇭🇰 V4-#243|广东-香港HKT|x2.0|SSR
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南 A/01 x1.0
+      - 🇸🇬 新加坡G-Core | 解锁流媒体
+      - 🇯🇵 JP, Osaka
       - 🇭🇰 香港 C/04 x1.0
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 |香港-IEPL 04
+      - 🇻🇳 越南-3号
       - 🇨🇳 新北Hinet-dip
-      - 🇨🇳 Taiwan
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇯🇵 Tokyo-M
-      - 🇸🇬 新加坡B
-      - 🇩🇪 德国
+      - 🇨🇳 Taiwan
       - 🇺🇸 United-States 12
+      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
       - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 8
       - h650196.waihuizhibiaowang.com:11743
-      - 🇺🇸 United-States 10
+      - 🇩🇪 德国
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇺🇸 United-States 8
       - 🇺🇸 movies.missionsec.us:18331
-      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
       - h961359.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 United-States 10
+      - 🇸🇬 新加坡B
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11743
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
