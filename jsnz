@@ -5,199 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡B, server: xinjiapob.yongyevpn.com, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡C, server: 18.136.209.18, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡A, server: xinjiapoa.yongyevpn.com, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡KB, server: 13.229.77.67, port: 30002, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本B, server: ribenb.yongyevpn.com, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国B, server: hanguob.yongyevpn.com, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国C, server: 3.39.248.21, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国D, server: 3.35.137.24, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国A, server: hanguoa.yongyevpn.com, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 A印度A, server: 20.204.8.172, port: 45342, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 测试节点(20M超低速), server: 115.126.24.102, port: 43431, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国A, server: 3.22.42.11, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国B, server: 3.137.185.211, port: 43632, type: vmess, uuid: e044d805-9077-4cb5-9c0c-6178c65b9264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [解锁]中国-[多线互联[香港-A]", server: 154.3.32.9, port: 64608, type: vmess, uuid: 34c3c670-5453-4dfb-84c5-78a5bdff06e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 【F】香港 VIP 7 - Nearoute, server: n114.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 168403:4qfMah, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "🇭🇰 [解锁]中国-[数据中心[香港-C]", server: 154.3.32.9, port: 64616, type: vmess, uuid: 34c3c670-5453-4dfb-84c5-78a5bdff06e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 【IEPL】香港 普通 7 - Nearoute, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 168403:4qfMah, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "🇭🇰 [解锁]中国-[多线互联[香港-B]", server: 154.3.32.9, port: 64609, type: vmess, uuid: 34c3c670-5453-4dfb-84c5-78a5bdff06e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore 02, server: sg2.turingnet.top, port: 50001, type: trojan, password: 0301ee5b-16e3-41ce-8c2b-b1e7fe0d5a6c, sni: sg2.turingnet.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore 01, server: sg1.turingnet.top, port: 50001, type: trojan, password: 0301ee5b-16e3-41ce-8c2b-b1e7fe0d5a6c, sni: sg1.turingnet.top, skip-cert-verify: false, udp: true}
-  - {name: "🇰🇷 Hotspot 🇰🇷[韩国]", server: 3.38.108.94, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 新北Hinet-dip, server: 36.139.166.76, port: 19215, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 Tokyo-M, server: 36.139.166.76, port: 19242, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT-优化, server: u.cccao.cyou, port: 16620, type: vmess, uuid: 90af57c1-e982-4aeb-84c5-46203d76909e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
-  - {name: 🇯🇵 80︱1Gdps︱日本 1, server: jp1.chaoxn.top, port: 80, type: vmess, uuid: c05ad447-3b27-4bcc-83d9-22ad300584ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.chaoxn.top}}, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 洛杉矶 v2ray, server: los.ydnode.us, port: 80, type: vmess, uuid: d6ed263c-3f14-44db-bfee-cfcc26b234d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 圣何塞 Trojan, server: san.ydnode.us, port: 443, type: trojan, password: d6ed263c-3f14-44db-bfee-cfcc26b234d1, sni: san.ydnode.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 movies.missionsec.us:18331, server: movies.missionsec.us, port: 18331, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 games.missionsec.us:443, server: games.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 12, server: fresh.missionsec.us, port: 18331, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: fresh.missionsec.us, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 United-States 8, server: hacks.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: hacks.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 10, server: music.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: music.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-优化, server: u.cccao.cyou, port: 16619, type: vmess, uuid: 90af57c1-e982-4aeb-84c5-46203d76909e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: u.cccao.cyou}}, udp: true}
-  - {name: "🇫🇷 Hotspot 🇫🇷[法国]", server: 13.38.24.83, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港03, server: 18.162.126.13, port: 44300, type: vmess, uuid: 58652ec4-07d0-3fc8-877a-1a336a8bcec0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: "%7B%22Host%22:%2218.162.126.13%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港04, server: 18.166.56.217, port: 44300, type: vmess, uuid: 58652ec4-07d0-3fc8-877a-1a336a8bcec0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: "%7B%22Host%22:%2218.166.56.217%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港01, server: 20.239.167.145, port: 44300, type: vmess, uuid: 58652ec4-07d0-3fc8-877a-1a336a8bcec0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: "%7B%22Host%22:%2220.239.167.145%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港02, server: 20.247.89.150, port: 44300, type: vmess, uuid: 5c67be68-7e49-39de-af9c-807f1d098702, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.247.89.150}}, udp: true}
+  - {name: 🇸🇬 新加坡, server: 20.239.162.0, port: 48001, type: vmess, uuid: 5c67be68-7e49-39de-af9c-807f1d098702, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.239.162.0}}, udp: true}
+  - {name: 🇯🇵 日本, server: 20.239.162.0, port: 48002, type: vmess, uuid: 5c67be68-7e49-39de-af9c-807f1d098702, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.239.162.0}}, udp: true}
+  - {name: 🇨🇳 cn.xmss.vip, server: mf02.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4, udp: true}
+  - {name: 🇰🇷 韩国-高速-L1, server: lin-pucta.run.goorm.io, port: 443, type: vmess, uuid: 599c1ded-48fd-4dc5-a887-0cecbdb24d8d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /linmi-KR-GOORM, headers: {Host: lin-pucta.run.goorm.io}}, udp: true}
+  - {name: 🇸🇬 Swim World - 新加坡, server: in02.my1188.org, port: 63078, type: vmess, uuid: c7941905-0cb5-3661-8e1b-a6bd01cc7368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk-balancer.airport-v2.com%22%7D"}}, udp: true}
+  - {name: 🇯🇵 Swim World - 日本19, server: in06.my1188.org, port: 63086, type: vmess, uuid: c7941905-0cb5-3661-8e1b-a6bd01cc7368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22jp-balancer.myn1des.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 Swim World - 香港02, server: in04.my1188.org, port: 63078, type: vmess, uuid: c7941905-0cb5-3661-8e1b-a6bd01cc7368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk-balancer.airport-v2.com%22%7D"}}, udp: true}
+  - {name: 🇯🇵 Swim World - 日本11, server: in05.my1188.org, port: 63086, type: vmess, uuid: c7941905-0cb5-3661-8e1b-a6bd01cc7368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: "%7B%22Host%22:%22jp-balancer.myn1des.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 Swim World - 香港01, server: in03.my1188.org, port: 63078, type: vmess, uuid: c7941905-0cb5-3661-8e1b-a6bd01cc7368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk-balancer.airport-v2.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 Swim World - 香港03, server: pro01.my1188.org, port: 3173, type: vmess, uuid: c7941905-0cb5-3661-8e1b-a6bd01cc7368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22hk-fdc1.nbsd.us%22%7D"}}, udp: true}
+  - {name: 🇺🇸 Swim World - 美国16, server: in03.my1188.org, port: 63014, type: vmess, uuid: c7941905-0cb5-3661-8e1b-a6bd01cc7368, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mg, headers: {Host: "%7B%22Host%22:%22mugua-us01.covid19.rip%22%7D"}}, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇮🇪 Hotspot 🇮🇪[爱尔兰]", server: 34.248.69.233, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 圣何塞 v2ray, server: san.ydnode.us, port: 80, type: vmess, uuid: d6ed263c-3f14-44db-bfee-cfcc26b234d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 大萝卜鸡日本, server: 36.139.166.76, port: 19243, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 大萝卜鸡台湾, server: 36.139.166.76, port: 19238, type: trojan, password: a992be42-bed4-3037-8788-9e860cd635d3, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,210 +144,140 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
       - 🇨🇳 新北Hinet-dip
-      - 🇭🇰 香港HKT-优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 Swim World - 香港02
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇨🇳 大萝卜鸡台湾
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -435,50 +293,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡B
-      - 🇸🇬 新加坡C
-      - 🇸🇬 新加坡A
-      - 🇸🇬 新加坡KB
-      - 🇯🇵 日本B
-      - 🇰🇷 韩国B
-      - 🇰🇷 韩国C
-      - 🇰🇷 韩国D
-      - 🇰🇷 韩国A
-      - 🇮🇳 A印度A
-      - 测试节点(20M超低速)
-      - 🇺🇸 美国A
-      - 🇺🇸 美国B
-      - 🇭🇰 [解锁]中国-[多线互联[香港-A]
-      - 🇭🇰 【F】香港 VIP 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[数据中心[香港-C]
-      - 🇭🇰 【IEPL】香港 普通 7 - Nearoute
-      - 🇭🇰 [解锁]中国-[多线互联[香港-B]
-      - 🇸🇬 Singapore 02
-      - 🇸🇬 Singapore 01
-      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇨🇳 新北Hinet-dip
       - 🇨🇳 Taiwan
       - 🇯🇵 Tokyo-M
-      - 🇭🇰 香港HKT-优化
-      - 🇯🇵 80︱1Gdps︱日本 1
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇺🇸 洛杉矶 v2ray
-      - 🇺🇸 圣何塞 Trojan
-      - 🇺🇸 movies.missionsec.us:18331
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 12
       - 🇺🇸 United-States 8
-      - 🇺🇸 United-States 10
-      - 🇰🇷 韩国-优化
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇨🇳 cn.xmss.vip
+      - 🇰🇷 韩国-高速-L1
+      - 🇸🇬 Swim World - 新加坡
+      - 🇯🇵 Swim World - 日本19
+      - 🇭🇰 Swim World - 香港02
+      - 🇯🇵 Swim World - 日本11
+      - 🇭🇰 Swim World - 香港01
+      - 🇭🇰 Swim World - 香港03
+      - 🇺🇸 Swim World - 美国16
       - h961359.waihuizhibiaowang.com:11543
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11143
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 圣何塞 v2ray
-      - h961359.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇯🇵 大萝卜鸡日本
+      - 🇨🇳 大萝卜鸡台湾
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
