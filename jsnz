@@ -6,42 +6,63 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇭🇰 香港 CN2GIA 福利节点, server: 103.117.100.44, port: 18888, type: vmess, uuid: c43340d1-1bf5-3f01-88f4-ef4e7978b1b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United-States 10, server: music.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: music.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: ZZ_25, server: 134.195.196.143, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_13, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 🇺🇸 United-States 8, server: hacks.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: hacks.missionsec.us, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 games.missionsec.us:443, server: games.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, skip-cert-verify: false, udp: true}
   - {name: DigitalOcean, server: 188.166.204.68, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: ZZ_26, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_12, server: 38.91.102.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 🇭🇰 Asia 香港03 | 移动优化, server: 16.163.56.149, port: 44300, type: vmess, uuid: ede9a78f-a007-3aa9-b383-a02ed351714d, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 16.163.56.149}}, udp: true}
-  - {name: 🇭🇰 Asia 香港02 | 电信优化, server: 20.187.94.51, port: 44300, type: vmess, uuid: ede9a78f-a007-3aa9-b383-a02ed351714d, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.94.51}}, udp: true}
-  - {name: 🇭🇰 Asia 香港04 | 移动优化, server: 43.198.22.0, port: 44300, type: vmess, uuid: ede9a78f-a007-3aa9-b383-a02ed351714d, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 43.198.22.0}}, udp: true}
-  - {name: 🇭🇰 香港066, server: 154.222.226.101, port: 44300, type: vmess, uuid: cf9af26e-86af-3b77-b1dc-369303e83666, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 154.222.226.101}}, udp: true}
-  - {name: 🇭🇰 香港033, server: 18.162.126.13, port: 44300, type: vmess, uuid: cf9af26e-86af-3b77-b1dc-369303e83666, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 18.162.126.13}}, udp: true}
-  - {name: 🇭🇰 香港077, server: 154.222.226.102, port: 44300, type: vmess, uuid: cf9af26e-86af-3b77-b1dc-369303e83666, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 154.222.226.102}}, udp: true}
-  - {name: "🇭🇰 [V2] 香港 流媒体", server: 120.241.146.31, port: 20001, type: trojan, password: 068ec902-4a9b-35e2-9f93-331cfae6be18, sni: node.franxxllc.tech, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 [V2] 台湾 流媒体", server: 120.241.146.31, port: 20004, type: trojan, password: 068ec902-4a9b-35e2-9f93-331cfae6be18, sni: node.franxxllc.tech, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [V1] 日本 1", server: 116.129.253.128, port: 20010, type: trojan, password: 068ec902-4a9b-35e2-9f93-331cfae6be18, sni: node.franxxllc.tech, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [V2] 日本 流媒体 2", server: 120.241.146.31, port: 20014, type: trojan, password: 068ec902-4a9b-35e2-9f93-331cfae6be18, sni: node.franxxllc.tech, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [V2] 日本 流媒体 1", server: 116.129.253.128, port: 20004, type: trojan, password: 068ec902-4a9b-35e2-9f93-331cfae6be18, sni: node.franxxllc.tech, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾1, server: tw1.teacat2.xyz, port: 50003, type: ss, cipher: aes-256-gcm, password: 02574c28-0473-4749-b6b5-99feac61f741, udp: true}
-  - {name: 🇨🇳 台湾2, server: tw2.teacat2.xyz, port: 50068, type: ss, cipher: aes-256-gcm, password: 02574c28-0473-4749-b6b5-99feac61f741, udp: true}
-  - {name: 🇸🇬 新加坡1, server: sg1.teacat2.xyz, port: 50065, type: ss, cipher: aes-256-gcm, password: 02574c28-0473-4749-b6b5-99feac61f741, udp: true}
-  - {name: 🇨🇳 Taiwan(Taipei1), server: dgcm.pdjs.top, port: 49008, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: tw-a.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hongkong (New Territories), server: dgcm.pdjs.top, port: 49000, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: hk-a.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hongkong (owloon), server: dgcm.pdjs.top, port: 49001, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: hk-c.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan(Osaka2), server: dgcm.pdjs.top, port: 49007, type: trojan, password: 69dc51ad-260d-4c10-8377-3d1658d8ad1e, sni: jp-b.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港10, server: cm03.miruvip.com, port: 1664, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港09, server: cm03.miruvip.com, port: 1663, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
-  - {name: 🇭🇰 香港04, server: cm03.miruvip.com, port: 1663, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
-  - {name: 🇨🇳 cn.xmss.vip, server: mf02.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4, udp: true}
-  - {name: "🇭🇰 Hotspot 🇭🇰[香港]", server: 194.156.99.39, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
-  - {name: "🇫🇷 Hotspot 🇫🇷[法国]", server: 13.38.24.83, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
-  - {name: "🇮🇪 Hotspot 🇮🇪[爱尔兰]", server: 34.248.69.233, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Asia 香港02 | 电信优化, server: 20.187.94.51, port: 44300, type: vmess, uuid: f6158a04-ca0b-3b2d-8d52-3b5b38360f9c, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.94.51}}, udp: true}
+  - {name: 🇭🇰 Asia 香港03 | 移动优化, server: 16.163.56.149, port: 44300, type: vmess, uuid: f6158a04-ca0b-3b2d-8d52-3b5b38360f9c, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 16.163.56.149}}, udp: true}
+  - {name: 🇭🇰 Asia 香港02, server: 20.187.94.51, port: 44300, type: vmess, uuid: d9a0b173-1f84-38d3-b3dc-822b9419742b, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.94.51}}, udp: true}
+  - {name: 🇯🇵 Japan 日本01 | 电信优化, server: 20.24.69.15, port: 48000, type: vmess, uuid: d9a0b173-1f84-38d3-b3dc-822b9419742b, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.24.69.15}}, udp: true}
+  - {name: 🇭🇰 香港03, server: 18.162.126.13, port: 44300, type: vmess, uuid: 69097076-579c-32da-9d5c-62d6c27a3bd8, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 18.162.126.13}}, udp: true}
+  - {name: 🇭🇰 香港04778, server: 18.166.56.217, port: 44300, type: vmess, uuid: 69097076-579c-32da-9d5c-62d6c27a3bd8, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 18.166.56.217}}, udp: true}
+  - {name: 🇭🇰 香港02, server: 20.247.89.150, port: 44300, type: vmess, uuid: 69097076-579c-32da-9d5c-62d6c27a3bd8, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.247.89.150}}, udp: true}
+  - {name: 🇭🇰 香港04, server: 18.166.56.217, port: 44300, type: vmess, uuid: f1b90c3c-1310-36dd-8163-3f7bf3e3cb4e, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 18.166.56.217}}, udp: true}
+  - {name: 🇸🇬 新加坡, server: 20.239.162.0, port: 48001, type: vmess, uuid: f1b90c3c-1310-36dd-8163-3f7bf3e3cb4e, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.239.162.0}}, udp: true}
+  - {name: 🇯🇵 日本, server: 20.239.162.0, port: 48002, type: vmess, uuid: f1b90c3c-1310-36dd-8163-3f7bf3e3cb4e, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.239.162.0}}, udp: true}
+  - {name: 🇭🇰 香港2, server: 154.3.35.243, port: 9999, type: vmess, uuid: 934af1f8-c55a-30a7-b48a-ca062819051f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本|流媒体, server: 116.162.9.20, port: 42700, type: vmess, uuid: 934af1f8-c55a-30a7-b48a-ca062819051f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan(Osaka2), server: dgcm.pdjs.top, port: 49007, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: jp-b.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan(Taipei1), server: dgcm.pdjs.top, port: 49008, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: tw-a.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan(Osaka1), server: dgcm.pdjs.top, port: 49006, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: jp-a.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: U.S.A(Dallas), server: dgcm.pdjs.top, port: 49002, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: us-a.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: U.S.A(Las Vegas), server: dgcm.pdjs.top, port: 49004, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: us-c.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK, server: 47.242.239.113, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Tr, server: 36.139.9.191, port: 46532, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 KR, server: 158.247.239.243, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP, server: 167.179.98.62, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US, server: 165.3.122.163, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 SG, server: 157.230.244.255, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 CA, server: 155.138.140.189, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: MX, server: 216.238.79.208, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 RU, server: 185.22.153.219, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: IT, server: 92.223.79.25, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇺 AU, server: 139.180.175.112, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: RO, server: 5.181.25.81, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 DE, server: 80.240.22.250, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇦 UA, server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 【直连】HKG/香港 - 2, server: 00000000000000000000000000000000000000000000000000000000000022a.rui77.com, port: 52356, type: vmess, uuid: 94fa7e43-a18c-4adf-b598-dc6e5bb77e82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 【直连】HKG/香港 - 1, server: 00000000000000000000000000000000000000000000000000000000000021a.rui77.com, port: 52356, type: vmess, uuid: 94fa7e43-a18c-4adf-b598-dc6e5bb77e82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 【直连】HKG/香港 - 3, server: 00000000000000000000000000000000000000000000000000000000000031a.rui77.com, port: 12356, type: vmess, uuid: 94fa7e43-a18c-4adf-b598-dc6e5bb77e82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 【直连】HKG/香港 - 4, server: 00000000000000000000000000000000000000000000000000000000000032a.rui77.com, port: 12356, type: vmess, uuid: 94fa7e43-a18c-4adf-b598-dc6e5bb77e82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港08, server: cm03.miruvip.com, port: 1662, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇭🇰 香港03 2, server: cm03.miruvip.com, port: 1662, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾06, server: cm02.miruvip.com, port: 1677, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡06, server: cm01.miruvip.com, port: 1680, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾01, server: cm01.miruvip.com, port: 1675, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇸🇬 新加坡03, server: cm01.miruvip.com, port: 1680, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇯🇵 【测试】日本甲骨文, server: 152.69.204.193, port: 33226, type: vmess, uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: xmss.vip, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4, udp: true}
+  - {name: "🇰🇷 Hotspot 🇰🇷[韩国]", server: 3.38.108.94, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 Hotspot 🇺🇸[美国]", server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 Hotspot 🇺🇸[美国] 2", server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -50,42 +71,63 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
   - name: ♻️ 自动选择
     type: url-test
@@ -93,42 +135,63 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
   - name: 🎥 NETFLIX
     type: select
@@ -137,42 +200,63 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
   - name: ⛔️ 广告拦截
     type: select
@@ -193,62 +277,85 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇭🇰 Hotspot 🇭🇰[香港]
+      - 🇭🇰 香港2
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇨🇳 台湾01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -256,42 +363,63 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
   - name: 📲 电报信息
     type: select
@@ -299,42 +427,63 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
   - name: 🍎 苹果服务
     type: select
@@ -343,42 +492,63 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
   - name: 🎯 全球直连
     type: select
@@ -396,42 +566,63 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇨🇳 Taiwan
+      - 🇺🇸 United-States 10
+      - ZZ_25
+      - US_13
+      - 🇺🇸 United-States 8
+      - 🇺🇸 games.missionsec.us:443
       - DigitalOcean
-      - ZZ_26
-      - US_12
-      - 🇭🇰 Asia 香港03 | 移动优化
       - 🇭🇰 Asia 香港02 | 电信优化
-      - 🇭🇰 Asia 香港04 | 移动优化
-      - 🇭🇰 香港066
-      - 🇭🇰 香港033
-      - 🇭🇰 香港077
-      - 🇭🇰 [V2] 香港 流媒体
-      - 🇨🇳 [V2] 台湾 流媒体
-      - 🇯🇵 [V1] 日本 1
-      - 🇯🇵 [V2] 日本 流媒体 2
-      - 🇯🇵 [V2] 日本 流媒体 1
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾2
-      - 🇸🇬 新加坡1
-      - 🇨🇳 Taiwan(Taipei1)
-      - 🇭🇰 Hongkong (New Territories)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇯🇵 Japan(Osaka2)
-      - 🇭🇰 香港10
-      - 🇭🇰 香港09
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02
+      - 🇯🇵 Japan 日本01 | 电信优化
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04778
+      - 🇭🇰 香港02
       - 🇭🇰 香港04
-      - 🇨🇳 cn.xmss.vip
-      - 🇭🇰 Hotspot 🇭🇰[香港]
-      - 🇫🇷 Hotspot 🇫🇷[法国]
-      - 🇮🇪 Hotspot 🇮🇪[爱尔兰]
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇭🇰 香港2
+      - 🇯🇵 日本|流媒体
+      - 🇯🇵 Japan(Osaka2)
+      - 🇨🇳 Taiwan(Taipei1)
+      - 🇯🇵 Japan(Osaka1)
+      - U.S.A(Dallas)
+      - U.S.A(Las Vegas)
+      - 🇭🇰 HK
+      - Tr
+      - 🇰🇷 KR
+      - 🇯🇵 JP
+      - 🇺🇸 US
+      - 🇸🇬 SG
+      - 🇨🇦 CA
+      - MX
+      - 🇷🇺 RU
+      - IT
+      - 🇦🇺 AU
+      - RO
+      - 🇩🇪 DE
+      - 🇺🇦 UA
+      - 🇭🇰 【直连】HKG/香港 - 2
+      - 🇭🇰 【直连】HKG/香港 - 1
+      - 🇭🇰 【直连】HKG/香港 - 3
+      - 🇭🇰 【直连】HKG/香港 - 4
+      - 🇭🇰 香港08
+      - 🇭🇰 香港03 2
+      - 🇨🇳 台湾06
+      - 🇸🇬 新加坡06
+      - 🇨🇳 台湾01
+      - 🇸🇬 新加坡03
+      - 🇯🇵 【测试】日本甲骨文
+      - xmss.vip
+      - 🇰🇷 Hotspot 🇰🇷[韩国]
       - 🇺🇸 Hotspot 🇺🇸[美国]
       - 🇺🇸 Hotspot 🇺🇸[美国] 2
       - h961359.waihuizhibiaowang.com:11543
       - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11743
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
