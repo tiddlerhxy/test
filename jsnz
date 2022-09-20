@@ -5,231 +5,227 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港A, server: szdx-anhb.jiashumao.net, port: 22481, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: ahbn.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港B, server: bnbq-zf.jiashumao.net, port: 26381, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: bnbq.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港C, server: hkc-zf.jiashumao.net, port: 33481, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: hkc.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港E, server: hke-zf.jiashumao.net, port: 35401, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: hke.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港D, server: hkd-zf.jiashumao.net, port: 28481, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: hkd.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡A, server: xjpa-zf.jiashumao.net, port: 14687, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: xjpa.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾A, server: twa-zf.jiashumao.net, port: 27919, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: twa.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本C, server: jpc-zf.jiashumao.net, port: 27301, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: jpc.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇴 澳门, server: ma-zf.jiashumao.net, port: 22983, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: ma-ctm.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南, server: yn-zf.jiashumao.net, port: 40375, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: yn.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本A, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: jpa.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 马来西亚, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: mlxy.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾B, server: twb-zf.jiashumao.net, port: 25888, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: twb.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇭 泰国, server: tg-zf.jiashumao.net, port: 28879, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: tg.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡B, server: xjpb-zf.jiashumao.net, port: 29465, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: xjp.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国, server: hanguo.jiashumao.net, port: 34210, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: hanguo.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度, server: yd.jiashumao.net, port: 29957, type: trojan, password: fc4d515e-8c22-35df-b006-97e9387bb2c2, sni: yd.jiashumao.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港2, server: 154.3.35.243, port: 9999, type: vmess, uuid: 934af1f8-c55a-30a7-b48a-ca062819051f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK, server: 47.242.239.113, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 CN2GIA 福利节点, server: 103.117.100.44, port: 18888, type: vmess, uuid: c43340d1-1bf5-3f01-88f4-ef4e7978b1b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港04, server: 18.166.56.217, port: 44300, type: vmess, uuid: f1b90c3c-1310-36dd-8163-3f7bf3e3cb4e, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 18.166.56.217}}, udp: true}
+  - {name: 吸睛贫专线, server: 13.215.202.73, port: 443, type: trojan, password: !<str> 666888, sni: linus.sbs, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
+  - {name: US_13, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 🇭🇰 Asia 香港03, server: 16.163.56.149, port: 44300, type: vmess, uuid: 30a0f4c7-1e3d-3b9b-afc2-b7bdbf2c5fea, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 16.163.56.149}}, udp: true}
+  - {name: 🇭🇰 Asia 香港02, server: 20.187.94.51, port: 44300, type: vmess, uuid: 30a0f4c7-1e3d-3b9b-afc2-b7bdbf2c5fea, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.94.51}}, udp: true}
+  - {name: 🇭🇰 Asia 香港01, server: 20.205.12.216, port: 44300, type: vmess, uuid: 30a0f4c7-1e3d-3b9b-afc2-b7bdbf2c5fea, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.205.12.216}}, udp: true}
+  - {name: 🇭🇰 Asia 香港03 | 移动优化, server: 16.163.56.149, port: 44300, type: vmess, uuid: 74c48355-4499-31d0-998b-a7dc820fb649, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 16.163.56.149}}, udp: true}
+  - {name: 🇭🇰 Asia 香港02 | 电信优化, server: 20.187.94.51, port: 44300, type: vmess, uuid: 74c48355-4499-31d0-998b-a7dc820fb649, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.187.94.51}}, udp: true}
+  - {name: 🇭🇰 Asia 香港01 | 电信优化, server: 20.205.12.216, port: 44300, type: vmess, uuid: 74c48355-4499-31d0-998b-a7dc820fb649, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.205.12.216}}, udp: true}
+  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet2 | 解锁流媒体, server: download2tw.windowsupdate1.com, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体, server: zf2.windowsupdate1.com, port: 30060, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港HKT-杭移 | 解锁流媒体, server: 36.138.221.76, port: 30070, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南1G | 解锁流媒体, server: 103.195.236.24, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 日本NTT-(hkt) | 解锁流媒体, server: zf2.windowsupdate1.com, port: 30010, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-2号, server: 103.173.255.127, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141, server: jp1.3320.top, port: 443, type: vmess, uuid: 168bd6bb-3061-48a8-8099-95ff7ce3a532, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.3320.top}}, udp: true}
+  - {name: 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141, server: dal1.3320.top, port: 443, type: vmess, uuid: fa544812-dc89-4368-933d-01c7651a58bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dal1.3320.top}}, udp: true}
+  - {name: 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141, server: dal2.3320.top, port: 443, type: vmess, uuid: feffbcdf-40d4-49cc-a8d3-9fa8872c50c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dal2.3320.top}}, udp: true}
+  - {name: 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141, server: sg2.3320.top, port: 443, type: vmess, uuid: 4111ed89-8dc3-4102-867c-ae807a759d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.3320.top}}, udp: true}
+  - {name: 🇭🇰 Hongkong (owloon), server: dgcm.pdjs.top, port: 49001, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: hk-c.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: U.S.A(Las Vegas), server: dgcm.pdjs.top, port: 49004, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: us-c.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: U.S.A(Dallas), server: dgcm.pdjs.top, port: 49002, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: us-a.bbbb.pw, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 KR, server: 158.247.239.243, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 JP, server: 167.179.98.62, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan(Taipei1), server: dgcm.pdjs.top, port: 49008, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: tw-a.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US, server: 165.3.122.163, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan 日本01 | 电信优化, server: 20.24.69.15, port: 48000, type: vmess, uuid: d9a0b173-1f84-38d3-b3dc-822b9419742b, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 20.24.69.15}}, udp: true}
-  - {name: xmss.vip, server: mf01.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4, udp: true}
-  - {name: 🇯🇵 Japan(Osaka2), server: dgcm.pdjs.top, port: 49007, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: jp-b.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 games.missionsec.us:443, server: games.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 10, server: music.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: music.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United-States 8, server: hacks.missionsec.us, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: hacks.missionsec.us, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 RU, server: 185.22.153.219, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 AU, server: 139.180.175.112, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: RO, server: 5.181.25.81, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: U.S.A(Dallas), server: dgcm.pdjs.top, port: 49002, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: us-a.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: U.S.A(Las Vegas), server: dgcm.pdjs.top, port: 49004, type: trojan, password: 0f3abc1b-5443-4edd-a012-886bf1a43898, sni: us-c.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 Hotspot 🇺🇸[美国]", server: 138.124.183.226, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 Hotspot 🇺🇸[美国] 2", server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US, server: 149.28.123.123, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK, server: 223.252.173.84, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇨🇦 CA, server: 155.138.140.189, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇷🇺 RU, server: 185.22.153.219, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 SG, server: 157.230.244.255, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: IT, server: 92.223.79.25, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇦 UA, server: 95.85.72.76, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: MX, server: 216.238.79.208, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: DigitalOcean, server: 188.166.204.68, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: ZZ_25, server: 134.195.196.143, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_13, server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: 🇵🇱 PL, server: 5.188.108.208, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: HU, server: 5.181.77.193, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: RO, server: 5.181.25.81, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾01, server: cm01.miruvip.com, port: 1675, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇨🇳 台湾02, server: cm01.miruvip.com, port: 1676, type: ssr, cipher: chacha20-ietf, password: Miru, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 12554:8ADgrg, obfs-param: fd83a12554.microsoft.com, udp: true}
+  - {name: 🇯🇵 【测试】日本甲骨文, server: 152.69.204.193, port: 33226, type: vmess, uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 cn.xmss.vip, server: mf02.xmss.vip, port: 18888, type: ss, cipher: chacha20-ietf-poly1305, password: 35b0f578-8961-4a2b-99a1-db9555e522e4, udp: true}
+  - {name: "🇺🇸 Hotspot 🇺🇸[美国]", server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
+  - {name: "🇫🇷 Hotspot 🇫🇷[法国]", server: 13.38.24.83, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
   - {name: "🇰🇷 Hotspot 🇰🇷[韩国]", server: 3.38.108.94, port: 443, type: trojan, password: xxoo, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -248,245 +244,244 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇨🇳 台湾A
-      - 🇨🇳 台湾B
-      - 🇭🇰 香港2
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -502,58 +497,57 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 香港C
-      - 🇭🇰 香港E
-      - 🇭🇰 香港D
-      - 🇸🇬 新加坡A
-      - 🇨🇳 台湾A
-      - 🇯🇵 日本C
-      - 🇲🇴 澳门
-      - 🇻🇳 越南
-      - 🇯🇵 日本A
-      - 🇲🇾 马来西亚
-      - 🇨🇳 台湾B
-      - 🇹🇭 泰国
-      - 🇸🇬 新加坡B
-      - 🇰🇷 韩国
-      - 🇮🇳 印度
-      - 🇭🇰 香港2
-      - 🇭🇰 HK
-      - 🇭🇰 香港 CN2GIA 福利节点
-      - 🇭🇰 香港04
+      - 吸睛贫专线
+      - 🇨🇳 Taiwan
+      - US_13
+      - 🇭🇰 Asia 香港03
+      - 🇭🇰 Asia 香港02
+      - 🇭🇰 Asia 香港01
+      - 🇭🇰 Asia 香港03 | 移动优化
+      - 🇭🇰 Asia 香港02 | 电信优化
+      - 🇭🇰 Asia 香港01 | 电信优化
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - 🇭🇰 台湾Hinet-(hkt) | 解锁流媒体
+      - 🇭🇰 香港HKT-杭移 | 解锁流媒体
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-2号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-3号
+      - 🇯🇵 【日本1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯1】不限流4元G口VPS-TG@whoareyou141
+      - 🇺🇸 【达拉斯2】不限流4元G口VPS-TG@whoareyou141
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - U.S.A(Las Vegas)
+      - U.S.A(Dallas)
       - 🇰🇷 KR
       - 🇯🇵 JP
-      - 🇨🇳 Taiwan(Taipei1)
       - 🇺🇸 US
-      - 🇯🇵 Japan 日本01 | 电信优化
-      - xmss.vip
-      - 🇯🇵 Japan(Osaka2)
-      - 🇺🇸 games.missionsec.us:443
-      - 🇺🇸 United-States 10
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 United-States 8
-      - 🇷🇺 RU
-      - 🇦🇺 AU
-      - RO
-      - U.S.A(Dallas)
-      - U.S.A(Las Vegas)
-      - 🇺🇸 Hotspot 🇺🇸[美国]
-      - 🇺🇸 Hotspot 🇺🇸[美国] 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 HK
       - 🇨🇦 CA
+      - 🇷🇺 RU
       - 🇸🇬 SG
-      - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
-      - IT
-      - 🇺🇦 UA
       - MX
-      - DigitalOcean
-      - ZZ_25
-      - US_13
+      - 🇵🇱 PL
+      - HU
+      - RO
+      - 🇨🇳 台湾01
+      - 🇨🇳 台湾02
+      - 🇯🇵 【测试】日本甲骨文
+      - 🇨🇳 cn.xmss.vip
+      - 🇺🇸 Hotspot 🇺🇸[美国]
+      - 🇫🇷 Hotspot 🇫🇷[法国]
       - 🇰🇷 Hotspot 🇰🇷[韩国]
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11543
+      - h961359.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
