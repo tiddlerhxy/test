@@ -5,85 +5,96 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本原生1-负载均衡-解锁流媒体, server: 45.159.51.87, port: 39577, type: vmess, uuid: e0b48f8e-4f31-4b1f-a328-9d127fa2b4ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
-  - {name: U.S.A(Las Vegas), server: 165.154.246.195, port: 49004, type: trojan, password: 7e517fd6-b515-406d-a085-67af8b5f12e3, sni: us-c.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hongkong (owloon), server: 165.154.246.195, port: 49001, type: trojan, password: 7e517fd6-b515-406d-a085-67af8b5f12e3, sni: hk-c.bbbb.pw, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hongkong (New Territories), server: 165.154.246.195, port: 49000, type: trojan, password: 7e517fd6-b515-406d-a085-67af8b5f12e3, sni: hk-a.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港雞蛋仔 1, server: can-01.t7n4vxsm.dxs5.xyz, port: 10000, type: ss, cipher: aes-128-gcm, password: "!6kknK9V+tG4K5", udp: true}
+  - {name: 🇸🇬 新加坡辣蟹 2, server: can-01.t7n4vxsm.dxs5.xyz, port: 10201, type: ss, cipher: aes-128-gcm, password: "!6kknK9V+tG4K5", udp: true}
+  - {name: 🇸🇬 新加坡叻沙 1, server: can-01.t7n4vxsm.dxs5.xyz, port: 10200, type: ss, cipher: aes-128-gcm, password: "!6kknK9V+tG4K5", udp: true}
+  - {name: 🇭🇰 香港燒鴨飯 2, server: can-01.t7n4vxsm.dxs5.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: "S50DbCV00tq]n#", udp: true}
+  - {name: 🇸🇬 新加坡叻沙 1 2, server: can-01.t7n4vxsm.dxs5.xyz, port: 10200, type: ss, cipher: aes-128-gcm, password: "S50DbCV00tq]n#", udp: true}
+  - {name: 🇭🇰 香港燒鴨飯 2 2, server: can-01.t7n4vxsm.dxs5.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: "b2o9M7iD]7Kk.D", udp: true}
+  - {name: 🇭🇰 香港雞蛋仔 1 2, server: can-01.t7n4vxsm.dxs5.xyz, port: 10000, type: ss, cipher: aes-128-gcm, password: "b2o9M7iD]7Kk.D", udp: true}
+  - {name: 台灣豬血湯 1, server: can-01.t7n4vxsm.dxs5.xyz, port: 10100, type: ss, cipher: aes-128-gcm, password: "b2o9M7iD]7Kk.D", udp: true}
+  - {name: 台灣牛舌餅 2, server: can-01.t7n4vxsm.dxs5.xyz, port: 10101, type: ss, cipher: aes-128-gcm, password: "b2o9M7iD]7Kk.D", udp: true}
+  - {name: 🇸🇬 新加坡辣蟹 2 2, server: can-01.t7n4vxsm.dxs5.xyz, port: 10201, type: ss, cipher: aes-128-gcm, password: "b2o9M7iD]7Kk.D", udp: true}
+  - {name: 🇸🇬 新加坡叻沙 1 3, server: can-01.t7n4vxsm.dxs5.xyz, port: 10200, type: ss, cipher: aes-128-gcm, password: "b2o9M7iD]7Kk.D", udp: true}
+  - {name: 🇭🇰 香港燒鴨飯 2 3, server: can-01.t7n4vxsm.dxs5.xyz, port: 10001, type: ss, cipher: aes-128-gcm, password: j5t:FwS7yL@4D2, udp: true}
+  - {name: 🇸🇬 新加坡辣蟹 2 3, server: can-01.t7n4vxsm.dxs5.xyz, port: 10201, type: ss, cipher: aes-128-gcm, password: j5t:FwS7yL@4D2, udp: true}
+  - {name: 🇸🇬 新加坡叻沙 1 4, server: can-01.t7n4vxsm.dxs5.xyz, port: 10200, type: ss, cipher: aes-128-gcm, password: j5t:FwS7yL@4D2, udp: true}
+  - {name: 美國法士達 2, server: shh-01.9dp5voo4.dxs5.xyz, port: 10101, type: ss, cipher: aes-128-gcm, password: j5t:FwS7yL@4D2, udp: true}
+  - {name: 美國甜甜圈 1, server: shh-01.9dp5voo4.dxs5.xyz, port: 10100, type: ss, cipher: aes-128-gcm, password: j5t:FwS7yL@4D2, udp: true}
+  - {name: 🇭🇰 香港雞蛋仔 1 3, server: can-01.t7n4vxsm.dxs5.xyz, port: 10000, type: ss, cipher: aes-128-gcm, password: poi82Ty)K2XI7*, udp: true}
+  - {name: 🇯🇵 Japan 07, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇯🇵 Japan 06, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇯🇵 Japan 10, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇯🇵 Japan 09, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇯🇵 Japan 08, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 56329, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇸🇬 Singapore 02, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇸🇬 Singapore 04, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇸🇬 Singapore 01, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: 🇸🇬 Singapore 05, server: gtm-cn-7mz2vfdwc01.gtm-a3b6.com, port: 28548, type: ss, cipher: chacha20-ietf-poly1305, password: f8a20018-caef-475b-9583-f4539d9550bd, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・01", server: yd-05.paofunlink.com, port: 1090, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・02", server: yd-05.paofunlink.com, port: 1091, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v1] 日本・01", server: yd-05.paofunlink.com, port: 1050, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・03", server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・03", server: yd-02.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v3] 台湾・01", server: yd-03.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v3] 日本・02", server: yd-03.paofunlink.com, port: 1056, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v3] 新加坡・03", server: yd-03.paofunlink.com, port: 1097, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v3] 台湾・02", server: yd-03.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・04", server: yd-02.paofunlink.com, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v3] 新加坡・04", server: yd-03.paofunlink.com, port: 1098, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v3] 台湾・04", server: yd-03.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・02", server: yd-05.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v1] 美国・02", server: yd-05.paofunlink.com, port: 1081, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v3] 美国・03", server: yd-03.paofunlink.com, port: 1087, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
+  - {name: "🇺🇸 [v3] 美国・01", server: yd-03.paofunlink.com, port: 1085, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 91886:B8M99G, obfs-param: 262ff91886.microsoft.com, udp: true}
   - {name: 🇯🇵 日本 ❀大妮妮❀1x, server: da.kanao.xyz, port: 58805, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 ❀小妮妮❀1x, server: xi.kanao.xyz, port: 58806, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 ❀原生❀小妮妮❀1x, server: xi.kanao.xyz, port: 58820, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]", server: ie.ednovas.cloud, port: 22131, type: vmess, uuid: 2dd02f54-4a2e-4a3f-b6f1-c39261b4b5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]", server: ie.ednovas.cloud, port: 22138, type: vmess, uuid: 2dd02f54-4a2e-4a3f-b6f1-c39261b4b5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]", server: ie.ednovas.cloud, port: 22146, type: vmess, uuid: 2dd02f54-4a2e-4a3f-b6f1-c39261b4b5a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾, server: relay1.wl-node1.com, port: 39003, type: ss, cipher: aes-128-gcm, password: df0ea974-c696-4e00-a948-ce45a67679cb, udp: true}
-  - {name: 🇨🇳 台湾I, server: relay1.wl-node1.com, port: 39011, type: vmess, uuid: df0ea974-c696-4e00-a948-ce45a67679cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港I, server: relay1.wl-node1.com, port: 39001, type: vmess, uuid: df0ea974-c696-4e00-a948-ce45a67679cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港, server: relay.wl-node1.com, port: 39002, type: ss, cipher: aes-128-gcm, password: df0ea974-c696-4e00-a948-ce45a67679cb, udp: true}
-  - {name: 🇯🇵 日本, server: relay1.wl-node1.com, port: 39005, type: ss, cipher: aes-128-gcm, password: df0ea974-c696-4e00-a948-ce45a67679cb, udp: true}
-  - {name: 台北Scloud-dip1, server: 165.154.243.248, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip2, server: 165.154.243.187, port: 24568, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip3, server: 165.154.243.23, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip4, server: 165.154.227.242, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip5, server: 124.71.16.99, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip6, server: 165.154.243.210, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip8, server: 120.195.181.51, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip9, server: 120.195.181.51, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 台北Scloud-dip7, server: 124.71.16.99, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港GCORE, server: 124.71.16.99, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港GG, server: 120.195.181.51, port: 12324, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore 01, server: sg1.turingnet.top, port: 50001, type: trojan, password: cf69f080-aa09-4ea4-ba77-4fb9b4bc5f66, sni: sg1.turingnet.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 F, server: 154.3.36.102, port: 34567, type: trojan, password: 7b48dcdd-4269-3719-bf92-8170d82db520, sni: sdzl.093.se, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 ❀原生❀小妮妮❀1x, server: xi.kanao.xyz, port: 58827, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本原生1-负载均衡-解锁流媒体, server: 45.159.51.87, port: 39577, type: vmess, uuid: e0b48f8e-4f31-4b1f-a328-9d127fa2b4ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Singapore 01 2, server: sg1.turingnet.top, port: 50001, type: trojan, password: cf69f080-aa09-4ea4-ba77-4fb9b4bc5f66, sni: sg1.turingnet.top, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡|IPLC|高速A|x1.3, server: 154.3.36.104, port: 34568, type: trojan, password: 7b48dcdd-4269-3719-bf92-8170d82db520, sni: lkes.096.se, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡|IPLC|高速B|x1.3, server: 154.3.36.104, port: 34570, type: trojan, password: 7b48dcdd-4269-3719-bf92-8170d82db520, sni: lkes.096.se, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-CN-刁包子专线, server: 120.232.132.120, port: 25682, type: trojan, password: M2e3c493, sni: cdnt24.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 United States 01, server: US-01.leco.ml, port: 41560, type: ss, cipher: aes-256-gcm, password: fd85e31b-0d47-418c-b641-8cc11b2e0cdb, udp: true}
-  - {name: 🇭🇰 香港 F 2, server: 154.3.36.102, port: 34567, type: trojan, password: 98b959d1-eefa-370d-a2f9-4537b89a7ac6, sni: sdzl.093.se, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 日本NTT-(hkt) | 解锁流媒体, server: zf2.windowsupdate1.com, port: 30010, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 202.8.9.67, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体, server: zf2.windowsupdate1.com, port: 30040, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡🇸🇬 2, server: 159.223.32.230, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: "%7B%22Host%22:%22159.223.32.230%22%7D"}}, udp: true}
-  - {name: 🇻🇳 越南1G | 解锁流媒体, server: 103.195.236.24, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 11, server: 913tw.tfzhc.top, port: 44318, type: trojan, password: f089ab9d-dd52-42a0-b10c-980e70a00e1a, skip-cert-verify: false, udp: true}
-  - {name: 12, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 13, server: s354.okggnode.top, port: 33954, type: vmess, uuid: e4832ca0-d6f6-32c8-87da-f3eccffe73c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /panelmyadmin, headers: {Host: s354.okggnode.top}}, udp: true}
-  - {name: 14, server: 172.105.192.230, port: 443, type: vmess, uuid: 0c58b166-cbb6-4c02-98b7-c239a7104c6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TG%E7%94%B5%E6%8A%A5@herhr6, headers: {Host: shoutingtoutiao.10010.com}}, udp: true}
-  - {name: 16, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
-  - {name: 19, server: 124.71.16.99, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 15, server: 139.162.23.118, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: 17, server: fn600mlines021.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0ac84efef442, udp: true}
-  - {name: 18, server: 159.223.32.230, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
-  - {name: 20, server: 99tw03.tfzhc.top, port: 443, type: trojan, password: f089ab9d-dd52-42a0-b10c-980e70a00e1a, skip-cert-verify: false, udp: true}
-  - {name: 21, server: 120.195.181.51, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 22, server: 165.154.243.210, port: 24567, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 23, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 24, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 25, server: 193.122.96.32, port: 55044, type: trojan, password: da5f9035-e488-3d6f-8a84-b3c4ef5f3784, skip-cert-verify: false, udp: true}
-  - {name: 26, server: 47.243.124.141, port: 41179, type: vmess, uuid: a50b1dc4-03ce-44d8-a5c4-f4753c57884e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 27, server: 99tw02.tfzhc.top, port: 443, type: trojan, password: f089ab9d-dd52-42a0-b10c-980e70a00e1a, skip-cert-verify: false, udp: true}
-  - {name: 28, server: 921tw.tfzhc.top, port: 443, type: trojan, password: f089ab9d-dd52-42a0-b10c-980e70a00e1a, skip-cert-verify: false, udp: true}
-  - {name: 29, server: 120.195.181.72, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
-  - {name: 8, server: 00000000000000000000000000000000000000000000000000000000000002a.rui77.com, port: 443, type: vmess, uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2200000000000000000000000000000000000000000000000000000000000002a.rui77.com%22%7D"}}, udp: true}
-  - {name: 5, server: 00000000000000000000000000000000000000000000000000000000000026a.rui77.com, port: 52356, type: vmess, uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 1, server: 00000000000000000000000000000000000000000000000000000000000022a.rui77.com, port: 52356, type: vmess, uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 2, server: 00000000000000000000000000000000000000000000000000000000000001a.rui77.com, port: 80, type: vmess, uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%2200000000000000000000000000000000000000000000000000000000000001a.rui77.com%22%7D"}}, udp: true}
-  - {name: 3, server: 00000000000000000000000000000000000000000000000000000000000028a.rui77.com, port: 52356, type: vmess, uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 9, server: 00000000000000000000000000000000000000000000000000000000000003a.rui77.com, port: 80, type: vmess, uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 4, server: 00000000000000000000000000000000000000000000000000000000000040a.rui77.com, port: 12356, type: vmess, uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141, server: sg2.3320.top, port: 443, type: vmess, uuid: 4111ed89-8dc3-4102-867c-ae807a759d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.3320.top}}, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11243, server: h207532.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 29, server: 120.195.181.72, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: 台北Scloud-dip9, server: 120.195.181.51, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港GCORE, server: 124.71.16.99, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 ❀小妮妮❀1x 2, server: xi.kanao.xyz, port: 58806, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hongkong (New Territories), server: 165.154.246.195, port: 49000, type: trojan, password: 7e517fd6-b515-406d-a085-67af8b5f12e3, sni: hk-a.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 United States 01, server: US-01.leco.ml, port: 41560, type: ss, cipher: aes-256-gcm, password: fd85e31b-0d47-418c-b641-8cc11b2e0cdb, udp: true}
+  - {name: 19, server: 124.71.16.99, port: 12323, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 ❀大妮妮❀1x 2, server: da.kanao.xyz, port: 58805, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 日本NTT-(hkt) | 解锁流媒体, server: zf2.windowsupdate1.com, port: 30010, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 16, server: sg.securevpn.cc, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: "TIB2ehlN1U.download.windowsupdate.com,449bff3663.douyincdn.com"}, udp: true}
+  - {name: 15, server: 139.162.23.118, port: 20020, type: ss, cipher: aes-128-gcm, password: !<str> 200000000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: 🇭🇰 香港 ❀原生❀小妮妮❀1x, server: xi.kanao.xyz, port: 58820, type: trojan, password: ffcc8693-69bf-4dcf-9ae0-523e1518dece, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 202.8.9.67, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港GG, server: 120.195.181.51, port: 12324, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h207532.waihuizhibiaowang.com:11243, server: h207532.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体, server: zf2.windowsupdate1.com, port: 30040, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-4号, server: 103.173.255.234, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南1G | 解锁流媒体, server: 103.195.236.24, port: 28443, type: trojan, password: 564f0597-8e7c-4aa9-95cc-51eb9480a4f3, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 台北Scloud-dip8, server: 120.195.181.51, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡🇸🇬 2, server: 159.223.32.230, port: 8080, type: vmess, uuid: e4e46233-376c-49be-b302-3ff6fce7a8fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: "%7B%22Host%22:%22159.223.32.230%22%7D"}}, udp: true}
+  - {name: U.S.A(Las Vegas), server: 165.154.246.195, port: 49004, type: trojan, password: 7e517fd6-b515-406d-a085-67af8b5f12e3, sni: us-c.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 12, server: 212.102.53.78, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 24, server: 212.102.53.194, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 21, server: 120.195.181.51, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141, server: sg2.3320.top, port: 443, type: vmess, uuid: 4111ed89-8dc3-4102-867c-ae807a759d0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg2.3320.top}}, udp: true}
+  - {name: 🇭🇰 Hongkong (owloon), server: 165.154.246.195, port: 49001, type: trojan, password: 7e517fd6-b515-406d-a085-67af8b5f12e3, sni: hk-c.bbbb.pw, skip-cert-verify: false, udp: true}
+  - {name: 台北Scloud-dip7, server: 124.71.16.99, port: 12352, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 台北Scloud-dip5, server: 124.71.16.99, port: 12353, type: trojan, password: 26e219f2-5c2a-356c-9767-9fd681cc0134, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan, server: pastry.taiwanesefood.link, port: 443, type: trojan, password: NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ, sni: pastry.taiwanesefood.link, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-CN-刁包子专线, server: 120.232.132.120, port: 25682, type: trojan, password: M2e3c493, sni: cdnt24.dt1.fun, skip-cert-verify: false, udp: true}
+  - {name: 23, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -91,170 +102,192 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
   - name: 🎥 NETFLIX
     type: select
@@ -262,85 +295,96 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
   - name: ⛔️ 广告拦截
     type: select
@@ -360,280 +404,316 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
       - 台北Scloud-dip9
-      - 台北Scloud-dip7
       - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇭🇰 香港 F
-      - 🇭🇰 香港 F 2
       - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇭🇰 香港GG
       - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 台北Scloud-dip8
+      - 台北Scloud-dip7
+      - 台北Scloud-dip5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
   - name: 🍎 苹果服务
     type: select
@@ -641,85 +721,96 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
   - name: 🎯 全球直连
     type: select
@@ -736,85 +827,96 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
-      - 🇨🇳 Taiwan
-      - U.S.A(Las Vegas)
-      - 🇭🇰 Hongkong (owloon)
-      - 🇭🇰 Hongkong (New Territories)
+      - 🇭🇰 香港雞蛋仔 1
+      - 🇸🇬 新加坡辣蟹 2
+      - 🇸🇬 新加坡叻沙 1
+      - 🇭🇰 香港燒鴨飯 2
+      - 🇸🇬 新加坡叻沙 1 2
+      - 🇭🇰 香港燒鴨飯 2 2
+      - 🇭🇰 香港雞蛋仔 1 2
+      - 台灣豬血湯 1
+      - 台灣牛舌餅 2
+      - 🇸🇬 新加坡辣蟹 2 2
+      - 🇸🇬 新加坡叻沙 1 3
+      - 🇭🇰 香港燒鴨飯 2 3
+      - 🇸🇬 新加坡辣蟹 2 3
+      - 🇸🇬 新加坡叻沙 1 4
+      - 美國法士達 2
+      - 美國甜甜圈 1
+      - 🇭🇰 香港雞蛋仔 1 3
+      - 🇯🇵 Japan 07
+      - 🇯🇵 Japan 06
+      - 🇯🇵 Japan 10
+      - 🇯🇵 Japan 09
+      - 🇯🇵 Japan 08
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore 04
+      - 🇸🇬 Singapore 01
+      - 🇸🇬 Singapore 05
+      - 🇸🇬 [v1] 新加坡・01
+      - 🇸🇬 [v1] 新加坡・02
+      - 🇯🇵 [v1] 日本・01
+      - 🇸🇬 [v1] 新加坡・03
+      - 🇨🇳 [v1] 台湾・03
+      - 🇨🇳 [v3] 台湾・01
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v3] 新加坡・03
+      - 🇨🇳 [v3] 台湾・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇸🇬 [v3] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇨🇳 [v1] 台湾・02
+      - 🇺🇸 [v1] 美国・02
+      - 🇺🇸 [v3] 美国・03
+      - 🇺🇸 [v3] 美国・01
       - 🇯🇵 日本 ❀大妮妮❀1x
       - 🇯🇵 日本 ❀小妮妮❀1x
-      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
-      - 🇭🇰 0.5x[IEPL]HE HKIX 🇭🇰 Hong Kong 1 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong0 [NF][D ]
-      - 🇭🇰 2x[IEPL]CMI 🇭🇰 Hong Kong8 [NF][D ]
-      - 🇨🇳 台湾
-      - 🇨🇳 台湾I
-      - 🇭🇰 香港I
-      - 🇭🇰 香港
-      - 🇯🇵 日本
-      - 台北Scloud-dip1
-      - 台北Scloud-dip2
-      - 台北Scloud-dip3
-      - 台北Scloud-dip4
-      - 台北Scloud-dip5
-      - 台北Scloud-dip6
-      - 台北Scloud-dip8
-      - 台北Scloud-dip9
-      - 台北Scloud-dip7
-      - 🇭🇰 香港GCORE
-      - 🇭🇰 香港GG
-      - 🇸🇬 Singapore 01
-      - 🇭🇰 香港 F
+      - 🇨🇳 台湾 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本原生1-负载均衡-解锁流媒体
+      - 🇸🇬 Singapore 01 2
       - 🇸🇬 新加坡|IPLC|高速A|x1.3
-      - 🇸🇬 新加坡|IPLC|高速B|x1.3
-      - 🇭🇰 HK-CN-刁包子专线
-      - 🇺🇸 United States 01
-      - 🇭🇰 香港 F 2
-      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇻🇳 越南-1号
-      - 🇻🇳 越南-4号
-      - 🇸🇬 新加坡🇸🇬 2
-      - 🇻🇳 越南1G | 解锁流媒体
-      - 11
-      - 12
-      - 13
-      - 14
-      - 16
-      - 19
-      - 15
-      - 17
-      - 18
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 26
-      - 27
-      - 28
-      - 29
-      - 8
-      - 5
-      - 1
-      - 2
-      - 3
-      - 9
-      - 4
-      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
-      - h961359.waihuizhibiaowang.com:11543
+      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
-      - h207532.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11243
+      - 29
+      - 台北Scloud-dip9
+      - 🇭🇰 香港GCORE
+      - 🇯🇵 日本 ❀小妮妮❀1x 2
+      - 🇭🇰 Hongkong (New Territories)
+      - 🇺🇸 United States 01
+      - 19
+      - 🇯🇵 日本 ❀大妮妮❀1x 2
+      - 🇭🇰 日本NTT-(hkt) | 解锁流媒体
+      - 16
+      - 15
+      - 🇭🇰 香港 ❀原生❀小妮妮❀1x
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
+      - 🇭🇰 香港GG
+      - 🇻🇳 越南-3号
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11743
+      - h207532.waihuizhibiaowang.com:11243
+      - 🇭🇰 美国圣何塞-(hkt) | 解锁流媒体
+      - 🇻🇳 越南-1号
+      - 🇻🇳 越南-4号
+      - 🇻🇳 越南1G | 解锁流媒体
+      - 台北Scloud-dip8
       - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇸🇬 新加坡🇸🇬 2
+      - U.S.A(Las Vegas)
+      - h961359.waihuizhibiaowang.com:11543
+      - 12
+      - 24
+      - 21
+      - 🇸🇬 【新加坡2】不限流4元G口VPS-TG@whoareyou141
+      - 🇭🇰 Hongkong (owloon)
+      - 台北Scloud-dip7
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11743
+      - 台北Scloud-dip5
+      - 🇨🇳 Taiwan
+      - 🇭🇰 HK-CN-刁包子专线
+      - 23
       - h961359.waihuizhibiaowang.com:11243
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
