@@ -5,251 +5,355 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 111, server: tw02.henet.cyou, port: 30000, type: trojan, password: d45457f1-5d2e-474e-83fa-9a789270d314, sni: tw02.henet.cyou, skip-cert-verify: false, udp: true}
-  - {name: 222, server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
-  - {name: 333, server: 45.136.14.70, port: 15410, type: trojan, password: 6A30qqSh8W, skip-cert-verify: false, udp: true}
-  - {name: 555, server: traph1.bitznet.one, port: 32013, type: trojan, password: 6f0f192d-fa1f-44db-961b-8fcc6228c966, sni: traph1.bitznet.one, skip-cert-verify: false, udp: true}
-  - {name: 666, server: korea-1.4g.mkvn.net, port: 80, type: vmess, uuid: 5bb5ce7e-08f9-4bac-8d56-f134afa33a3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4g.mkvn.net, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 777, server: cf.731808.tk, port: 443, type: vmess, uuid: 3fad3b4c-8691-42f2-a46d-9875cacaeeb2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /b472f/, headers: {Host: linode.sharecentre.xyz}}, udp: true}
-  - {name: 444, server: 927tw01.tfzhc.top, port: 44319, type: trojan, password: b62a64c0-4b87-436e-aef1-28eb22da69b7, skip-cert-verify: false, udp: true}
-  - {name: 888, server: danang-1.4g.mkvn.net, port: 80, type: vmess, uuid: 5bb5ce7e-08f9-4bac-8d56-f134afa33a3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /4g.mkvn.net, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: 999, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, sni: sg-01.tiktokcdn.top, skip-cert-verify: false, udp: true}
-  - {name: 11, server: 99jp.tfzhc.top, port: 44311, type: trojan, password: b62a64c0-4b87-436e-aef1-28eb22da69b7, sni: 99jp.tfzhc.top, skip-cert-verify: false, udp: true}
-  - {name: 22, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, skip-cert-verify: false, udp: true}
-  - {name: 距离下次重置剩余：29 天, server: basics.efcloud.cc, port: 50000, type: trojan, password: 40e335b4-56d3-4715-9184-4794413b874b, sni: basics.efcloud.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 v1-|日本2|中转|解锁流媒体|, server: zz1.zahuopu.top, port: 35114, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd4.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 v1-|台湾3|中转|解锁流媒体|, server: zz2.zahuopu.top, port: 35111, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd1.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 v1-|日本3|中转|解锁流媒体|, server: zz2.zahuopu.top, port: 35114, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd4.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 v1-|香港3|中转|解锁流媒体|\t", server: zz2.zahuopu.top, port: 35113, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd3.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 v1-|台湾2|中转|解锁流媒体|, server: zz1.zahuopu.top, port: 35111, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd1.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 v1-|新加坡3|中转|, server: zz2.zahuopu.top, port: 35112, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd2.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 v1-|新加坡2|中转|, server: zz1.zahuopu.top, port: 35112, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd2.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 v1-|香港2|中转|解锁流媒体|, server: zz1.zahuopu.top, port: 35113, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd3.zahuopu.top, skip-cert-verify: false, udp: true}
-  - {name: 距离下次重置剩余：29 天 2, server: 152.69.233.62, port: 666, type: vmess, uuid: 356c8c95-e916-4899-aca0-c0de2412d9ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇸🇬 新加坡节点1, server: 139.162.53.132, port: 666, type: vmess, uuid: 356c8c95-e916-4899-aca0-c0de2412d9ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇸🇬 新加坡A, server: xinjiapoa.yongyevpn.com, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 首尔电信直连, server: 131.186.18.248, port: 20980, type: vmess, uuid: dd1631ef-ec7c-4e86-df0c-70b299c12db2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: etsuko, server: 103.103.245.125, port: 50418, type: trojan, password: a70b39d1-62ea-4d9e-b681-9c5408352234, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-核心访问 BGP 4, server: tratw1.bitznet.one, port: 32003, type: trojan, password: 77aa8b71-5436-4e67-8b7e-db02e956da05, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-边缘访问 BGP 18, server: dttw1.bitznet.one, port: 33003, type: trojan, password: fedd931d-38b4-40c1-863c-e62e277f4e14, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-专线访问 DP 2, server: iplchk1.bitznet.one, port: 34443, type: trojan, password: 79a17a78-3170-4819-8bf4-6ee36dd63851, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-核心访问 BGP 7, server: tratw1.bitznet.one, port: 32003, type: trojan, password: b623e71a-f669-409e-88dd-fef3919719ff, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-专线访问 BGP, server: iplctw1.bitznet.one, port: 34003, type: trojan, password: 1d4907c5-22a7-4d4a-8a8e-28744f22fe31, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-核心访问 BGP, server: tratw1.bitznet.one, port: 32003, type: trojan, password: 1d4907c5-22a7-4d4a-8a8e-28744f22fe31, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-边缘访问 BGP 6, server: dttw1.bitznet.one, port: 33003, type: trojan, password: 77aa8b71-5436-4e67-8b7e-db02e956da05, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-边缘访问 BGP 9, server: dttw1.bitznet.one, port: 33003, type: trojan, password: 92f90002-f7e9-42a3-85f1-ae05947d037c, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-边缘访问 BGP 14, server: dttw1.bitznet.one, port: 33003, type: trojan, password: c576e79d-c999-4523-8d4a-6df352542f70, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-边缘访问 BGP 5, server: dttw1.bitznet.one, port: 33003, type: trojan, password: 697e81b9-48de-4c95-9ebd-3e75702b9292, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-核心访问 HKT 2, server: trahk5.bitznet.one, port: 32000, type: trojan, password: 1ff040d2-3fa5-4998-9e48-505af8389f1e, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-专线访问 DP 3, server: iplchk1.bitznet.one, port: 34443, type: trojan, password: d91e58e8-0ce1-495d-b7a7-0bb96200884e, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-核心访问 BGP 6, server: tratw1.bitznet.one, port: 32003, type: trojan, password: 93eaf6ea-2585-463a-a577-64b5750f5292, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-边缘访问 BGP 4, server: dttw1.bitznet.one, port: 33003, type: trojan, password: 2950aba9-e1f2-456b-b5c4-feffe185169d, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-核心访问 BGP 3, server: tratw1.bitznet.one, port: 32003, type: trojan, password: 697e81b9-48de-4c95-9ebd-3e75702b9292, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国L1, server: 13.124.54.4, port: 55576, type: trojan, password: CLWNqJTjurWptYNIxxs1yKFN9MhIt4, sni: ny5kywx5ehxm.run.goorm.io, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 印度L1, server: 43.204.48.247, port: 50793, type: trojan, password: Nwe0rB06LHF9Al2XsZBSfuVbxusyu9, sni: xg6e2maab28l.run-ap-south1.goorm.io, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国L1, server: 52.11.57.27, port: 59544, type: trojan, password: NL0FFUugSIqe5DDDX9h3PO6Ape9buG, sni: rgew1t68ku22.run-us-west2.goorm.io, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 V2ray | 全媒体 | A1, server: cu-hn.dnspro.icu, port: 4000, type: vmess, uuid: e2b65fdc-ff1d-378b-b2f2-43e9d82a3836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /iso, headers: {Host: st-1.dnspro.icu}}, udp: true}
+  - {name: 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1, server: st-2.dnspro.icu, port: 5100, type: vmess, uuid: e2b65fdc-ff1d-378b-b2f2-43e9d82a3836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /iso, headers: {Host: lg-hkg-b.gcorelabs.info}}, udp: true}
+  - {name: 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1, server: st-1.dnspro.icu, port: 9111, type: vmess, uuid: e2b65fdc-ff1d-378b-b2f2-43e9d82a3836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /iso, headers: {Host: hkt02.dnspro.icu}}, udp: true}
+  - {name: 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1, server: aws-beijing-1.dnspro.icu, port: 20022, type: vmess, uuid: e2b65fdc-ff1d-378b-b2f2-43e9d82a3836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /iso, headers: {Host: aws-beijing-1.dnspro.icu}}, udp: true}
+  - {name: 🇸🇬 新加坡 沪新9929 | Netflix | A1, server: aws-beijing-1.dnspro.icu, port: 20028, type: vmess, uuid: e2b65fdc-ff1d-378b-b2f2-43e9d82a3836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /iso, headers: {Host: aws-beijing-1.dnspro.icu}}, udp: true}
+  - {name: "🇭🇰 Hongkong, V2 - B Group", server: bgroup.node4.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: c099a5f4-b9c9-4e6a-958b-27703b934989, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 Hongkong, SS - B Group", server: bgroup.node4.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c099a5f4-b9c9-4e6a-958b-27703b934989, udp: true}
+  - {name: "🇸🇬 Singapore, SS - B Group", server: bgroup.node3.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c099a5f4-b9c9-4e6a-958b-27703b934989, udp: true}
+  - {name: "🇸🇬 Singapore, V2 - B Group", server: bgroup.node3.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: c099a5f4-b9c9-4e6a-958b-27703b934989, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Tokyo, V2 - B Group", server: bgroup.node1.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: c099a5f4-b9c9-4e6a-958b-27703b934989, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "Incheon, V2 - B Group", server: bgroup.node2.v.nodelist-gfwairport.download, port: 50001, type: vmess, uuid: c099a5f4-b9c9-4e6a-958b-27703b934989, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 Tokyo, SS - B Group", server: bgroup.node1.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c099a5f4-b9c9-4e6a-958b-27703b934989, udp: true}
+  - {name: "🇸🇬 Singapore, Tj - B Group", server: bgroup.node3.t.nodelist-gfwairport.download, port: 50001, type: trojan, password: c099a5f4-b9c9-4e6a-958b-27703b934989, skip-cert-verify: false, udp: true}
+  - {name: "Incheon, SS - B Group", server: bgroup.node2.s.nodelist-gfwairport.download, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: c099a5f4-b9c9-4e6a-958b-27703b934989, udp: true}
+  - {name: 🇲🇳 蒙古-IPLC-01, server: sssvip013.goumaituijian.xyz, port: 41655, type: trojan, password: 5d36674a-1a01-41e9-b246-72bc762faa82, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-IPLC-01, server: sssvip01.goumaituijian.xyz, port: 19586, type: trojan, password: 5d36674a-1a01-41e9-b246-72bc762faa82, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-IPLC-01, server: sssvip010.goumaituijian.xyz, port: 29559, type: trojan, password: 5d36674a-1a01-41e9-b246-72bc762faa82, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国-IPLC-01, server: sssvip09.goumaituijian.xyz, port: 29556, type: trojan, password: 5d36674a-1a01-41e9-b246-72bc762faa82, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾-IPLC-01, server: sssvip011.goumaituijian.xyz, port: 16888, type: trojan, password: 5d36674a-1a01-41e9-b246-72bc762faa82, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡C, server: 18.136.209.18, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国B, server: hanguob.yongyevpn.com, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 222, server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
   - {name: 🇰🇷 韩国A, server: hanguoa.yongyevpn.com, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国A, server: 3.22.42.11, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾 M1 | 流媒体 | 0x, server: 120.232.132.120, port: 25682, type: trojan, password: Md7cc86e, sni: cdnt24.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本Azure, server: rben.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: rben.miaoge.gay}}, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 M1 | 流媒体 | 0x, server: 52.80.175.226, port: 28126, type: trojan, password: M42f62cb, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: 333, server: 45.136.14.70, port: 15410, type: trojan, password: 6A30qqSh8W, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 v1-|日本3|中转|解锁流媒体|, server: zz2.zahuopu.top, port: 35114, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd4.zahuopu.top, skip-cert-verify: false, udp: true}
+  - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 555, server: traph1.bitznet.one, port: 32013, type: trojan, password: 6f0f192d-fa1f-44db-961b-8fcc6228c966, sni: traph1.bitznet.one, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 v1-|日本2|中转|解锁流媒体|, server: zz1.zahuopu.top, port: 35114, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd4.zahuopu.top, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体, server: 202.8.9.27, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 202.8.9.67, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 M5 | 0x, server: 52.80.175.226, port: 28151, type: trojan, password: M1a73672, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 M1 | 流媒体 | 0x, server: 52.80.175.226, port: 28126, type: trojan, password: M42f62cb, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 韩国亚马逊-2号 | 解锁流媒体, server: 13.209.5.163, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate1.com, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡G-Core | 解锁流媒体, server: 91.243.81.42, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet2 | 解锁流媒体, server: download2tw.windowsupdate1.com, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 v1-|香港3|中转|解锁流媒体|\t", server: zz2.zahuopu.top, port: 35113, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd3.zahuopu.top, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 v1-|香港2|中转|解锁流媒体|, server: zz1.zahuopu.top, port: 35113, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd3.zahuopu.top, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11243, server: h207532.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 v1-|新加坡3|中转|, server: zz2.zahuopu.top, port: 35112, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd2.zahuopu.top, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 v1-|新加坡2|中转|, server: zz1.zahuopu.top, port: 35112, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd2.zahuopu.top, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 v1-|台湾2|中转|解锁流媒体|, server: zz1.zahuopu.top, port: 35111, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd1.zahuopu.top, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国Azure, server: gaio.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jcnf, headers: {Host: gaio.miaoge110.cf}}, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 M148 | 0x, server: 14.215.107.23, port: 28124, type: trojan, password: Mb6124ef, sni: i23.t3v.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 202.8.9.67, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 v1-|台湾3|中转|解锁流媒体|, server: zz2.zahuopu.top, port: 35111, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd1.zahuopu.top, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 韩国 B157 | 湘日隧道 | 0x, server: 54.223.72.133, port: 14018, type: trojan, password: M3d10d0e, sni: e15e.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体, server: 202.8.9.27, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HKT | 解锁流媒体, server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇷 土耳其 B88 | IEPL中转 | 0x, server: 52.80.175.226, port: 28162, type: trojan, password: M5048a21, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 M5 | 0x, server: 52.80.175.226, port: 28151, type: trojan, password: M1a73672, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 999, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, sni: sg-01.tiktokcdn.top, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇷 土耳其 B88 | IEPL中转 | 0x, server: 52.80.175.226, port: 28162, type: trojan, password: M5048a21, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇦🇪 Azure阿拉伯迪拜, server: lio.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lio.miaoge.gay}}, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate1.com, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 11, server: 99jp.tfzhc.top, port: 44311, type: trojan, password: b62a64c0-4b87-436e-aef1-28eb22da69b7, sni: 99jp.tfzhc.top, skip-cert-verify: false, udp: true}
+  - {name: 22, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 M148 | 0x, server: 14.215.107.23, port: 28124, type: trojan, password: Mb6124ef, sni: i23.t3v.fun, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -268,263 +372,385 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
       - 🇭🇰 香港HKT | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -540,63 +766,89 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 111
-      - 222
-      - 333
-      - 555
-      - 666
-      - 777
-      - 444
-      - 888
-      - 999
-      - 11
-      - 22
-      - 距离下次重置剩余：29 天
-      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
-      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
-      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
-      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
-      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
-      - 🇸🇬 v1-|新加坡3|中转|
-      - 🇸🇬 v1-|新加坡2|中转|
-      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
-      - 距离下次重置剩余：29 天 2
-      - 🇸🇬 新加坡节点1
-      - 🇸🇬 新加坡A
+      - 🇰🇷 首尔电信直连
+      - etsuko
+      - 🇨🇳 台湾-核心访问 BGP 4
+      - 🇨🇳 台湾-边缘访问 BGP 18
+      - 🇭🇰 香港-专线访问 DP 2
+      - 🇨🇳 台湾-核心访问 BGP 7
+      - 🇨🇳 台湾-专线访问 BGP
+      - 🇨🇳 台湾-核心访问 BGP
+      - 🇨🇳 台湾-边缘访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 9
+      - 🇨🇳 台湾-边缘访问 BGP 14
+      - 🇨🇳 台湾-边缘访问 BGP 5
+      - 🇭🇰 香港-核心访问 HKT 2
+      - 🇭🇰 香港-专线访问 DP 3
+      - 🇨🇳 台湾-核心访问 BGP 6
+      - 🇨🇳 台湾-边缘访问 BGP 4
+      - 🇨🇳 台湾-核心访问 BGP 3
+      - 🇰🇷 韩国L1
+      - 🇮🇳 印度L1
+      - 🇺🇸 美国L1
+      - 🇸🇬 新加坡 V2ray | 全媒体 | A1
+      - 🇭🇰 香港 HK全媒体 | V2ray | Netflix/TVB | A1
+      - 🇭🇰 香港 SG全媒体 | V2ray | Netflix/TVB | A1
+      - 🇯🇵 日本 沪日9929 | Netflix/ABTV | A1
+      - 🇸🇬 新加坡 沪新9929 | Netflix | A1
+      - 🇭🇰 Hongkong, V2 - B Group
+      - 🇭🇰 Hongkong, SS - B Group
+      - 🇸🇬 Singapore, SS - B Group
+      - 🇸🇬 Singapore, V2 - B Group
+      - 🇯🇵 Tokyo, V2 - B Group
+      - Incheon, V2 - B Group
+      - 🇯🇵 Tokyo, SS - B Group
+      - 🇸🇬 Singapore, Tj - B Group
+      - Incheon, SS - B Group
+      - 🇲🇳 蒙古-IPLC-01
+      - 🇭🇰 香港-IPLC-01
+      - 🇻🇳 越南-IPLC-01
+      - 🇺🇸 美国-IPLC-01
+      - 🇨🇳 台湾-IPLC-01
       - 🇸🇬 新加坡C
-      - 🇰🇷 韩国B
+      - 222
       - 🇰🇷 韩国A
-      - 🇺🇸 美国A
       - h207532.waihuizhibiaowang.com:11443
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - h207532.waihuizhibiaowang.com:11543
-      - 🇯🇵 日本Azure
       - h207532.waihuizhibiaowang.com:11343
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
+      - 333
+      - 🇯🇵 v1-|日本3|中转|解锁流媒体|
+      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港HKT | 解锁流媒体
+      - 555
+      - 🇯🇵 v1-|日本2|中转|解锁流媒体|
+      - 🇯🇵 日本NTT-2号 | 解锁流媒体
+      - 🇯🇵 日本NTT-1号 | 解锁流媒体
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本 M5 | 0x
+      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
       - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
       - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇨🇳 台湾Hinet2 | 解锁流媒体
+      - "🇭🇰 v1-|香港3|中转|解锁流媒体|\t"
+      - 🇭🇰 v1-|香港2|中转|解锁流媒体|
       - h207532.waihuizhibiaowang.com:11243
+      - 🇸🇬 v1-|新加坡3|中转|
       - 🇻🇳 越南-1号
+      - 🇸🇬 v1-|新加坡2|中转|
+      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾2|中转|解锁流媒体|
       - 🇺🇸 美国Azure
       - h650196.waihuizhibiaowang.com:11243
-      - 🇺🇸 美国 M148 | 0x
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇻🇳 越南-3号
+      - 🇨🇳 v1-|台湾3|中转|解锁流媒体|
+      - h650196.waihuizhibiaowang.com:11143
       - h650196.waihuizhibiaowang.com:11743
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港HKT | 解锁流媒体
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - 🇯🇵 日本 M5 | 0x
       - h961359.waihuizhibiaowang.com:11743
-      - h961359.waihuizhibiaowang.com:11243
+      - 999
+      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
+      - h961359.waihuizhibiaowang.com:11543
       - 🇦🇪 Azure阿拉伯迪拜
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 11
+      - 22
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇺🇸 美国 M148 | 0x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
