@@ -5,247 +5,259 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 夏时vip, server: 154.17.7.25, port: 41702, type: ss, cipher: aes-256-gcm, password: !<str> 46080791, udp: true}
-  - {name: 🇯🇵 Japan 02, server: JP-02.bestlink.ml, port: 13091, type: ss, cipher: aes-256-gcm, password: aa72849c-e76f-4c60-8a6e-4b78010ee05d, udp: true}
-  - {name: 🇯🇵 Japan 01, server: JP-01.bestlink.ml, port: 18952, type: ss, cipher: aes-256-gcm, password: aa72849c-e76f-4c60-8a6e-4b78010ee05d, udp: true}
-  - {name: 🇭🇰 Hong Kong 01, server: HK-01.bestlink.ml, port: 11608, type: ss, cipher: aes-256-gcm, password: aa72849c-e76f-4c60-8a6e-4b78010ee05d, udp: true}
-  - {name: 🇸🇬 Singapore 01, server: SG-01.bestlink.ml, port: 60008, type: ss, cipher: aes-256-gcm, password: aa72849c-e76f-4c60-8a6e-4b78010ee05d, udp: true}
-  - {name: 🇺🇸 United States 01, server: US-01.bestlink.ml, port: 51032, type: ss, cipher: aes-256-gcm, password: aa72849c-e76f-4c60-8a6e-4b78010ee05d, udp: true}
-  - {name: 🇭🇰 IPLC-V303-1.5x-广港-NF, server: rigazenta.cijhgvbm.xyz, port: 554, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-V305-1.5x-广港-NF, server: rigazenta.cijhgvbm.xyz, port: 10031, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-V308-2x-广港, server: jmazentd.cinmvmb.xyz, port: 564, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-V304-1.5x-广港-NF, server: rigazenta.cijhgvbm.xyz, port: 555, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-V301-1.5x-广港-NF, server: rigazenta.cijhgvbm.xyz, port: 10030, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-V309-1.5x-广港-NF, server: djigajjnte.cinmvb.xyz, port: 11255, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 IPLC-V348-1.5x-越南-NF*, server: owevings.omjkgl.xyz, port: 16012, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 普通-V325-0.6x-香港-NF, server: lechinge.ghskgvb.xyz, port: 31658, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-V307-2x-广港-NF, server: jmazentd.cinmvmb.xyz, port: 40100, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 普通-V346-0.6x-香港CMHK-NF*, server: lechinge.ghskgvb.xyz, port: 12020, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 普通-V330-1x-新加坡-NF, server: hodylotin.cscsgsg.xyz, port: 16100, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 IPLC-V312-1.5x-广台-NF, server: okgmhjth.cjjvmm.xyz, port: 548, type: vmess, uuid: a81b56dc-f0fb-36dc-a817-d5f2f2d11392, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta), server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
-  - {name: 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta), server: 14.29.124.174, port: 11015, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta), server: 14.29.124.174, port: 11036, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta), server: 14.29.124.174, port: 11044, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta), server: 14.29.124.174, port: 11039, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 台湾 M1 | 流媒体 | 0x, server: 120.232.132.120, port: 25682, type: trojan, password: Md7cc86e, sni: cdnt24.dt1.fun, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 _US_美国 (8), server: 20.210.122.21, port: 443, type: ss, cipher: aes-256-gcm, password: 233blog.com, udp: true}
+  - {name: 🇭🇰 HK 18T, server: ggni.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ggni.miaoge.gay}}, udp: true}
+  - {name: 🇯🇵 JP 22T, server: 20.210.122.21, port: 443, type: ss, cipher: aes-256-gcm, password: 233blog.com, udp: true}
+  - {name: 之恋, server: trahk1.bitznet.one, port: 32443, type: trojan, password: d91e58e8-0ce1-495d-b7a7-0bb96200884e, sni: cert.bitbyte.one, skip-cert-verify: false, udp: true}
+  - {name: 恋之, server: 20.194.255.144, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇺🇸 美国 M148 | 0x, server: 14.215.107.23, port: 28124, type: trojan, password: Mb6124ef, sni: i23.t3v.fun, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 ➤ 高速专线 ➤ x2, server: yd.dagecloud.xyz, port: 13161, type: vmess, uuid: 8f147809-affd-367e-b288-f1103e3e0406, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22yd.dagecloud.xyz%22%7D"}}, udp: true}
+  - {name: 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2, server: yd.dagecloud.xyz, port: 9807, type: vmess, uuid: 8f147809-affd-367e-b288-f1103e3e0406, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22yd.dagecloud.xyz%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港 ➤ 独享 ➤ x2, server: yd.dagecloud.xyz, port: 35619, type: vmess, uuid: 8f147809-affd-367e-b288-f1103e3e0406, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22yd.dagecloud.xyz%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港01 ➤ 高速 ➤ x2, server: yd.dagecloud.xyz, port: 31119, type: vmess, uuid: 8f147809-affd-367e-b288-f1103e3e0406, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /TS/recharge/tzUrl.html, headers: {Host: "%7B%22Host%22:%22gd.189.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港05 ➤ 高速专线 ➤ x2, server: yd.dagecloud.xyz, port: 32405, type: vmess, uuid: 8f147809-affd-367e-b288-f1103e3e0406, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22yd.dagecloud.xyz%22%7D"}}, udp: true}
+  - {name: 🇨🇳 _CN_中国_Cow Vagina_2, server: hkf-zf.jiashumao.net, port: 15123, type: trojan, password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2, sni: hkf.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 _TW_台湾_Cow Vagina_53, server: download1tw.windowsupdate1.com, port: 28443, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 _CN_中国_Cow Vagina_37, server: s3.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 _CN_中国_Cow Vagina_7, server: hkd-zf.jiashumao.net, port: 28481, type: trojan, password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2, sni: hkd.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇺 _AU_澳大利亚_Cow Vagina_1, server: 202.8.9.27, port: 28443, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 _HK_香港_Cow Vagina_33, server: zf2.windowsupdate1.com, port: 30010, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: Cow Vagina_32, server: 103.173.255.234, port: 28443, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 _CN_中国_Cow Vagina_4, server: xjpc-zf.jiashumao.net, port: 34785, type: trojan, password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2, sni: xjc.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 _CN_中国_Cow Vagina_6, server: mlxy-zf.jiashumao.net, port: 27171, type: trojan, password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2, sni: mlxy.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 _CN_中国_Cow Vagina_8, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2, sni: jpa.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 _CN_中国_Cow Vagina_5, server: xjpa-zf.jiashumao.net, port: 14687, type: trojan, password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2, sni: xjpa.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 _SG_新加坡_Cow Vagina_23, server: zf1.windowsupdate1.com, port: 30050, type: trojan, password: 6248895b-4255-4f07-9479-d198bc1eb8db, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡, server: 52.77.231.221, port: 8443, type: ss, cipher: aes-256-gcm, password: cabc7af3-28da-4d62-8b27-7b6df0f9af6f, udp: true}
+  - {name: Trojan VPN Server NLB 1, server: nlt-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-oqtxymz6gjl3, sni: nlt-1.opensvr.net, skip-cert-verify: false, udp: true}
+  - {name: Trojan VPN Server UKO 2, server: ukt-2.opensvr.net, port: 443, type: trojan, password: opentunnel.net-rw8uuv207taq, sni: ukt-2.opensvr.net, skip-cert-verify: false, udp: true}
+  - {name: Trojan VPN Server CAO 1, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-wd3dzt4j9yoy, sni: cat-1.opensvr.net, skip-cert-verify: false, udp: true}
+  - {name: 1, server: gg.daozun.cc, port: 20832, type: trojan, password: 8defe0d9-7161-4d7c-973f-386ed2644bb3, sni: hkmax13.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 2, server: hke-zf.jiashumao.net, port: 35401, type: trojan, password: 55e29e77-cf16-3f5e-94bd-87d8978c9bcb, sni: hke.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 7, server: cn-hnct.zeichuan.xyz, port: 22761, type: trojan, password: 8defe0d9-7161-4d7c-973f-386ed2644bb3, sni: hk13.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 5, server: gg.daozun.cc, port: 22095, type: trojan, password: 8defe0d9-7161-4d7c-973f-386ed2644bb3, sni: sgmax08.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 3, server: hkc-zf.jiashumao.net, port: 33481, type: trojan, password: 55e29e77-cf16-3f5e-94bd-87d8978c9bcb, sni: hkc.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 4, server: gg.daozun.cc, port: 52845, type: trojan, password: a1aa9cbe-e735-48b6-9038-a33abda665b9, sni: hkmax01.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 6, server: cn-hnct.zeichuan.xyz, port: 46593, type: trojan, password: 8defe0d9-7161-4d7c-973f-386ed2644bb3, sni: hkmax02.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 8, server: twb-zf.jiashumao.net, port: 25888, type: trojan, password: 55e29e77-cf16-3f5e-94bd-87d8978c9bcb, sni: twb.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 9, server: twd-zf.jiashumao.net, port: 13149, type: trojan, password: 55e29e77-cf16-3f5e-94bd-87d8978c9bcb, sni: twd.jiashumao.net, skip-cert-verify: false, udp: true}
+  - {name: 0, server: jpmax01.170203.xyz, port: 10000, type: trojan, password: 8defe0d9-7161-4d7c-973f-386ed2644bb3, sni: jpmax01.170203.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港2, server: ggni.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ggni.miaoge.gay}}, udp: true}
+  - {name: 🇯🇵 日本Azure, server: rben.miaoge.gay, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: rben.miaoge.gay}}, udp: true}
+  - {name: 🇳🇱 荷兰Azure, server: yu.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: yu.miaoge110.cf}}, udp: true}
+  - {name: 🇸🇬 新加坡C, server: 13.250.99.8, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本(中转), server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡(中转), server: zhongzhuan.yongyevpn.com, port: 41530, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国C, server: 15.165.236.87, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国E, server: 3.38.169.204, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 韩国c(中转), server: zhongzhuan.yongyevpn.com, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国C, server: 137.184.67.232, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 22, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan 007, server: 52.81.162.162, port: 18952, type: ss, cipher: aes-256-gcm, password: c9e5db7a-f04a-467d-874c-7002449b3ca4, udp: true}
+  - {name: 🇺🇸 美国B, server: 3.139.211.53, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国A, server: 3.13.224.247, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong 01, server: hk0000.cloudfast.cc, port: 443, type: vmess, uuid: a0e2dce4-7aa4-487d-b5eb-35f8f588a0f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: hk0000.cloudfast.cc}}, udp: true}
+  - {name: 🇰🇷 首尔｜电信cn2, server: 193.122.98.185, port: 8848, type: vmess, uuid: ebc8403d-73fb-4a7f-b1eb-8882a5762206, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 M1 | 流媒体 | 0x, server: 120.232.132.120, port: 25682, type: trojan, password: Md7cc86e, sni: cdnt24.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 M5 | 0x, server: 52.80.175.226, port: 28151, type: trojan, password: M1a73672, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 M1 | 流媒体 | 0x, server: 52.80.175.226, port: 28126, type: trojan, password: M42f62cb, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-1号 | 解锁流媒体, server: 202.8.9.67, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate1.com, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本NTT-2号 | 解锁流媒体, server: 202.8.9.27, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡G-Core | 解锁流媒体, server: 91.243.81.42, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-1号, server: 103.173.255.21, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11243, server: h207532.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国亚马逊-2号 | 解锁流媒体, server: 13.209.5.163, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南-3号, server: 103.173.255.228, port: 28443, type: trojan, password: 9cd230da-d73d-49b1-94e9-589f674b1394, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 M148 | 0x, server: 14.215.107.23, port: 28124, type: trojan, password: Mb6124ef, sni: i23.t3v.fun, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 999, server: sg-01.tiktokcdn.top, port: 443, type: trojan, password: bb5b1337-fa9e-4e00-b8c6-1110e626171d, sni: sg-01.tiktokcdn.top, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: Trojan VPN Server UKO 2, server: ukt-2.opensvr.net, port: 443, type: trojan, password: opentunnel.net-rw8uuv207taq, sni: ukt-2.opensvr.net, skip-cert-verify: false, udp: true}
-  - {name: 222, server: 180.101.193.226, port: 10068, type: ss, cipher: aes-256-cfb, password: RsDk3peCSuo76B68, udp: true}
-  - {name: 🇹🇷 土耳其 B88 | IEPL中转 | 0x, server: 52.80.175.226, port: 28162, type: trojan, password: M5048a21, sni: if5b.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: Trojan VPN Server CAO 1, server: cat-1.opensvr.net, port: 443, type: trojan, password: opentunnel.net-wd3dzt4j9yoy, sni: cat-1.opensvr.net, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -264,263 +276,272 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
       - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - 🇭🇰 香港2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -536,62 +557,65 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 夏时vip
-      - 🇯🇵 Japan 02
-      - 🇯🇵 Japan 01
-      - 🇭🇰 Hong Kong 01
-      - 🇸🇬 Singapore 01
-      - 🇺🇸 United States 01
-      - 🇭🇰 IPLC-V303-1.5x-广港-NF
-      - 🇭🇰 IPLC-V305-1.5x-广港-NF
-      - 🇭🇰 IPLC-V308-2x-广港
-      - 🇭🇰 IPLC-V304-1.5x-广港-NF
-      - 🇭🇰 IPLC-V301-1.5x-广港-NF
-      - 🇭🇰 IPLC-V309-1.5x-广港-NF
-      - 🇻🇳 IPLC-V348-1.5x-越南-NF*
-      - 🇭🇰 普通-V325-0.6x-香港-NF
-      - 🇭🇰 IPLC-V307-2x-广港-NF
-      - 🇭🇰 普通-V346-0.6x-香港CMHK-NF*
-      - 🇸🇬 普通-V330-1x-新加坡-NF
-      - 🇨🇳 IPLC-V312-1.5x-广台-NF
-      - 🇭🇰 中转 🇭🇰 HK 17 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 6 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 1 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 10 TG:@nodpai (Beta)
-      - 🇭🇰 中转 🇭🇰 HK 14 TG:@nodpai (Beta)
+      - 🇨🇳 台湾 M1 | 流媒体 | 0x
+      - 🇺🇸 _US_美国 (8)
+      - 🇭🇰 HK 18T
+      - 🇯🇵 JP 22T
+      - 之恋
+      - 恋之
+      - 🇺🇸 美国 M148 | 0x
+      - 🇨🇳 台湾 ➤ 高速专线 ➤ x2
+      - 🇨🇳 台湾 ➤ 原生ip解锁Netflix 动漫等流媒体 ➤ x2
+      - 🇭🇰 香港 ➤ 独享 ➤ x2
+      - 🇭🇰 香港01 ➤ 高速 ➤ x2
+      - 🇭🇰 香港05 ➤ 高速专线 ➤ x2
+      - 🇨🇳 _CN_中国_Cow Vagina_2
+      - 🇨🇳 _TW_台湾_Cow Vagina_53
+      - 🇨🇳 _CN_中国_Cow Vagina_37
+      - 🇨🇳 _CN_中国_Cow Vagina_7
+      - 🇦🇺 _AU_澳大利亚_Cow Vagina_1
+      - 🇭🇰 _HK_香港_Cow Vagina_33
+      - Cow Vagina_32
+      - 🇨🇳 _CN_中国_Cow Vagina_4
+      - 🇨🇳 _CN_中国_Cow Vagina_6
+      - 🇨🇳 _CN_中国_Cow Vagina_8
+      - 🇨🇳 _CN_中国_Cow Vagina_5
+      - 🇸🇬 _SG_新加坡_Cow Vagina_23
+      - 🇸🇬 新加坡
+      - Trojan VPN Server NLB 1
+      - Trojan VPN Server UKO 2
+      - Trojan VPN Server CAO 1
+      - 1
+      - 2
+      - 7
+      - 5
+      - 3
+      - 4
+      - 6
+      - 8
+      - 9
+      - 0
+      - 🇭🇰 香港2
+      - 🇯🇵 日本Azure
+      - 🇳🇱 荷兰Azure
+      - 🇸🇬 新加坡C
       - 🇯🇵 日本(中转)
       - 🇸🇬 新加坡(中转)
+      - 🇰🇷 韩国C
+      - 🇰🇷 韩国E
       - 🇰🇷 韩国c(中转)
-      - 🇺🇸 美国C
-      - 22
-      - 🇯🇵 Japan 007
+      - 🇺🇸 美国B
+      - 🇺🇸 美国A
+      - 🇭🇰 Hong Kong 01
+      - 🇰🇷 首尔｜电信cn2
       - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11543
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
       - h207532.waihuizhibiaowang.com:11443
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-1号 | 解锁流媒体
-      - 🇨🇳 台湾Hinet | 解锁流媒体
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇯🇵 日本NTT-2号 | 解锁流媒体
-      - 🇸🇬 新加坡G-Core | 解锁流媒体
-      - 🇻🇳 越南-1号
-      - h207532.waihuizhibiaowang.com:11243
-      - 🇰🇷 韩国亚马逊-2号 | 解锁流媒体
-      - 🇻🇳 越南-3号
-      - 🇺🇸 美国 M148 | 0x
       - h650196.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - 999
-      - h650196.waihuizhibiaowang.com:11143
-      - Trojan VPN Server UKO 2
-      - 222
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - Trojan VPN Server CAO 1
-      - h961359.waihuizhibiaowang.com:11243
       - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11143
+      - h745768.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11443
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
