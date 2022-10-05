@@ -5,147 +5,111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: trojan12288, server: hk-1.tiktokcdn.sbs, port: 12288, type: trojan, password: OsFEF0P0ia, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 M1 | 流媒体 | 0x, server: 14.29.230.228, port: 13325, type: trojan, password: M07fa472, sni: if3d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 M1 | 流媒体 | 0x, server: 120.232.132.120, port: 25682, type: trojan, password: Md7cc86e, sni: cdnt24.dt1.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 M5 | 0x, server: 14.29.230.228, port: 13324, type: trojan, password: M32a0d95, sni: if3d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x, server: 14.215.107.23, port: 28157, type: trojan, password: M7fe5bed, sni: i23.t4v.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 韩国 B157 | 湘日隧道 | 0x, server: 139.227.182.124, port: 28158, type: trojan, password: Mabd3d72, sni: if2d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 M148 | 0x, server: 14.215.107.23, port: 28124, type: trojan, password: M97f8c50, sni: i23.t3v.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇫🇷 法国 B102 | IEPL中转 | 0x, server: 14.29.230.228, port: 13330, type: trojan, password: M0ef2eef, sni: if3d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇷 土耳其 B88 | IEPL中转 | 0x, server: 14.29.230.228, port: 13331, type: trojan, password: M861a23a, sni: if3d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇷 土耳其 2, server: eduall.buzzline.org, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: "", udp: true}
-  - {name: 🇺🇸 美国 M148 | 0x 2, server: 14.215.107.23, port: 28124, type: trojan, password: Mb6124ef, sni: i23.t3v.fun, skip-cert-verify: false, udp: true}
-  - {name: 5, server: download2tw.windowsupdate1.com, port: 28443, type: trojan, password: 5ceb716a-9a0c-493a-9a0b-a05e08a1b1fc, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: 银狐🦊, server: 31.192.232.218, port: 23456, type: ss, cipher: aes-256-gcm, password: !<str> 09305968, udp: true}
   - {name: 1, server: 14.29.230.228, port: 13325, type: trojan, password: M07fa472, sni: if3d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 2, server: 139.227.182.124, port: 28158, type: trojan, password: Mabd3d72, sni: if2d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 3, server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 4, server: zhongzhuan.yongyevpn.com, port: 41530, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡D, server: 3.0.96.91, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国B, server: hanguob.yongyevpn.com, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本(中转), server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡(中转), server: zhongzhuan.yongyevpn.com, port: 41530, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 2, server: 139.227.182.124, port: 28158, type: trojan, password: Mabd3d72, sni: if2d.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本(中转), server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 3, server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 4, server: zhongzhuan.yongyevpn.com, port: 41530, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡(中转), server: zhongzhuan.yongyevpn.com, port: 41530, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇷 土耳其 2, server: eduall.buzzline.org, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: "", udp: true}
   - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 银狐🦊, server: 31.192.232.218, port: 23456, type: ss, cipher: aes-256-gcm, password: !<str> 09305968, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 5, server: download2tw.windowsupdate1.com, port: 28443, type: trojan, password: 5ceb716a-9a0c-493a-9a0b-a05e08a1b1fc, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: trojan12288, server: hk-1.tiktokcdn.sbs, port: 12288, type: trojan, password: OsFEF0P0ia, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡D, server: 3.0.96.91, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国B, server: hanguob.yongyevpn.com, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,152 +128,115 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -325,37 +252,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - trojan12288
-      - 🇸🇬 新加坡 M1 | 流媒体 | 0x
-      - 🇨🇳 台湾 M1 | 流媒体 | 0x
-      - 🇯🇵 日本 M5 | 0x
-      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 🇺🇸 美国 M148 | 0x
-      - 🇫🇷 法国 B102 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 B88 | IEPL中转 | 0x
-      - 🇹🇷 土耳其 2
-      - 🇺🇸 美国 M148 | 0x 2
-      - 5
-      - 银狐🦊
       - 1
-      - 2
-      - 3
-      - 4
-      - 🇸🇬 新加坡D
-      - 🇰🇷 韩国B
-      - 🇯🇵 日本(中转)
-      - 🇸🇬 新加坡(中转)
-      - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
+      - 2
+      - 🇯🇵 日本(中转)
+      - 3
+      - 4
+      - h961359.waihuizhibiaowang.com:11543
+      - 🇸🇬 新加坡(中转)
+      - h745768.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - 🇹🇷 土耳其 2
       - h650196.waihuizhibiaowang.com:11143
       - h961359.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
+      - 银狐🦊
       - h961359.waihuizhibiaowang.com:11443
+      - 5
+      - trojan12288
+      - 🇸🇬 新加坡D
+      - 🇰🇷 韩国B
+      - h207532.waihuizhibiaowang.com:11443
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
