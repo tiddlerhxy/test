@@ -5,239 +5,199 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 TW 1, server: d828c0fc-063f-4ef1-b5f4-be080b0ee17e.mianliu.store, port: 80, type: vmess, uuid: dd954c89-dfe7-4b28-b583-25415b12a491, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 🇸🇬 SG 3, server: 18.141.247.160, port: 80, type: vmess, uuid: 8db5a931-43b9-4212-a4fb-ba93257744c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 🇺🇸 US 1, server: 154.31.228.250, port: 10020, type: vmess, uuid: 8db5a931-43b9-4212-a4fb-ba93257744c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 🇭🇰 中转 HK 4, server: in04.my1188.org, port: 63078, type: vmess, uuid: 1f6e29a4-8add-35a2-8ca4-18df0c738fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
-  - {name: 🇭🇰 中转HK 1, server: in01.my1188.org, port: 63078, type: vmess, uuid: 1f6e29a4-8add-35a2-8ca4-18df0c738fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
-  - {name: 🇯🇵 中转JP 5, server: in06.my1188.org, port: 63086, type: vmess, uuid: 1f6e29a4-8add-35a2-8ca4-18df0c738fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
-  - {name: 🇯🇵 中转JP 1, server: in01.my1188.org, port: 63086, type: vmess, uuid: 1f6e29a4-8add-35a2-8ca4-18df0c738fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
-  - {name: 🇸🇬 中转SG 2, server: in02.my1188.org, port: 63087, type: vmess, uuid: 1f6e29a4-8add-35a2-8ca4-18df0c738fbb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: sg-balancer.tencent.best}}, udp: true}
-  - {name: 🇸🇬 中继|新加坡01|3x, server: gzyd.chaojidatanke.buzz, port: 60004, type: vmess, uuid: b58726de-4a1a-3a1e-a0ff-c087aaa0d5f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /video, headers: {Host: "%7B%22Host%22:%22do-sg.chaojidatanke.buzz%22%7D"}}, udp: true}
-  - {name: 🇭🇰 中继|香港02|原生|3x, server: gzyd.chaojidatanke.buzz, port: 60001, type: vmess, uuid: b58726de-4a1a-3a1e-a0ff-c087aaa0d5f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /video, headers: {Host: "%7B%22Host%22:%22hkt.chaojidatanke.buzz%22%7D"}}, udp: true}
-  - {name: "🇭🇰 B-香港12-直连-X1-30M-实验性\t", server: txhk1.lanyunshi.cc, port: 10001, type: vmess, uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 A-原香港BGP三网直连5, server: 104.234.176.124, port: 1001, type: vmess, uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 A-原台湾高级优化1, server: gzyd.lanyunshi.cc, port: 10001, type: vmess, uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 A-原日本Azure高级优化, server: cnah.lanyunshi.cc, port: 10001, type: vmess, uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 【2021】日本 Azure 高级优化, server: cnah.lanyunshi.cc, port: 10001, type: vmess, uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 A-日本东京联通优化中转1, server: cnah2.lanyunshi.top, port: 11001, type: vmess, uuid: 7f67fb11-832d-3492-adfe-63e0cceafbe0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 1gb测试, server: text1.xbywwcp.us, port: 80, type: vmess, uuid: 9b498e2d-d352-32b5-88cb-a480f0e12f6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /a.189.cn, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇯🇵 日本 AWS1GB 1号, server: text3.xbywwcp.us, port: 80, type: vmess, uuid: 9b498e2d-d352-32b5-88cb-a480f0e12f6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /a.189.cn, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇯🇵 日本 AWS1GB 2号, server: text2.xbywwcp.us, port: 80, type: vmess, uuid: 9b498e2d-d352-32b5-88cb-a480f0e12f6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /a.189.cn, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港 01 海南三线隧道, server: hnyd.alhttdw.cn, port: 48938, type: trojan, password: 35d5d432-3ca4-3801-b571-2acdacd54139, sni: hk1.1co.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 日本 01 海港隧道, server: hnyd.alhttdw.cn, port: 35240, type: trojan, password: 35d5d432-3ca4-3801-b571-2acdacd54139, sni: jp.1co.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 03 海南移动隧道, server: gy.alhttdw.cn, port: 57709, type: trojan, password: 35d5d432-3ca4-3801-b571-2acdacd54139, sni: hk3.1co.net, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 04 上海香港, server: sl.alhttdw.cn, port: 57083, type: trojan, password: 35d5d432-3ca4-3801-b571-2acdacd54139, sni: a2.1co.net, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 06 湖南移动, server: gy.alhttdw.cn, port: 48397, type: trojan, password: 35d5d432-3ca4-3801-b571-2acdacd54139, sni: ajp.1co.net, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Quark - 日本 03, server: 194.156.230.46, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇯🇵 Quark - 日本 04, server: 194.156.230.167, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
   - {name: 🇸🇬 Quark - 新加坡 11, server: 81.90.188.58, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇹🇭 Quark - 泰国, server: 38.54.33.116, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
   - {name: 🇺🇸 Quark - 美国 14, server: 104.249.173.156, port: 50001, type: ss, cipher: aes-256-cfb, password: !<str> 3886060542, udp: true}
-  - {name: Quark, server: 35.176.191.234, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇵🇭 Quark - 菲律宾 32, server: 49.157.28.212, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇩🇪 Quark -  德国, server: 3.125.45.20, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇨🇭 Quark -  瑞士, server: 37.120.213.34, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇻🇳 Quark - 越南 24, server: 103.151.120.18, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇧🇬 Quark - 保加利亚, server: 146.70.53.242, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
   - {name: 🇬🇧 Quark - 英国, server: 54.38.144.255, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: 🇫🇷 Quark - 法国, server: 5.188.93.41, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
-  - {name: 111, server: shopify.com, port: 80, type: vmess, uuid: 90e35d9e-d5a0-4ffa-fdeb-f5c14f957b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: "%7B%22Host%22:%22tgsg.cloudflare.quest%22%7D"}}, udp: true}
-  - {name: 222, server: shopify.com, port: 80, type: vmess, uuid: 36bd9969-bb96-4bdd-a6df-960bbd8e4439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: "%7B%22Host%22:%22tguk.cloudflare.quest%22%7D"}}, udp: true}
-  - {name: 333, server: shopify.com, port: 80, type: vmess, uuid: 353bbf5f-a264-4731-e735-984e611c2e01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: "%7B%22Host%22:%22tgus.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇨🇦 Quark - 加拿大, server: 3.99.152.11, port: 50000, type: ss, cipher: aes-256-cfb, password: !<str> 3135771619, udp: true}
+  - {name: 🇯🇵 日本免流003, server: jp3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇸🇬 新加坡免流003, server: sg5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇯🇵 日本免流002, server: jp2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇭🇰 HongKong 80002, server: hk2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}, udp: true}
+  - {name: 🇸🇬 新加坡免流001, server: sg1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇰🇷 韩国免流002, server: kr2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇭🇰 HongKong 80004, server: hk4.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}, udp: true}
+  - {name: 🇭🇰 HongKong 80003, server: hk3.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}, udp: true}
+  - {name: 🇯🇵 日本免流005, server: jp5.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇭🇰 HongKong 80001, server: hk1.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baiducdncmn2.inter.iqiyi.com}}, udp: true}
+  - {name: 🇸🇬 新加坡免流002, server: sg2.elknode.top, port: 80, type: vmess, uuid: c3470b64-be98-34cc-a1f7-93182ddf4df7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qatjpji, headers: {Host: data.video.qiyi.com}}, udp: true}
+  - {name: 🇭🇰 香港2, server: hk-1.tiktokcdn.sbs, port: 56563, type: trojan, password: R8HpRZUAfK, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 KR 韩国1, server: nice-kr01.nicevpn.top, port: 443, type: trojan, password: 63e54ff2-aa0d-4f19-adf8-3aa9afa2ec37, sni: nice-kr01.nicevpn.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞, server: 16.163.56.149, port: 44300, type: vmess, uuid: 7750be56-ba13-38f5-8148-466ebfdfd530, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 16.163.56.149}}, udp: true}
-  - {name: 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞, server: 43.198.22.0, port: 44300, type: vmess, uuid: 7750be56-ba13-38f5-8148-466ebfdfd530, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 43.198.22.0}}, udp: true}
-  - {name: 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞, server: 104.208.84.221, port: 44300, type: vmess, uuid: 7750be56-ba13-38f5-8148-466ebfdfd530, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm, headers: {Host: 104.208.84.221}}, udp: true}
-  - {name: 1, server: 14.29.230.228, port: 13325, type: trojan, password: M07fa472, sni: if3d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本4, server: jp-04.tiktokcdn.sbs, port: 443, type: trojan, password: f41e6f27-5a33-4eb0-b6be-eb3755c93b78, sni: jp-04.tiktokcdn.sbs, skip-cert-verify: false, udp: true}
+  - {name: 111, server: shopify.com, port: 80, type: vmess, uuid: 90e35d9e-d5a0-4ffa-fdeb-f5c14f957b21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: "%7B%22Host%22:%22tgsg.cloudflare.quest%22%7D"}}, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡(中转), server: zhongzhuan.yongyevpn.com, port: 41530, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 4, server: zhongzhuan.yongyevpn.com, port: 41530, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 3, server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本(中转), server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: trojan12288, server: hk-1.tiktokcdn.sbs, port: 12288, type: trojan, password: OsFEF0P0ia, skip-cert-verify: false, udp: true}
+  - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇷 土耳其 2, server: eduall.buzzline.org, port: 620, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51809:111111, obfs-param: "", udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本(中转), server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 KR 韩国1 2, server: nice-kr01.nicevpn.top, port: 443, type: trojan, password: 63e54ff2-aa0d-4f19-adf8-3aa9afa2ec37, sni: nice-kr01.nicevpn.top, skip-cert-verify: false, udp: true}
+  - {name: 3, server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 2, server: 139.227.182.124, port: 28158, type: trojan, password: Mabd3d72, sni: if2d.ft3.us, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 2, server: 139.227.182.124, port: 28158, type: trojan, password: Mabd3d72, sni: if2d.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: 222, server: shopify.com, port: 80, type: vmess, uuid: 36bd9969-bb96-4bdd-a6df-960bbd8e4439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: "%7B%22Host%22:%22tguk.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 333, server: shopify.com, port: 80, type: vmess, uuid: 353bbf5f-a264-4731-e735-984e611c2e01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: "%7B%22Host%22:%22tgus.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: 银狐🦊, server: 31.192.232.218, port: 23456, type: ss, cipher: aes-256-gcm, password: !<str> 09305968, udp: true}
-  - {name: trojan12288, server: hk-1.tiktokcdn.sbs, port: 12288, type: trojan, password: OsFEF0P0ia, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -256,254 +216,204 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇭🇰 香港 1gb测试
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
+      - 🇭🇰 香港2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -519,60 +429,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 TW 1
-      - 🇸🇬 SG 3
-      - 🇺🇸 US 1
-      - 🇭🇰 中转 HK 4
-      - 🇭🇰 中转HK 1
-      - 🇯🇵 中转JP 5
-      - 🇯🇵 中转JP 1
-      - 🇸🇬 中转SG 2
-      - 🇸🇬 中继|新加坡01|3x
-      - 🇭🇰 中继|香港02|原生|3x
-      - "🇭🇰 B-香港12-直连-X1-30M-实验性\t"
-      - 🇭🇰 A-原香港BGP三网直连5
-      - 🇨🇳 A-原台湾高级优化1
-      - 🇯🇵 A-原日本Azure高级优化
-      - 🇯🇵 【2021】日本 Azure 高级优化
-      - 🇯🇵 A-日本东京联通优化中转1
-      - 🇭🇰 香港 1gb测试
-      - 🇯🇵 日本 AWS1GB 1号
-      - 🇯🇵 日本 AWS1GB 2号
-      - 🇭🇰 香港 01 海南三线隧道
-      - 🇭🇰 日本 01 海港隧道
-      - 🇯🇵 日本 03 海南移动隧道
-      - 🇭🇰 香港 04 上海香港
-      - 🇯🇵 日本 06 湖南移动
+      - 🇯🇵 Quark - 日本 03
+      - 🇯🇵 Quark - 日本 04
       - 🇸🇬 Quark - 新加坡 11
+      - 🇹🇭 Quark - 泰国
       - 🇺🇸 Quark - 美国 14
-      - Quark
+      - 🇵🇭 Quark - 菲律宾 32
+      - 🇩🇪 Quark -  德国
+      - 🇨🇭 Quark -  瑞士
+      - 🇻🇳 Quark - 越南 24
+      - 🇧🇬 Quark - 保加利亚
       - 🇬🇧 Quark - 英国
-      - 🇫🇷 Quark - 法国
-      - 111
-      - 222
-      - 333
+      - 🇨🇦 Quark - 加拿大
+      - 🇯🇵 日本免流003
+      - 🇸🇬 新加坡免流003
+      - 🇯🇵 日本免流002
+      - 🇭🇰 HongKong 80002
+      - 🇸🇬 新加坡免流001
+      - 🇰🇷 韩国免流002
+      - 🇭🇰 HongKong 80004
+      - 🇭🇰 HongKong 80003
+      - 🇯🇵 日本免流005
+      - 🇭🇰 HongKong 80001
+      - 🇸🇬 新加坡免流002
+      - 🇭🇰 香港2
       - 🇰🇷 KR 韩国1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港01 | 电信优化 | 解锁奈飞
-      - 1
-      - h207532.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本4
+      - 111
       - h207532.waihuizhibiaowang.com:11543
-      - 🇸🇬 新加坡(中转)
-      - 4
-      - 3
-      - 🇯🇵 日本(中转)
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
+      - trojan12288
+      - h207532.waihuizhibiaowang.com:11343
       - h207532.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11743
-      - 🇹🇷 土耳其 2
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇯🇵 日本(中转)
+      - 🇰🇷 KR 韩国1 2
+      - 3
+      - 2
       - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
-      - 2
+      - 222
+      - h650196.waihuizhibiaowang.com:11243
+      - 333
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
       - 银狐🦊
-      - trojan12288
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
