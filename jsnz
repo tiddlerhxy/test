@@ -5,155 +5,187 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 测试, server: 139.227.182.124, port: 12851, type: trojan, password: yQAgQC, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 韩国 B157 | 湘日隧道 | 0x, server: 139.227.182.124, port: 28158, type: trojan, password: M288fab2, sni: if2d.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: 夏时, server: 194.59.220.6, port: 46077, type: ss, cipher: aes-256-cfb, password: !<str> 60542069, udp: true}
   - {name: 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x, server: 14.215.107.23, port: 28157, type: trojan, password: M9cf6590, sni: i23.t4v.fun, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港01, server: hk1.kp1a-ls9a-426a-x45g.paolu.pics, port: 22031, type: trojan, password: 1904200f-3823-40a1-a1ba-5a5fe0dd01f6, sni: hk1.kp1a-ls9a-426a-x45g.paolu.pics, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港03, server: hk3.xjsn-595s-kkf9-knaf.paolu.pics, port: 22031, type: trojan, password: 1904200f-3823-40a1-a1ba-5a5fe0dd01f6, sni: hk3.xjsn-595s-kkf9-knaf.paolu.pics, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡01, server: sg3-xhsa-45as-92js-ht8s.paolu.pics, port: 22031, type: trojan, password: 3715ea7f-2915-48df-af11-4063fff72cdd, sni: sg3-xhsa-45as-92js-ht8s.paolu.pics, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02, server: hk2.plxs-u95s-h62a-xs1f.paolu.pics, port: 22031, type: trojan, password: 3715ea7f-2915-48df-af11-4063fff72cdd, sni: hk2.plxs-u95s-h62a-xs1f.paolu.pics, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本02, server: jp2-5s4d-sjf9-xaf1-sl99.paolu.pics, port: 22031, type: trojan, password: 3715ea7f-2915-48df-af11-4063fff72cdd, sni: jp2-5s4d-sjf9-xaf1-sl99.paolu.pics, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本01, server: jp1-snxa-s56f-x84a-s41f.paolu.pics, port: 22031, type: trojan, password: 3715ea7f-2915-48df-af11-4063fff72cdd, sni: jp1-snxa-s56f-x84a-s41f.paolu.pics, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HongKe - 香港 06, server: 178.253.52.110, port: 4953, type: ss, cipher: chacha20-ietf-poly1305, password: xLmtNXU6arq32, udp: true}
-  - {name: 🇭🇰 HongKe - 香港 07, server: 194.29.186.135, port: 8439, type: ss, cipher: chacha20-ietf-poly1305, password: WOUkp3T89G8jH, udp: true}
-  - {name: 🇭🇰 HongKe - 香港 05, server: 118.212.143.4, port: 47082, type: ss, cipher: chacha20-ietf-poly1305, password: WmbyWhbKN7td6, udp: true}
-  - {name: 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x, server: 18.163.102.203, port: 44300, type: vmess, uuid: 66eea786-ed5b-30ba-b479-79618e82a871, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 18.163.102.203}}, udp: true}
-  - {name: 🇭🇰 香港04, server: 16.162.55.130, port: 44300, type: vmess, uuid: 66eea786-ed5b-30ba-b479-79618e82a871, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 16.162.55.130}}, udp: true}
-  - {name: 🇭🇰 香港07, server: 154.222.226.102, port: 44300, type: vmess, uuid: 66eea786-ed5b-30ba-b479-79618e82a871, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 154.222.226.102}}, udp: true}
-  - {name: 🇭🇰 香港06, server: 154.222.226.101, port: 44300, type: vmess, uuid: fdd09267-11c6-3647-90f9-c9aa0a2e1f90, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 154.222.226.101}}, udp: true}
-  - {name: 🇭🇰 香港01 2, server: 20.239.177.171, port: 44300, type: vmess, uuid: fdd09267-11c6-3647-90f9-c9aa0a2e1f90, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.239.177.171}}, udp: true}
-  - {name: 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x, server: 20.239.178.155, port: 44300, type: vmess, uuid: fdd09267-11c6-3647-90f9-c9aa0a2e1f90, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ny, headers: {Host: 20.239.178.155}}, udp: true}
-  - {name: 🇸🇬 新加坡04|三网优化|解锁流媒体|1x, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: 4a4db4cd-6475-4d20-a353-776378e68072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /doxjp04, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: 🇸🇬 新加坡03|三网优化|解锁流媒体|1x, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: 4a4db4cd-6475-4d20-a353-776378e68072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /doxjp01, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: 🇸🇬 新加坡01|三网优化|解锁流媒体|1x, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: 4a4db4cd-6475-4d20-a353-776378e68072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /doxjp06, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: 🇲🇾 马来西亚02|优选原生IP|1x, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: 4a4db4cd-6475-4d20-a353-776378e68072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mlxy01, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: 🇲🇾 马来西亚01|优选原生IP|1x, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: 4a4db4cd-6475-4d20-a353-776378e68072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mlxy01, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: 🇲🇾 马来西亚03|优选原生IP|1x, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: 4a4db4cd-6475-4d20-a353-776378e68072, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mlxy01, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: 🇯🇵 日本(中转), server: zhongzhuan.yongyevpn.com, port: 37462, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国A, server: 3.145.97.59, port: 43632, type: vmess, uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK - 香港 | TR - x2, server: hk-01.nodemao.com, port: 10056, type: trojan, password: 3dc79926-8d8e-4ad1-b79c-d1853b145027, sni: hk-01.nodemao.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK1 - 香港 | v2 - x1, server: hk-01.nodemao.com, port: 10027, type: vmess, uuid: 3dc79926-8d8e-4ad1-b79c-d1853b145027, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-01.nodemao.com}}, udp: true}
+  - {name: 🇭🇰 HongKe - 香港 11, server: 183.255.114.70, port: 48449, type: ss, cipher: chacha20-ietf-poly1305, password: 9PMk11uJ5FNCm, udp: true}
+  - {name: 🇭🇰 HongKe - 香港 04, server: 125.124.254.143, port: 47092, type: ss, cipher: chacha20-ietf-poly1305, password: qsYwqKwymGRre, udp: true}
+  - {name: 🇭🇰 HongKe - 香港 05, server: 118.212.143.4, port: 47082, type: ss, cipher: chacha20-ietf-poly1305, password: xiV0iCe8ZnzGy, udp: true}
+  - {name: 🇸🇬 新加坡A, server: cnallaz.eucdurl.me, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: 🇸🇬 新加坡B, server: cnallaz.eucdurl.me, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 02", server: cmlayer02.debugex.xyz, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 04", server: zgrefgd03.standurl.xyz, port: 559, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 09", server: cngdcm.debugex.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 17", server: cmlayer02.debugex.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 07", server: zgrefgd03.standurl.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 13", server: cmlayer02.debugex.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 10", server: zgrefgd03.standurl.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: "🇭🇰 [CT/CM]香港 08", server: cngdcm.debugex.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 28005:hjkpm123, obfs-param: "", udp: true}
+  - {name: 🇭🇰 香港 A02^, server: relay_cm1.flyxxl.xyz, port: 46081, type: vmess, uuid: 4859aff4-f829-4750-8281-1de012e4e507, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /pic/fjiew2-054j0gewn23k-1fr, headers: {Host: f932c3d98981b.download.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港 A03^, server: relay_cm1.flyxxl.xyz, port: 46082, type: vmess, uuid: 4859aff4-f829-4750-8281-1de012e4e507, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /pic/fjiew2-054j0gewn23k-1fr, headers: {Host: f932c3d98981b.download.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港 B02^, server: relaybgp_pro.flyxxl.xyz, port: 45550, type: vmess, uuid: 4859aff4-f829-4750-8281-1de012e4e507, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /pic/fjiew2-054j0gewn23k-1fr, headers: {Host: f932c3d98981b.download.microsoft.com}}, udp: true}
+  - {name: 🇭🇰 香港 B03^, server: relaybgp_pro.flyxxl.xyz, port: 45601, type: vmess, uuid: 4859aff4-f829-4750-8281-1de012e4e507, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /pic/fjiew2-054j0gewn23k-1fr, headers: {Host: f932c3d98981b.download.microsoft.com}}, udp: true}
+  - {name: vip, server: xmssmf02.xmss.vip, port: 17777, type: ss, cipher: chacha20-ietf-poly1305, password: 10657658-502a-42fd-97fd-1e08f538e13d, udp: true}
+  - {name: "🇭🇰 [v1] 香港・01", server: yd-01.paofunlink.com, port: 5950, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v3] 台湾・02", server: yd-03.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・01", server: yd-05.paofunlink.com, port: 1070, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・05", server: yd-06.paofunlink.com, port: 5954, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v1] 日本・02", server: yd-05.paofunlink.com, port: 1051, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・02", server: yd-01.paofunlink.com, port: 5951, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v1] 台湾・02", server: yd-05.paofunlink.com, port: 1071, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v3] 台湾・03", server: yd-03.paofunlink.com, port: 1072, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v3] 日本・02", server: yd-03.paofunlink.com, port: 1056, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇸🇬 [v1] 新加坡・04", server: yd-02.paofunlink.com, port: 1093, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇨🇳 [v3] 台湾・04", server: yd-03.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇭🇰 [v1] 香港・04", server: yd-06.paofunlink.com, port: 5953, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
+  - {name: "🇯🇵 [v3] 日本・03", server: yd-03.paofunlink.com, port: 1057, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 117088:qxSQhL, obfs-param: 9b364117088.microsoft.com, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,171 +204,217 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇭🇰 香港02
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -352,39 +430,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 测试
       - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
-      - 夏时
       - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
-      - 🇭🇰 香港01
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡01
-      - 🇭🇰 香港02
-      - 🇯🇵 日本02
-      - 🇯🇵 日本01
-      - 🇭🇰 HongKe - 香港 06
-      - 🇭🇰 HongKe - 香港 07
+      - 🇭🇰 HK - 香港 | TR - x2
+      - 🇭🇰 HK1 - 香港 | v2 - x1
+      - 🇭🇰 HongKe - 香港 11
+      - 🇭🇰 HongKe - 香港 04
       - 🇭🇰 HongKe - 香港 05
-      - 🇭🇰 香港03--奈飞 迪士尼解锁-2.0x
-      - 🇭🇰 香港04
-      - 🇭🇰 香港07
-      - 🇭🇰 香港06
-      - 🇭🇰 香港01 2
-      - 🇭🇰 香港02--奈飞 迪士尼解锁-2.0x
-      - 🇸🇬 新加坡04|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡03|三网优化|解锁流媒体|1x
-      - 🇸🇬 新加坡01|三网优化|解锁流媒体|1x
-      - 🇲🇾 马来西亚02|优选原生IP|1x
-      - 🇲🇾 马来西亚01|优选原生IP|1x
-      - 🇲🇾 马来西亚03|优选原生IP|1x
-      - 🇯🇵 日本(中转)
-      - 🇺🇸 美国A
-      - h207532.waihuizhibiaowang.com:11443
+      - 🇸🇬 新加坡A
+      - 🇸🇬 新加坡B
+      - 🇭🇰 [CT/CM]香港 02
+      - 🇭🇰 [CT/CM]香港 04
+      - 🇭🇰 [CT/CM]香港 09
+      - 🇭🇰 [CT/CM]香港 17
+      - 🇭🇰 [CT/CM]香港 07
+      - 🇭🇰 [CT/CM]香港 13
+      - 🇭🇰 [CT/CM]香港 10
+      - 🇭🇰 [CT/CM]香港 08
+      - 🇭🇰 香港 A02^
+      - 🇭🇰 香港 A03^
+      - 🇭🇰 香港 B02^
+      - 🇭🇰 香港 B03^
+      - vip
+      - 🇭🇰 [v1] 香港・01
+      - 🇨🇳 [v3] 台湾・02
+      - 🇨🇳 [v1] 台湾・01
+      - 🇭🇰 [v1] 香港・05
+      - 🇯🇵 [v1] 日本・02
+      - 🇭🇰 [v1] 香港・02
+      - 🇨🇳 [v1] 台湾・02
+      - 🇨🇳 [v3] 台湾・03
+      - 🇯🇵 [v3] 日本・02
+      - 🇸🇬 [v1] 新加坡・04
+      - 🇨🇳 [v3] 台湾・04
+      - 🇭🇰 [v1] 香港・04
+      - 🇯🇵 [v3] 日本・03
       - h207532.waihuizhibiaowang.com:11543
       - h207532.waihuizhibiaowang.com:11343
       - h961359.waihuizhibiaowang.com:11543
-      - h650196.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - h961359.waihuizhibiaowang.com:11443
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
