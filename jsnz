@@ -5,91 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 H1, server: nehk01.amamya.live, port: 18428, type: ss, cipher: rc4-md5, password: weqPfW, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港丝袜奶茶 02-D, server: 20.24.94.80, port: 12339, type: trojan, password: 653d48cf-7801-4396-97cb-eb0bbcf4378f, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞, server: 18.163.121.150, port: 44300, type: vmess, uuid: bff480ce-84c0-3185-8e0d-ed2b39e0873e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm}, udp: true}
-  - {name: 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞, server: 18.167.180.68, port: 44300, type: vmess, uuid: bff480ce-84c0-3185-8e0d-ed2b39e0873e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fm}, udp: true}
-  - {name: 🇭🇰 香港Misaka-dip, server: 45.11.104.94, port: 3389, type: trojan, password: d02058f4f819dced, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11243, server: h207532.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 寻梦SS, server: xmssmf01.xmss.vip, port: 16666, type: ss, cipher: chacha20-ietf-poly1305, password: 10657658-502a-42fd-97fd-1e08f538e13d, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 台北PNI-dip_1, server: 111.45.22.136, port: 16114, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: USSS, server: xmssmf01.xmss.vip, port: 16666, type: ss, cipher: chacha20-ietf-poly1305, password: 10657658-502a-42fd-97fd-1e08f538e13d, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 AWS1000M, server: text1.xbywwcp.us, port: 80, type: vmess, uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e, alterId: 0, cipher: "", tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: "%7B%22host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本 AWS1000M, server: text2.xbywwcp.us, port: 80, type: vmess, uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e, alterId: 0, cipher: "", tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: "%7B%22host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇰🇷 韩国釜山, server: fullaccesstokoreannetsubnode1.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstokoreannetsubnode1.azurewebsites.net}}, udp: true}
+  - {name: 🇭🇰 中国香港, server: fullaccesstohongkongnet.azurewebsites.net, port: 443, type: vmess, uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws, headers: {Host: fullaccesstohongkongnet.azurewebsites.net}}, udp: true}
+  - {name: TH-SamutPrakan-Bangmod_1, server: 111.45.22.136, port: 16288, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港乐速云-dip_2, server: 111.45.22.246, port: 16112, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇪 Dubai-Kaopu-dip_1, server: 111.45.22.136, port: 16258, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Chuncheon-Oracle_3, server: 111.45.22.136, port: 16255, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Chuncheon-Oracle_2, server: 111.45.22.136, port: 16253, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港乐速云-dip_3, server: 111.45.22.246, port: 16113, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -108,100 +136,128 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 H1
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
-      - 台北PNI-dip_1
+      - 🇭🇰 香港丝袜奶茶 02-D
+      - 🇭🇰 香港 AWS1000M
+      - 🇭🇰 中国香港
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇭🇰 香港乐速云-dip_3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -217,23 +273,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 H1
-      - h207532.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港丝袜奶茶 02-D
       - h207532.waihuizhibiaowang.com:11443
       - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 Asia 香港03 | 移动优化 | 解锁奈飞
-      - 🇭🇰 Asia 香港04 | 移动优化 | 解锁奈飞
-      - 🇭🇰 香港Misaka-dip
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11443
-      - h650196.waihuizhibiaowang.com:11243
       - h207532.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11543
-      - 寻梦SS
+      - h745768.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
       - h650196.waihuizhibiaowang.com:11143
-      - 台北PNI-dip_1
-      - h961359.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h961359.waihuizhibiaowang.com:11543
       - h961359.waihuizhibiaowang.com:11443
-      - USSS
+      - h961359.waihuizhibiaowang.com:11243
+      - 🇭🇰 香港 AWS1000M
+      - 🇯🇵 日本 AWS1000M
+      - 🇰🇷 韩国釜山
+      - 🇭🇰 中国香港
+      - TH-SamutPrakan-Bangmod_1
+      - 🇭🇰 香港乐速云-dip_2
+      - 🇦🇪 Dubai-Kaopu-dip_1
+      - Chuncheon-Oracle_3
+      - Chuncheon-Oracle_2
+      - 🇭🇰 香港乐速云-dip_3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
