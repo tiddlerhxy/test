@@ -5,203 +5,327 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 08丨1x HK, server: 170.187.230.231, port: 63632, type: vmess, uuid: 49166929-020e-4ef0-97e7-7989ce92fc69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 🇭🇰 香港测试 x1, server: suzhou.cm.tencentddns.ml, port: 22059, type: ss, cipher: chacha20-ietf-poly1305, password: 5f78aeea-063c-4057-8d32-9bef4bb14cc5, udp: true}
-  - {name: 🇭🇰 深港隧道|香港 x2, server: gy.alhttdw.cn, port: 12810, type: ss, cipher: chacha20-ietf-poly1305, password: 5f78aeea-063c-4057-8d32-9bef4bb14cc5, udp: true}
-  - {name: 🇭🇰 香港 06丨1x HK, server: sg02.xiaoqi99.cf, port: 63632, type: vmess, uuid: 49166929-020e-4ef0-97e7-7989ce92fc69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22sg02.xiaoqi99.cf%22%7D"}}, udp: true}
+  - {name: 111, server: azure.pgypgykmoljklj.xyz, port: 33916, type: ss, cipher: chacha20-ietf-poly1305, password: MuFiaKamROYH, udp: true}
+  - {name: 🇭🇰 Super 香港05  | IEPL | 倍率:2.5, server: oracle.accessconnect.cc, port: 7005, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8, server: oracle.accessconnect.cc, port: 7001, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇭🇰 Super 香港06  | IEPL | 倍率:2.5, server: oracle.accessconnect.cc, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇭🇰 Super 香港08  | IEPL | 倍率:2.3, server: oracle.accessconnect.cc, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇭🇰 Super 香港07  | IEPL | 倍率:2.3, server: oracle.accessconnect.cc, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5, server: oracle.accessconnect.cc, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5, server: oracle.accessconnect.cc, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1, server: oracle.accessconnect.cc, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇯🇵 Super 日本01  | MIEPL | 倍率:2, server: oracle.accessconnect.cc, port: 1126, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 244236:kRRY5x, obfs-param: 50bb5244236.www.gov.hk, udp: true}
+  - {name: 🇭🇰 香港01, server: a01.qqddnsa.com, port: 22201, type: ss, cipher: chacha20-ietf-poly1305, password: d2d8cf39-5c74-405a-971e-073fade9203c, udp: true}
+  - {name: 🇭🇰 香港02, server: a06.qqddnsa.com, port: 22202, type: ss, cipher: chacha20-ietf-poly1305, password: d2d8cf39-5c74-405a-971e-073fade9203c, udp: true}
+  - {name: 🇸🇬 新加坡02, server: a05.qqddnsa.com, port: 18202, type: ss, cipher: chacha20-ietf-poly1305, password: d2d8cf39-5c74-405a-971e-073fade9203c, udp: true}
+  - {name: 🇭🇰 香港03, server: a07.qqddnsa.com, port: 22203, type: ss, cipher: chacha20-ietf-poly1305, password: d2d8cf39-5c74-405a-971e-073fade9203c, udp: true}
+  - {name: 🇸🇬 新加坡01, server: a05.qqddnsa.com, port: 18201, type: ss, cipher: chacha20-ietf-poly1305, password: d2d8cf39-5c74-405a-971e-073fade9203c, udp: true}
+  - {name: 🇰🇷 韩国 AWS1000M 2号, server: hg1.xbywwcp.us, port: 80, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇭🇰 香港 AWS1000M 2, server: xg.xbywwcp.us, port: 80, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇭🇰 韩国01 -CMI-江苏BGP, server: js.ens-relay.network, port: 62647, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip, server: 183.232.141.87, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港EDCL, server: 183.232.141.119, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKBN, server: 183.232.141.108, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKBN-dip, server: 183.232.141.85, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip 2, server: 183.232.141.87, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip 3, server: 183.232.141.105, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip 4, server: 183.232.141.108, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip 5, server: 183.232.141.105, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKBN-dip 2, server: 183.232.141.107, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip 6, server: 183.232.141.119, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip 7, server: 183.232.141.85, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT-dip 8, server: 183.232.141.121, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKBN-dip 3, server: 183.232.141.121, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT, server: 183.232.141.93, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKBN 2, server: 183.232.141.89, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 韶关移动-香港HKT 2, server: 183.232.141.89, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 53929:hjgjuy6t655jjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 免费香港01, server: m3.pianyijc.top, port: 31212, type: vmess, uuid: 6b855dbd-3f5a-4a8b-8338-73ab337eb8e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: m3.pianyijc.top}}, udp: true}
+  - {name: 🇯🇵 免费日本01, server: m2.pianyijc.top, port: 31211, type: vmess, uuid: 6b855dbd-3f5a-4a8b-8338-73ab337eb8e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: m2.pianyijc.top}}, udp: true}
+  - {name: 🇭🇰 香港 01丨1x HK, server: 14.29.124.174, port: 11007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇭🇰 香港 02丨1x HK, server: 14.29.124.174, port: 11004, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇭🇰 香港 03丨1x HK, server: t.cccao.cyou, port: 16627, type: vmess, uuid: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cccao.cyou%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港 04丨1x HK, server: sg.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 05丨1x HK, server: jp.iamnotagoodman.com, port: 443, type: trojan, password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 06丨1x HK, server: t.cccao.cyou, port: 16617, type: vmess, uuid: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cccao.cyou%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港 07丨1x HK, server: t.cccao.cyou, port: 16618, type: vmess, uuid: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cccao.cyou%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港 08丨1x HK, server: js.ens-relay.network, port: 62647, type: vmess, uuid: 28844a22-3686-3bdd-8f4e-7f5e77dd850f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港 09丨1x HK, server: t.cccao.cyou, port: 26623, type: vmess, uuid: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cccao.cyou%22%7D"}}, udp: true}
+  - {name: 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x, server: 223.111.202.183, port: 28157, type: trojan, password: M76604a2, sni: z7a.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 韩国 B157 | 湘日隧道 | 0x, server: 139.227.182.124, port: 28158, type: trojan, password: M05d99be, sni: if2d.ft3.us, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [BGP-GSLB]香港•HGC", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-hgc.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [BGP-GSLB]香港•HKT", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-hkt.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [BGP-GSLB]香港•BGP", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-hk.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇵🇭 [BGP-GSLB]菲律宾马尼拉", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-ph.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 [BGP-GSLB]日本", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-jp.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇻🇳 [BGP-GSLB]越南胡志明", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-vn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇹🇭 [BGP-GSLB]泰国曼谷", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-th.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 [BGP-GSLB]美国1", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-usgt.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇮🇩 [BGP-GSLB]印度尼西亚•0.8x", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-id.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇬🇧 [BGP-GSLB]英国•0.8x", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-uk.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇫🇷 [BGP-GSLB]法国•0.8x", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-fr.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇸🇬 [BGP-GSLB]新加坡", server: 16.162.12.219, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-sg.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 ★美国加州A★年付专线, server: 23.225.213.245, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/200631222701, headers: {Host: "%7B%22Host%22:%22www.52228083.xyz%22%7D"}}, udp: true}
+  - {name: 🇭🇰 中国香港D, server: 23.225.57.221, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/200631222701, headers: {Host: "%7B%22Host%22:%22www.21188776.xyz%22%7D"}}, udp: true}
+  - {name: 🇨🇳 中国台湾, server: 154.84.1.4, port: 443, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/200631222701, headers: {Host: "%7B%22Host%22:%22www.53502959.xyz%22%7D"}}, udp: true}
+  - {name: 🇭🇰 ★中国香港A★年付专线, server: 46.182.107.96, port: 443, type: vmess, uuid: 6e79eea4-5f72-4683-ad0e-5339f013421b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/200631222701, headers: {Host: "%7B%22Host%22:%22www.34128945.xyz%22%7D"}}, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 04丨1x HK, server: 170.187.230.231, port: 63632, type: vmess, uuid: 49166929-020e-4ef0-97e7-7989ce92fc69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港M247(移动网优化) | 解锁流媒体, server: 5.181.4.104, port: 28443, type: trojan, password: 750a29bf-0a40-437f-b120-38de74ae7eaf, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 v2ray 香港HKT(联通) [P站]", server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: 750a29bf-0a40-437f-b120-38de74ae7eaf, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 v2ray 香港HKT(联通) [P站]", server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: 750a29bf-0a40-437f-b120-38de74ae7eaf, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
+  - {name: h207532.waihuizhibiaowang.com:11343, server: h207532.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: "🇭🇰 v2ray 香港HKT(联通) [X站]", server: download1hkt.windowsupdate1.com, port: 28443, type: trojan, password: 750a29bf-0a40-437f-b120-38de74ae7eaf, sni: glc.hruqoaw.cn, skip-cert-verify: false, udp: true}
   - {name: h207532.waihuizhibiaowang.com:11243, server: h207532.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 03丨1x HK, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CH-Geneva-ITL_1, server: 111.45.22.136, port: 16284, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 01丨1x HK, server: 14.29.124.174, port: 11048, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港2HE HKIX Plus X2, server: gy.alhttdw.cn, port: 43703, type: ss, cipher: chacha20-ietf-poly1305, password: 5f78aeea-063c-4057-8d32-9bef4bb14cc5, udp: true}
-  - {name: 🇭🇰 京日|香港B | HE HKIX, server: hndx1.pangupy.com, port: 51527, type: ss, cipher: chacha20-ietf-poly1305, password: 5f78aeea-063c-4057-8d32-9bef4bb14cc5, udp: true}
-  - {name: 🇭🇰 香港HE HKIX Plus X2, server: hnct.cmcc.wiki, port: 10707, type: ss, cipher: chacha20-ietf-poly1305, password: 5f78aeea-063c-4057-8d32-9bef4bb14cc5, udp: true}
-  - {name: 🇭🇰 香港 02丨1x HK, server: 14.29.124.174, port: 11019, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 🇭🇰 香港 05丨1x HK, server: aewfhe5z1pokrkw8bi9g09.xingbayun.buzz, port: 1003, type: trojan, password: 862e68d2-05f3-4253-9116-819623bb7335, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 07丨1x HK, server: aewfhe5z1pokrkw8bi9g09.xingbayun.buzz, port: 1003, type: trojan, password: 862e68d2-05f3-4253-9116-819623bb7335, sni: aewfhe5z1pokrkw8bi9g09.xingbayun.buzz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 09丨1x HK, server: aewfhe5z1pokrkw8bi9g10.xingbayun.buzz, port: 10002, type: trojan, password: 862e68d2-05f3-4253-9116-819623bb7335, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [BGP-GSLB]日本•0.8x", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-jp.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 [BGP-GSLB]台湾HiNet", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-tw.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [BGP-GSLB]香港•HKT", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-hkt.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [BGP-GSLB]香港•BGP", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-hk.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇵🇭 [BGP-GSLB]菲律宾马尼拉", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-ph.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇻🇳 [BGP-GSLB]越南胡志明", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-vn.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [BGP-GSLB]美国1•0.8x", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-usgt.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇹🇭 [BGP-GSLB]泰国曼谷", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-th.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇮🇩 [BGP-GSLB]印度尼西亚", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-id.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇫🇷 [BGP-GSLB]法国1•0.8x", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-fr.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇬🇧 [BGP-GSLB]英国1•0.8x", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-uk.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇷🇺 [BGP-GSLB]俄罗斯•0.8x", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-ru.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [BGP-GSLB]尼日尼亚", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-ng.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇸🇬 [BGP-GSLB]新加坡1", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-sg.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇹🇷 [BGP-GSLB]土耳其•0.8x", server: 15.168.26.75, port: 2053, type: trojan, password: de39d941-eaf6-405d-958a-ebebe1315574, sni: wel-tr.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 彰化Hinet-dip_5, server: 111.45.22.246, port: 16129, type: vmess, uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -220,228 +344,377 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - 🇭🇰 香港 04丨1x HK
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
       - 🇭🇰 香港 01丨1x HK
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -457,51 +730,82 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 08丨1x HK
-      - 🇭🇰 香港测试 x1
-      - 🇭🇰 深港隧道|香港 x2
-      - 🇭🇰 香港 06丨1x HK
-      - h207532.waihuizhibiaowang.com:11443
-      - h207532.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港 04丨1x HK
-      - h745768.waihuizhibiaowang.com:11343
-      - 🇭🇰 香港M247(移动网优化) | 解锁流媒体
-      - 🇭🇰 v2ray 香港HKT(联通) [P站]
-      - h745768.waihuizhibiaowang.com:11543
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇭🇰 v2ray 香港HKT(联通) [X站]
-      - h207532.waihuizhibiaowang.com:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - 🇭🇰 香港 03丨1x HK
-      - CH-Geneva-ITL_1
-      - h745768.waihuizhibiaowang.com:11243
+      - 111
+      - 🇭🇰 Super 香港05  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港01  | MIEPL | 倍率:2.8
+      - 🇭🇰 Super 香港06  | IEPL | 倍率:2.5
+      - 🇭🇰 Super 香港08  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港07  | IEPL | 倍率:2.3
+      - 🇭🇰 Super 香港02  | MIEPL | 倍率:2.5
+      - 🇭🇰 Super 香港04  | MIEPL | 倍率:2.5
+      - 🇨🇳 Super 台湾01  | MIEPL | 倍率:2.1
+      - 🇯🇵 Super 日本01  | MIEPL | 倍率:2
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇸🇬 新加坡02
+      - 🇭🇰 香港03
+      - 🇸🇬 新加坡01
+      - 🇰🇷 韩国 AWS1000M 2号
+      - 🇭🇰 香港 AWS1000M 2
+      - 🇭🇰 韩国01 -CMI-江苏BGP
+      - 🇭🇰 韶关移动-香港HKT-dip
+      - 🇭🇰 韶关移动-香港EDCL
+      - 🇭🇰 韶关移动-香港HKBN
+      - 🇭🇰 韶关移动-香港HKBN-dip
+      - 🇭🇰 韶关移动-香港HKT-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 3
+      - 🇭🇰 韶关移动-香港HKT-dip 4
+      - 🇭🇰 韶关移动-香港HKT-dip 5
+      - 🇭🇰 韶关移动-香港HKBN-dip 2
+      - 🇭🇰 韶关移动-香港HKT-dip 6
+      - 🇭🇰 韶关移动-香港HKT-dip 7
+      - 🇭🇰 韶关移动-香港HKT-dip 8
+      - 🇭🇰 韶关移动-香港HKBN-dip 3
+      - 🇭🇰 韶关移动-香港HKT
+      - 🇭🇰 韶关移动-香港HKBN 2
+      - 🇭🇰 韶关移动-香港HKT 2
+      - 🇭🇰 免费香港01
+      - 🇯🇵 免费日本01
       - 🇭🇰 香港 01丨1x HK
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
-      - 🇭🇰 香港2HE HKIX Plus X2
-      - 🇭🇰 京日|香港B | HE HKIX
-      - 🇭🇰 香港HE HKIX Plus X2
       - 🇭🇰 香港 02丨1x HK
+      - 🇭🇰 香港 03丨1x HK
+      - 🇭🇰 香港 04丨1x HK
       - 🇭🇰 香港 05丨1x HK
+      - 🇭🇰 香港 06丨1x HK
       - 🇭🇰 香港 07丨1x HK
+      - 🇭🇰 香港 08丨1x HK
       - 🇭🇰 香港 09丨1x HK
-      - 🇯🇵 [BGP-GSLB]日本•0.8x
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
+      - 🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+      - 🇯🇵 韩国 B157 | 湘日隧道 | 0x
+      - 🇭🇰 [BGP-GSLB]香港•HGC
       - 🇭🇰 [BGP-GSLB]香港•HKT
       - 🇭🇰 [BGP-GSLB]香港•BGP
       - 🇵🇭 [BGP-GSLB]菲律宾马尼拉
+      - 🇯🇵 [BGP-GSLB]日本
       - 🇻🇳 [BGP-GSLB]越南胡志明
-      - 🇺🇸 [BGP-GSLB]美国1•0.8x
       - 🇹🇭 [BGP-GSLB]泰国曼谷
-      - 🇮🇩 [BGP-GSLB]印度尼西亚
-      - 🇫🇷 [BGP-GSLB]法国1•0.8x
-      - 🇬🇧 [BGP-GSLB]英国1•0.8x
-      - 🇷🇺 [BGP-GSLB]俄罗斯•0.8x
-      - 🇯🇵 [BGP-GSLB]尼日尼亚
-      - 🇸🇬 [BGP-GSLB]新加坡1
-      - 🇹🇷 [BGP-GSLB]土耳其•0.8x
-      - 🇨🇳 彰化Hinet-dip_5
+      - 🇺🇸 [BGP-GSLB]美国1
+      - 🇮🇩 [BGP-GSLB]印度尼西亚•0.8x
+      - 🇬🇧 [BGP-GSLB]英国•0.8x
+      - 🇫🇷 [BGP-GSLB]法国•0.8x
+      - 🇸🇬 [BGP-GSLB]新加坡
+      - 🇺🇸 ★美国加州A★年付专线
+      - 🇭🇰 中国香港D
+      - 🇨🇳 中国台湾
+      - 🇭🇰 ★中国香港A★年付专线
+      - h207532.waihuizhibiaowang.com:11443
+      - h207532.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
+      - 🇭🇰 v2ray 香港HKT(联通) [P站]
+      - h207532.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11543
+      - 🇭🇰 v2ray 香港HKT(联通) [X站]
+      - h207532.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h650196.waihuizhibiaowang.com:11143
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
