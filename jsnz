@@ -5,195 +5,227 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 B/03 x1.0, server: 111.29.60.217, port: 21003, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 B/05 x1.0, server: 111.29.60.217, port: 21005, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 B/04 x1.0, server: 111.29.60.217, port: 21004, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 A/01 x1.0, server: 117.164.185.220, port: 21001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 B/02 x1.0, server: 111.29.60.217, port: 61002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 台灣 B/01 x1.0, server: 111.29.60.217, port: 41001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 B/01 x1.0, server: 111.29.60.217, port: 11001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 IEPL/04 x3.0, server: 117.164.185.222, port: 21004, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 實驗性C/03 x1.0, server: 183.245.146.6, port: 21001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 IEPL/03 x3.0, server: 117.164.185.222, port: 21003, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 實驗性C/02 x1.0, server: 183.245.146.6, port: 21002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 IEPL/01 x3.0, server: 117.164.185.222, port: 61001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 A/01 x1.0, server: 117.164.185.220, port: 11001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 IEPL/02 x3.0, server: 117.164.185.222, port: 21002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 A/02 x1.0, server: 117.164.185.220, port: 11002, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 台灣 A/01 x1.0, server: 117.164.185.220, port: 41001, type: trojan, password: 24913fd0-a94b-4ed9-9b0e-fddb06af63d3, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 【香港】峰值1000M-支持YouTube4K, server: xg.xbywwcp.us, port: 10086, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aaaa, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁, server: mg1.xbywwcp.us, port: 25520, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: mg1.xbywwcp.us}}, udp: true}
-  - {name: 🇺🇸 【美国】峰值1000M-正常使用, server: us.xbywwcp.us, port: 12233, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aaaa, headers: {Host: a.189.cn}}, udp: true}
-  - {name: 🇭🇰 大萝卜鸡香港, server: 222.84.250.35, port: 19206, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡新加坡, server: 222.84.250.35, port: 19228, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 大萝卜鸡韩国, server: 00000000000000000000000000000000000000000000000000000000000038a.rui77.com, port: 12356, type: vmess, uuid: 0f1df3fb-4dc5-4558-9bde-4f703c864a78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 【直连】TYO/东京 - 443端口 - 2, server: 00000000000000000000000000000000000000000000000000000000000004a.rui77.com, port: 443, type: vmess, uuid: edc9e8a8-518e-425a-8184-e55d16d844b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡新, server: 222.84.250.35, port: 19229, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 大萝卜鸡新加, server: 222.84.250.35, port: 19223, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 【直连】ICN/首尔 - 2, server: 00000000000000000000000000000000000000000000000000000000000028a.rui77.com, port: 52356, type: vmess, uuid: edc9e8a8-518e-425a-8184-e55d16d844b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: US3, server: 219.76.13.175, port: 443, type: trojan, password: ZlYZ0KxC8uxngp736aR34y3TaFwFOC95DO2XR8yeeAD3cESNDSCBqAYIjpaSlz, sni: python.protocolbuffer.com, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: HK15, server: 221.181.185.118, port: 13325, type: trojan, password: M0041901, sni: if22a.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: US6, server: 219.76.13.180, port: 443, type: trojan, password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0, sni: stutter.freetrade.link, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11443, server: h207532.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 大萝卜鸡, server: 222.84.250.35, port: 19237, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: HK13, server: 221.181.185.118, port: 13325, type: trojan, password: M0041901, sni: if22a.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: HK14, server: 221.181.185.118, port: 13325, type: trojan, password: M0041901, sni: if22a.ft3.us, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 SGP🇸🇬, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxsg.fovi.tk}}, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h207532.waihuizhibiaowang.com:11543, server: h207532.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 鬼子, server: 18.183.227.120, port: 34100, type: ss, cipher: aes-256-gcm, password: cVFVNW9RMVNxd0xtbUxaRG5EY1kwcGZRQmhJaXNPTEVnWUlTWHlxR2M5RDc3d09idExENWZBR3ZCZFl0TGE4Ng==, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
-  - {name: HK8, server: vsg1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: "%7B%22Host%22:%22vsg1.0bad.com%22%7D"}}, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾Hinet | 解锁流媒体, server: download1tw.windowsupdate.lol, port: 443, type: trojan, password: 8498bfc8-c030-40df-80e8-69f9e06fe16a, sni: dc1-download.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国亚马逊-1号 | 解锁流媒体, server: 43.201.43.107, port: 443, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/guolicheng/kr?ed=2048", headers: {Host: dc1-download.windowsupdate1.com}}, udp: true}
+  - {name: 🇰🇷 韩国亚马逊-3号 | 解锁流媒体, server: 43.201.15.45, port: 443, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/guolicheng/kr?ed=2048", headers: {Host: dc1-download.windowsupdate1.com}}, udp: true}
+  - {name: 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体, server: 223.111.122.199, port: 38080, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /guolicheng/hinet, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇺🇸 美国洛杉矶-江移 | 解锁流媒体, server: 223.111.122.199, port: 38080, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /guolicheng/us1, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇫🇷 法国-江移 | 解锁流媒体, server: 223.111.122.199, port: 38080, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /guolicheng/fr, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇩🇪 德国-江移 | 解锁流媒体, server: 223.111.122.199, port: 38080, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /guolicheng/de, headers: {Host: i0.hdslb.com}}, udp: true}
+  - {name: 🇺🇸 美国圣何塞-江移 | 解锁流媒体, server: 223.111.122.199, port: 38080, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /guolicheng/us2, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇺🇸 美国西雅图-江移 | 解锁流媒体, server: 223.111.122.199, port: 38080, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /guolicheng/us3, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇭🇰 香港HGC-江移 | 解锁流媒体, server: 223.111.122.199, port: 38080, type: vmess, uuid: 8498bfc8-c030-40df-80e8-69f9e06fe16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /guolicheng/hkhgc, headers: {Host: www.189.cn}}, udp: true}
+  - {name: 🇺🇸 美国内华达州拉斯维加斯, server: 198.41.208.152, port: 443, type: vmess, uuid: e07b9f9c-245d-4f9e-8865-6ef4164d1d67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /kuainiao/usvip, headers: {Host: usvip.kuainiao.buzz}}, udp: true}
+  - {name: 🇭🇰 香港, server: 20000.purefast2.com, port: 20000, type: trojan, password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾, server: 20001.purefast2.com, port: 20001, type: trojan, password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡, server: 20006.purefast2.com, port: 20006, type: trojan, password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本, server: 20004.purefast2.com, port: 20004, type: trojan, password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国, server: 20003.purefast2.com, port: 20003, type: trojan, password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南, server: 20007.purefast2.com, port: 20007, type: trojan, password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇭 泰国, server: 20005.purefast2.com, port: 20005, type: trojan, password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 【香港 2】 支持YouTube4K, server: xg2.xbywwcp.us, port: 65525, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁, server: mg1.xbywwcp.us, port: 25365, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: mg1.xbywwcp.us}}, udp: true}
+  - {name: 🏳️‍🌈 【美国】峰值1000M-应急, server: mgpt.xbywwcp.us, port: 12321, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aaaa, headers: {Host: a.189.cn}}, udp: true}
+  - {name: TW02-V2-直连, server: tw02.henet.top, port: 20000, type: vmess, uuid: 35b65b31-174e-4007-ad65-8eae6d7b8c41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
+  - {name: TW01-TROJAN-直连, server: tw01.henet.top, port: 30000, type: trojan, password: 35b65b31-174e-4007-ad65-8eae6d7b8c41, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 大萝卜鸡新加坡, server: 222.84.250.35, port: 19228, type: trojan, password: 0389e88f-887f-31fd-9b16-624400bdbd71, skip-cert-verify: false, udp: true}
+  - {name: HK1, server: xi.kanao.xyz, port: 58802, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK2, server: xi.kanao.xyz, port: 58820, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK3, server: xi.kanao.xyz, port: 58820, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK4, server: xi.kanao.xyz, port: 58802, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK5, server: xi.kanao.xyz, port: 58804, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK7, server: da.kanao.xyz, port: 58819, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK6, server: da.kanao.xyz, port: 58803, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK8, server: xi.kanao.xyz, port: 58804, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK10, server: da.kanao.xyz, port: 58814, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK11, server: xi.kanao.xyz, port: 58808, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK9, server: xi.kanao.xyz, port: 58802, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK12, server: xi.kanao.xyz, port: 58808, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK13, server: xi.kanao.xyz, port: 58831, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK14, server: da.kanao.xyz, port: 58807, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
+  - {name: HK15, server: xi.kanao.xyz, port: 58831, type: trojan, password: 8708ec3c-56b4-4c76-a43b-0f4c5bab80c7, sni: soolos.com, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -212,212 +244,237 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 台灣 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇭🇰 大萝卜鸡香港
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇭🇰 【香港 2】 支持YouTube4K
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -433,49 +490,57 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 B/03 x1.0
-      - 🇭🇰 香港 B/05 x1.0
-      - 🇭🇰 香港 B/04 x1.0
-      - 🇭🇰 香港 A/01 x1.0
-      - 🇸🇬 新加坡 B/02 x1.0
-      - 台灣 B/01 x1.0
-      - 🇯🇵 日本 B/01 x1.0
-      - 🇭🇰 香港 IEPL/04 x3.0
-      - 🇭🇰 香港 實驗性C/03 x1.0
-      - 🇭🇰 香港 IEPL/03 x3.0
-      - 🇭🇰 香港 實驗性C/02 x1.0
-      - 🇸🇬 新加坡 IEPL/01 x3.0
-      - 🇯🇵 日本 A/01 x1.0
-      - 🇭🇰 香港 IEPL/02 x3.0
-      - 🇯🇵 日本 A/02 x1.0
-      - 台灣 A/01 x1.0
-      - 🇭🇰 【香港】峰值1000M-支持YouTube4K
-      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
-      - 🇺🇸 【美国】峰值1000M-正常使用
-      - 🇭🇰 大萝卜鸡香港
-      - 🇸🇬 大萝卜鸡新加坡
-      - 🇰🇷 大萝卜鸡韩国
-      - 🇯🇵 【直连】TYO/东京 - 443端口 - 2
-      - 🇸🇬 大萝卜鸡新
-      - 🇸🇬 大萝卜鸡新加
-      - 🇰🇷 【直连】ICN/首尔 - 2
-      - US3
+      - 鬼子
+      - h745768.waihuizhibiaowang.com:11343
       - h745768.waihuizhibiaowang.com:11543
-      - HK15
-      - US6
-      - h207532.waihuizhibiaowang.com:11443
-      - 大萝卜鸡
+      - h961359.waihuizhibiaowang.com:11543
+      - h650196.waihuizhibiaowang.com:11243
+      - h745768.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h650196.waihuizhibiaowang.com:11143
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11443
+      - 🇨🇳 台湾Hinet | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-1号 | 解锁流媒体
+      - 🇰🇷 韩国亚马逊-3号 | 解锁流媒体
+      - 🇨🇳 台湾Hinet-江苏移动 | 解锁流媒体
+      - 🇺🇸 美国洛杉矶-江移 | 解锁流媒体
+      - 🇫🇷 法国-江移 | 解锁流媒体
+      - 🇩🇪 德国-江移 | 解锁流媒体
+      - 🇺🇸 美国圣何塞-江移 | 解锁流媒体
+      - 🇺🇸 美国西雅图-江移 | 解锁流媒体
+      - 🇭🇰 香港HGC-江移 | 解锁流媒体
+      - 🇺🇸 美国内华达州拉斯维加斯
+      - 🇭🇰 香港
+      - 🇨🇳 台湾
+      - 🇸🇬 新加坡
+      - 🇯🇵 日本
+      - 🇺🇸 美国
+      - 🇻🇳 越南
+      - 🇹🇭 泰国
+      - 🇭🇰 【香港 2】 支持YouTube4K
+      - 🇺🇸 【美国】峰值1000M-NetFlix 原生IP解锁
+      - 🏳️‍🌈 【美国】峰值1000M-应急
+      - TW02-V2-直连
+      - TW01-TROJAN-直连
+      - 🇸🇬 大萝卜鸡新加坡
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK7
+      - HK6
+      - HK8
+      - HK10
+      - HK11
+      - HK9
+      - HK12
       - HK13
       - HK14
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇸🇬 SGP🇸🇬
-      - h650196.waihuizhibiaowang.com:11143
-      - h207532.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h650196.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11243
-      - HK8
+      - HK15
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
