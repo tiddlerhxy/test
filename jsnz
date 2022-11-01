@@ -5,103 +5,247 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 VIP1-日本, server: 38.54.56.172, port: 63204, type: vmess, uuid: 23dfc63d-b86a-4202-9cee-58b9cc0d52f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jcnf}, udp: true}
-  - {name: 🇬🇧 VIP1-英国2, server: 213.52.129.63, port: 63210, type: vmess, uuid: 23dfc63d-b86a-4202-9cee-58b9cc0d52f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jcnf}, udp: true}
-  - {name: 🇺🇸 VIP1-美国1, server: 143.198.59.82, port: 63201, type: vmess, uuid: 23dfc63d-b86a-4202-9cee-58b9cc0d52f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jcnf}, udp: true}
+  - {name: 🇳🇱 ⌈千兆⌋Gcore荷兰 01, server: gcore.heimayun.tk, port: 443, type: vmess, uuid: 9b6626d2-0ff8-4ecc-95e7-ed118643dc40, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gcore, headers: {Host: gcore.heimayun.tk}}, udp: true}
+  - {name: ⌈百兆⌋WGK春川 01, server: wg-kr.heimayun.tk, port: 443, type: vmess, uuid: 2757fd62-fcf0-4946-9b46-1b697741575b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /m1, headers: {Host: wg-kr.heimayun.tk}}, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-01, server: sg1.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-04, server: hk4.sanfen001.pics, port: 443, type: trojan, password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, sni: hk1.sanfen001.pics, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-80端口(自行修改host), server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本高速接入点-02, server: jp2.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 三分机场.xyz 站内返利65%, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-02, server: hk2.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-03, server: hk3.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 距离下次重置剩余：18 天, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-01, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇺🇸 美国高速接入点-01, server: us1.sanfen001.pics, port: 443, type: vmess, uuid: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本高速接入点-01, server: jp1.sanfen001.pics, port: 443, type: trojan, password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, sni: jp1.sanfen001.pics, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [CN]香港HGC", server: 124.225.25.7, port: 42740, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hgc.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [CN]香港BGP", server: 124.225.25.7, port: 42740, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hk.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [CN]香港HKT", server: 124.225.25.7, port: 42740, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hkt.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 [CN]台湾HiNet", server: 36.138.103.161, port: 13211, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-tw.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [BGP-RSV]香港BGP", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hk.optage.moe, skip-cert-verify: false, udp: true}
   - {name: "🇨🇳 [BGP-RSV]台湾HiNet", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-tw.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [BGP-RSV]香港HKT", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hkt.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 [CN]美国gtt", server: 124.225.25.7, port: 42740, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-usgt.optage.moe, skip-cert-verify: false, udp: true}
   - {name: "🇭🇰 [BGP-RSV]香港HGC", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hgc.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 [BGP-GSLB]台湾HiNet", server: 20.210.244.13, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-tw.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [BGP-RSV]美国gtt", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-usgt.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 [CN]日本", server: 36.138.103.161, port: 13211, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
   - {name: "🇰🇷 [BGP-RSV]韩国", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-kr.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [BGP-GSLB]美国gtt", server: 20.210.244.13, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-usgt.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [BGP-GSLB]香港HKT", server: 20.210.244.13, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hkt.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 [BGP-RSV]美国gtt", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-usgt.optage.moe, skip-cert-verify: false, udp: true}
   - {name: "🇯🇵 [BGP-RSV]日本", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
   - {name: "🇺🇸 [BGP-RSV]美国Cogent", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-us.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 [BGP-GSLB]日本", server: 20.210.244.13, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: 欢迎使用 Welink, server: 20.210.244.13, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [BGP-GSLB]香港HGC", server: 20.210.244.13, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hgc.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇰🇷 [BGP-GSLB]韩国", server: 20.210.244.13, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-kr.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 巴西, server: 20012.purefast2.com, port: 20012, type: trojan, password: a53656e6-67a2-3f4e-be24-30f9fa719708, sni: purefast1.com, skip-cert-verify: false, udp: true}
-  - {name: 【旧金山】01, server: jjs.xbywwcp.us, port: 12345, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: jjs.xbywwcp.us}}, udp: true}
-  - {name: 🇭🇰 【香港】峰值1000M-NetFlix 解锁, server: xg1.xbywwcp.us, port: 15264, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: xg1.xbywwcp.us}}, udp: true}
+  - {name: 🇺🇸 【美国】峰值1000M-NetFlix解锁, server: mg1.xbywwcp.us, port: 25800, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: mg1.xbywwcp.us}}, udp: true}
+  - {name: 【纽约】峰值1000M-NetFlix 解锁, server: mgny.xbywwcp.us, port: 114, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: a.189.cn}}, udp: true}
+  - {name: HK1, server: 103.172.116.5, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: HK2, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-tw.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: HK3, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hkt.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: HK4, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hk.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: HK5, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-hgc.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: HK6, server: oss-cn-shanghai.westdatacloud.xyz, port: 20048, type: trojan, password: 30030B00-A596-87B4-965A-511CD7E05351, skip-cert-verify: false, udp: true}
+  - {name: HK7, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: HK8, server: ussj.iamnotagoodman.com, port: 443, type: trojan, password: e785e5d2-a05e-486c-8b4f-78b205382b4e, skip-cert-verify: false, udp: true}
+  - {name: HK9, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /chat, headers: {Host: "%7B%22Host%22:%22vjp3.0bad.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 HongKong-01, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-17, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-06, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-03, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-04, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-05, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-10, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-18, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-07, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-11, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-19, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-02, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-16, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-09, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-14, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-12, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-08, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-15, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-13, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,114 +264,263 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 🇭🇰 香港高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇭🇰 [BGP-GSLB]香港HKT
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -243,26 +536,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 VIP1-日本
-      - 🇬🇧 VIP1-英国2
-      - 🇺🇸 VIP1-美国1
+      - 🇳🇱 ⌈千兆⌋Gcore荷兰 01
+      - ⌈百兆⌋WGK春川 01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高速接入点-04
+      - 🇭🇰 香港-80端口(自行修改host)
+      - 🇯🇵 日本高速接入点-02
+      - 三分机场.xyz 站内返利65%
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-03
+      - 距离下次重置剩余：18 天
+      - 🇭🇰 香港高速接入点-01
+      - 🇺🇸 美国高速接入点-01
+      - 🇯🇵 日本高速接入点-01
+      - 🇭🇰 [CN]香港HGC
+      - 🇭🇰 [CN]香港BGP
+      - 🇭🇰 [CN]香港HKT
+      - 🇨🇳 [CN]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
       - 🇨🇳 [BGP-RSV]台湾HiNet
-      - 🇭🇰 [BGP-RSV]香港HKT
+      - 🇺🇸 [CN]美国gtt
       - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇨🇳 [BGP-GSLB]台湾HiNet
-      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇯🇵 [CN]日本
       - 🇰🇷 [BGP-RSV]韩国
-      - 🇺🇸 [BGP-GSLB]美国gtt
-      - 🇭🇰 [BGP-GSLB]香港HKT
+      - 🇺🇸 [BGP-RSV]美国gtt
       - 🇯🇵 [BGP-RSV]日本
       - 🇺🇸 [BGP-RSV]美国Cogent
-      - 🇯🇵 [BGP-GSLB]日本
-      - 欢迎使用 Welink
-      - 🇭🇰 [BGP-GSLB]香港HGC
-      - 🇰🇷 [BGP-GSLB]韩国
-      - 🇧🇷 巴西
-      - 【旧金山】01
-      - 🇭🇰 【香港】峰值1000M-NetFlix 解锁
+      - 🇺🇸 【美国】峰值1000M-NetFlix解锁
+      - 【纽约】峰值1000M-NetFlix 解锁
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - HK7
+      - HK8
+      - HK9
+      - 🇭🇰 HongKong-01
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-06
+      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-05
+      - 🇭🇰 HongKong-10
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-07
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-16
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-14
+      - 🇭🇰 HongKong-12
+      - 🇭🇰 HongKong-08
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
