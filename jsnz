@@ -5,175 +5,227 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Linode IPv6, server: sg.ipv6.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
   - {name: Linode, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: 🇺🇸 美国内华达州拉斯维加斯, server: 172.67.189.188, port: 443, type: vmess, uuid: 37347ef5-253f-43b5-bc41-5dd5bb8466ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /kuainiao/usvip, headers: {Host: usvip.kuainiao.buzz}}, udp: true}
-  - {name: 🇰🇷 韩国超级亚马逊, server: 172.67.189.12, port: 443, type: vmess, uuid: 37347ef5-253f-43b5-bc41-5dd5bb8466ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /kuainiao/hg, headers: {Host: hg.kuainiao.buzz}}, udp: true}
-  - {name: 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5, server: hk-2.iplc.dafeicnd.com, port: 11679, type: trojan, password: QP1jpZdT8h1eNga0, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0, server: jps.dafeicnd.com, port: 34212, type: vmess, uuid: 7ca658d7-9d8e-49e9-a9ff-4e1aad9fe4d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /grzvhmgexlntcmp49, headers: {Host: jps.dafeicnd.com}}, udp: true}
-  - {name: 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0, server: cdnjs-cn2-gia.usa.subdnss.top, port: 443, type: vmess, uuid: 7ca658d7-9d8e-49e9-a9ff-4e1aad9fe4d4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sdfsdjhkhjjslkcvbn, headers: {Host: usas.dafeicnd.com}}, udp: true}
-  - {name: 距离下次重置剩余：23 天, server: aiguo-b.aiguoxuexi.com, port: 20802, type: trojan, password: ee4fff2a-540e-4ac7-a16a-935567dfc36b, sni: zhongguomeng1.aiguoxuexi.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US 1 TT 1x, server: aiguo-b.aiguoxuexi.com, port: 20802, type: trojan, password: ee4fff2a-540e-4ac7-a16a-935567dfc36b, sni: zhongguomeng1.aiguoxuexi.com, skip-cert-verify: false, udp: true}
-  - {name: 【纽约02】峰值1000M-NetFlix 解锁, server: mgny1.xbywwcp.us, port: 80, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: a.189.cn}}, udp: true}
-  - {name: HK1, server: hk-2.iplc.dafeicnd.com, port: 11679, type: trojan, password: QP1jpZdT8h1eNga0, sni: hk-2.iplc.dafeicnd.com, skip-cert-verify: false, udp: true}
-  - {name: HK2, server: 5.44.249.53, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
-  - {name: HK3, server: cu.kapoknode.com, port: 25887, type: vmess, uuid: 587f69be-60ab-4437-85b1-61e5995c586d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22cu.kapoknode.com%22%7D"}}, udp: true}
-  - {name: HK4, server: cu.kapoknode.com, port: 25888, type: vmess, uuid: 587f69be-60ab-4437-85b1-61e5995c586d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22cu.kapoknode.com%22%7D"}}, udp: true}
-  - {name: HK6, server: 106.75.128.213, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
-  - {name: HK7, server: 60.249.3.125, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
-  - {name: HK5, server: 5.44.249.53, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
-  - {name: HK8, server: t.cccao.cyou, port: 16618, type: vmess, uuid: fa0f2a33-ac26-43fa-84e4-7bca42fb7d91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: "%7B%22Host%22:%22t.cccao.cyou%22%7D"}}, udp: true}
-  - {name: HK9, server: 5.44.249.51, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HongKong-06, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-07, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-13, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: Linode IPv6, server: sg.ipv6.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: pvxuhql85335:hz2dok1q2hcg@129.227.49.165, server: pvxuhql85335, port: 0, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: pvxuhql85335:hz2dok1q2hcg@129.227.49.163, server: pvxuhql85335, port: 0, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: pvxuhql85335:hz2dok1q2hcg@217.138.252.17, server: pvxuhql85335, port: 0, type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 4, server: 183.245.146.6, port: 11002, type: trojan, password: 6e2a6544-6bd5-4584-9568-9726d3b1cb0f, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 A/01 x1.0, server: 183.245.146.6, port: 21001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 A/02 x1.0, server: 183.245.146.6, port: 21002, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 實驗性C/03 x1.0, server: 183.245.146.6, port: 21001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南 C/01 x1.0, server: 183.245.146.6, port: 61004, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 實驗性C/05 x1.0, server: 183.245.146.6, port: 21001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 A/02 x1.0, server: 183.245.146.6, port: 11002, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南 A/03 x1.0, server: 183.245.146.6, port: 61006, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南 A/02 x1.0, server: 183.245.146.6, port: 61005, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 實驗性C/01 x1.0, server: 183.245.146.6, port: 21001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 實驗性C/01 x1.0, server: 183.245.146.6, port: 61001, type: trojan, password: 78d8a627-9e08-4be9-bcb4-30643cb96b62, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 TW, server: tw01.henet.top, port: 20000, type: vmess, uuid: 7e3279b3-f0d5-40d9-a3da-1ac78b088c9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /live, headers: {Host: cctv.com}}, udp: true}
+  - {name: arm1-cf1, server: 8.218.80.89, port: 443, type: vmess, uuid: 5d627f0d-812b-4af4-a95a-e2746d79f488, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /name, headers: {Host: arm1dj.nanke.eu.org}}, udp: true}
+  - {name: arm1-cf4, server: 211.72.35.110, port: 443, type: vmess, uuid: 5d627f0d-812b-4af4-a95a-e2746d79f488, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /name, headers: {Host: arm1dj.nanke.eu.org}}, udp: true}
+  - {name: "🇸🇬 [🇸🇬] 新加坡02 x1", server: v4.583181.xyz, port: 443, type: vmess, uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: HK88, server: sg.vpntransfer.xyz, port: 6524, type: vmess, uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: "🇸🇬 [🇸🇬] 新加坡01 x1", server: v3.583181.xyz, port: 80, type: vmess, uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: "🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1", server: xhjp01.583181.xyz, port: 80, type: vmess, uuid: c0b5d759-e42d-4ead-b374-33a9b54402aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: 🇭🇰 HongKong-01, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: 🇭🇰 HongKong-11, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: 🇭🇰 HongKong-14, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-17, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-09, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-01, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-18, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-06, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: 🇭🇰 HongKong-08, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-16, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-02, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-15, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-05, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: 🇭🇰 HongKong-12, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-04, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-16, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: 🇭🇰 HongKong-10, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-03, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-07, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: HK9, server: 5.44.249.51, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HongKong-15, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-18, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-09, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-05, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: 🇭🇰 HongKong-19, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-02, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-13, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-04, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-17, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-03, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: HK6, server: 106.75.128.213, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5, server: hk-2.iplc.dafeicnd.com, port: 11679, type: trojan, password: QP1jpZdT8h1eNga0, skip-cert-verify: false, udp: true}
+  - {name: HK5, server: 5.44.249.53, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
+  - {name: HK2, server: 5.44.249.53, port: 3389, type: trojan, password: 0cc6b4268dea0ba8, skip-cert-verify: false, udp: true}
+  - {name: 距离下次重置剩余：23 天, server: aiguo-b.aiguoxuexi.com, port: 20802, type: trojan, password: ee4fff2a-540e-4ac7-a16a-935567dfc36b, sni: zhongguomeng1.aiguoxuexi.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US 1 TT 1x, server: aiguo-b.aiguoxuexi.com, port: 20802, type: trojan, password: ee4fff2a-540e-4ac7-a16a-935567dfc36b, sni: zhongguomeng1.aiguoxuexi.com, skip-cert-verify: false, udp: true}
+  - {name: HK1, server: hk-2.iplc.dafeicnd.com, port: 11679, type: trojan, password: QP1jpZdT8h1eNga0, sni: hk-2.iplc.dafeicnd.com, skip-cert-verify: false, udp: true}
+  - {name: 【纽约02】峰值1000M-NetFlix 解锁, server: mgny1.xbywwcp.us, port: 80, type: vmess, uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /by.xbygood.xyz, headers: {Host: a.189.cn}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,48 +244,66 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
       - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -241,131 +311,170 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -381,44 +490,57 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Linode IPv6
       - Linode
-      - 🇺🇸 美国内华达州拉斯维加斯
-      - 🇰🇷 韩国超级亚马逊
-      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
-      - 🇯🇵 日本 CN2-GT「流媒体解锁」X1.0
-      - 🇺🇸 美国 CN2-GIA-A「流媒体解锁」X1.0
-      - 距离下次重置剩余：23 天
-      - 🇺🇸 US 1 TT 1x
-      - 【纽约02】峰值1000M-NetFlix 解锁
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK6
-      - HK7
-      - HK5
-      - HK8
-      - HK9
-      - 🇭🇰 HongKong-06
-      - 🇭🇰 HongKong-07
-      - 🇭🇰 HongKong-13
+      - Linode IPv6
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.165
+      - pvxuhql85335:hz2dok1q2hcg@129.227.49.163
+      - pvxuhql85335:hz2dok1q2hcg@217.138.252.17
+      - 4
+      - 🇭🇰 香港 A/01 x1.0
+      - 🇭🇰 香港 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/03 x1.0
+      - 🇻🇳 越南 C/01 x1.0
+      - 🇭🇰 香港 實驗性C/05 x1.0
+      - 🇯🇵 日本 A/02 x1.0
+      - 🇻🇳 越南 A/03 x1.0
+      - 🇻🇳 越南 A/02 x1.0
+      - 🇭🇰 香港 實驗性C/01 x1.0
+      - 🇸🇬 新加坡 實驗性C/01 x1.0
+      - 🇨🇳 TW
+      - arm1-cf1
+      - arm1-cf4
+      - 🇸🇬 [🇸🇬] 新加坡02 x1
+      - HK88
+      - 🇸🇬 [🇸🇬] 新加坡01 x1
+      - 🇯🇵 [🇯🇵] 日本01 [迪士尼 ] x1
+      - 🇭🇰 HongKong-01
       - 🇭🇰 HongKong-11
       - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-17
-      - 🇭🇰 HongKong-09
-      - 🇭🇰 HongKong-01
-      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-06
       - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-16
-      - 🇭🇰 HongKong-02
-      - 🇭🇰 HongKong-15
-      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-12
-      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-16
       - 🇭🇰 HongKong-10
-      - 🇭🇰 HongKong-03
+      - 🇭🇰 HongKong-07
+      - HK9
+      - 🇭🇰 HongKong-15
+      - 🇭🇰 HongKong-18
+      - 🇭🇰 HongKong-09
+      - 🇭🇰 HongKong-05
       - 🇭🇰 HongKong-19
+      - 🇭🇰 HongKong-02
+      - 🇭🇰 HongKong-13
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-17
+      - 🇭🇰 HongKong-03
+      - HK6
+      - 🇭🇰 深港IPLC专线- B「流媒体解锁」X1.5
+      - HK5
+      - HK2
+      - 距离下次重置剩余：23 天
+      - 🇺🇸 US 1 TT 1x
+      - HK1
+      - 【纽约02】峰值1000M-NetFlix 解锁
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
