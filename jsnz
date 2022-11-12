@@ -5,91 +5,171 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Linode5, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: Linode1, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: 🇯🇵 日本--优质节点试用--Four, server: 3.112.18.248, port: 42365, type: vmess, uuid: b9ee8850-6eab-46bc-92e4-a28773dc2aab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 3.112.18.248}}, udp: true}
+  - {name: 🇯🇵 日本--优质节点试用--Two, server: 54.168.185.239, port: 10254, type: vmess, uuid: b9ee8850-6eab-46bc-92e4-a28773dc2aab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 54.168.185.239}}, udp: true}
+  - {name: 🇨🇳 台湾Scloud01|下载专用|0.3x, server: sh.baibianxiaoying.top, port: 20630, type: vmess, uuid: bc0ece90-7e4b-3783-94a7-fb972b6bc73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sctw7, headers: {Host: sh.baibianxiaoying.top}}, udp: true}
+  - {name: 🇨🇳 台湾Scloud06|下载专用|0.3x, server: sh.baibianxiaoying.top, port: 20630, type: vmess, uuid: bc0ece90-7e4b-3783-94a7-fb972b6bc73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sctw6, headers: {Host: sh.baibianxiaoying.top}}, udp: true}
+  - {name: 🇨🇳 台湾Scloud03|下载专用|0.3x, server: sh.baibianxiaoying.top, port: 20630, type: vmess, uuid: bc0ece90-7e4b-3783-94a7-fb972b6bc73e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sctw3, headers: {Host: sh.baibianxiaoying.top}}, udp: true}
+  - {name: 🇭🇰 香港03, server: v1r.centaur.network, port: 16805, type: trojan, password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b, sni: v1r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港05, server: v1r.centaur.network, port: 16803, type: trojan, password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b, sni: v1r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02, server: v1r.centaur.network, port: 16804, type: trojan, password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b, sni: v1r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港04, server: v1r.centaur.network, port: 16801, type: trojan, password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b, sni: v1r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港06, server: v1r.centaur.network, port: 16802, type: trojan, password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b, sni: v1r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港15, server: p3r.centaur.network, port: 16809, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港08, server: p3r.centaur.network, port: 16802, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港09, server: p3r.centaur.network, port: 16803, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港12, server: p3r.centaur.network, port: 16806, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港13, server: p3r.centaur.network, port: 16807, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港11, server: p3r.centaur.network, port: 16805, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港14, server: p3r.centaur.network, port: 16808, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港10, server: p3r.centaur.network, port: 16804, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港07, server: p3r.centaur.network, port: 16801, type: trojan, password: e199b516-00f9-469e-9ee5-fe609b4bc34e, sni: p3r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本18, server: h16r.centaur.network, port: 16803, type: trojan, password: 5b27d538-504d-4bc0-baeb-d3e22903f253, sni: h16r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本19, server: h16r.centaur.network, port: 16804, type: trojan, password: 5b27d538-504d-4bc0-baeb-d3e22903f253, sni: h16r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港01, server: v1r.centaur.network, port: 16806, type: trojan, password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b, sni: v1r.centaur.network, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HongKong-08, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: Linode2, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: Linode1, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: 🇭🇰 HongKong-11, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-04, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: 🇭🇰 HongKong-06, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
+  - {name: Linode5, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: 🇭🇰 HongKong-14, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
   - {name: aws, server: 18.181.162.226, port: 65525, type: ssr, cipher: aes-256-cfb8, password: ssgg123123, protocol: auth_aes128_md5, obfs: tls1.2_ticket_fastauth, protocol-param: "", obfs-param: "", udp: true}
   - {name: Linode3, server: sg.ipv6.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
   - {name: 🇯🇵 东京 trojan公益节点, server: dj.mv66.tk, port: 8080, type: trojan, password: tg%E8%89%BE%E7%89%B9herhr6, skip-cert-verify: false, udp: true}
-  - {name: h1-80-破鸡, server: node.xn--ces488atrj.eu.org, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}, udp: true}
-  - {name: w1-80, server: node.xn--ces488atrj.eu.org, port: 80, type: vmess, uuid: 63b77ec0-65a9-4d10-d17a-777fd3f49c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: w1.800876.xyz}}, udp: true}
-  - {name: h1-443-破鸡, server: node.xn--ces488atrj.eu.org, port: 8443, type: vmess, uuid: 1197321c-eb59-4159-959f-5d81f53c179d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}, udp: true}
-  - {name: US7, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: zz1.wblogw1.tk}}, udp: true}
-  - {name: 🇭🇰 HongKong-14, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-08, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-04, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-11, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: 🇭🇰 HongKong-06, server: 193.107.23.250, port: 443, type: ss, cipher: aes-256-gcm, password: b1dc344fd3c3, udp: true}
-  - {name: US3, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: "%7B%22Host%22:%22zz1.wblogw1.tk%22%7D"}}, udp: true}
   - {name: US2, server: de.vmess2.xservs.xyz, port: 80, type: vmess, uuid: dc5e01f7-8238-4755-840b-adf45da456c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: "%7B%22Host%22:%22Vipmahsa%22%7D"}}, udp: true}
+  - {name: US3, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: "%7B%22Host%22:%22zz1.wblogw1.tk%22%7D"}}, udp: true}
+  - {name: US7, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: zz1.wblogw1.tk}}, udp: true}
+  - {name: w1-80, server: node.xn--ces488atrj.eu.org, port: 80, type: vmess, uuid: 63b77ec0-65a9-4d10-d17a-777fd3f49c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: w1.800876.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -108,95 +188,193 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇭🇰 香港01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -212,23 +390,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Linode5
-      - Linode1
+      - 🇯🇵 日本--优质节点试用--Four
+      - 🇯🇵 日本--优质节点试用--Two
+      - 🇨🇳 台湾Scloud01|下载专用|0.3x
+      - 🇨🇳 台湾Scloud06|下载专用|0.3x
+      - 🇨🇳 台湾Scloud03|下载专用|0.3x
+      - 🇭🇰 香港03
+      - 🇭🇰 香港05
+      - 🇭🇰 香港02
+      - 🇭🇰 香港04
+      - 🇭🇰 香港06
+      - 🇭🇰 香港15
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
+      - 🇭🇰 香港12
+      - 🇭🇰 香港13
+      - 🇭🇰 香港11
+      - 🇭🇰 香港14
+      - 🇭🇰 香港10
+      - 🇭🇰 香港07
+      - 🇯🇵 日本18
+      - 🇯🇵 日本19
+      - 🇭🇰 香港01
+      - 🇭🇰 HongKong-08
       - Linode2
+      - Linode1
+      - 🇭🇰 HongKong-11
+      - 🇭🇰 HongKong-04
+      - 🇭🇰 HongKong-06
+      - Linode5
+      - 🇭🇰 HongKong-14
       - aws
       - Linode3
       - 🇯🇵 东京 trojan公益节点
-      - h1-80-破鸡
-      - w1-80
-      - h1-443-破鸡
-      - US7
-      - 🇭🇰 HongKong-14
-      - 🇭🇰 HongKong-08
-      - 🇭🇰 HongKong-04
-      - 🇭🇰 HongKong-11
-      - 🇭🇰 HongKong-06
-      - US3
       - US2
+      - US3
+      - US7
+      - w1-80
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
