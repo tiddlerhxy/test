@@ -5,28 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港-Free-02, server: 20000.purefast2.com, port: 20000, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南-Free, server: 20007.purefast2.com, port: 20007, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 法国-Free, server: 20010.purefast2.com, port: 20010, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 荷兰-Free, server: 20011.purefast2.com, port: 20011, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇷 土耳其-Free, server: 20008.purefast2.com, port: 20008, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇧🇷 巴西-Free, server: 20012.purefast2.com, port: 20012, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 英国-Free, server: 20009.purefast2.com, port: 20009, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-Free, server: 20013.purefast2.com, port: 20013, type: trojan, password: 357827e5-a45d-3f09-9b73-ef4431dfb323, sni: purefast1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 亚洲 | 台湾B, server: a-cm1.jsmmm.cyou, port: 39212, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 [BGP-RSV]台湾HiNet", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-tw.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [BGP-RSV]香港BGP", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-hk.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 [BGP-RSV]美国Cogent", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-us.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 [BGP-RSV]美国gtt", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-usgt.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇰🇷 [BGP-RSV]韩国", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-kr.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 [BGP-RSV]日本", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [BGP-RSV]香港HGC", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-hgc.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 狮城02 中转 1x, server: gateway.sg.532ae73c-35dd-4d84-b73f-5d1dcad3edcb.site, port: 55006, type: ss, cipher: aes-256-gcm, password: 83fb5af1-b646-4509-a8c7-e1d067286d7a, udp: true}
+  - {name: 🇯🇵 日本02 中转 1x, server: gateway.jp.532ae73c-35dd-4d84-b73f-5d1dcad3edcb.site, port: 55015, type: ss, cipher: aes-256-gcm, password: 83fb5af1-b646-4509-a8c7-e1d067286d7a, udp: true}
   - {name: 🇨🇳 台湾HiNet, server: tw.ddns.123114.xyz, port: 45333, type: ss, cipher: aes-128-gcm, password: sameral, udp: true}
   - {name: SG4, server: sg.ipv6.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: JP1, server: dj.mv66.tk, port: 8080, type: trojan, password: tg%E8%89%BE%E7%89%B9herhr6, skip-cert-verify: false, udp: true}
-  - {name: US1, server: scw.oppo.quest, port: 56789, type: ss, cipher: aes-256-gcm, password: KblFYg1QVM, udp: true}
-  - {name: 🇰🇿 哈萨克斯坦, server: www.dynadot.com, port: 2086, type: vmess, uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: kz.cloudflare.quest}}, udp: true}
-  - {name: US3, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: zz1.wblogw1.tk}}, udp: true}
-  - {name: 🇺🇸 美洲 | 美国B, server: a-cm1.jsmmm.cyou, port: 39612, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美洲 | 美国D, server: a-ct1.jsmmm.cyou, port: 39622, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇪🇺 欧洲 | 法国, server: a-cm1.jsmmm.cyou, port: 39911, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇷 亚洲 | 土耳其, server: a-cm1.jsmmm.cyou, port: 39811, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 亚洲 | 韩国A, server: a-cm1.jsmmm.cyou, port: 39511, type: vmess, uuid: 32f9c502-89ff-3ca6-913f-30eac902162a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本02|不限速, server: jp2.czs1000.com, port: 5589, type: vmess, uuid: f0f398bc-e818-4236-b271-78a8cd8973b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02, server: hk2.czs1000.com, port: 8885, type: vmess, uuid: f0f398bc-e818-4236-b271-78a8cd8973b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本03, server: jp3.czs1000.com, port: 8886, type: vmess, uuid: f0f398bc-e818-4236-b271-78a8cd8973b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡03, server: sg3.czs1000.com, port: 8883, type: vmess, uuid: f0f398bc-e818-4236-b271-78a8cd8973b4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [BGP-RSV]香港HGC", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-hgc.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 [BGP-RSV]香港BGP", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-hk.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 [BGP-RSV]台湾HiNet", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-tw.optage.moe, skip-cert-verify: false, udp: true}
   - {name: SG4 2, server: sg.ipv6.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: "🇯🇵 [BGP-RSV]日本", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [BGP-RSV]美国gtt", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-usgt.optage.moe, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [BGP-RSV]美国Cogent", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-us.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 [BGP-RSV]香港BGP 2", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-hk.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: JP1, server: dj.mv66.tk, port: 8080, type: trojan, password: tg%E8%89%BE%E7%89%B9herhr6, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 [BGP-RSV]日本 2", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-jp.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇨🇳 [BGP-RSV]台湾HiNet 2", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-tw.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 [BGP-RSV]美国gtt 2", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-usgt.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: US1, server: scw.oppo.quest, port: 56789, type: ss, cipher: aes-256-gcm, password: KblFYg1QVM, udp: true}
+  - {name: "🇺🇸 [BGP-RSV]美国Cogent 2", server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-us.optage.moe, skip-cert-verify: false, udp: true}
+  - {name: US3, server: 128.14.140.254, port: 443, type: vmess, uuid: 02ddd27e-cb08-424d-8279-d02bf11b0342, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /123, headers: {Host: zz1.wblogw1.tk}}, udp: true}
   - {name: US1 2, server: scw.oppo.quest, port: 56789, type: ss, cipher: aes-256-gcm, password: KblFYg1QVM, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -34,56 +41,70 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
   - name: 🎥 NETFLIX
     type: select
@@ -91,28 +112,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
   - name: ⛔️ 广告拦截
     type: select
@@ -132,94 +160,118 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾HiNet
-      - 🇭🇰 香港02
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇭🇰 香港-Free-02
+      - 🇨🇳 亚洲 | 台湾B
       - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇨🇳 台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
   - name: 🍎 苹果服务
     type: select
@@ -227,28 +279,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
   - name: 🎯 全球直连
     type: select
@@ -265,28 +324,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港-Free-02
+      - 🇻🇳 越南-Free
+      - 🇫🇷 法国-Free
+      - 🇳🇱 荷兰-Free
+      - 🇹🇷 土耳其-Free
+      - 🇧🇷 巴西-Free
+      - 🇬🇧 英国-Free
+      - 🇩🇪 德国-Free
+      - 🇨🇳 亚洲 | 台湾B
+      - 🇨🇳 [BGP-RSV]台湾HiNet
+      - 🇭🇰 [BGP-RSV]香港BGP
+      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇺🇸 [BGP-RSV]美国gtt
+      - 🇰🇷 [BGP-RSV]韩国
+      - 🇯🇵 [BGP-RSV]日本
+      - 🇭🇰 [BGP-RSV]香港HGC
+      - 🇸🇬 狮城02 中转 1x
+      - 🇯🇵 日本02 中转 1x
       - 🇨🇳 台湾HiNet
       - SG4
-      - JP1
-      - US1
-      - 🇰🇿 哈萨克斯坦
-      - US3
-      - 🇺🇸 美洲 | 美国B
-      - 🇺🇸 美洲 | 美国D
-      - 🇪🇺 欧洲 | 法国
-      - 🇹🇷 亚洲 | 土耳其
-      - 🇰🇷 亚洲 | 韩国A
-      - 🇯🇵 日本02|不限速
-      - 🇭🇰 香港02
-      - 🇯🇵 日本03
-      - 🇸🇬 新加坡03
-      - 🇭🇰 [BGP-RSV]香港HGC
-      - 🇭🇰 [BGP-RSV]香港BGP
-      - 🇨🇳 [BGP-RSV]台湾HiNet
       - SG4 2
-      - 🇯🇵 [BGP-RSV]日本
-      - 🇺🇸 [BGP-RSV]美国gtt
-      - 🇺🇸 [BGP-RSV]美国Cogent
+      - 🇭🇰 [BGP-RSV]香港BGP 2
+      - JP1
+      - 🇯🇵 [BGP-RSV]日本 2
+      - 🇨🇳 [BGP-RSV]台湾HiNet 2
+      - 🇺🇸 [BGP-RSV]美国gtt 2
+      - US1
+      - 🇺🇸 [BGP-RSV]美国Cogent 2
+      - US3
       - US1 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
