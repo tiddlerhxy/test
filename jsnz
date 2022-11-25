@@ -5,199 +5,239 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇨🇳 台湾 02, server: tw02.diwaleifast.com, port: 30007, type: ss, cipher: aes-128-gcm, password: 7417c739-90f5-418c-9f74-67310a372c6c, udp: true}
-  - {name: 🇭🇰 香港 01, server: hk01.diwaleifast.com, port: 30001, type: ss, cipher: aes-128-gcm, password: 7417c739-90f5-418c-9f74-67310a372c6c, udp: true}
-  - {name: 🇯🇵 Japan 06 直连 『免费』, server: jp5.lianpi.xyz, port: 12323, type: trojan, password: 96e16b73-f03c-4434-90cb-6ef39e239f0d, sni: jp5.lianpi.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan 02 直连 『免费』, server: jp1.lianpi.xyz, port: 23454, type: trojan, password: 96e16b73-f03c-4434-90cb-6ef39e239f0d, sni: jp1.lianpi.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan 05 三网4134测试, server: jp4.lianpi.xyz, port: 34232, type: trojan, password: 96e16b73-f03c-4434-90cb-6ef39e239f0d, sni: jp4.lianpi.xyz, skip-cert-verify: false, udp: true}
-  - {name: SG1, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: ca.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG2, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: usa.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG3, server: 20.222.28.250, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: usa.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG4, server: 20.222.28.250, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: ca.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG5, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: de.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG6, server: 20.239.132.217, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: uk.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG7, server: 20.239.132.217, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: vpnhat.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG8, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: vpnhat.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: SG9, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: uk.liangyuandian.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡|叻沙, server: xin.mooooobai.top, port: 5122, type: vmess, uuid: 9627c468-64f1-31ac-8f88-bd39e1748aa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /usr, headers: {Host: xin.mooooobai.top}}, udp: true}
-  - {name: 🇭🇰 香港|咖喱鱼丸, server: hjm.mooooobai.top, port: 51222, type: vmess, uuid: 9627c468-64f1-31ac-8f88-bd39e1748aa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国|韩式拌饭, server: hkg.mooooobai.top, port: 51222, type: vmess, uuid: 9627c468-64f1-31ac-8f88-bd39e1748aa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇮🇳 印度|波亚尼炖饭, server: wzx.mooooobai.top, port: 51222, type: vmess, uuid: 9627c468-64f1-31ac-8f88-bd39e1748aa8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 03, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20013, type: trojan, password: 79864638-4679-241F-5ACE-5DD17E505503, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 02, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20012, type: trojan, password: 79864638-4679-241F-5ACE-5DD17E505503, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: "🇬🇧 Traffic: 42.36 GB | 200 GB", server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 79864638-4679-241F-5ACE-5DD17E505503, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong | 07, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20007, type: trojan, password: 79864638-4679-241F-5ACE-5DD17E505503, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: "🇬🇧 Traffic: 9.34 GB | 200 GB", server: cos-ap-guangzhou.westdatacloud.top, port: 20001, type: trojan, password: FDD7BFCC-4176-4C39-6CA8-0DCCD72B72B5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong | 01, server: cos-ap-guangzhou.westdatacloud.top, port: 20001, type: trojan, password: FDD7BFCC-4176-4C39-6CA8-0DCCD72B72B5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 02 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20012, type: trojan, password: FDD7BFCC-4176-4C39-6CA8-0DCCD72B72B5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 03 2, server: cos-ap-guangzhou.westdatacloud.top, port: 20013, type: trojan, password: FDD7BFCC-4176-4C39-6CA8-0DCCD72B72B5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong | 06, server: cos-ap-guangzhou.westdatacloud.top, port: 20006, type: trojan, password: F5AFF76C-8C28-878F-3A1A-241A467736F5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 01, server: cos-ap-guangzhou.westdatacloud.top, port: 20011, type: trojan, password: F5AFF76C-8C28-878F-3A1A-241A467736F5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 03 3, server: cos-ap-guangzhou.westdatacloud.top, port: 20013, type: trojan, password: F5AFF76C-8C28-878F-3A1A-241A467736F5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 05, server: cos-ap-guangzhou.westdatacloud.top, port: 20015, type: trojan, password: F5AFF76C-8C28-878F-3A1A-241A467736F5, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
   - {name: Linode, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
-  - {name: Linode 2, server: jp.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: USJP, server: yydsdy.top, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: Dwz4t1EJg0obH8oCuMjFcDheszcYC7yZXtyi6Vj6CbQk, plugin: obfs, plugin-opts: {mode: http, host: yydsdy.top}, udp: true}
+  - {name: Linode1, server: jp.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202211000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.cc}, udp: true}
+  - {name: US999, server: xing.quorecs.tk, port: 80, type: vmess, uuid: d2322443-0575-4abc-a9dd-e46fdc9c570f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /scaleway, headers: {Host: xing.quorecs.tk}}, udp: true}
+  - {name: 🇭🇰 Hong Kong | 04, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20004, type: trojan, password: 8D8B8D6C-FDB6-0D04-B298-8F78D225CDD1, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan | 05, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20015, type: trojan, password: 8D8B8D6C-FDB6-0D04-B298-8F78D225CDD1, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
+  - {name: "🇬🇧 Traffic: 252.74 GB | 400 GB", server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 8D8B8D6C-FDB6-0D04-B298-8F78D225CDD1, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong | 03, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20003, type: trojan, password: 8D8B8D6C-FDB6-0D04-B298-8F78D225CDD1, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 VIP1｜香港2-厦门电信, server: 110.80.3.4, port: 25026, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇭🇰 VIP1｜香港1-厦门电信, server: 110.80.3.4, port: 25025, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇸🇬 VIP1｜新加坡-厦门电信, server: 110.80.3.4, port: 25028, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇨🇳 VIP1｜四川｜免流专用, server: sc.dzdv.cn, port: 80, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇯🇵 VIP1｜日本-厦门电信, server: 110.80.3.4, port: 25027, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇭🇰 VIP1｜香港1-厦门电信 2, server: 110.80.3.4, port: 25025, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇭🇰 VIP1｜香港2-厦门电信 2, server: 110.80.3.4, port: 25026, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇸🇬 VIP1｜新加坡-厦门电信 2, server: 110.80.3.4, port: 25028, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇨🇳 VIP1｜四川｜免流专用 2, server: sc.dzdv.cn, port: 80, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇯🇵 VIP1｜日本-厦门电信 2, server: 110.80.3.4, port: 25027, type: vmess, uuid: 1cba22dc-c942-45dc-ab53-5cfc04ef8520, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qingzhuanduoyun, headers: {Host: "%7B%22Host%22:%22a.189.cn%22%7D"}}, udp: true}
+  - {name: 🇨🇦 CA加拿大002, server: ca.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 CA加拿大003, server: ca.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 CA加拿大001, server: ca.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 USA美国003, server: usa.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 USA美国002, server: usa.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 UK英国001, server: uk.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 UK英国002, server: uk.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 USA美国001, server: usa.liangyuandian.top, port: 443, type: trojan, password: ceaea123-1b4b-469b-8358-bcd5f5529305, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 03 | 0.2, server: node28.myyus.xyz, port: 44222, type: vmess, uuid: 64bf5147-9ae5-4cc0-bf21-76f74372b2c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 01 | 0.25, server: node01.myyus.xyz, port: 47228, type: vmess, uuid: 64bf5147-9ae5-4cc0-bf21-76f74372b2c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 01 | 0.25, server: node04.myyus.xyz, port: 54123, type: vmess, uuid: 64bf5147-9ae5-4cc0-bf21-76f74372b2c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 02 | 动态计费, server: node14.myyus.xyz, port: 43891, type: vmess, uuid: 64bf5147-9ae5-4cc0-bf21-76f74372b2c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 02 | 动态计费, server: 183.255.114.94, port: 49881, type: vmess, uuid: 64bf5147-9ae5-4cc0-bf21-76f74372b2c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 01 | 动态计费, server: node10.myyus.xyz, port: 41233, type: vmess, uuid: 64bf5147-9ae5-4cc0-bf21-76f74372b2c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 01 | 0.15, server: node02.myyus.xyz, port: 41332, type: vmess, uuid: 64bf5147-9ae5-4cc0-bf21-76f74372b2c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
   - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: "🇯🇵 IEPL-AP-JP-1[ran-out](ss)", server: h745768.waihuizhibiaowang.com, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2, udp: true}
   - {name: 🇭🇰 香港IPLC顶级专线01, server: fn600mliness019.svcline.com, port: 1465, type: ss, cipher: aes-256-gcm, password: fa7ccc245d08, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h217022.waihuizhibiaowang.com:11743, server: h217022.waihuizhibiaowang.com, port: 11743, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "🇯🇵 IEPL-AP-JP-1[ran-out](ss)", server: h745768.waihuizhibiaowang.com, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: 3dbdf038-ef96-4b51-834e-ac7e5ce94fe2, udp: true}
+  - {name: SG2, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: usa.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: SG3, server: 20.222.28.250, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: usa.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: SG4, server: 20.222.28.250, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: ca.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: SG1, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: ca.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: SG8, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: vpnhat.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: SG9, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: uk.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: SG5, server: 20.187.74.201, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: de.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: SG7, server: 20.239.132.217, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: vpnhat.liangyuandian.top, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: SG6, server: 20.239.132.217, port: 443, type: trojan, password: cc55e294-b76f-425a-9301-c18afbecaa22, sni: uk.liangyuandian.top, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h217022.waihuizhibiaowang.com:11743, server: h217022.waihuizhibiaowang.com, port: 11743, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -216,57 +256,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇭🇰 香港|咖喱鱼丸
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇭🇰 香港 03 | 0.2
+      - 🇭🇰 香港 01 | 0.25
+      - 🇭🇰 香港 02 | 动态计费
       - 🇭🇰 香港跨境金融专线02
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
@@ -277,149 +331,179 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -435,50 +519,60 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 台湾 02
-      - 🇭🇰 香港 01
-      - 🇯🇵 Japan 06 直连 『免费』
-      - 🇯🇵 Japan 02 直连 『免费』
-      - 🇯🇵 Japan 05 三网4134测试
-      - SG1
-      - SG2
-      - SG3
-      - SG4
-      - SG5
-      - SG6
-      - SG7
-      - SG8
-      - SG9
-      - 🇸🇬 新加坡|叻沙
-      - 🇭🇰 香港|咖喱鱼丸
-      - 🇰🇷 韩国|韩式拌饭
-      - 🇮🇳 印度|波亚尼炖饭
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 02
-      - "🇬🇧 Traffic: 42.36 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 07
-      - "🇬🇧 Traffic: 9.34 GB | 200 GB"
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 02 2
-      - 🇨🇳 Taiwan | 03 2
-      - 🇭🇰 Hong Kong | 06
-      - 🇨🇳 Taiwan | 01
-      - 🇨🇳 Taiwan | 03 3
-      - 🇨🇳 Taiwan | 05
       - Linode
-      - Linode 2
+      - USJP
+      - Linode1
+      - US999
+      - 🇭🇰 Hong Kong | 04
+      - 🇨🇳 Taiwan | 05
+      - "🇬🇧 Traffic: 252.74 GB | 400 GB"
+      - 🇭🇰 Hong Kong | 03
+      - 🇭🇰 VIP1｜香港2-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信
+      - 🇸🇬 VIP1｜新加坡-厦门电信
+      - 🇨🇳 VIP1｜四川｜免流专用
+      - 🇯🇵 VIP1｜日本-厦门电信
+      - 🇭🇰 VIP1｜香港1-厦门电信 2
+      - 🇭🇰 VIP1｜香港2-厦门电信 2
+      - 🇸🇬 VIP1｜新加坡-厦门电信 2
+      - 🇨🇳 VIP1｜四川｜免流专用 2
+      - 🇯🇵 VIP1｜日本-厦门电信 2
+      - 🇨🇦 CA加拿大002
+      - 🇨🇦 CA加拿大003
+      - 🇨🇦 CA加拿大001
+      - 🇺🇸 USA美国003
+      - 🇺🇸 USA美国002
+      - 🇬🇧 UK英国001
+      - 🇬🇧 UK英国002
+      - 🇺🇸 USA美国001
+      - 🇭🇰 香港 03 | 0.2
+      - 🇸🇬 新加坡 01 | 0.25
+      - 🇭🇰 香港 01 | 0.25
+      - 🇸🇬 新加坡 02 | 动态计费
+      - 🇭🇰 香港 02 | 动态计费
+      - 🇯🇵 日本 01 | 动态计费
+      - 🇺🇸 美国 01 | 0.15
       - 🇭🇰 香港跨境金融专线02
       - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港IEPL内网专线01
-      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
       - 🇭🇰 香港IPLC顶级专线01
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11543
-      - h217022.waihuizhibiaowang.com:11743
-      - h745768.waihuizhibiaowang.com:11543
       - 🇭🇰 香港跨境金融专线03
-      - h745768.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 IEPL-AP-JP-1[ran-out](ss)
+      - SG2
+      - SG3
+      - SG4
+      - SG1
+      - SG8
+      - SG9
+      - SG5
+      - SG7
+      - h745768.waihuizhibiaowang.com:11543
+      - SG6
       - h745768.waihuizhibiaowang.com:11243
+      - h649960.waihuizhibiaowang.com:11543
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11743
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
