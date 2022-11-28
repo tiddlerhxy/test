@@ -5,191 +5,195 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国首尔IPLC专线1, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线2, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线3, server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线4, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线5, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线6, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线1, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线2, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线3, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线4, server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线5, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线6, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线1, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线2, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线3, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线4, server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线5, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线6, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 调试, server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong, server: 20.255.33.139, port: 443, type: trojan, password: 52171d41-9367-429f-baa6-43660a6c84e4, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 新加坡 | 湘港隧道 | 1x, server: hnlt.wfpig.click, port: 56506, type: vmess, uuid: 80b83e1c-6bf3-415c-a429-45baabc98a26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 | 沪日隧道1 | 1x, server: sl.alhttdw.cn, port: 31184, type: vmess, uuid: 80b83e1c-6bf3-415c-a429-45baabc98a26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 | 豫日隧道 | 1x, server: henlt.wfpig.click, port: 33893, type: vmess, uuid: 80b83e1c-6bf3-415c-a429-45baabc98a26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 | 皖日隧道 | 1x, server: ahhfb.fosi.hk, port: 26845, type: vmess, uuid: 80b83e1c-6bf3-415c-a429-45baabc98a26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 V1-专线隧道-东京, server: v1.nicecdns.com, port: 10350, type: trojan, password: 8b5d2a44-a247-4c0c-bad4-218d890acab4, sni: tky1.coolduck.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 V3-原生IP-东京 | 限时, server: tky3.nicecdns.com, port: 443, type: vmess, uuid: 8b5d2a44-a247-4c0c-bad4-218d890acab4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /CCTV6/hd.m3u8, headers: {Host: tky3.nicecdns.com}}, udp: true}
+  - {name: 🇸🇬 V1-专线隧道-新加坡 | 解锁, server: v1.nicecdns.com, port: 10351, type: trojan, password: 8b5d2a44-a247-4c0c-bad4-218d890acab4, sni: sg1.coolduck.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 V1-直连-东京, server: tky1aws.nicecdns.com, port: 10020, type: vmess, uuid: 8b5d2a44-a247-4c0c-bad4-218d890acab4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /CCTV6/hd.m3u8, headers: {Host: tky1aws.nicecdns.com}}, udp: true}
   - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
-  - {name: 🇨🇳 Taiwan | 03, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20013, type: trojan, password: 3EB0BB5F-B834-453B-9992-5F9E9B194E24, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 04, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20014, type: trojan, password: 3EB0BB5F-B834-453B-9992-5F9E9B194E24, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong | 01, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20001, type: trojan, password: 3EB0BB5F-B834-453B-9992-5F9E9B194E24, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 08, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20018, type: trojan, password: F43108B7-90F9-7397-3188-D321E25BB428, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 Taiwan | 02, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20012, type: trojan, password: F43108B7-90F9-7397-3188-D321E25BB428, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong | 02, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20002, type: trojan, password: F43108B7-90F9-7397-3188-D321E25BB428, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong | 07, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20007, type: trojan, password: F43108B7-90F9-7397-3188-D321E25BB428, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong | 04, server: oss-cn-guangzhou.westdatacloud.xyz, port: 20004, type: trojan, password: 3EB0BB5F-B834-453B-9992-5F9E9B194E24, sni: v12.kwaicdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线03, server: fn600mliness017.svcline.com, port: 1636, type: ss, cipher: aes-256-gcm, password: !<str> 849333910491, udp: true}
   - {name: h036368.waihuizhibiaowang.com:11543, server: h036368.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇭🇰 香港IPLC顶级专线01, server: fn600mliness019.svcline.com, port: 1465, type: ss, cipher: aes-256-gcm, password: fa7ccc245d08, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线03, server: fn600mliness017.svcline.com, port: 1636, type: ss, cipher: aes-256-gcm, password: !<str> 849333910491, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本东京IPLC专线3, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇯🇵 日本东京IPLC专线5, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 测试4, server: yydsdy.top, port: 20000, type: ss, cipher: chacha20-ietf-poly1305, password: Dwz4t1EJg0obH8oCuMjFcDheszcYC7yZXtyi6Vj6CbQk, plugin: obfs, plugin-opts: {mode: http, host: yydsdy.top}, udp: true}
+  - {name: 🇯🇵 日本东京IPLC专线1, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇯🇵 日本东京IPLC专线2, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 测试1, server: 116.162.120.30, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 27445:jgjgjgjgjgjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇺🇸 美国纽约IPLC专线6, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇺🇸 美国纽约IPLC专线5, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
   - {name: h036368.waihuizhibiaowang.com:11243, server: h036368.waihuizhibiaowang.com, port: 11243, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
   - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 测试3, server: 116.162.120.23, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 27445:jgjgjgjgjgjg, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 测试1, server: 116.162.120.30, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 27445:jgjgjgjgjgjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇰🇷 韩国首尔IPLC专线3, server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
   - {name: h036368.waihuizhibiaowang.com:11743, server: h036368.waihuizhibiaowang.com, port: 11743, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 测试3, server: 116.162.120.23, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 27445:jgjgjgjgjgjg, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇰🇷 韩国首尔IPLC专线6, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇯🇵 日本东京IPLC专线6, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇯🇵 日本东京IPLC专线4, server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇰🇷 韩国首尔IPLC专线5, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇰🇷 韩国首尔IPLC专线4, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇰🇷 韩国首尔IPLC专线2, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇺🇸 美国纽约IPLC专线3, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇺🇸 美国纽约IPLC专线2, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇺🇸 美国纽约IPLC专线1, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇺🇸 美国纽约IPLC专线4, server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇰🇷 韩国首尔IPLC专线1, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,199 +212,204 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇭🇰 香港IEPL内网专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
+      - 🇭🇰 香港跨境金融专线03
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -416,48 +425,49 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 韩国首尔IPLC专线1
-      - 🇰🇷 韩国首尔IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇰🇷 韩国首尔IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线6
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇯🇵 日本东京IPLC专线2
-      - 🇯🇵 日本东京IPLC专线3
-      - 🇯🇵 日本东京IPLC专线4
-      - 🇯🇵 日本东京IPLC专线5
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇺🇸 美国纽约IPLC专线1
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇺🇸 美国纽约IPLC专线3
-      - 🇺🇸 美国纽约IPLC专线4
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇺🇸 美国纽约IPLC专线6
+      - 调试
+      - 🇭🇰 Hong Kong
+      - 🇭🇰 新加坡 | 湘港隧道 | 1x
+      - 🇯🇵 日本 | 沪日隧道1 | 1x
+      - 🇯🇵 日本 | 豫日隧道 | 1x
+      - 🇯🇵 日本 | 皖日隧道 | 1x
+      - 🇯🇵 V1-专线隧道-东京
+      - 🇯🇵 V3-原生IP-东京 | 限时
+      - 🇸🇬 V1-专线隧道-新加坡 | 解锁
+      - 🇯🇵 V1-直连-东京
       - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 Taiwan | 03
-      - 🇨🇳 Taiwan | 04
-      - 🇭🇰 Hong Kong | 01
-      - 🇨🇳 Taiwan | 08
-      - 🇨🇳 Taiwan | 02
-      - 🇭🇰 Hong Kong | 02
-      - 🇭🇰 Hong Kong | 07
-      - 🇭🇰 Hong Kong | 04
+      - 🇭🇰 香港IEPL内网专线03
       - h036368.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线01
-      - 🇭🇰 香港IEPL内网专线03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇯🇵 日本东京IPLC专线3
+      - 🇯🇵 日本东京IPLC专线5
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 测试4
+      - 🇯🇵 日本东京IPLC专线1
+      - 🇯🇵 日本东京IPLC专线2
+      - 测试1
+      - 🇺🇸 美国纽约IPLC专线6
+      - 🇺🇸 美国纽约IPLC专线5
       - h036368.waihuizhibiaowang.com:11243
       - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 测试3
-      - 测试1
+      - 🇰🇷 韩国首尔IPLC专线3
       - h036368.waihuizhibiaowang.com:11743
+      - 测试3
+      - 🇰🇷 韩国首尔IPLC专线6
+      - 🇯🇵 日本东京IPLC专线6
+      - 🇯🇵 日本东京IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线5
+      - 🇰🇷 韩国首尔IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线3
+      - 🇺🇸 美国纽约IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线1
+      - 🇺🇸 美国纽约IPLC专线4
+      - 🇰🇷 韩国首尔IPLC专线1
+      - 🇭🇰 香港跨境金融专线03
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
