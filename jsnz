@@ -5,219 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 🇭🇰 香港SS｜广移02, server: asdmnioqw21dom.nekodafu.xyz, port: 15775, type: ss, cipher: chacha20-ietf-poly1305, password: 84c17f10-bcf0-4b33-8b08-3b223f6ddd7f, udp: true}
+  - {name: 🇭🇰 香港SS｜上海02, server: 120.92.138.52, port: 38865, type: ss, cipher: chacha20-ietf-poly1305, password: 84c17f10-bcf0-4b33-8b08-3b223f6ddd7f, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-01, server: sg1.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-02, server: sg2.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 距离下次重置剩余：20 天, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-02, server: hk2.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-04, server: hk4.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇺🇸 美国高速接入点-01, server: us1.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇺🇸 美国高速接入点-02, server: us2.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
+  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
   - {name: 🇭🇰 香港 06, server: dl-hkcmi2.efpan.one, port: 443, type: trojan, password: 0235fcca-cb26-4e1d-a5d5-8264e83ec0f0, sni: data-hk.efpan.one, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港 05, server: dl-hkcmi1.efpan.one, port: 443, type: trojan, password: 0235fcca-cb26-4e1d-a5d5-8264e83ec0f0, sni: data-hk.efpan.one, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: dl-sg2.efpan.one, port: 4431, type: trojan, password: 0235fcca-cb26-4e1d-a5d5-8264e83ec0f0, sni: data-sg.efpan.one, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HongKong v2-02, server: sukev-shenzhen.cndns.shop, port: 20222, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 HongKong v2-01, server: sukev-shenzhen.cndns.shop, port: 20221, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-IEPL-02, server: iepl.suke.wiki, port: 27702, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-11, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28711, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-05, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27705, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-IEPL-03, server: iepl.suke.wiki, port: 27703, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-IEPL-07, server: iepl.suke.wiki, port: 27707, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-01, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27701, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-13, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28713, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇨🇳 Taiwan Hinet-07, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27747, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-10, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28710, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
-  - {name: 🇭🇰 Hong Kong-15, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28715, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: 🇭🇰 Hong Kong-14, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 28714, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 Hong Kong-04, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27704, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇸🇬 Singapore-IEPL-03, server: iepl.suke.wiki, port: 22303, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇰🇷 韩国首尔IPLC专线6, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线3, server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇭🇰 Hong Kong-08, server: 86ba8669-56c8-40d3-89e1-99bdcfebe744.cndns.shop, port: 27708, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线5, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线4, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇸🇬 Singapore-IEPL-02, server: iepl.suke.wiki, port: 22302, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线6, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇯🇵 日本高速接入点-02, server: jp2.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
-  - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡高速接入点-02, server: sg2.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 Hong Kong-IEPL-05, server: iepl.suke.wiki, port: 27705, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 香港高速接入点-04, server: hk4.sanfen001.pics, port: 443, type: vmess, uuid: 09b69a66-bfd5-46fd-b551-be929b8b0079, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: "%7B%22Host%22:%22www.microsoft.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 Trojan-东京04|公益, server: tr4.tgcunzhang.xyz, port: 54746, type: trojan, password: 431b22e2-d67b-4a41-9c97-773cde0329a4, sni: tr4.tgcunzhang.xyz, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 韩国首尔IPLC专线1, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇰🇷 韩国首尔IPLC专线4, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
   - {name: 🇯🇵 日本东京IPLC专线2, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: 🇺🇸 美国纽约IPLC专线5, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本东京IPLC专线1, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇸🇬 Singapore-IEPL-08, server: iepl.suke.wiki, port: 22308, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇸🇬 「🇸🇬」新加坡B, server: bp.i809.ml, port: 34443, type: vmess, uuid: b9c4f30f-0e95-4c23-80f8-b134414f43ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国纽约IPLC专线2, server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
-  - {name: 🇰🇷 韩国首尔IPLC专线2, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
   - {name: 调试, server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong-IEPL-09, server: iepl.suke.wiki, port: 27709, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇸🇬 Singapore-IEPL-01, server: iepl.suke.wiki, port: 22301, type: ss, cipher: chacha20-ietf-poly1305, password: 23c73085-a994-4ba1-8fd7-b95e6eb48db6, udp: true}
-  - {name: 🇭🇰 「🇭🇰」香港, server: bp.i809.ml, port: 18443, type: trojan, password: b9c4f30f-0e95-4c23-80f8-b134414f43ec, sni: qt53.shenseven.xyz, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 16d3e1c5f1, password: 8286412be9, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -236,229 +140,135 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港高速接入点-04
-      - 🇭🇰 「🇭🇰」香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -474,55 +284,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 香港SS｜广移02
+      - 🇭🇰 香港SS｜上海02
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇸🇬 新加坡高速接入点-02
+      - 距离下次重置剩余：20 天
+      - 🇭🇰 香港高速接入点-02
+      - 🇭🇰 香港高速接入点-04
+      - 🇺🇸 美国高速接入点-01
+      - 🇺🇸 美国高速接入点-02
+      - 🇺🇸 美国纽约私人订制专线
       - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇸🇬 新加坡 02
-      - 🇭🇰 HongKong v2-02
-      - 🇭🇰 HongKong v2-01
-      - 🇭🇰 Hong Kong-IEPL-02
-      - 🇭🇰 Hong Kong-11
-      - 🇭🇰 Hong Kong-05
-      - 🇭🇰 Hong Kong-IEPL-03
-      - 🇭🇰 Hong Kong-IEPL-07
-      - 🇭🇰 Hong Kong-01
-      - 🇭🇰 Hong Kong-13
-      - 🇨🇳 Taiwan Hinet-07
-      - 🇭🇰 Hong Kong-10
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 Hong Kong-15
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 Hong Kong-14
-      - 🇭🇰 Hong Kong-04
-      - 🇸🇬 Singapore-IEPL-03
       - h745768.waihuizhibiaowang.com:11343
+      - 🇭🇰 香港IEPL内网专线01
       - 🇰🇷 韩国首尔IPLC专线6
-      - 🇰🇷 韩国首尔IPLC专线3
-      - 🇭🇰 Hong Kong-08
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11443
-      - 🇺🇸 美国纽约IPLC专线5
-      - 🇰🇷 韩国首尔IPLC专线4
-      - 🇸🇬 Singapore-IEPL-02
-      - 🇯🇵 日本东京IPLC专线6
-      - 🇯🇵 日本高速接入点-02
-      - h217022.waihuizhibiaowang.com:11243
-      - 🇸🇬 新加坡高速接入点-02
-      - 🇭🇰 Hong Kong-IEPL-05
-      - 🇭🇰 香港高速接入点-04
-      - 🇯🇵 Trojan-东京04|公益
       - 🇰🇷 韩国首尔IPLC专线1
+      - 🇰🇷 韩国首尔IPLC专线4
       - 🇯🇵 日本东京IPLC专线2
+      - 🇺🇸 美国纽约IPLC专线5
+      - h745768.waihuizhibiaowang.com:11443
+      - h217022.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11243
-      - 🇯🇵 日本东京IPLC专线1
-      - 🇸🇬 Singapore-IEPL-08
-      - 🇸🇬 「🇸🇬」新加坡B
-      - 🇺🇸 美国纽约IPLC专线2
-      - 🇰🇷 韩国首尔IPLC专线2
       - 调试
-      - 🇭🇰 Hong Kong-IEPL-09
-      - 🇸🇬 Singapore-IEPL-01
-      - 🇭🇰 「🇭🇰」香港
+      - h745768.waihuizhibiaowang.com:11543
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
