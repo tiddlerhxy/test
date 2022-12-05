@@ -5,243 +5,183 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Linode套CDN, server: 47.52.78.112, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
+  - {name: 距离下次重置剩余：3 天, server: sg.liangyuandian.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 SG新加坡001 两元店yyds, server: sg.liangyuandian.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 SG新加坡003, server: sg.liangyuandian.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP日本002, server: jp.liangyuandian.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 JP日本003, server: jp.liangyuandian.top, port: 443, type: trojan, password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e, skip-cert-verify: false, udp: true}
   - {name: Linode, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202212000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.sb}, udp: true}
-  - {name: tg, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 2f949e75-1223-3556-b26d-2087b23ac9eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港有线-dip11, server: 182.151.8.150, port: 19204, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港有线-dip12, server: 223.111.202.178, port: 19203, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港有线-dip9, server: 222.84.250.35, port: 19242, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港有线-dip18, server: 222.84.250.35, port: 19211, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 湘日 04 7x, server: c186608d-6bef-4eb3-ac43-331a3e5333ea.wnbo.top, port: 45530, type: trojan, password: da398ff5-137f-49b9-98ef-63b154afdca4, sni: azjp.aac6fef.top, skip-cert-verify: false, udp: true}
-  - {name: 调试, server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
   - {name: 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x, server: in04.my1188.org, port: 63086, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
-  - {name: 🇭🇰 V1-香港HKT03 CDN 中继 2x, server: in05.my1188.org, port: 63082, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt3-cdn.tencent.best}}, udp: true}
-  - {name: 🇮🇳 V2-印度01 中继D | 1.5x, server: in04.my1188.org, port: 63051, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls, headers: {Host: mugua-in01.airport-v2.com}}, udp: true}
+  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
+  - {name: 🇯🇵 日本AZ | IEPL, server: 20.210.237.81, port: 443, type: trojan, password: 50098c6e-db84-48dc-8b9e-7d7899b87921, sni: freecloud.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港有线-dip16, server: 101.226.23.85, port: 19226, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线01, server: exkkdx600mtwlines008.fnline.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c9022610bd94, udp: true}
+  - {name: 🇭🇰 香港HGC-dip7, server: 222.84.250.35, port: 19214, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x, server: in05.my1188.org, port: 63086, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
-  - {name: 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x, server: in01.my1188.org, port: 63078, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 🇰🇷 甲骨文.韩国首尔, server: oracle-sel-free-1.wisdomfree.tk, port: 60001, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港HGC-dip5, server: 222.84.250.35, port: 19201, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港有线-dip1, server: 222.84.250.35, port: 19201, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 V1-香港HKT03 CDN 中继 2x, server: in05.my1188.org, port: 63082, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkt3-cdn.tencent.best}}, udp: true}
   - {name: 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x, server: in06.my1188.org, port: 63086, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mugua, headers: {Host: jp-balancer.myn1des.com}}, udp: true}
+  - {name: 🇮🇳 V2-印度01 中继D | 1.5x, server: in04.my1188.org, port: 63051, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls, headers: {Host: mugua-in01.airport-v2.com}}, udp: true}
   - {name: 🇯🇵 V2-日本03 CDN 中继 1.5x, server: in05.my1188.org, port: 63005, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /mg, headers: {Host: mugua-jp03.mynodes001.one}}, udp: true}
   - {name: 🇮🇳 V2-印度01 中继B | 1.5x, server: in02.my1188.org, port: 63051, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hls, headers: {Host: mugua-in01.airport-v2.com}}, udp: true}
-  - {name: 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x, server: in05.my1188.org, port: 63078, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
-  - {name: 🇰🇷 甲骨文.韩国首尔, server: oracle-sel-free-1.wisdomfree.tk, port: 60001, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇯🇵 甲骨文.日本东京, server: oracle-tky-free-1.wisdomfree.tk, port: 60001, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇰🇷 甲骨文.韩国春川, server: oracle-rknc-free-1.wisdomfree.tk, port: 60001, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
   - {name: 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量, server: oracle-gia-cc-free-arm.wisdomfree.tk, port: 60002, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇺🇸 VirMach.美国-CDN2, server: dns01.leek.ml, port: 443, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dns01.leek.ml}}, udp: true}
-  - {name: 🇸🇬 新加坡01🇸🇬, server: awsxjp01.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 新加坡02🇸🇬, server: awsxjp02.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 Az香港03🇭🇰, server: azxg03.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 Az香港01🇭🇰, server: azxg.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇨🇳 湖北01🇨🇳, server: hb.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 日本02🇯🇵, server: azrb02.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇭🇰 Az香港02🇭🇰, server: azxg02.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 日本01🇯🇵, server: azrb01.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇯🇵 日本03🇯🇵, server: azrb04.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇮🇳 印度01🇮🇳, server: azyd.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇰🇷 韩国01🇰🇷, server: azhg01.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇫🇷 巴黎01🇫🇷, server: azbl.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇬🇧 伦敦01🇬🇧, server: awsld.paolujichang.com, port: 80, type: vmess, uuid: 975a0a5d-12b3-4a24-bafc-53f69c431429, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /goudan, headers: {Host: "%7B%22Host%22:%22alidocs.dingtalk.com%22%7D"}}, udp: true}
-  - {name: 🇸🇬 新加坡02|专线, server: sg1.feiyun.club, port: 1001, type: vmess, uuid: cde0c7b0-1764-4ff0-88b1-9e14f5f839b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡01|专线, server: sg1.feiyun.club, port: 1000, type: vmess, uuid: cde0c7b0-1764-4ff0-88b1-9e14f5f839b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
-  - {name: 🇭🇰 香港有线-dip1, server: 222.84.250.35, port: 19201, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
-  - {name: 🇭🇰 香港有线-dip8, server: 222.84.250.35, port: 19214, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip14, server: 222.84.250.35, port: 19221, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip7, server: 182.151.8.150, port: 19203, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港HGC-dip15, server: 222.84.250.35, port: 19242, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip11, server: 182.151.8.150, port: 19204, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线04, server: mktw600mline005.kuainiaojs.club, port: 465, type: ss, cipher: chacha20-ietf-poly1305, password: 91b2a9da9867, udp: true}
-  - {name: 🇭🇰 香港有线-dip15, server: 101.226.23.85, port: 19216, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线01, server: exkkdx600mtwlines008.fnline.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c9022610bd94, udp: true}
-  - {name: 🇯🇵 日本AZ | IEPL, server: 20.210.237.81, port: 443, type: trojan, password: 50098c6e-db84-48dc-8b9e-7d7899b87921, sni: freecloud.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip4, server: 101.226.23.85, port: 19201, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x, server: in05.my1188.org, port: 63078, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 🇭🇰 香港有线-dip14, server: 222.84.250.35, port: 19221, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港HGC-dip12, server: 222.84.250.35, port: 19225, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip9, server: 222.84.250.35, port: 19242, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip16, server: 101.226.23.85, port: 19226, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip12, server: 223.111.202.178, port: 19203, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 甲骨文.日本东京, server: oracle-tky-free-1.wisdomfree.tk, port: 60001, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x, server: in01.my1188.org, port: 63078, type: vmess, uuid: c1517df4-6454-39ce-9037-d5eccfc703b7, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk-balancer.airport-v2.com}}, udp: true}
+  - {name: 🇰🇷 甲骨文.韩国春川, server: oracle-rknc-free-1.wisdomfree.tk, port: 60001, type: vmess, uuid: 4596acf5-98da-4832-84bd-e792681a132a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港有线-dip8, server: 222.84.250.35, port: 19214, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港有线-dip3, server: 180.102.30.72, port: 19204, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HGC-dip5, server: 222.84.250.35, port: 19201, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HGC-dip7, server: 222.84.250.35, port: 19214, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇭🇰 香港有线-dip18, server: 222.84.250.35, port: 19211, type: trojan, password: 089c4166-e466-35cf-ba65-7ebcdfb71ee5, skip-cert-verify: false, udp: true}
+  - {name: 调试, server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,276 +200,209 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
-      - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
-      - 🇭🇰 香港HGC-dip15
       - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇭🇰 香港有线-dip4
-      - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
       - 🇭🇰 香港有线-dip12
-      - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港有线-dip9
       - 🇭🇰 香港有线-dip18
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
+      - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
+      - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇭🇰 香港HGC-dip15
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
+      - 🇭🇰 香港HGC-dip12
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇭🇰 香港有线-dip8
+      - 🇭🇰 香港有线-dip3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -545,61 +418,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Linode套CDN
+      - 距离下次重置剩余：3 天
+      - 🇸🇬 SG新加坡001 两元店yyds
+      - 🇸🇬 SG新加坡003
+      - 🇯🇵 JP日本002
+      - 🇯🇵 JP日本003
       - Linode
-      - tg
+      - 🇭🇰 香港有线-dip11
+      - 🇭🇰 香港有线-dip12
+      - 🇭🇰 香港有线-dip9
+      - 🇭🇰 香港有线-dip18
       - 🇯🇵 湘日 04 7x
-      - 调试
+      - 🇭🇰 香港跨境金融专线02
       - 🇨🇳 V1-日本 多台负载均衡 中继D 1.5x
-      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
-      - 🇮🇳 V2-印度01 中继D | 1.5x
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇯🇵 日本AZ | IEPL
+      - 🇭🇰 香港有线-dip16
+      - 🇭🇰 香港跨境金融专线01
+      - 🇭🇰 香港HGC-dip7
       - 🇨🇳 V2-日本 多台负载均衡 中继E 1.5x
-      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国首尔
+      - 🇭🇰 香港HGC-dip5
+      - 🇭🇰 香港有线-dip1
+      - 🇭🇰 V1-香港HKT03 CDN 中继 2x
       - 🇨🇳 V1-日本 多台负载均衡 中继F 1.5x
+      - 🇮🇳 V2-印度01 中继D | 1.5x
       - 🇯🇵 V2-日本03 CDN 中继 1.5x
       - 🇮🇳 V2-印度01 中继B | 1.5x
-      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
-      - 🇰🇷 甲骨文.韩国首尔
-      - 🇯🇵 甲骨文.日本东京
-      - 🇰🇷 甲骨文.韩国春川
       - 🏳️‍🌈 甲骨文.韩国春川.车速过快，注意流量
-      - 🇺🇸 VirMach.美国-CDN2
-      - 🇸🇬 新加坡01🇸🇬
-      - 🇸🇬 新加坡02🇸🇬
-      - 🇭🇰 Az香港03🇭🇰
-      - 🇭🇰 Az香港01🇭🇰
-      - 🇨🇳 湖北01🇨🇳
-      - 🇯🇵 日本02🇯🇵
-      - 🇭🇰 Az香港02🇭🇰
-      - 🇯🇵 日本01🇯🇵
-      - 🇯🇵 日本03🇯🇵
-      - 🇮🇳 印度01🇮🇳
-      - 🇰🇷 韩国01🇰🇷
-      - 🇫🇷 巴黎01🇫🇷
-      - 🇬🇧 伦敦01🇬🇧
-      - 🇸🇬 新加坡02|专线
-      - 🇸🇬 新加坡01|专线
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港有线-dip1
-      - 🇭🇰 香港跨境金融专线02
-      - 🇭🇰 香港有线-dip8
-      - 🇭🇰 香港有线-dip14
-      - 🇭🇰 香港有线-dip7
       - 🇭🇰 香港HGC-dip15
-      - 🇭🇰 香港有线-dip11
-      - 🇭🇰 香港IEPL内网专线04
-      - 🇭🇰 香港有线-dip15
-      - 🇭🇰 香港跨境金融专线01
-      - 🇯🇵 日本AZ | IEPL
-      - 🇭🇰 香港有线-dip4
+      - 🇭🇰 V2-香港 多台负载均衡 中继E | 1.5x
+      - 🇭🇰 香港有线-dip14
       - 🇭🇰 香港HGC-dip12
-      - 🇭🇰 香港有线-dip9
-      - 🇭🇰 香港有线-dip16
-      - 🇭🇰 香港有线-dip12
+      - 🇯🇵 甲骨文.日本东京
+      - 🇭🇰 V1-香港 多台负载均衡 中继A | 1.5x
+      - 🇰🇷 甲骨文.韩国春川
+      - 🇭🇰 香港有线-dip8
       - 🇭🇰 香港有线-dip3
-      - 🇭🇰 香港HGC-dip5
-      - 🇭🇰 香港HGC-dip7
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港有线-dip18
+      - 调试
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
