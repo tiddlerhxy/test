@@ -5,227 +5,239 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HÀ NỘI 3  🇻🇳, server: 103.167.196.48, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: HÀ NỘI 2   🇻🇳 gaming, server: 103.167.196.52, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: "🇭🇰 [TT] CSA HONGKONG 2 [VT]", server: hongkong1.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
-  - {name: "🇭🇰 [GRN] CSA HONGKONG 1 [VT]", server: hongkong1.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: "🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]", server: hongkong1.csadata4g.me, port: 443, type: trojan, password: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, sni: dl.kgvn.garenanow.com, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [TT] CSA USA 2 [VT]", server: usa1.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
-  - {name: "[GRN] CSA VIETNAM 3 [TLS] [VT]", server: csavietnam3.csadata4g.me, port: 443, type: trojan, password: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, sni: dl.kgvn.garenanow.com, skip-cert-verify: false, udp: true}
-  - {name: "🇺🇸 [GRN] CSA USA 1 [TLS] [VT]", server: usa1.csadata4g.me, port: 443, type: trojan, password: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, sni: dl.kgvn.garenanow.com, skip-cert-verify: false, udp: true}
-  - {name: "[GRN] CSA VIETNAM 9 [VT]", server: csavietnam3.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
-  - {name: "[TT] CSA VIETNAM 6 [VT]", server: csavietnam3.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
+  - {name: "🇭🇰 [VIP2]-香港01", server: hk.hxlgaozhong.xyz, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk.hxlgaozhong.xyz}}, udp: true}
+  - {name: "🇸🇬 [VIP2]-新加坡01", server: 54.169.89.218, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇯🇵 [VIP2]-日本02-解锁流媒体", server: 52.68.166.22, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇦🇺 [VIP2]-澳大利亚01", server: 13.210.139.80, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇮🇳 [VIP2]-印度01", server: 15.207.107.0, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇺🇸 [VIP2]-美国01-解锁流媒体", server: mg.hxlgaozhong.xyz, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: mg.hxlgaozhong.xyz}}, udp: true}
+  - {name: "🇸🇪 [VIP2]-瑞典01", server: 13.51.178.44, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇯🇵 [VIP2]-日本01-解锁流媒体", server: jp.hxlgaozhong.xyz, port: 80, type: vmess, uuid: c24482f2-6b3b-4656-b23c-7a9528238282, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp.hxlgaozhong.xyz}}, udp: true}
+  - {name: "[TT] CSA GAMING 4 [VT]", server: csagaming2.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
+  - {name: "[TT] CSA GAMING 6 [VT]", server: csagaming2.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
+  - {name: "[TT] CSA GAMING 2 [VT]", server: csagaming2.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: v9-vn.tiktokcdn.com}}, udp: true}
+  - {name: "[GRN] CSA VIETNAM 1 [VT]", server: csavietnam1.csadata4g.me, port: 80, type: vmess, uuid: 8a678b26-e4c1-4fe0-b0a4-ec36e3f41996, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /csadata4g.me, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: 🇵🇭 隧道 | NF | 菲律宾 01, server: ying-moble.gatknqh.cn, port: 40226, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 隧道 | NF | 韩国 01, server: ying-moble.gatknqh.cn, port: 40222, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 隧道 | NF | 新加坡 09, server: ying-moble.gatknqh.cn, port: 40217, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 隧道 | NF | 新加坡 01, server: ying-moble.gatknqh.cn, port: 40209, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 隧道 | NF | 新加坡 03, server: ying-moble.gatknqh.cn, port: 40211, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 隧道 | NF | 英国 01, server: ying-moble.gatknqh.cn, port: 40228, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 隧道 | NF | 台湾 02, server: ying-unicom.gatknqh.cn, port: 40202, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 隧道 | NF | 台湾 04, server: ying-unicom.gatknqh.cn, port: 40204, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: Linode, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202212000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.sb}, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip7, server: 60.249.3.231, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip1, server: 60.249.3.125, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip3, server: 60.249.3.229, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip15, server: 60.249.3.126, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip2, server: 211.72.35.158, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip5, server: 60.249.3.228, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台北Hinet-dip11, server: 60.249.3.230, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip2, server: 211.72.35.158, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip1, server: 60.249.3.125, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip7, server: 60.249.3.231, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台北Hinet-dip4, server: 211.72.35.154, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip10, server: 5.44.249.53, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
+  - {name: 🇸🇬 隧道 | NF | 新加坡 05, server: ying-moble.gatknqh.cn, port: 40213, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip3, server: 60.249.3.229, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip18, server: 60.249.3.231, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 隧道 | NF | 新加坡 01, server: ying-moble.gatknqh.cn, port: 40209, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 隧道 | NF | 新加坡 09, server: ying-moble.gatknqh.cn, port: 40217, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇨🇳 台北Hinet-dip14, server: 60.249.3.125, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip5, server: 60.249.3.228, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台北Hinet-dip16, server: 60.249.3.230, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: Linode套CDN, server: 47.52.78.112, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip18, server: 60.249.3.231, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 隧道 | NF | 香港 04, server: ying-moble.gatknqh.cn, port: 40208, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 隧道 | NF | 新加坡 06, server: ying-moble.gatknqh.cn, port: 40214, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 隧道 | NF | 新加坡 09 2, server: ying-moble.gatknqh.cn, port: 40217, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 隧道 | NF | 新加坡 05, server: ying-moble.gatknqh.cn, port: 40213, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 隧道 | NF | 台湾 01, server: ying-unicom.gatknqh.cn, port: 40201, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 隧道 | NF | 新加坡 02, server: ying-moble.gatknqh.cn, port: 40210, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip13, server: 5.44.249.43, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: rn-7-day, server: ml.xxass.ml, port: 443, type: trojan, password: caonima2022, skip-cert-verify: false, udp: true}
-  - {name: 频道, server: 198.2.201.239, port: 2465, type: ss, cipher: chacha20-ietf-poly1305, password: 0873499deebb, udp: true}
+  - {name: HÀ NỘI 2   🇻🇳 gaming, server: 103.167.196.52, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: 🇨🇳 隧道 | NF | 台湾 01, server: ying-unicom.gatknqh.cn, port: 40201, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 隧道 | NF | 新加坡 06, server: ying-moble.gatknqh.cn, port: 40214, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 隧道 | NF | 台湾 04, server: ying-unicom.gatknqh.cn, port: 40204, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 隧道 | NF | 韩国 01, server: ying-moble.gatknqh.cn, port: 40222, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip10, server: 5.44.249.53, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: 调试, server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip17, server: 5.44.249.50, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip15, server: 60.249.3.126, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 隧道 | NF | 英国 01, server: ying-moble.gatknqh.cn, port: 40228, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: HÀ NỘI 3  🇻🇳, server: 103.167.196.48, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: 🇨🇳 隧道 | NF | 台湾 02, server: ying-unicom.gatknqh.cn, port: 40202, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 频道, server: 198.2.201.239, port: 2465, type: ss, cipher: chacha20-ietf-poly1305, password: 0873499deebb, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
+  - {name: 🇭🇰 隧道 | NF | 香港 04, server: ying-moble.gatknqh.cn, port: 40208, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 隧道 | NF | 香港 02, server: ying-moble.gatknqh.cn, port: 40206, type: vmess, uuid: fb1645f7-068a-3b40-a9bf-5c49bb1bf4e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip8, server: 5.44.249.42, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip13, server: 5.44.249.43, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港, server: 20.239.94.179, port: 443, type: trojan, password: ce6a8639-e367-42bd-bcc7-a5857f713386, sni: data-hk.efyunpan.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip8, server: 5.44.249.42, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
+  - {name: rn-7-day, server: ml.xxass.ml, port: 443, type: trojan, password: caonima2022, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台北Hinet-dip17, server: 5.44.249.50, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,256 +256,269 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
+      - 🇭🇰 [VIP2]-香港01
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
+      - 🇨🇳 台北Hinet-dip3
       - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
+      - 🇨🇳 台北Hinet-dip18
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
       - 🇨🇳 隧道 | NF | 台湾 01
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇨🇳 台北Hinet-dip10
+      - 🇨🇳 台北Hinet-dip15
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip17
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -509,57 +534,60 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HÀ NỘI 3  🇻🇳
-      - HÀ NỘI 2   🇻🇳 gaming
-      - 🇭🇰 [TT] CSA HONGKONG 2 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [VT]
-      - 🇭🇰 [GRN] CSA HONGKONG 1 [TLS] [VT]
-      - 🇺🇸 [TT] CSA USA 2 [VT]
-      - "[GRN] CSA VIETNAM 3 [TLS] [VT]"
-      - 🇺🇸 [GRN] CSA USA 1 [TLS] [VT]
-      - "[GRN] CSA VIETNAM 9 [VT]"
-      - "[TT] CSA VIETNAM 6 [VT]"
+      - 🇭🇰 [VIP2]-香港01
+      - 🇸🇬 [VIP2]-新加坡01
+      - 🇯🇵 [VIP2]-日本02-解锁流媒体
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇮🇳 [VIP2]-印度01
+      - 🇺🇸 [VIP2]-美国01-解锁流媒体
+      - 🇸🇪 [VIP2]-瑞典01
+      - 🇯🇵 [VIP2]-日本01-解锁流媒体
+      - "[TT] CSA GAMING 4 [VT]"
+      - "[TT] CSA GAMING 6 [VT]"
+      - "[TT] CSA GAMING 2 [VT]"
+      - "[GRN] CSA VIETNAM 1 [VT]"
       - 🇵🇭 隧道 | NF | 菲律宾 01
-      - 🇰🇷 隧道 | NF | 韩国 01
-      - 🇸🇬 隧道 | NF | 新加坡 09
-      - 🇸🇬 隧道 | NF | 新加坡 01
       - 🇸🇬 隧道 | NF | 新加坡 03
-      - 🇬🇧 隧道 | NF | 英国 01
-      - 🇨🇳 隧道 | NF | 台湾 02
-      - 🇨🇳 隧道 | NF | 台湾 04
       - Linode
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip11
+      - 🇨🇳 台北Hinet-dip2
+      - 🇨🇳 台北Hinet-dip1
+      - 🇨🇳 台北Hinet-dip7
       - 🇨🇳 台北Hinet-dip4
-      - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip10
       - 🇺🇸 美国纽约私人订制专线
+      - 🇸🇬 隧道 | NF | 新加坡 05
+      - 🇨🇳 台北Hinet-dip3
+      - 🇭🇰 香港跨境金融专线02
+      - 🇨🇳 台北Hinet-dip18
+      - 🇸🇬 隧道 | NF | 新加坡 01
+      - 🇸🇬 隧道 | NF | 新加坡 09
+      - 🇭🇰 香港IEPL内网专线01
       - 🇨🇳 台北Hinet-dip14
       - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台北Hinet-dip5
       - 🇨🇳 台北Hinet-dip16
-      - 🇭🇰 香港IEPL内网专线01
-      - Linode套CDN
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip18
-      - 🇭🇰 隧道 | NF | 香港 04
-      - 🇸🇬 隧道 | NF | 新加坡 06
       - 🇸🇬 隧道 | NF | 新加坡 09 2
-      - 🇸🇬 隧道 | NF | 新加坡 05
-      - 🇨🇳 隧道 | NF | 台湾 01
       - 🇸🇬 隧道 | NF | 新加坡 02
-      - 🇨🇳 台北Hinet-dip13
-      - rn-7-day
-      - 频道
+      - HÀ NỘI 2   🇻🇳 gaming
+      - 🇨🇳 隧道 | NF | 台湾 01
+      - 🇸🇬 隧道 | NF | 新加坡 06
+      - 🇨🇳 隧道 | NF | 台湾 04
+      - 🇰🇷 隧道 | NF | 韩国 01
+      - 🇨🇳 台北Hinet-dip10
       - 调试
-      - 🇨🇳 台北Hinet-dip17
+      - 🇨🇳 台北Hinet-dip15
+      - 🇬🇧 隧道 | NF | 英国 01
+      - HÀ NỘI 3  🇻🇳
+      - 🇨🇳 隧道 | NF | 台湾 02
+      - 频道
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 隧道 | NF | 香港 04
       - 🇭🇰 隧道 | NF | 香港 02
-      - 🇨🇳 台北Hinet-dip8
+      - 🇨🇳 台北Hinet-dip13
       - 🇭🇰 香港
+      - 🇨🇳 台北Hinet-dip8
+      - rn-7-day
+      - 🇨🇳 台北Hinet-dip17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
