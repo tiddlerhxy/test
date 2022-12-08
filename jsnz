@@ -5,259 +5,267 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 英国1, server: xmssmf02.xmss.vip, port: 17777, type: ss, cipher: chacha20-ietf-poly1305, password: 81bbaa05-a6e0-48e4-ac45-a7488b170672, udp: true}
-  - {name: 🇬🇧 英国2, server: xmssmf01.xmss.vip, port: 16666, type: ss, cipher: chacha20-ietf-poly1305, password: 81bbaa05-a6e0-48e4-ac45-a7488b170672, udp: true}
-  - {name: Linode套CDN, server: 47.52.78.112, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: 调试, server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: Linode, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202212000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.sb}, udp: true}
-  - {name: 频道, server: 198.2.201.239, port: 2465, type: ss, cipher: chacha20-ietf-poly1305, password: 0873499deebb, udp: true}
+  - {name: SG1, server: 13.214.210.147, port: 16326, type: trojan, password: 7zH3KYVirw6z, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: SG2, server: 18.142.255.210, port: 16321, type: trojan, password: ASai19etr9be, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: SG3, server: 13.214.210.147, port: 16327, type: trojan, password: 7zH3KYVirw6z, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: SG4, server: 18.142.255.210, port: 16322, type: trojan, password: ASai19etr9be, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: SG6, server: 13.214.210.147, port: 16322, type: trojan, password: 7zH3KYVirw6z, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: JP1, server: 212.50.254.45, port: 13178, type: vmess, uuid: 35b5c770-eab0-4fa7-858c-60aee9e47953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: HK1, server: hk2.linkeden.co, port: 443, type: vmess, uuid: d7de0112-5c40-4c42-90fe-45b96bd2667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk2/getInfo, headers: {Host: hk2.linkeden.co}}, udp: true}
+  - {name: SG7, server: 13.214.210.147, port: 16323, type: trojan, password: 7zH3KYVirw6z, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: SG5, server: 13.214.210.147, port: 16325, type: trojan, password: 7zH3KYVirw6z, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: SG8, server: 13.214.210.147, port: 16324, type: trojan, password: 7zH3KYVirw6z, sni: www.myethblog.com, skip-cert-verify: false, udp: true}
+  - {name: JP2, server: 212.50.252.37, port: 12092, type: vmess, uuid: 50f387be-5b9c-490f-82a4-d12f3f281aab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: HK2, server: hk4.verichains.co, port: 443, type: vmess, uuid: a8031f66-528d-4576-8654-a89f7eb7134d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk4/getData, headers: {Host: hk4.verichains.co}}, udp: true}
+  - {name: HK3, server: hk3.verichains.co, port: 443, type: vmess, uuid: 8817636c-ad30-46ef-a40c-96394f09f482, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk3/getData, headers: {Host: "%7B%22Host%22:%22hk3.verichains.co%22%7D"}}, udp: true}
+  - {name: NL1, server: 74.211.105.99, port: 13178, type: vmess, uuid: 35b5c770-eab0-4fa7-858c-60aee9e47953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US1, server: 80.251.214.52, port: 12092, type: vmess, uuid: 50f387be-5b9c-490f-82a4-d12f3f281aab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: NL2, server: 104.193.10.124, port: 8306, type: vmess, uuid: 0cd68213-f603-4389-8d7d-b6ae2d69403b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US2, server: 199.180.115.212, port: 7093, type: vmess, uuid: b4ffade9-f463-47fd-8d53-3dee307d9d71, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US3, server: 64.64.232.64, port: 13178, type: vmess, uuid: 35b5c770-eab0-4fa7-858c-60aee9e47953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: US4, server: 216.24.184.195, port: 8306, type: vmess, uuid: 0cd68213-f603-4389-8d7d-b6ae2d69403b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港03|流媒体|新加坡, server: hk3.czs1000.com, port: 3887, type: vmess, uuid: 9daff824-6a0c-45c3-8331-6429342fdc65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡11|高速, server: sg11.czs1000.com, port: 4122, type: vmess, uuid: 9daff824-6a0c-45c3-8331-6429342fdc65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: Linode, server: sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202212000000000000000020, plugin: obfs, plugin-opts: {mode: http, host: securevpn.sb}, udp: true}
+  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
+  - {name: 🇭🇰 香港02|高速|流媒体解锁, server: hk2.czs1000.com, port: 3887, type: vmess, uuid: 9daff824-6a0c-45c3-8331-6429342fdc65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港01|流媒体解锁, server: 18.167.36.41, port: 80, type: trojan, password: 9daff824-6a0c-45c3-8331-6429342fdc65, sni: czs1000.com, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡12|高速, server: sg12.18878a24-49d8-4fb2-a1e3-f37dce7cf2a8.czs1000.com, port: 4122, type: vmess, uuid: 9daff824-6a0c-45c3-8331-6429342fdc65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02|高速|流媒体解锁, server: hk2.czs1000.com, port: 3887, type: vmess, uuid: 9daff824-6a0c-45c3-8331-6429342fdc65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: Linode@3, server: 47.52.78.112, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: Linode@10, server: 104.29.64.9, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: Linode@15, server: 104.29.64.3, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: Linode@16, server: 104.29.64.5, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: Linode@11, server: 104.29.64.41, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: Linode@13, server: 104.29.64.6, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
-  - {name: Linode@14, server: 104.29.64.2, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 Japan 3, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-jpli2.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong 4, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hgc.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong 5, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hgc.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: Linode套CDN, server: 47.52.78.112, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: 🇭🇰 Hong Kong 3, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hk.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 Hong Kong 2, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hkt.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 Singapore 3, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-sgli2.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong 5, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hgc.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 America IEPL 01, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-usgt.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong 3, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hk.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 Japan 1, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-jpli.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: Linode@10, server: 104.29.64.9, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan IEPL 01, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-jpli2.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: Linode@11, server: 104.29.64.41, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
+  - {name: Linode@13, server: 104.29.64.6, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡11|高速, server: sg11.czs1000.com, port: 4122, type: vmess, uuid: 9daff824-6a0c-45c3-8331-6429342fdc65, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: Linode@16, server: 104.29.64.5, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
+  - {name: Linode@14, server: 104.29.64.2, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
+  - {name: 调试, server: "[2607:f130:0:103::72f9:6485]", port: 65512, type: vmess, uuid: 941dc916-cabb-40a0-cb33-9f9b22c6b796, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Linode@15, server: 104.29.64.3, port: 443, type: trojan, password: 4X1ebJpQWg, sni: sg.yydsdy.top, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 Singapore 1, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-sgli.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 Hong Kong 1, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hkt.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong 4, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-hgc.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 America, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-usli.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 Philippines 1, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-ph.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: Thailan, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-th.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan IEPL 01, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-jpli2.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇻🇳 Vietnam, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-vn.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: 🇵🇭 Philippines 1, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-ph.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 Singapore 5, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-sg.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: Thailan, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-th.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇹🇷 Turkey 1, server: ap-northeast.6641634715834932.me, port: 443, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-tr.qchwnd.moe, skip-cert-verify: false, udp: true}
+  - {name: 频道, server: 198.2.201.239, port: 2465, type: ss, cipher: chacha20-ietf-poly1305, password: 0873499deebb, udp: true}
+  - {name: 🇬🇧 英国2, server: xmssmf01.xmss.vip, port: 16666, type: ss, cipher: chacha20-ietf-poly1305, password: 81bbaa05-a6e0-48e4-ac45-a7488b170672, udp: true}
   - {name: 🇫🇷 France, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-fr.qchwnd.moe, skip-cert-verify: false, udp: true}
   - {name: 🇳🇬 Nigeria, server: 110.80.3.34, port: 10796, type: trojan, password: fcd76421-6b33-4563-b590-85dd74a200b5, sni: aln-ng.qchwnd.moe, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip1, server: 60.249.3.125, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip5, server: 60.249.3.228, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip15, server: 60.249.3.126, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip2, server: 211.72.35.158, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
-  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip7, server: 60.249.3.231, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip4, server: 211.72.35.154, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip14, server: 60.249.3.125, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip10, server: 5.44.249.53, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip8, server: 5.44.249.42, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip13, server: 5.44.249.43, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip3, server: 60.249.3.229, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip17, server: 5.44.249.50, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip16, server: 60.249.3.230, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip18, server: 60.249.3.231, port: 3306, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台北Hinet-dip11, server: 60.249.3.230, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
   - {name: HÀ NỘI 3  🇻🇳, server: 103.167.196.48, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
   - {name: HÀ NỘI 2   🇻🇳 gaming, server: 103.167.196.52, port: 80, type: vmess, uuid: 56716a96-a265-448c-8969-03e626889580, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.kgvn.garenanow.com}}, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -276,285 +284,278 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇭🇰 香港01|流媒体解锁
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
       - 🇭🇰 香港跨境金融专线02
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
+      - 🇭🇰 香港02|高速|流媒体解锁
+      - 🇭🇰 香港01|流媒体解锁
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -570,65 +571,67 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇬🇧 英国1
-      - 🇬🇧 英国2
-      - Linode套CDN
-      - 调试
-      - Linode
-      - 频道
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG6
+      - JP1
+      - HK1
+      - SG7
+      - SG5
+      - SG8
+      - JP2
+      - HK2
+      - HK3
+      - NL1
+      - US1
+      - NL2
+      - US2
+      - US3
+      - US4
       - 🇭🇰 香港03|流媒体|新加坡
-      - 🇸🇬 新加坡11|高速
+      - Linode
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
+      - 🇭🇰 香港02|高速|流媒体解锁
       - 🇭🇰 香港01|流媒体解锁
       - 🇸🇬 新加坡12|高速
-      - 🇭🇰 香港02|高速|流媒体解锁
-      - Linode@3
-      - Linode@10
-      - Linode@15
-      - Linode@16
-      - Linode@11
-      - Linode@13
-      - Linode@14
       - 🇯🇵 Japan 3
-      - 🇭🇰 Hong Kong 4
-      - 🇭🇰 Hong Kong 5
+      - Linode套CDN
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 Hong Kong 3
       - 🇭🇰 Hong Kong 2
       - 🇸🇬 Singapore 3
+      - 🇭🇰 Hong Kong 5
       - 🇺🇸 America IEPL 01
-      - 🇭🇰 Hong Kong 3
       - 🇯🇵 Japan 1
+      - Linode@10
+      - 🇯🇵 Japan IEPL 01
+      - Linode@11
+      - Linode@13
+      - 🇸🇬 新加坡11|高速
+      - Linode@16
+      - Linode@14
+      - 调试
+      - Linode@15
       - 🇸🇬 Singapore 1
       - 🇭🇰 Hong Kong 1
+      - 🇭🇰 Hong Kong 4
       - 🇺🇸 America
-      - 🇵🇭 Philippines 1
-      - Thailan
-      - 🇯🇵 Japan IEPL 01
       - 🇻🇳 Vietnam
+      - 🇵🇭 Philippines 1
       - 🇸🇬 Singapore 5
+      - Thailan
       - 🇹🇷 Turkey 1
+      - 频道
+      - 🇬🇧 英国2
       - 🇫🇷 France
       - 🇳🇬 Nigeria
-      - 🇨🇳 台北Hinet-dip1
-      - 🇨🇳 台北Hinet-dip5
-      - 🇨🇳 台北Hinet-dip15
-      - 🇨🇳 台北Hinet-dip2
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇨🇳 台北Hinet-dip7
-      - 🇨🇳 台北Hinet-dip4
-      - 🇨🇳 台北Hinet-dip14
-      - 🇨🇳 台北Hinet-dip10
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇨🇳 台北Hinet-dip8
-      - 🇨🇳 台北Hinet-dip13
-      - 🇨🇳 台北Hinet-dip3
-      - 🇨🇳 台北Hinet-dip17
-      - 🇨🇳 台北Hinet-dip16
-      - 🇨🇳 台北Hinet-dip18
-      - 🇨🇳 台北Hinet-dip11
       - HÀ NỘI 3  🇻🇳
       - HÀ NỘI 2   🇻🇳 gaming
+      - 🇭🇰 香港IEPL内网专线02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
