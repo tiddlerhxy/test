@@ -5,235 +5,199 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 05, server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-hk.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 06, server: dl-hk6.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-hk.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 04, server: dl-sg4.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 03, server: dl-sg3.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 01, server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 03, server: dl-jp3.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-jp.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 04, server: dl-jp4.efyunpan.com, port: 443, type: trojan, password: a34b4807-bc03-4323-9c05-deafdf6816e0, sni: data-jp.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 19, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 20, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcssgnode, headers: {Host: gcssg.sylu.cyou}}, udp: true}
-  - {name: 21, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 22, server: gcsssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
-  - {name: 23, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
-  - {name: 24, server: gcorehkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
-  - {name: 25, server: gcssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcssgnode, headers: {Host: gcssg.sylu.cyou}}, udp: true}
-  - {name: 🇭🇰 香港IPLC_2, server: 222.84.250.35, port: 19208, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IPLC_1, server: 222.84.250.35, port: 19207, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore-DigitalOcean_1, server: 222.84.250.35, port: 19227, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IPLC_4, server: 222.84.250.35, port: 19210, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾IPLC_1, server: 222.84.250.35, port: 19217, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HGC-dip_2, server: 222.84.250.35, port: 19205, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@1, server: 120.240.163.164, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@2, server: 116.162.120.40, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@3, server: 116.162.120.60, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@5, server: 116.162.120.29, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@6, server: 116.162.120.26, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@4, server: 116.162.120.28, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@7, server: 116.162.120.31, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@8, server: 116.162.120.48, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 广州移动-香港HKBN@9, server: 116.162.120.24, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 21805:gujgjjg8686LL, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇸🇬 None | 1Gbps︱新加坡︱1, server: sg1.mmmmmmmmmmmmmmmmmmmmm.chaoxn.top, port: 80, type: vmess, uuid: 4342f61c-43ce-4200-b28e-05fda2742774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.mmmmmmmmmmmmmmmmmmmmm.chaoxn.top}}, udp: true}
+  - {name: 🇺🇸 None | 1Gbps︱美国︱A4, server: 172.67.146.117, port: 80, type: vmess, uuid: 4342f61c-43ce-4200-b28e-05fda2742774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 22221.chaoxn.top}}, udp: true}
+  - {name: 🇺🇸 None | 1Gbps︱美国︱A3, server: 104.21.47.94, port: 80, type: vmess, uuid: 4342f61c-43ce-4200-b28e-05fda2742774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 22223.daoxin.shop}}, udp: true}
+  - {name: 🇺🇸 None | 1Gbps︱美国︱A5, server: 104.21.79.155, port: 80, type: vmess, uuid: 4342f61c-43ce-4200-b28e-05fda2742774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 22222.chaoxn.top}}, udp: true}
+  - {name: 🇺🇸 None | 1Gbps︱美国︱A2, server: 104.21.47.95, port: 80, type: vmess, uuid: 4342f61c-43ce-4200-b28e-05fda2742774, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 22222.chaoxn.top}}, udp: true}
+  - {name: 新竹Seednet-dip_3, server: 222.84.250.35, port: 19213, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 新竹Seednet-dip_4, server: 222.84.250.35, port: 19214, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港IPLC_5, server: 27.185.204.53, port: 19207, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾IPLC_3, server: 27.185.204.53, port: 19219, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IPLC_8, server: 27.185.204.53, port: 19210, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore-DigitalOcean_4, server: 27.185.204.53, port: 19227, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore-DigitalOcean_6, server: 27.185.204.53, port: 19229, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Tokyo-Linode_3, server: 27.185.204.53, port: 19246, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HGC-dip_5, server: 27.185.204.53, port: 19206, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 新竹Seednet-dip_6, server: 27.185.204.53, port: 19212, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 OVH DE 0.01x 流媒体解锁, server: 141.95.61.209, port: 1145, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: false, udp: true}
-  - {name: Fibo MN2 流媒体解锁 0.01x, server: 103.168.56.77, port: 443, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: false, udp: true}
-  - {name: 6, server: 13.215.48.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 7, server: 13.215.163.54, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 Tokyo-Linode_4, server: 27.185.204.53, port: 19247, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Tokyo-M247_2, server: 222.84.250.35, port: 19243, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Tokyo-Linode_2, server: 27.185.204.53, port: 19245, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
   - {name: 8, server: 43.207.66.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 9, server: 43.207.71.70, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 10, server: 478939162.skyjsq.space, port: 8054, type: vmess, uuid: 28bd12bc-4463-517c-fbdb-863ba22fe97c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: "%7B%7D"}}, udp: true}
-  - {name: 11, server: 43.207.3.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 12, server: 43.201.48.212, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 13, server: sg05.skyjsq.space, port: 8393, type: vmess, uuid: c5139d94-ffe7-547e-b6a3-34adf30971fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: sg05.skyjsq.space}}, udp: true}
-  - {name: 14, server: jp-tk-31.fuckjdieng.uk, port: 50286, type: trojan, password: 6ee96394-2a43-43dc-898b-bbf68a237310, sni: jp-tk-31.fuckjdieng.uk, skip-cert-verify: false, udp: true}
-  - {name: 15, server: sg06.skyjsq.space, port: 8203, type: vmess, uuid: 2359a43a-62a4-3cf2-fb6c-7d9ae899e699, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: sg06.skyjsq.space}}, udp: true}
-  - {name: 16, server: hk8.verichains.co, port: 56272, type: vmess, uuid: 0a0f53aa-ac74-40ca-880c-5dc5b237a8e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /hk8/getData, headers: {Host: "%7B%22Host%22:%22hk8.verichains.co%22%7D"}}, udp: true}
-  - {name: 17, server: sg1.verichains.co, port: 29880, type: vmess, uuid: 31f71ec9-c31d-4a6b-9b8d-aba1342e5023, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg1/getData, headers: {Host: sg1.verichains.co}}, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
+  - {name: 24, server: gcorehkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
   - {name: 18, server: 43.201.103.37, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 1, server: os6.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
-  - {name: 2, server: tk-tr-4.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
-  - {name: 3, server: tk5.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
   - {name: 4, server: tk-tr-2.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
   - {name: 5, server: os1.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾彰化丨1.0x, server: 02-tw01.xmss.vip, port: 17703, type: ss, cipher: chacha20-ietf-poly1305, password: 143976f5-3f50-495b-9931-098b30c8a974, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线02, server: fnhk1000new009.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 47b484a2f3eb, udp: true}
-  - {name: 🇺🇸 美国纽约私人订制专线, server: fnhk1000snews008.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 3c88ec132b66, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
+  - {name: 2, server: tk-tr-4.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
+  - {name: 3, server: tk5.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
+  - {name: 1, server: os6.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
+  - {name: 14, server: jp-tk-31.fuckjdieng.uk, port: 50286, type: trojan, password: 6ee96394-2a43-43dc-898b-bbf68a237310, sni: jp-tk-31.fuckjdieng.uk, skip-cert-verify: false, udp: true}
+  - {name: 19, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
+  - {name: 6, server: 13.215.48.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 15, server: sg06.skyjsq.space, port: 8203, type: vmess, uuid: 2359a43a-62a4-3cf2-fb6c-7d9ae899e699, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: sg06.skyjsq.space}}, udp: true}
+  - {name: 23, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
+  - {name: 21, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
+  - {name: 20, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcssgnode, headers: {Host: gcssg.sylu.cyou}}, udp: true}
+  - {name: 13, server: sg05.skyjsq.space, port: 8393, type: vmess, uuid: c5139d94-ffe7-547e-b6a3-34adf30971fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ray, headers: {Host: sg05.skyjsq.space}}, udp: true}
+  - {name: 25, server: gcssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcssgnode, headers: {Host: gcssg.sylu.cyou}}, udp: true}
+  - {name: 🇩🇪 OVH DE 0.01x 流媒体解锁, server: 141.95.61.209, port: 1145, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: false, udp: true}
+  - {name: 22, server: gcsssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
+  - {name: 17, server: sg1.verichains.co, port: 29880, type: vmess, uuid: 31f71ec9-c31d-4a6b-9b8d-aba1342e5023, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg1/getData, headers: {Host: sg1.verichains.co}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -252,253 +216,215 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇭🇰 香港HGC-dip_5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
       - 🇭🇰 香港IEPL内网专线01
+      - 🇭🇰 香港跨境金融专线02
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -514,59 +440,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 05
-      - 🇭🇰 香港 06
-      - 🇸🇬 新加坡 04
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 02
-      - 🇯🇵 日本 03
-      - 🇯🇵 日本 04
-      - 19
-      - 20
-      - 21
-      - 22
-      - 23
-      - 24
-      - 25
-      - 🇭🇰 香港IPLC_2
-      - 🇭🇰 香港IPLC_1
-      - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_1
-      - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 广州移动-香港HKBN@1
+      - 🇭🇰 广州移动-香港HKBN@2
+      - 🇭🇰 广州移动-香港HKBN@3
+      - 🇭🇰 广州移动-香港HKBN@5
+      - 🇭🇰 广州移动-香港HKBN@6
+      - 🇭🇰 广州移动-香港HKBN@4
+      - 🇭🇰 广州移动-香港HKBN@7
+      - 🇭🇰 广州移动-香港HKBN@8
+      - 🇭🇰 广州移动-香港HKBN@9
+      - 🇸🇬 None | 1Gbps︱新加坡︱1
+      - 🇺🇸 None | 1Gbps︱美国︱A4
+      - 🇺🇸 None | 1Gbps︱美国︱A3
+      - 🇺🇸 None | 1Gbps︱美国︱A5
+      - 🇺🇸 None | 1Gbps︱美国︱A2
+      - 新竹Seednet-dip_3
+      - 新竹Seednet-dip_4
       - 🇭🇰 香港IPLC_5
-      - 🇨🇳 台湾IPLC_3
-      - 🇭🇰 香港IPLC_8
-      - 🇸🇬 Singapore-DigitalOcean_4
-      - 🇸🇬 Singapore-DigitalOcean_6
-      - 🇯🇵 Tokyo-Linode_3
-      - 🇭🇰 香港HGC-dip_5
-      - 新竹Seednet-dip_6
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Fibo MN2 流媒体解锁 0.01x
-      - 6
-      - 7
+      - 🇯🇵 Tokyo-Linode_4
+      - 🇯🇵 Tokyo-M247_2
+      - 🇯🇵 Tokyo-Linode_2
       - 8
-      - 9
       - 10
-      - 11
-      - 12
-      - 13
-      - 14
-      - 15
-      - 16
-      - 17
+      - 🇭🇰 香港IEPL内网专线01
+      - 24
       - 18
-      - 1
-      - 2
-      - 3
+      - 🇺🇸 美国纽约私人订制专线
+      - 🇭🇰 香港跨境金融专线02
       - 4
       - 5
-      - 🇨🇳 台湾彰化丨1.0x
-      - 🇭🇰 香港跨境金融专线02
-      - 🇺🇸 美国纽约私人订制专线
-      - 🇭🇰 香港IEPL内网专线01
+      - 2
+      - 3
+      - 1
+      - 14
+      - 19
+      - 6
+      - 15
+      - 23
+      - 21
+      - 20
+      - 13
+      - 25
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 22
+      - 17
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
