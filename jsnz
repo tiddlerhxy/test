@@ -5,319 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: jk, server: n8kj6c7gdq9hjlq857.ziir.cn, port: 27079, type: ss, cipher: aes-256-gcm, password: XjHkHnQFp0mqOAHbkxebAA1kbrcPvExR8lCxcmjIXN6y, udp: true}
-  - {name: ck, server: "[2602:fe90:1:1::ca89:e56]", port: 65501, type: ss, cipher: aes-256-gcm, password: JKqcAwaGDgAshjDRLi67nZLyg5GplPB8UG1vCfw16MEC, udp: true}
-  - {name: 🇺🇸 洛杉矶, server: 45.11.3.170, port: 50000, type: ss, cipher: 2022-blake3-aes-128-gcm, password: /ZYFzz178p71NOfcV/3omA==, udp: true}
-  - {name: 🇸🇬 新加坡04, server: sg2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 8022, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港02, server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港03, server: hk1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
-  - {name: 🇸🇬 新加坡02, server: sg1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
-  - {name: 🇸🇬 新加坡05, server: sg2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 8022, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
-  - {name: 🇯🇵 日本03, server: jp1.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 80, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港05, server: hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 8002, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
   - {name: 🇭🇰 标准|香港02解锁|x1.0x, server: ppy-moble.gatknqh.cn, port: 26011, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 专线|香港02解锁|x1.0x, server: ppy-moblev2.gatknqh.cn, port: 26011, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 标准|香港06解锁|x1.0x, server: ppy-moble.gatknqh.cn, port: 26015, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 标准|台湾03解锁|x1.0x, server: ppy-moble.gatknqh.cn, port: 26061, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 专线|台湾04解锁|x1.0x, server: ppy-moblev2.gatknqh.cn, port: 26062, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: z1, server: cn.xsus.link, port: 10000, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z2, server: cn.xsus.link, port: 10004, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z3, server: cn.xsus.link, port: 10007, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z4, server: 183.239.68.226, port: 10007, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z5, server: cn.xsus.link, port: 10006, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z6, server: cn.xsus.link, port: 11002, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z7, server: 183.239.68.226, port: 10006, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z8, server: cn.xsus.link, port: 10026, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: z9, server: cn.xsus.link, port: 10057, type: ss, cipher: aes-256-gcm, password: 9184427d-ac0a-46da-98b3-65f3b6ba9af8, udp: true}
-  - {name: 111, server: 222.84.250.35, port: 19205, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 222, server: 222.84.250.35, port: 19206, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港05, server: hk2.c8898496-adb6-4073-9ee4-ff4e4984415b.polycdn.com, port: 8002, type: vmess, uuid: 982e8d64-b1e6-473f-a830-c9bac41eba8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dl.delivery.mp.microsoft.com}}, udp: true}
   - {name: 333, server: 222.84.250.35, port: 19227, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 444, server: 222.84.250.35, port: 19214, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 555, server: 222.84.250.35, port: 19246, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 666, server: 222.84.250.35, port: 19244, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 777, server: 222.84.250.35, port: 19242, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 888, server: 27.185.204.53, port: 19205, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 999, server: 27.185.204.53, port: 19208, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 11, server: hainan.sfjsq001.info, port: 33205, type: vmess, uuid: 5e99f3b6-7258-3caa-839c-d1773c0fef17, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 22, server: 13.214.210.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 33, server: hainan.sfjsq001.info, port: 33211, type: vmess, uuid: 5e99f3b6-7258-3caa-839c-d1773c0fef17, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 44, server: 43.206.209.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 88, server: 43.207.68.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 55, server: 43.207.0.146, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 66, server: 13.215.173.114, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 77, server: 43.207.82.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 99, server: sg1.verichains.co, port: 29880, type: vmess, uuid: 31f71ec9-c31d-4a6b-9b8d-aba1342e5023, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg1/getData, headers: {Host: sg1.verichains.co}}, udp: true}
-  - {name: 🇭🇰 香港IPLC_3, server: 222.84.250.35, port: 19209, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 Singapore-DigitalOcean_1, server: 222.84.250.35, port: 19227, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: 🇭🇰 香港HGC-dip_3, server: 222.84.250.35, port: 19206, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip_1, server: 222.84.250.35, port: 19204, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IPLC_4, server: 222.84.250.35, port: 19210, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 77, server: 43.207.82.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 44, server: 43.206.209.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 22, server: 13.214.210.171, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇯🇵 Tokyo-M247_1, server: 222.84.250.35, port: 19242, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 24, server: gcorehkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
+  - {name: 88, server: 43.207.68.169, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇯🇵 Tokyo-Linode_1, server: 222.84.250.35, port: 19246, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 3, server: tk5.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
+  - {name: 1, server: os6.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC_4, server: 222.84.250.35, port: 19210, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港有线-dip_1, server: 222.84.250.35, port: 19204, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港HGC-dip_2, server: 222.84.250.35, port: 19205, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 23, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
+  - {name: 🇭🇰 标准|香港06解锁|x1.0x, server: ppy-moble.gatknqh.cn, port: 26015, type: vmess, uuid: f9c487a0-8b1b-316d-8134-3912b58491c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 111, server: 222.84.250.35, port: 19205, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 Singapore-DigitalOcean_4, server: 27.185.204.53, port: 19227, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾IPLC_2, server: 222.84.250.35, port: 19219, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 23, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
+  - {name: 555, server: 222.84.250.35, port: 19246, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 666, server: 222.84.250.35, port: 19244, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
   - {name: 22 2, server: gcsssg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsssgnode, headers: {Host: gcsssg.sylu.cyou}}, udp: true}
-  - {name: Kowloon 3 | Netflix Disney, server: 20.205.4.127, port: 443, type: trojan, password: 1b7835c3-50e4-46d8-b00e-6661f493af0c, sni: vzwzasc.cn, skip-cert-verify: false, udp: true}
   - {name: 19, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 21, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
-  - {name: 24, server: gcorehkk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcorehkknode, headers: {Host: gcorehkk.sylu.cyou}}, udp: true}
   - {name: 17, server: sg1.verichains.co, port: 29880, type: vmess, uuid: 31f71ec9-c31d-4a6b-9b8d-aba1342e5023, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg1/getData, headers: {Host: sg1.verichains.co}}, udp: true}
-  - {name: 5, server: os1.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IPLC_8, server: 27.185.204.53, port: 19210, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 3, server: tk5.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
-  - {name: 投稿12, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: "%7B%22Host%22:%22lvryzenkvm1gb.sharecentre.online%22%7D"}}, udp: true}
-  - {name: 🇯🇵 Tokyo-M247_1, server: 222.84.250.35, port: 19242, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 1, server: os6.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 OVH DE 0.01x 流媒体解锁, server: 141.95.61.209, port: 1145, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: false, udp: true}
-  - {name: Kowloon 2 | Netflix Disney, server: 20.205.4.127, port: 443, type: trojan, password: 81a57af3-37fb-4c52-b890-f3333b40a1bb, sni: glc.windowsupdate1.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IPLC_1, server: 222.84.250.35, port: 19207, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong 04, server: gcsshk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}, udp: true}
-  - {name: 8, server: 43.207.66.188, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇭🇰 香港IPLC_7, server: 27.185.204.53, port: 19209, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港有线-dip_2, server: 27.185.204.53, port: 19201, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 新竹Seednet-dip_2, server: 222.84.250.35, port: 19212, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港HGC-dip_2, server: 222.84.250.35, port: 19205, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: Kowloon 3 | Netflix Disney, server: 20.205.4.127, port: 443, type: trojan, password: 1b7835c3-50e4-46d8-b00e-6661f493af0c, sni: vzwzasc.cn, skip-cert-verify: false, udp: true}
+  - {name: 21, server: gcoresgg.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcoresggnode, headers: {Host: gcoresgg.sylu.cyou}}, udp: true}
+  - {name: 999, server: 27.185.204.53, port: 19208, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港HGC-dip_4, server: 27.185.204.53, port: 19205, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 777, server: 222.84.250.35, port: 19242, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC_8, server: 27.185.204.53, port: 19210, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 99, server: sg1.verichains.co, port: 29880, type: vmess, uuid: 31f71ec9-c31d-4a6b-9b8d-aba1342e5023, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg1/getData, headers: {Host: sg1.verichains.co}}, udp: true}
+  - {name: 投稿12, server: cm.sylu.cyou, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shirker, headers: {Host: "%7B%22Host%22:%22lvryzenkvm1gb.sharecentre.online%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港HGC-dip_3, server: 222.84.250.35, port: 19206, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong 04, server: gcsshk.sylu.cyou, port: 443, type: vmess, uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /Falling42gcsshknode, headers: {Host: gcsshk.sylu.cyou}}, udp: true}
+  - {name: Kowloon 2 | Netflix Disney, server: 20.205.4.127, port: 443, type: trojan, password: 81a57af3-37fb-4c52-b890-f3333b40a1bb, sni: glc.windowsupdate1.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 OVH DE 0.01x 流媒体解锁, server: 141.95.61.209, port: 1145, type: trojan, password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9, sni: wx.qq.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
+  - {name: ck, server: "[2602:fe90:1:1::ca89:e56]", port: 65501, type: ss, cipher: aes-256-gcm, password: JKqcAwaGDgAshjDRLi67nZLyg5GplPB8UG1vCfw16MEC, udp: true}
+  - {name: 新竹Seednet-dip_2, server: 222.84.250.35, port: 19212, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC_1, server: 222.84.250.35, port: 19207, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 444, server: 222.84.250.35, port: 19214, type: trojan, password: 0736ddb4-62c2-39a3-bdd7-8824cbc53ecf, skip-cert-verify: false, udp: true}
+  - {name: 5, server: os1.cats22.net, port: 443, type: trojan, password: 18844%40zxcvbn, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -336,343 +224,224 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - 🇭🇰 香港IPLC_3
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港05
       - 🇭🇰 香港IPLC_4
-      - 🇨🇳 台湾IPLC_2
-      - 🇭🇰 香港IPLC_8
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
+      - 🇭🇰 香港有线-dip_1
       - 🇭🇰 香港HGC-dip_2
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 🇨🇳 台湾IPLC_2
       - 🇭🇰 香港HGC-dip_4
+      - 🇭🇰 香港IPLC_8
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 香港IEPL内网专线01
+      - 🇭🇰 香港IPLC_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -688,80 +457,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - jk
-      - ck
-      - 🇺🇸 洛杉矶
-      - 🇸🇬 新加坡04
-      - 🇭🇰 香港02
-      - 🇭🇰 香港03
-      - 🇸🇬 新加坡02
-      - 🇸🇬 新加坡05
-      - 🇯🇵 日本03
-      - 🇭🇰 香港05
       - 🇭🇰 标准|香港02解锁|x1.0x
       - 🇭🇰 专线|香港02解锁|x1.0x
-      - 🇭🇰 标准|香港06解锁|x1.0x
-      - 🇨🇳 标准|台湾03解锁|x1.0x
-      - 🇨🇳 专线|台湾04解锁|x1.0x
-      - z1
-      - z2
-      - z3
-      - z4
-      - z5
-      - z6
-      - z7
-      - z8
-      - z9
-      - 111
-      - 222
+      - 🇭🇰 香港05
       - 333
-      - 444
-      - 555
-      - 666
-      - 777
-      - 888
-      - 999
-      - 11
-      - 22
-      - 33
-      - 44
-      - 88
-      - 55
       - 66
-      - 77
-      - 99
-      - 🇭🇰 香港IPLC_3
       - 🇸🇬 Singapore-DigitalOcean_1
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港HGC-dip_3
-      - 🇭🇰 香港有线-dip_1
-      - 🇭🇰 香港IPLC_4
+      - 77
+      - 44
+      - 22
+      - 🇯🇵 Tokyo-M247_1
+      - 24
+      - 88
       - 🇯🇵 Tokyo-Linode_1
+      - 3
+      - 1
+      - 🇭🇰 香港IPLC_4
+      - 🇭🇰 香港有线-dip_1
+      - 🇭🇰 香港HGC-dip_2
+      - 23
+      - 🇭🇰 标准|香港06解锁|x1.0x
+      - 111
       - 🇸🇬 Singapore-DigitalOcean_4
       - 🇨🇳 台湾IPLC_2
-      - 23
+      - 555
+      - 666
       - 22 2
-      - Kowloon 3 | Netflix Disney
       - 19
-      - 21
-      - 24
       - 17
-      - 5
-      - 🇭🇰 香港IPLC_8
-      - 3
-      - 投稿12
-      - 🇯🇵 Tokyo-M247_1
-      - 1
-      - 🇩🇪 OVH DE 0.01x 流媒体解锁
-      - Kowloon 2 | Netflix Disney
-      - 🇭🇰 香港IPLC_1
-      - 🇭🇰 Hong Kong 04
-      - 8
-      - 🇭🇰 香港IPLC_7
-      - 🇭🇰 香港有线-dip_2
-      - 新竹Seednet-dip_2
-      - 🇭🇰 香港HGC-dip_2
+      - Kowloon 3 | Netflix Disney
+      - 21
+      - 999
       - 🇭🇰 香港HGC-dip_4
+      - 777
+      - 🇭🇰 香港IPLC_8
+      - 99
+      - 投稿12
+      - 🇭🇰 香港HGC-dip_3
+      - 🇭🇰 Hong Kong 04
+      - Kowloon 2 | Netflix Disney
+      - 🇩🇪 OVH DE 0.01x 流媒体解锁
+      - 🇭🇰 香港IEPL内网专线01
+      - ck
+      - 新竹Seednet-dip_2
+      - 🇭🇰 香港IPLC_1
+      - 444
+      - 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
