@@ -5,303 +5,347 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK-IPLC-40, server: 120.233.15.103, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-41, server: 120.233.15.97, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-42, server: 120.233.15.99, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-43, server: 120.233.15.99, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-44, server: 120.233.15.105, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-45, server: 116.162.120.60, port: 559, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-46, server: 116.162.120.33, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-47, server: 116.162.120.40, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-48, server: 116.162.120.40, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-49, server: 116.162.120.46, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-50, server: 116.162.120.45, port: 601, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-51, server: 116.162.120.60, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-53, server: 116.162.120.48, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-54, server: 116.162.120.28, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-55, server: 116.162.120.45, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-52, server: 116.162.120.29, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-56, server: 116.162.120.38, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-57, server: 116.162.120.34, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-58, server: 116.162.120.47, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-59, server: 116.162.120.34, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-30, server: 116.162.120.29, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-31, server: 116.162.120.60, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-32, server: 116.162.120.28, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-33, server: 116.162.120.26, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-34, server: 117.62.232.225, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-35, server: 223.167.41.121, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-36, server: 116.162.120.52, port: 611, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-37, server: 116.162.120.51, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-38, server: 116.162.120.52, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 HK-IPLC-39, server: 116.162.120.52, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 🇭🇰 香港D, server: 0kxedm1x8q8lksmj04.xingbayun.buzz, port: 10004, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 年付10元每月600G, server: 0kxedm1x8q8lksmj01.xingbayun.buzz, port: 10001, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港C, server: 0kxedm1x8q8lksmj03.xingbayun.buzz, port: 10003, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港A, server: 0kxedm1x8q8lksmj01.xingbayun.buzz, port: 10001, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港B, server: 0kxedm1x8q8lksmj02.xingbayun.buzz, port: 10002, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-1, server: hkt-detour-14.wallthefool.org, port: 15114, type: vmess, uuid: c8a3954e-32ad-4c90-b08d-e82f25e02464, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-2, server: hkt-detour-13.wallthefool.org, port: 15113, type: vmess, uuid: c8a3954e-32ad-4c90-b08d-e82f25e02464, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-3, server: 183.2.194.20, port: 16212, type: ss, cipher: aes-128-gcm, password: 9124aa77a1, udp: true}
-  - {name: 🇭🇰 HK-IPLC-4, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: 6db42a0c-5abc-4d1c-a09c-2052c661f9f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 🇭🇰 HK-IPLC-5, server: 0kxedm1x8q8lksmj02.xingbayun.buzz, port: 10002, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-6, server: tw-detour-19.wallthefool.org, port: 15219, type: vmess, uuid: c8a3954e-32ad-4c90-b08d-e82f25e02464, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-7, server: tw-detour-23.wallthefool.org, port: 15223, type: vmess, uuid: c8a3954e-32ad-4c90-b08d-e82f25e02464, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-8, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-9, server: 0kxedm1x8q8lksmj03.xingbayun.buzz, port: 10003, type: vmess, uuid: 65a42bd8-cfe6-4cc5-ab47-04fdd4c1e799, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-10, server: kr01.yoyofast.com, port: 443, type: trojan, password: cf6afb1c-482a-4ec3-89ad-d68502ff42f6, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-11, server: ap.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-12, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 6db42a0c-5abc-4d1c-a09c-2052c661f9f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: hk80.sanfen001.pics}}, udp: true}
-  - {name: 🇭🇰 HK-IPLC-13, server: uk-detour-01.wallthefool.org, port: 15711, type: vmess, uuid: c8a3954e-32ad-4c90-b08d-e82f25e02464, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-14, server: in.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-15, server: ca.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 台北PNI-dip1, server: 117.164.185.221, port: 16115, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 台北PNI-dip2, server: 117.164.185.222, port: 16115, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip3, server: 117.164.185.222, port: 16132, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip4, server: 117.164.185.221, port: 16131, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip5, server: 117.164.185.221, port: 16132, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Hanoi-Hostingviet-dip6, server: 117.164.185.222, port: 16256, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Hanoi-Hostingviet-dip7, server: 117.164.185.221, port: 16256, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Singapore-GCORE8, server: 117.164.185.221, port: 16110, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip9, server: 111.6.86.139, port: 16132, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Manila-Kaopu-dip12, server: 117.164.185.221, port: 16260, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip10, server: 111.6.86.135, port: 16131, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip11, server: 111.6.86.137, port: 16129, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Hanoi-Hostingviet-dip13, server: 111.6.86.137, port: 16256, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip14, server: 111.6.86.139, port: 16131, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 彰化Hinet-dip15, server: 111.6.86.137, port: 16130, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: TH-Samut Prakan-Bangmod-16, server: 117.164.185.222, port: 16288, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong-M3, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: 44e7eced-ca50-43b2-8cc0-b26834d256d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkm3.targoocloud.live}}, udp: true}
+  - {name: 🇸🇬 Singapore-M2, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: 44e7eced-ca50-43b2-8cc0-b26834d256d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sgm2.targoocloud.live}}, udp: true}
+  - {name: 🇭🇰 Hong Kong-M2, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: 44e7eced-ca50-43b2-8cc0-b26834d256d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hkm2.targoocloud.live}}, udp: true}
+  - {name: 🇸🇬 Singapore-M3, server: project.mytargoocloud.live, port: 443, type: vmess, uuid: 44e7eced-ca50-43b2-8cc0-b26834d256d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sgm3.targoocloud.live}}, udp: true}
+  - {name: 🇯🇵 Japan-M1, server: xtom.mytargoocloud.live, port: 443, type: vmess, uuid: 44e7eced-ca50-43b2-8cc0-b26834d256d7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jpm1.targoocloud.live}}, udp: true}
+  - {name: 🇭🇰 【J】香港 VIP 8 - Netflix, server: nj8.boom.skin, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【GAME】香港  VIP 6 - HGC, server: n92.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【GAME】香港  VIP 2 - HGC, server: n09.boom.skin, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【GAME】香港  VIP 3 - HGC, server: n27.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【A】香港 普通 D - Nearoute, server: ntemp18.boom.skin, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【A】香港 普通 B - Nearoute, server: ntemp16.boom.skin, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【GAME】香港 VIP 5 - HGC, server: n100.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【J】香港 VIP 4 - Netflix, server: nj4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【A】香港  VIP 1 - Nearoute, server: n21.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【A】香港 普通 1 - Nearoute, server: ntemp15.boom.skin, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【J】香港 VIP 5 - Netflix, server: nj5.boom.skin, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【GAME】香港  VIP 4 - HGC, server: n63.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【A】香港 普通 C - Nearoute, server: ntemp17.boom.skin, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【A】香港 VIP 7 - Nearoute, server: n32.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【A】香港 普通 A - Nearoute, server: ntemp10.boom.skin, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【GAME】香港 VIP 7 - HGC, server: n114.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【J】香港 VIP 1 - Netflix, server: nj1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 【J】香港 VIP 7 - Netflix, server: nj7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 114555:hx9qtK, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: 🇭🇰 Hong Kong 1, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK-IPLC-19, server: yd-07.paofunlink.com, port: 5986, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
   - {name: 🇭🇰 HK-IPLC-16, server: yd-01.paofunlink.com, port: 5981, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
   - {name: 🇭🇰 HK-IPLC-17, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
-  - {name: 🇭🇰 HK-IPLC-18, server: yd-06.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
-  - {name: 🇭🇰 HK-IPLC-19, server: yd-07.paofunlink.com, port: 5986, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
-  - {name: 🇭🇰 HK-IPLC-20, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
-  - {name: 🇭🇰 HK-IPLC-21, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
   - {name: 🇭🇰 HK-IPLC-22, server: yd-07.paofunlink.com, port: 5988, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK-IPLC-51, server: 116.162.120.60, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-31, server: 116.162.120.60, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-52, server: 116.162.120.29, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-18, server: yd-06.paofunlink.com, port: 5985, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK-IPLC-35, server: 223.167.41.121, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-44, server: 120.233.15.105, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-57, server: 116.162.120.34, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-54, server: 116.162.120.28, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇭🇰 HK-IPLC-23, server: jp.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
+  - {name: 🇭🇰 HK-IPLC-11, server: ap.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-14, server: in.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-10, server: kr01.yoyofast.com, port: 443, type: trojan, password: cf6afb1c-482a-4ec3-89ad-d68502ff42f6, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-33, server: 116.162.120.26, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
   - {name: 🇭🇰 HK-IPLC-24, server: jp.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 HK-IPLC-25, server: jp.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-26, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-27, server: 19242tj.matrixxx888.com, port: 19242, type: trojan, password: 2685d1a3-44de-3f32-80ae-6fef8447f9eb, sni: eplcgame.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-28, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 HK-IPLC-29, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong 1, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: 🇭🇰 香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52, udp: true}
+  - {name: 🇭🇰 HK-IPLC-36, server: 116.162.120.52, port: 611, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-32, server: 116.162.120.28, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-21, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
+  - {name: 🇭🇰 HK-IPLC-20, server: yd-01.paofunlink.com, port: 5982, type: ss, cipher: rc4-md5, password: Paofu, plugin: obfs, plugin-opts: {mode: http, host: 37f7e180722.microsoft.com}, udp: true}
   - {name: 🇭🇰 香港IPLC顶级专线03, server: newtw600mline001.fnline.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d3111300c9a1, udp: true}
+  - {name: 🇭🇰 HK-IPLC-15, server: ca.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-38, server: 116.162.120.52, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-37, server: 116.162.120.51, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-39, server: 116.162.120.52, port: 613, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-43, server: 120.233.15.99, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 36680:LLLiioi877, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-30, server: 116.162.120.29, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-28, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-8, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-26, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-29, server: sg.stablize.top, port: 443, type: trojan, password: 7d0f1f83-0f2f-4b90-930e-de44ac233fef, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-6, server: tw-detour-19.wallthefool.org, port: 15219, type: vmess, uuid: c8a3954e-32ad-4c90-b08d-e82f25e02464, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 HK-IPLC-34, server: 117.62.232.225, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 16748:SVIPTIZ8, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 🇭🇰 HK-IPLC-7, server: tw-detour-23.wallthefool.org, port: 15223, type: vmess, uuid: c8a3954e-32ad-4c90-b08d-e82f25e02464, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -320,316 +364,384 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港D
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - 🇨🇳 彰化Hinet-dip9
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
       - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 香港IEPL内网专线02
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 香港IPLC顶级专线02
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -645,76 +757,87 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK-IPLC-40
-      - 🇭🇰 HK-IPLC-41
-      - 🇭🇰 HK-IPLC-42
-      - 🇭🇰 HK-IPLC-43
-      - 🇭🇰 HK-IPLC-44
-      - 🇭🇰 HK-IPLC-45
-      - 🇭🇰 HK-IPLC-46
-      - 🇭🇰 HK-IPLC-47
-      - 🇭🇰 HK-IPLC-48
-      - 🇭🇰 HK-IPLC-49
-      - 🇭🇰 HK-IPLC-50
-      - 🇭🇰 HK-IPLC-51
-      - 🇭🇰 HK-IPLC-53
-      - 🇭🇰 HK-IPLC-54
-      - 🇭🇰 HK-IPLC-55
-      - 🇭🇰 HK-IPLC-52
-      - 🇭🇰 HK-IPLC-56
-      - 🇭🇰 HK-IPLC-57
-      - 🇭🇰 HK-IPLC-58
-      - 🇭🇰 HK-IPLC-59
-      - 🇭🇰 HK-IPLC-30
-      - 🇭🇰 HK-IPLC-31
-      - 🇭🇰 HK-IPLC-32
-      - 🇭🇰 HK-IPLC-33
-      - 🇭🇰 HK-IPLC-34
-      - 🇭🇰 HK-IPLC-35
-      - 🇭🇰 HK-IPLC-36
-      - 🇭🇰 HK-IPLC-37
-      - 🇭🇰 HK-IPLC-38
-      - 🇭🇰 HK-IPLC-39
-      - 🇭🇰 香港D
-      - 年付10元每月600G
-      - 🇭🇰 香港C
-      - 🇭🇰 香港A
-      - 🇭🇰 香港B
-      - 🇭🇰 HK-IPLC-1
-      - 🇭🇰 HK-IPLC-2
-      - 🇭🇰 HK-IPLC-3
-      - 🇭🇰 HK-IPLC-4
-      - 🇭🇰 HK-IPLC-5
-      - 🇭🇰 HK-IPLC-6
-      - 🇭🇰 HK-IPLC-7
-      - 🇭🇰 HK-IPLC-8
-      - 🇭🇰 HK-IPLC-9
-      - 🇭🇰 HK-IPLC-10
-      - 🇭🇰 HK-IPLC-11
-      - 🇭🇰 HK-IPLC-12
-      - 🇭🇰 HK-IPLC-13
-      - 🇭🇰 HK-IPLC-14
-      - 🇭🇰 HK-IPLC-15
+      - 台北PNI-dip1
+      - 台北PNI-dip2
+      - 🇨🇳 彰化Hinet-dip3
+      - 🇨🇳 彰化Hinet-dip4
+      - 🇨🇳 彰化Hinet-dip5
+      - Hanoi-Hostingviet-dip6
+      - Hanoi-Hostingviet-dip7
+      - 🇸🇬 Singapore-GCORE8
+      - 🇨🇳 彰化Hinet-dip9
+      - Manila-Kaopu-dip12
+      - 🇨🇳 彰化Hinet-dip10
+      - 🇨🇳 彰化Hinet-dip11
+      - Hanoi-Hostingviet-dip13
+      - 🇨🇳 彰化Hinet-dip14
+      - 🇨🇳 彰化Hinet-dip15
+      - TH-Samut Prakan-Bangmod-16
+      - 🇭🇰 Hong Kong-M3
+      - 🇸🇬 Singapore-M2
+      - 🇭🇰 Hong Kong-M2
+      - 🇸🇬 Singapore-M3
+      - 🇯🇵 Japan-M1
+      - 🇭🇰 【J】香港 VIP 8 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 6 - HGC
+      - 🇭🇰 【GAME】香港  VIP 2 - HGC
+      - 🇭🇰 【GAME】香港  VIP 3 - HGC
+      - 🇭🇰 【A】香港 普通 D - Nearoute
+      - 🇭🇰 【A】香港 普通 B - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 5 - HGC
+      - 🇭🇰 【J】香港 VIP 4 - Netflix
+      - 🇭🇰 【A】香港  VIP 1 - Nearoute
+      - 🇭🇰 【A】香港 普通 1 - Nearoute
+      - 🇭🇰 【J】香港 VIP 5 - Netflix
+      - 🇭🇰 【GAME】香港  VIP 4 - HGC
+      - 🇭🇰 【A】香港 普通 C - Nearoute
+      - 🇭🇰 【A】香港 VIP 7 - Nearoute
+      - 🇭🇰 【A】香港 普通 A - Nearoute
+      - 🇭🇰 【GAME】香港 VIP 7 - HGC
+      - 🇭🇰 【J】香港 VIP 1 - Netflix
+      - 🇭🇰 【J】香港 VIP 7 - Netflix
+      - 🇭🇰 Hong Kong 1
+      - 🇭🇰 HK-IPLC-19
       - 🇭🇰 HK-IPLC-16
       - 🇭🇰 HK-IPLC-17
-      - 🇭🇰 HK-IPLC-18
-      - 🇭🇰 HK-IPLC-19
-      - 🇭🇰 HK-IPLC-20
-      - 🇭🇰 HK-IPLC-21
       - 🇭🇰 HK-IPLC-22
+      - 🇭🇰 HK-IPLC-51
+      - 🇭🇰 HK-IPLC-31
+      - 🇭🇰 HK-IPLC-52
+      - 🇭🇰 HK-IPLC-18
+      - 🇭🇰 HK-IPLC-35
+      - 🇭🇰 HK-IPLC-44
+      - 🇭🇰 HK-IPLC-57
+      - 🇭🇰 HK-IPLC-54
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 HK-IPLC-23
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 HK-IPLC-11
+      - 🇭🇰 HK-IPLC-14
+      - 🇭🇰 HK-IPLC-10
+      - 🇭🇰 HK-IPLC-33
       - 🇭🇰 HK-IPLC-24
       - 🇭🇰 HK-IPLC-25
-      - 🇭🇰 HK-IPLC-26
-      - 🇭🇰 HK-IPLC-27
-      - 🇭🇰 HK-IPLC-28
-      - 🇭🇰 HK-IPLC-29
-      - 🇭🇰 Hong Kong 1
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
-      - 🇭🇰 香港IPLC顶级专线02
+      - 🇭🇰 HK-IPLC-36
+      - 🇭🇰 HK-IPLC-32
+      - 🇭🇰 HK-IPLC-21
+      - 🇭🇰 HK-IPLC-20
       - 🇭🇰 香港IPLC顶级专线03
+      - 🇭🇰 HK-IPLC-15
+      - 🇭🇰 HK-IPLC-38
+      - 🇭🇰 HK-IPLC-37
+      - 🇭🇰 HK-IPLC-39
+      - 🇭🇰 HK-IPLC-43
+      - 🇭🇰 HK-IPLC-30
+      - 🇭🇰 HK-IPLC-28
+      - 🇭🇰 HK-IPLC-8
+      - 🇭🇰 HK-IPLC-26
+      - 🇭🇰 HK-IPLC-29
+      - 🇭🇰 HK-IPLC-6
+      - 🇭🇰 HK-IPLC-34
+      - 🇭🇰 HK-IPLC-7
+      - 🇭🇰 香港IPLC顶级专线02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
