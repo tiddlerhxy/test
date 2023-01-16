@@ -5,255 +5,163 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: CloudFlare, server: cloudflare.quest, port: 2086, type: vmess, uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: buyvm.cloudflare.quest}}, udp: true}
+  - {name: "🇸🇬 [VIP2]-新加坡02", server: 54.169.89.218, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇦🇺 [VIP2]-澳大利亚01", server: 13.210.139.80, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "🇸🇪 [VIP2]-瑞典01", server: 13.51.178.44, port: 80, type: vmess, uuid: 3c4a7934-f0fa-4b5b-bdde-686c8cabec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
   - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-APS-HK-1(ss), server: h649960.waihuizhibiaowang.com, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: 🇨🇳 IEPL-AP-TW-1(ss), server: h745768.waihuizhibiaowang.com, port: 15343, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: 🇭🇰 CTVIP-HK-5(trojan), server: h295826.waihuizhibiaowang.com, port: 13543, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h295826.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
   - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
   - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 IEPL-AP-JP-1(ss), server: h745768.waihuizhibiaowang.com, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 CTVIP-JP-5(trojan), server: h295826.waihuizhibiaowang.com, port: 13443, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h295826.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IEPL-AP-HK-1(ss), server: h745768.waihuizhibiaowang.com, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 IPLC-US-US-2(ss), server: h217022.waihuizhibiaowang.com, port: 15243, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: 🇨🇳 IEPL-AP-TW-1(trojan), server: h745768.waihuizhibiaowang.com, port: 13343, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h745768.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IEPL-AP-HK-1(trojan), server: h745768.waihuizhibiaowang.com, port: 13543, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h745768.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IPLC-APS-HK-1(trojan), server: h649960.waihuizhibiaowang.com, port: 13543, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h649960.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 IPLC-APS-JP-1(ss), server: h649960.waihuizhibiaowang.com, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: 🇯🇵 IEPL-AP-JP-1(trojan), server: h745768.waihuizhibiaowang.com, port: 13443, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h745768.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
   - {name: h295826.waihuizhibiaowang.com:11243, server: h295826.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 IPLC-EU-DE-2(ss), server: h217022.waihuizhibiaowang.com, port: 15743, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: 🇬🇧 IPLC-EU-UK-2(ss), server: h217022.waihuizhibiaowang.com, port: 15143, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: 🇺🇸 IEPL-AP-US-1(ss), server: h745768.waihuizhibiaowang.com, port: 15243, type: ss, cipher: chacha20-ietf-poly1305, password: 7e274962-341b-4262-8f6f-0412b80b97e3, udp: true}
-  - {name: 🇺🇸 IPLC-US-US-2(trojan), server: h217022.waihuizhibiaowang.com, port: 13243, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h217022.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
   - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 IPLC-APS-JP-1(trojan), server: h649960.waihuizhibiaowang.com, port: 13443, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h649960.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h217022.waihuizhibiaowang.com:11143, server: h217022.waihuizhibiaowang.com, port: 11143, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
   - {name: h217022.waihuizhibiaowang.com:11743, server: h217022.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 IPLC-EU-DE-2(trojan), server: h217022.waihuizhibiaowang.com, port: 13743, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h217022.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 IPLC-EU-UK-2(trojan), server: h217022.waihuizhibiaowang.com, port: 13143, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h217022.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
+  - {name: h217022.waihuizhibiaowang.com:11143, server: h217022.waihuizhibiaowang.com, port: 11143, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
   - {name: h295826.waihuizhibiaowang.com:11743, server: h295826.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 CTVIP-DE-5(trojan), server: h295826.waihuizhibiaowang.com, port: 13743, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h295826.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 IEPL-AP-US-1(trojan), server: h745768.waihuizhibiaowang.com, port: 13243, type: trojan, password: 7e274962-341b-4262-8f6f-0412b80b97e3, sni: h745768.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 Hongkong 02, server: 120.240.236.27, port: 47134, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇯🇵 Japan 03, server: 36.155.20.52, port: 12109, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇯🇵 Japan 10Gbs, server: 111.6.85.143, port: 15827, type: ss, cipher: chacha20-ietf-poly1305, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
   - {name: 🇯🇵 Japan 02, server: 120.240.236.27, port: 33257, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇯🇵 日本03, server: yzdx.relay01.fast001.buzz, port: 19241, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Singapore 02, server: 120.240.236.27, port: 44250, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
+  - {name: 🇸🇬 Singapore  10Gbs, server: 36.155.20.52, port: 55987, type: ss, cipher: chacha20-ietf-poly1305, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
+  - {name: 🇯🇵 Japan 03, server: 36.155.20.52, port: 12109, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
+  - {name: 🇭🇰 香港 03, server: yzdx.relay01.fast001.buzz, port: 19227, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾 01, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 04, server: yzdx.relay01.fast001.buzz, port: 19228, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: yzdx.relay01.fast001.buzz, port: 19230, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 02, server: yzdx.relay01.fast001.buzz, port: 19240, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇰🇷 韩国 02, server: yzdx.relay01.fast001.buzz, port: 19243, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 01, server: yzdx.relay01.fast001.buzz, port: 19225, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 01, server: yzdx.relay01.fast001.buzz, port: 19238, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: 🇺🇸 US 03  Nexril, server: 120.240.236.27, port: 46615, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
   - {name: 🇭🇰 香港IPLC顶级专线03, server: newtw600mline001.fnline.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: d3111300c9a1, udp: true}
   - {name: 🇭🇰 香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52, udp: true}
-  - {name: 🇺🇸 US 04  Nexril, server: 36.155.20.52, port: 14020, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
-  - {name: CloudFlare, server: cloudflare.quest, port: 2086, type: vmess, uuid: 833de9d2-98c5-4ac5-9d30-e3a7ad929d10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /aries, headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: 🇸🇬 Singapore 03, server: 36.155.20.52, port: 30179, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇬🇧 England 02, server: 120.240.236.27, port: 42388, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇺🇸 US 03., server: 111.6.85.143, port: 41947, type: ss, cipher: chacha20-ietf-poly1305, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇺🇸 US 01, server: 36.155.20.52, port: 12076, type: ss, cipher: aes-128-gcm, password: 735a399f-9910-42fd-9315-08e3525bca3c, udp: true}
-  - {name: 🇨🇳 台湾 01, server: hndx.relay01.fast001.buzz, port: 19221, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 02, server: yzdx.relay01.fast001.buzz, port: 19226, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国 01, server: yzdx.relay01.fast001.buzz, port: 19242, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡01, server: yzdx.relay01.fast001.buzz, port: 19229, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾 02, server: yzdx.relay01.fast001.buzz, port: 19222, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: yzdx.relay01.fast001.buzz, port: 19230, type: vmess, uuid: 27d0fedb-86a3-3034-bf19-4a449a552415, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -272,267 +180,176 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇭🇰 香港跨境金融专线03
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇨🇳 台湾 02
+      - 🇭🇰 香港IEPL内网专线02
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -548,64 +365,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CloudFlare
+      - 🇸🇬 [VIP2]-新加坡02
+      - 🇦🇺 [VIP2]-澳大利亚01
+      - 🇸🇪 [VIP2]-瑞典01
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 IPLC-APS-HK-1(ss)
-      - 🇨🇳 IEPL-AP-TW-1(ss)
-      - 🇭🇰 CTVIP-HK-5(trojan)
       - h295826.waihuizhibiaowang.com:11543
       - h295826.waihuizhibiaowang.com:11443
-      - 🇯🇵 IEPL-AP-JP-1(ss)
-      - h649960.waihuizhibiaowang.com:11443
-      - 🇯🇵 CTVIP-JP-5(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(ss)
       - h745768.waihuizhibiaowang.com:11343
-      - 🇺🇸 IPLC-US-US-2(ss)
-      - 🇨🇳 IEPL-AP-TW-1(trojan)
-      - 🇭🇰 IEPL-AP-HK-1(trojan)
-      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - h649960.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11543
       - h745768.waihuizhibiaowang.com:11443
-      - 🇯🇵 IPLC-APS-JP-1(ss)
-      - 🇯🇵 IEPL-AP-JP-1(trojan)
       - h295826.waihuizhibiaowang.com:11243
-      - 🇩🇪 IPLC-EU-DE-2(ss)
-      - 🇬🇧 IPLC-EU-UK-2(ss)
-      - 🇺🇸 IEPL-AP-US-1(ss)
-      - 🇺🇸 IPLC-US-US-2(trojan)
       - h217022.waihuizhibiaowang.com:11243
-      - 🇯🇵 IPLC-APS-JP-1(trojan)
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
       - h217022.waihuizhibiaowang.com:11743
-      - 🇩🇪 IPLC-EU-DE-2(trojan)
-      - 🇬🇧 IPLC-EU-UK-2(trojan)
+      - h217022.waihuizhibiaowang.com:11143
       - h295826.waihuizhibiaowang.com:11743
-      - 🇩🇪 CTVIP-DE-5(trojan)
-      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - h745768.waihuizhibiaowang.com:11243
       - 🇭🇰 Hongkong 02
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇯🇵 Japan 03
-      - 🇯🇵 Japan 10Gbs
       - 🇯🇵 Japan 02
-      - 🇯🇵 日本03
+      - 🇸🇬 Singapore 02
+      - 🇸🇬 Singapore  10Gbs
+      - 🇯🇵 Japan 03
+      - 🇭🇰 香港 03
+      - 🇨🇳 台湾 01
+      - 🇭🇰 香港 04
+      - 🇸🇬 新加坡 02
+      - 🇯🇵 日本 02
       - 🇰🇷 韩国 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 日本 01
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
-      - 🇺🇸 US 03  Nexril
       - 🇭🇰 香港IPLC顶级专线03
       - 🇭🇰 香港IPLC顶级专线02
-      - 🇺🇸 US 04  Nexril
-      - 🇭🇰 香港跨境金融专线03
-      - CloudFlare
-      - 🇸🇬 Singapore 03
-      - 🇬🇧 England 02
-      - 🇺🇸 US 03.
-      - 🇺🇸 US 01
-      - 🇨🇳 台湾 01
-      - 🇭🇰 香港 02
-      - 🇰🇷 韩国 01
-      - 🇸🇬 新加坡01
-      - 🇨🇳 台湾 02
-      - 🇸🇬 新加坡 02
+      - 🇭🇰 香港IEPL内网专线02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
