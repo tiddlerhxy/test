@@ -17,7 +17,7 @@ proxies:
   - {name: 🇭🇰 香港 07, server: 183.245.149.5, port: 61014, type: trojan, password: 0e01fd82-b5ae-4981-aa51-fdf36b02e7eb, sni: 65-108-102-32.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港-MPLS-10G, server: 120.240.236.55, port: 15264, type: vmess, uuid: a07e9020-068d-3f46-9b87-c7cd9cd19673, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 新加坡-MPLS-1G, server: 120.240.236.55, port: 19764, type: vmess, uuid: a07e9020-068d-3f46-9b87-c7cd9cd19673, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: Bengaluru-DigitalOcean, server: 111.6.86.139, port: 16312, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇧🇩 Bengaluru-DigitalOcean, server: 111.6.86.139, port: 16312, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: Chuncheon-Oracle, server: 111.6.86.139, port: 16252, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇦🇺 North Sydney-OVH, server: 117.164.185.221, port: 16290, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 台北PNI-dip, server: 117.164.185.221, port: 16116, type: vmess, uuid: e62c703f-6910-3858-9228-da30a3e51225, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
@@ -70,7 +70,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
@@ -122,7 +122,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
@@ -175,7 +175,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
@@ -240,7 +240,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
@@ -316,7 +316,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
@@ -368,7 +368,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
@@ -421,7 +421,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
@@ -483,7 +483,7 @@ proxy-groups:
       - 🇭🇰 香港 07
       - 🇭🇰 香港-MPLS-10G
       - 🇸🇬 新加坡-MPLS-1G
-      - Bengaluru-DigitalOcean
+      - 🇧🇩 Bengaluru-DigitalOcean
       - Chuncheon-Oracle
       - 🇦🇺 North Sydney-OVH
       - 台北PNI-dip
