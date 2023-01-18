@@ -113,7 +113,7 @@
   <h1>Web server is down</h1>
   <p>The web server is not returning a connection. As a result, the web page is not displaying.</p>
   <ul>
-    <li>Ray ID: 78b957d375f9ce54</li>
+    <li>Ray ID: 78b9667672f5ce48</li>
     <li>Your IP address: 2a06:98c0:3600::103</li>
     <li>Error reference number: 521</li>
     <li>Cloudflare Location: San Jose</li>
