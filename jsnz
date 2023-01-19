@@ -5,36 +5,36 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 Korea1-韩国一, server: frontend.yijianlian.app, port: 54580, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇺 Australia-澳大利亚, server: frontend.yijianlian.app, port: 54590, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore1-新加坡VIP1, server: frontend.yijianlian.app, port: 54550, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 USA-美国, server: frontend.yijianlian.app, port: 54430, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan-日本, server: frontend.yijianlian.app, port: 54530, type: trojan, password: cf555e02-4afe-4bca-8efc-c804e4c71640, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 05, server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-hk.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 03, server: dl-sg3.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 01, server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 04, server: dl-sg4.efyunpan.com, port: 443, type: trojan, password: 06f4b611-5e22-4e95-a250-50bcf2d017e0, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
-  - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h217022.waihuizhibiaowang.com:11243, server: h217022.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h217022.waihuizhibiaowang.com:11143, server: h217022.waihuizhibiaowang.com, port: 11143, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h217022.waihuizhibiaowang.com:11743, server: h217022.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h295826.waihuizhibiaowang.com:11743, server: h295826.waihuizhibiaowang.com, port: 11743, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h295826.waihuizhibiaowang.com:11243, server: h295826.waihuizhibiaowang.com, port: 11243, type: http, username: c4f45c1e57, password: 30bc61848f, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 台湾①{移动|V2ray}", server: cm1.awslcn.cc, port: 25232, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.cc}}, udp: true}
-  - {name: "🇨🇳 台湾②{联通|V2ray}", server: cu.awslcn.cc, port: 25232, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.cc}}, udp: true}
-  - {name: "🇸🇬 新加坡02{优化1|V2ray}", server: sg1.awslcn.cc, port: 25243, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.cc}}, udp: true}
-  - {name: "🇯🇵 日本01{优化1|V2ray}", server: jp1.awslcn.cc, port: 25237, type: vmess, uuid: 7b46bb57-239b-41ea-9ae2-5b2a101983c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp1.awslcn.cc}}, udp: true}
-  - {name: 🇨🇳 Taiwan, server: 19215tj.matrixxx888.com, port: 19215, type: trojan, password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b, sni: eplcgame.com, skip-cert-verify: false, udp: true}
+  - {name: Deep new tunnel, server: iplc-sg.19991314.xyz, port: 10010, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan Spare, server: ahyd.pangupy.com, port: 40480, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 Taiwan tunnel, server: iplc-hk.19991314.xyz, port: 10010, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Singapore Spare, server: ahyd.pangupy.com, port: 32692, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: Shanghai Tunnel, server: iplc-jp.19991314.xyz, port: 10010, type: vmess, uuid: d98b6090-33e7-4532-9d82-cc3904b4df3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IPLC-APS-HK-1(ss), server: h649960.waihuizhibiaowang.com, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, udp: true}
+  - {name: 🇭🇰 IPLC-APS-HK-1(trojan), server: h649960.waihuizhibiaowang.com, port: 13543, type: trojan, password: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, sni: h649960.waihuizhibiaowang.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IPLC-APS-HK-1(v2ray), server: h649960.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 IPLC-APS-JP-1(v2ray), server: h649960.waihuizhibiaowang.com, port: 12443, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 CTVIP-HK-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 CTVIP-JP-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12443, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 IEPL-AP-TW-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12343, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IEPL-AP-HK-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 IEPL-AP-JP-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12443, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 CTVIP-US-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12243, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IPLC-US-US-3(v2ray), server: h650196.waihuizhibiaowang.com, port: 12243, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IEPL-AP-US-1(v2ray), server: h745768.waihuizhibiaowang.com, port: 12243, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 IPLC-EU-DE-3(v2ray), server: h650196.waihuizhibiaowang.com, port: 12743, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 IPLC-EU-UK-3(v2ray), server: h650196.waihuizhibiaowang.com, port: 12143, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 CTVIP-DE-3(v2ray), server: h961359.waihuizhibiaowang.com, port: 12743, type: vmess, uuid: 3ce74a1a-d01c-48bc-bba2-f643ff70667c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 06, server: dl-hk6.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-hk.efyunpan.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 05, server: dl-hk5.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-hk.efyunpan.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 03, server: dl-sg3.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 02, server: dl-sg2.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 02, server: dl-hk2.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-hk.efyunpan.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 01, server: dl-sg1.efyunpan.com, port: 443, type: trojan, password: 842c7bab-b5d0-49ce-8359-81b16d808164, sni: data-sg.efyunpan.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong 4, server: 19201tj.matrixxx888.com, port: 19201, type: trojan, password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b, sni: eplcgame.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 Hong Kong 7, server: 19201tj.matrixxx888.com, port: 19201, type: trojan, password: 5339be6f-6443-3b59-94b8-bcdb7d7c669b, sni: eplcgame.com, skip-cert-verify: false, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇭🇰 香港IPLC顶级专线02, server: mktw1glines002.aodunjiasu.info, port: 995, type: ss, cipher: aes-256-gcm, password: 7f9357a05d52, udp: true}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
 proxy-groups:
@@ -43,36 +43,36 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
   - name: ♻️ 自动选择
@@ -80,36 +80,36 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
   - name: 🎥 NETFLIX
@@ -118,36 +118,36 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
   - name: ⛔️ 广告拦截
@@ -168,47 +168,46 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
+      - 🇭🇰 香港 02
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🔰 节点选择
@@ -217,36 +216,36 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
   - name: 📲 电报信息
@@ -254,36 +253,36 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
   - name: 🍎 苹果服务
@@ -292,36 +291,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
   - name: 🎯 全球直连
@@ -339,36 +338,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇰🇷 Korea1-韩国一
-      - 🇦🇺 Australia-澳大利亚
-      - 🇸🇬 Singapore1-新加坡VIP1
-      - 🇺🇸 USA-美国
-      - 🇯🇵 Japan-日本
+      - Deep new tunnel
+      - 🇯🇵 Japan Spare
+      - 🇨🇳 Taiwan tunnel
+      - 🇸🇬 Singapore Spare
+      - Shanghai Tunnel
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 CTVIP-HK-3(v2ray)
+      - 🇯🇵 CTVIP-JP-3(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇺🇸 CTVIP-US-3(v2ray)
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - h745768.waihuizhibiaowang.com:11243
+      - 🇩🇪 IPLC-EU-DE-3(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - 🇩🇪 CTVIP-DE-3(v2ray)
+      - 🇭🇰 香港 06
       - 🇭🇰 香港 05
       - 🇸🇬 新加坡 03
       - 🇸🇬 新加坡 02
+      - 🇭🇰 香港 02
       - 🇸🇬 新加坡 01
-      - 🇸🇬 新加坡 04
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11543
-      - h745768.waihuizhibiaowang.com:11343
-      - h217022.waihuizhibiaowang.com:11243
-      - h745768.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11243
-      - h217022.waihuizhibiaowang.com:11143
-      - h217022.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11543
-      - h295826.waihuizhibiaowang.com:11743
-      - h649960.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11243
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{联通|V2ray}
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇯🇵 日本01{优化1|V2ray}
-      - 🇨🇳 Taiwan
+      - 🇭🇰 Hong Kong 4
+      - 🇭🇰 Hong Kong 7
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IPLC顶级专线02
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
 rules:
