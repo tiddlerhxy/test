@@ -5,127 +5,163 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: us111, server: c26s4.jamjams3.net, port: 7058, type: vmess, uuid: 147591bc-585a-423f-877e-41f89c9601b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: us222, server: c26s3.jamjams3.net, port: 7058, type: vmess, uuid: 147591bc-585a-423f-877e-41f89c9601b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: us333, server: c26s5.jamjams3.net, port: 7058, type: vmess, uuid: 147591bc-585a-423f-877e-41f89c9601b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 Hong Kong 19, server: bxkfd-1037-tr-7.hkg-d-cmi.jd.cjhh.lol, port: 889, type: trojan, password: atZipLEDchHvdWCRfWQFFdtsEPUNUSVI, sni: node.inforun.work, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Japan 11, server: 18.183.80.108, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇨🇳 Taiwan 8, server: zbxvr-1039-tr-1.tpe-d-hinet.nd.cjhh.mom, port: 889, type: trojan, password: atZipLEDchHvdWCRfWQFFdtsEPUNUSVI, sni: node.inforun.work, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Singapore 3, server: 103.172.116.121, port: 3389, type: trojan, password: 0c6a3341e8d5ab17, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
   - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
   - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11343, server: h745768.waihuizhibiaowang.com, port: 11343, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h745768.waihuizhibiaowang.com:11443, server: h745768.waihuizhibiaowang.com, port: 11443, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11243, server: h745768.waihuizhibiaowang.com, port: 11243, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
   - {name: h745768.waihuizhibiaowang.com:11543, server: h745768.waihuizhibiaowang.com, port: 11543, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: GetAFreeNode-Seattle, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Seattle.v2ray.online}}, udp: true}
+  - {name: 🇺🇸 USA-美国, server: frontend.yijianlian.app, port: 54430, type: trojan, password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 Korea1-韩国一, server: frontend.yijianlian.app, port: 54580, type: trojan, password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 Germany-德国, server: frontend.yijianlian.app, port: 54490, type: trojan, password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 Japan-日本, server: frontend.yijianlian.app, port: 54530, type: trojan, password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 Singapore1-新加坡VIP1, server: frontend.yijianlian.app, port: 54550, type: trojan, password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇺 Australia-澳大利亚, server: frontend.yijianlian.app, port: 54590, type: trojan, password: 38f06b4b-14ce-4dc0-a451-3cdec2605e6d, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港-80端口-02, server: hk80-2.sanfen001.pics, port: 80, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港-80端口-01, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇯🇵 日本-80端口-04, server: jp80-4.sanfen001.pics, port: 80, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 🇭🇰 香港高速接入点-03, server: hk3.sanfen001.pics, port: 443, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 台北高级接入点-01, server: tw1.sanfen001.pics, port: 443, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇸🇬 新加坡高速接入点-01, server: sg1.sanfen001.pics, port: 443, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: 🇭🇰 香港高级接入点-01, server: hk11.sanfen001.pics, port: 2001, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
+  - {name: 🇯🇵 日本高速接入点-02, server: jp2.sanfen001.pics, port: 443, type: vmess, uuid: 46e7cfba-d2ea-4c84-918a-94011e2d4cdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
+  - {name: us1, server: c26s801.jamjams3.net, port: 7058, type: vmess, uuid: 147591bc-585a-423f-877e-41f89c9601b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: us2, server: c26s3.jamjams3.net, port: 7058, type: vmess, uuid: 147591bc-585a-423f-877e-41f89c9601b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: us3, server: c26s5.jamjams3.net, port: 7058, type: vmess, uuid: 147591bc-585a-423f-877e-41f89c9601b6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: GetAFreeNode-LosAngeles, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: LosAngeles.v2ray.online}}, udp: true}
   - {name: GetAFreeNode-Frankfurt, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Frankfurt.v2ray.online}}, udp: true}
-  - {name: GetAFreeNode-Amsterdam, server: v2ray.online, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Amsterdam.v2ray.online}}, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: 14c618cbfc, password: 4884c4ed80, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,37 +180,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇭🇰 香港高级接入点-01
       - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -182,95 +233,122 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -286,32 +364,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - us111
-      - us222
-      - us333
       - h649960.waihuizhibiaowang.com:11543
-      - 🇭🇰 Hong Kong 19
-      - 🇯🇵 Japan 11
-      - 🇨🇳 Taiwan 8
       - h961359.waihuizhibiaowang.com:11543
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港IEPL内网专线01
       - h961359.waihuizhibiaowang.com:11443
-      - 🇸🇬 Singapore 3
-      - h745768.waihuizhibiaowang.com:11343
-      - h649960.waihuizhibiaowang.com:11443
-      - h745768.waihuizhibiaowang.com:11443
       - h961359.waihuizhibiaowang.com:11243
       - h650196.waihuizhibiaowang.com:11243
+      - h650196.waihuizhibiaowang.com:11143
+      - h650196.waihuizhibiaowang.com:11743
+      - h961359.waihuizhibiaowang.com:11743
+      - h649960.waihuizhibiaowang.com:11443
+      - h745768.waihuizhibiaowang.com:11343
+      - h745768.waihuizhibiaowang.com:11443
       - h745768.waihuizhibiaowang.com:11243
       - h745768.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11743
-      - GetAFreeNode-Seattle
+      - 🇺🇸 USA-美国
+      - 🇰🇷 Korea1-韩国一
+      - 🇩🇪 Germany-德国
+      - 🇯🇵 Japan-日本
+      - 🇸🇬 Singapore1-新加坡VIP1
+      - 🇦🇺 Australia-澳大利亚
+      - 🇭🇰 香港-80端口-02
+      - 🇭🇰 香港-80端口-01
+      - 🇯🇵 日本-80端口-04
+      - 🇭🇰 香港高速接入点-03
+      - 台北高级接入点-01
+      - 🇸🇬 新加坡高速接入点-01
+      - 🇭🇰 香港高级接入点-01
+      - 🇯🇵 日本高速接入点-02
+      - us1
+      - us2
+      - us3
       - GetAFreeNode-LosAngeles
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Amsterdam
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港跨境金融专线03
+      - 🇭🇰 香港IEPL内网专线01
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
