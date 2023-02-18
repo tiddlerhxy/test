@@ -5,49 +5,42 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇨🇦 [🇨🇦] 加拿大01 x1", server: t5.583181.xyz, port: 1258, type: trojan, password: 05a9991f-c575-48a9-81af-f681627ffb86, sni: www.baidu.com, skip-cert-verify: false, udp: true}
-  - {name: "[🇸🇬] 打杂的02 x1", server: v14.583181.xyz, port: 8443, type: vmess, uuid: 05a9991f-c575-48a9-81af-f681627ffb86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v14.583181.xyz}}, udp: true}
-  - {name: "[🇩🇪] 打杂的04 x1", server: v16.583181.xyz, port: 8443, type: vmess, uuid: 05a9991f-c575-48a9-81af-f681627ffb86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v16.583181.xyz}}, udp: true}
-  - {name: "[🇺🇸] 打杂的01 x1", server: v13.583181.xyz, port: 2053, type: vmess, uuid: 05a9991f-c575-48a9-81af-f681627ffb86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v13.583181.xyz}}, udp: true}
-  - {name: "[🇮🇳] 打杂的03 x1", server: v15.583181.xyz, port: 2053, type: vmess, uuid: 05a9991f-c575-48a9-81af-f681627ffb86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: v15.583181.xyz}}, udp: true}
+  - {name: 纽约尼克斯队, server: trny.ballistics.top, port: 443, type: trojan, password: 39386ab3-db28-468f-b87b-471f4ab7ca1c, sni: trny.ballistics.top, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22gcore-hk.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本03, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22gcore-jp.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇯🇵 日本Test, server: 35.79.247.3, port: 14109, type: vmess, uuid: fd5b520c-96e1-45b2-99c7-0c7b2cc28652, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 🇮🇳 印度01, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22gcore-in.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇫🇷 法国02, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22fr.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇳🇱 荷兰01, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22netherlands.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇳🇱 荷兰02, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22scw.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇵🇱 波兰01, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22waw.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇫🇷 法国01, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22france.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇱🇺 卢森堡02, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22buyvm.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇺🇸 美国02, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22gcore-us.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇭🇰 香港Test, server: vv.moedove.com, port: 53818, type: vmess, uuid: f468d900-2133-4959-9b37-8f6ee03308cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /mjgvg, headers: {Host: "%7B%22Host%22:%22vv.moedove.com%22%7D"}}, udp: true}
+  - {name: 🇨🇦 加拿大01, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22ca-help.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: "🇪🇪 爱沙尼亚[Netflix]", server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: "%7B%22Host%22:%22ee.cloudflare.quest%22%7D"}}, udp: true}
+  - {name: 🇸🇬 Singapore1G, server: sg1g.jeidian.xyz, port: 80, type: vmess, uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: JP500m/Netflix, server: jp500m.jeidian.xyz, port: 80, type: vmess, uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 JP 4G/Netflix, server: jp4g.jeidian.xyz, port: 80, type: vmess, uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 TW 1G(443端口) 家宽/Netflix, server: tw1g.jeidian.xyz, port: 443, type: vmess, uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 Korea 500m/Netflix, server: 138.2.127.50, port: 80, type: vmess, uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 🇮🇳 India 1G, server: india.jeidian.xyz, port: 80, type: vmess, uuid: 2d81eefd-7d1e-4ea7-b12c-5e426e08979d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: _GCORE, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: gcore-hk.cloudflare.quest}}, udp: true}
+  - {name: _GCORE 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: gcore-jp.cloudflare.quest}}, udp: true}
   - {name: _VNPT-伪家宽, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
-  - {name: _GCORE, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: gcore-jp.cloudflare.quest}}, udp: true}
-  - {name: _GCORE 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: gcore-in.cloudflare.quest}}, udp: true}
   - {name: _OVH-WARP, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
-  - {name: _GCORE 3, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: gcore-hk.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: netherlands.cloudflare.quest}}, udp: true}
-  - {name: _OVH-@xzzhuanfa捐赠, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ca-help.cloudflare.quest}}, udp: true}
+  - {name: _Scaleway-WARP, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
+  - {name: _GCORE 3, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: gcore-in.cloudflare.quest}}, udp: true}
+  - {name: _Scaleway, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: france.cloudflare.quest}}, udp: true}
+  - {name: _Scaleway-WARP 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw.cloudflare.quest}}, udp: true}
+  - {name: _Scaleway 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: netherlands.cloudflare.quest}}, udp: true}
   - {name: _GCORE 4, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: gcore-us.cloudflare.quest}}, udp: true}
+  - {name: _Scaleway 3, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: waw.cloudflare.quest}}, udp: true}
   - {name: _BuyVM-无审计, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway-WARP, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw.cloudflare.quest}}, udp: true}
   - {name: _FriendHosting, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: lv.cloudflare.quest}}, udp: true}
-  - {name: _pilw-伪家宽, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
   - {name: _OVH-NAT, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: uk.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: waw.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway-WARP 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
-  - {name: _GCORE-WARP, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: GCORE-TR.cloudflare.quest}}, udp: true}
-  - {name: 🇭🇰 香港家宽 04丨1x HK, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 13131, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 69697cbd9257.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港家宽 03丨1x HK, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 13112, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 69697cbd9257.microsoft.com}, udp: true}
-  - {name: 🇭🇰 香港家宽 02丨1x HK, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 13105, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 69697cbd9257.microsoft.com}, udp: true}
-  - {name: 🇨🇳 台湾家宽 05丨1x TW, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 12308, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 69697cbd9257.microsoft.com}, udp: true}
-  - {name: 🇨🇳 台湾家宽 01丨1x TW, server: 0gr4uqmtt8y41hcjzgazdrpjt.ourdvssss.com, port: 12304, type: ss, cipher: aes-128-gcm, password: haMLMXirByn6rGVh, plugin: obfs, plugin-opts: {mode: http, host: 69697cbd9257.microsoft.com}, udp: true}
-  - {name: 🇯🇵 Japan-日本, server: frontend.yijianlian.app, port: 54530, type: trojan, password: 486d0623-b24b-436b-803e-9e6f9cebe497, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 USA-美国, server: frontend.yijianlian.app, port: 54430, type: trojan, password: 486d0623-b24b-436b-803e-9e6f9cebe497, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 Korea1-韩国一, server: frontend.yijianlian.app, port: 54580, type: trojan, password: 486d0623-b24b-436b-803e-9e6f9cebe497, skip-cert-verify: false, udp: true}
-  - {name: 🇷🇺 Russia-俄罗斯, server: frontend.yijianlian.app, port: 54510, type: trojan, password: 486d0623-b24b-436b-803e-9e6f9cebe497, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11543, server: h649960.waihuizhibiaowang.com, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h649960.waihuizhibiaowang.com:11443, server: h649960.waihuizhibiaowang.com, port: 11443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.strongpipe.live:11343, server: h745768.strongpipe.live, port: 11343, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.strongpipe.live:11543, server: h745768.strongpipe.live, port: 11543, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.strongpipe.live:11443, server: h745768.strongpipe.live, port: 11443, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h745768.strongpipe.live:11243, server: h745768.strongpipe.live, port: 11243, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11243, server: h650196.waihuizhibiaowang.com, port: 11243, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11743, server: h961359.waihuizhibiaowang.com, port: 11743, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11743, server: h650196.waihuizhibiaowang.com, port: 11743, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h650196.waihuizhibiaowang.com:11143, server: h650196.waihuizhibiaowang.com, port: 11143, type: http, username: 54b57a8e76, password: 7fccf1c716, tls: true, skip-cert-verify: false, udp: true}
+  - {name: _Hostmaze, server: no.aries.ovh, port: 2052, type: vmess, uuid: c6f7bae0-36d9-41a6-9962-e79156c899c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ro.cloudflare.quest}}, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
@@ -57,49 +50,42 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -108,49 +94,42 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -160,49 +139,42 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -224,49 +196,42 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -274,11 +239,8 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
+      - 🇭🇰 香港02
+      - 🇭🇰 香港Test
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -288,49 +250,42 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -339,49 +294,42 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -391,49 +339,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -452,49 +393,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦 [🇨🇦] 加拿大01 x1
-      - "[🇸🇬] 打杂的02 x1"
-      - "[🇩🇪] 打杂的04 x1"
-      - "[🇺🇸] 打杂的01 x1"
-      - "[🇮🇳] 打杂的03 x1"
-      - _VNPT-伪家宽
+      - 纽约尼克斯队
+      - 🇭🇰 香港02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本Test
+      - 🇮🇳 印度01
+      - 🇫🇷 法国02
+      - 🇳🇱 荷兰01
+      - 🇳🇱 荷兰02
+      - 🇵🇱 波兰01
+      - 🇫🇷 法国01
+      - 🇱🇺 卢森堡02
+      - 🇺🇸 美国02
+      - 🇭🇰 香港Test
+      - 🇨🇦 加拿大01
+      - 🇪🇪 爱沙尼亚[Netflix]
+      - 🇸🇬 Singapore1G
+      - JP500m/Netflix
+      - 🇯🇵 JP 4G/Netflix
+      - 🇨🇳 TW 1G(443端口) 家宽/Netflix
+      - 🇰🇷 Korea 500m/Netflix
+      - 🇮🇳 India 1G
       - _GCORE
       - _GCORE 2
+      - _VNPT-伪家宽
       - _OVH-WARP
+      - _Scaleway-WARP
       - _GCORE 3
       - _Scaleway
-      - _OVH-@xzzhuanfa捐赠
-      - _GCORE 4
-      - _BuyVM-无审计
-      - _Scaleway-WARP
-      - _FriendHosting
-      - _pilw-伪家宽
-      - _OVH-NAT
-      - _Scaleway 2
       - _Scaleway-WARP 2
-      - _GCORE-WARP
-      - 🇭🇰 香港家宽 04丨1x HK
-      - 🇭🇰 香港家宽 03丨1x HK
-      - 🇭🇰 香港家宽 02丨1x HK
-      - 🇨🇳 台湾家宽 05丨1x TW
-      - 🇨🇳 台湾家宽 01丨1x TW
-      - 🇯🇵 Japan-日本
-      - 🇺🇸 USA-美国
-      - 🇰🇷 Korea1-韩国一
-      - 🇷🇺 Russia-俄罗斯
-      - h649960.waihuizhibiaowang.com:11543
-      - h649960.waihuizhibiaowang.com:11443
-      - h961359.waihuizhibiaowang.com:11543
-      - h961359.waihuizhibiaowang.com:11443
-      - h745768.strongpipe.live:11343
-      - h745768.strongpipe.live:11543
-      - h745768.strongpipe.live:11443
-      - h961359.waihuizhibiaowang.com:11243
-      - h745768.strongpipe.live:11243
-      - h650196.waihuizhibiaowang.com:11243
-      - h961359.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11743
-      - h650196.waihuizhibiaowang.com:11143
+      - _Scaleway 2
+      - _GCORE 4
+      - _Scaleway 3
+      - _BuyVM-无审计
+      - _FriendHosting
+      - _OVH-NAT
+      - _Hostmaze
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
