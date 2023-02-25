@@ -5,33 +5,23 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国1, server: 20.212.210.191, port: 443, type: trojan, password: 55dcfe9f-b4b7-4b8b-9dee-b247cf0af2da, sni: pcd462233.netvigator.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国2, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 55dcfe9f-b4b7-4b8b-9dee-b247cf0af2da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/us2?ed=2048", headers: {Host: us2.yfjc.sbs}}, udp: true}
-  - {name: 🇺🇸 美国4, server: 148.59.74.186, port: 443, type: trojan, password: 55dcfe9f-b4b7-4b8b-9dee-b247cf0af2da, sni: pcd462233.netvigator.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国3, server: 148.59.74.185, port: 443, type: trojan, password: 55dcfe9f-b4b7-4b8b-9dee-b247cf0af2da, sni: pcd462233.netvigator.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国5, server: 148.59.74.184, port: 443, type: trojan, password: 55dcfe9f-b4b7-4b8b-9dee-b247cf0af2da, sni: pcd462233.netvigator.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港1, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn/, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港2, server: tw2.sanfen001.pics, port: 443, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港3, server: hk6.sanfen001.pics, port: 443, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港4, server: hk5.sanfen001.pics, port: 443, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港5, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港6, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港7, server: sg2.sanfen001.pics, port: 2005, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cn, headers: {Host: aws.amazon.com}}, udp: true}
-  - {name: 🇭🇰 香港8, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 🇭🇰 香港9, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 5cd940ef-5f62-4afe-9464-ec89e8c070b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}, udp: true}
-  - {name: 🇺🇸 美国 022, server: us-2.free.yuji2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /SRhXKZqggNrPMELA525Kw, headers: {Host: us-2.free.yuji2022.gq}}, udp: true}
-  - {name: 🇬🇧 英国 022, server: gb.free.yuji2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hL4SnGmR6jDw2R8zjSmeT, headers: {Host: gb.free.yuji2022.gq}}, udp: true}
-  - {name: 🇫🇷 法国 011, server: vmess.woiden.yuji2022.gq, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /E86414F638E11, headers: {Host: vmess.woiden.yuji2022.gq}}, udp: true}
-  - {name: _VNPT-伪家宽, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
-  - {name: _OVH-NAT, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: uk.cloudflare.quest}}, udp: true}
-  - {name: _BuyVM-无审计, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway-WARP, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: france.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: netherlands.cloudflare.quest}}, udp: true}
-  - {name: _pilw-伪家宽, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
-  - {name: _Hostmaze, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ro.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway 3, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: waw.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway-WARP 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: d7fbbc47-c6da-466c-bfe0-dba6b99b54ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw.cloudflare.quest}}, udp: true}
+  - {name: 🇯🇵 普通丨Japan, server: 3e95f993-cf00-6de1-5116-c7e79eac2b3b.interface.buzz, port: 51422, type: ss, cipher: aes-256-gcm, password: ecac975c-f071-495a-84b9-4cbe67832249, udp: true}
+  - {name: 🇸🇬 普通丨Singapore, server: f67e406b-76cc-0d6b-96d4-ce21e6230a24.interface.buzz, port: 31500, type: ss, cipher: aes-256-gcm, password: ecac975c-f071-495a-84b9-4cbe67832249, udp: true}
+  - {name: 🇮🇳 普通丨India, server: f5840c2b-356f-a000-478b-8d0548a26e9a.interface.buzz, port: 43521, type: ss, cipher: aes-256-gcm, password: ecac975c-f071-495a-84b9-4cbe67832249, udp: true}
+  - {name: 公益丨KuaiLian.org, server: 1a89b7f5-207b-d0ee-d79b-33a3353bd315.interface.buzz, port: 48152, type: vmess, uuid: ecac975c-f071-495a-84b9-4cbe67832249, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /index.html, headers: {Host: apps.apple.com}}, udp: true}
+  - {name: aws 2, server: aws.sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202302280000000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: GreenCloud, server: GreenCloud.JP.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202302280000000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: V.PS, server: V.PS.JP.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202302280000000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: VirMach, server: VirMach.JP.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202302280000000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: aws, server: aws.jp.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202302280000000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: DigitalOcean 2, server: do.us.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202302280000000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: _Scaleway, server: no.aries.ovh, port: 2052, type: vmess, uuid: 14157890-890b-4fbb-ad1a-5e58dd189c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: france.cloudflare.quest}}, udp: true}
+  - {name: _Scaleway 2, server: no.aries.ovh, port: 2052, type: vmess, uuid: 14157890-890b-4fbb-ad1a-5e58dd189c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: netherlands.cloudflare.quest}}, udp: true}
+  - {name: _Scaleway-WARP, server: no.aries.ovh, port: 2052, type: vmess, uuid: 14157890-890b-4fbb-ad1a-5e58dd189c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw.cloudflare.quest}}, udp: true}
+  - {name: _BuyVM-无审计, server: no.aries.ovh, port: 2052, type: vmess, uuid: 14157890-890b-4fbb-ad1a-5e58dd189c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
+  - {name: _VNPT-伪家宽, server: no.aries.ovh, port: 2052, type: vmess, uuid: 14157890-890b-4fbb-ad1a-5e58dd189c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
+  - {name: _OVH-WARP, server: no.aries.ovh, port: 2052, type: vmess, uuid: 14157890-890b-4fbb-ad1a-5e58dd189c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
+  - {name: _pilw-伪家宽, server: no.aries.ovh, port: 2052, type: vmess, uuid: 14157890-890b-4fbb-ad1a-5e58dd189c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线01, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
@@ -41,33 +31,23 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -76,33 +56,23 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -112,33 +82,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -160,33 +120,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -194,15 +144,6 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -212,33 +153,23 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -247,33 +178,23 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -283,33 +204,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
@@ -328,33 +239,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国1
-      - 🇺🇸 美国2
-      - 🇺🇸 美国4
-      - 🇺🇸 美国3
-      - 🇺🇸 美国5
-      - 🇭🇰 香港1
-      - 🇭🇰 香港2
-      - 🇭🇰 香港3
-      - 🇭🇰 香港4
-      - 🇭🇰 香港5
-      - 🇭🇰 香港6
-      - 🇭🇰 香港7
-      - 🇭🇰 香港8
-      - 🇭🇰 香港9
-      - 🇺🇸 美国 022
-      - 🇬🇧 英国 022
-      - 🇫🇷 法国 011
-      - _VNPT-伪家宽
-      - _OVH-NAT
-      - _BuyVM-无审计
-      - _Scaleway-WARP
+      - 🇯🇵 普通丨Japan
+      - 🇸🇬 普通丨Singapore
+      - 🇮🇳 普通丨India
+      - 公益丨KuaiLian.org
+      - aws 2
+      - GreenCloud
+      - V.PS
+      - VirMach
+      - aws
+      - DigitalOcean 2
       - _Scaleway
       - _Scaleway 2
+      - _Scaleway-WARP
+      - _BuyVM-无审计
+      - _VNPT-伪家宽
+      - _OVH-WARP
       - _pilw-伪家宽
-      - _Hostmaze
-      - _Scaleway 3
-      - _Scaleway-WARP 2
       - 🇭🇰 香港IEPL内网专线01
       - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
