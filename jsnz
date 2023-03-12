@@ -7,14 +7,54 @@ external-controller: :9090
 proxies:
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: "🇭🇰 香港03{优化1|V2ray}", server: hk1.awslcn.cc, port: 25248, type: vmess, uuid: cb00659b-d7dd-4582-aae1-1b8232a4aa27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.cc}}, udp: true}
-  - {name: "🇭🇰 香港04{优化1|V2ray}", server: hk1.awslcn.cc, port: 25250, type: vmess, uuid: cb00659b-d7dd-4582-aae1-1b8232a4aa27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.cc}}, udp: true}
-  - {name: "🇨🇳 台湾②{移动|V2ray}", server: cm.awslcn.cc, port: 25232, type: vmess, uuid: cb00659b-d7dd-4582-aae1-1b8232a4aa27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
-  - {name: 🇸🇬 【共享奈飞】新加坡01 1x, server: cc-iepl.244312.xyz, port: 54509, type: ss, cipher: aes-128-gcm, password: 19726da6-cdf5-4f9f-a490-4994ed46d92d, udp: true}
-  - {name: 🇸🇬 【共享奈飞】新加坡02 1x, server: ll-iepl.244312.xyz, port: 54509, type: ss, cipher: aes-128-gcm, password: 19726da6-cdf5-4f9f-a490-4994ed46d92d, udp: true}
-  - {name: 🇪🇺 欧洲 | 俄罗斯, server: a-cm1.jsmmm.cyou, port: 39913, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇦🇷 美洲 | 阿根廷, server: a-cm1.jsmmm.cyou, port: 39711, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, udp: true}
+  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IPLC-APS-HK-1(v2ray), server: catlog.flareai.science, port: 12543, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IPLC-APS-HK-1(ss), server: catlog.flareai.science, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: h073906.waihuizhibiaowang.com:11543, server: h073906.waihuizhibiaowang.com, port: 11543, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 CTVIP-HK-2(v2ray), server: h073906.waihuizhibiaowang.com, port: 12543, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 IEPL-AP-TW-1(ss), server: delivery.flareai.site, port: 15343, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇯🇵 IPLC-APS-JP-1(ss), server: catlog.flareai.science, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇯🇵 IEPL-AP-JP-1(ss), server: delivery.flareai.site, port: 15443, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇯🇵 IPLC-APS-JP-1(trojan), server: catlog.flareai.science, port: 13443, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: catlog.flareai.science, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IPLC-APS-HK-1(trojan), server: catlog.flareai.science, port: 13543, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: catlog.flareai.science, skip-cert-verify: false, udp: true}
+  - {name: delivery.flareai.site:11343, server: delivery.flareai.site, port: 11343, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 IEPL-AP-TW-1(v2ray), server: delivery.flareai.site, port: 12343, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 IEPL-AP-TW-1(trojan), server: delivery.flareai.site, port: 13343, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: delivery.flareai.site, skip-cert-verify: false, udp: true}
+  - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: delivery.flareai.site:11543, server: delivery.flareai.site, port: 11543, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 IPLC-APS-JP-1(v2ray), server: catlog.flareai.science, port: 12443, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IEPL-AP-HK-1(trojan), server: delivery.flareai.site, port: 13543, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: delivery.flareai.site, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IEPL-AP-HK-1(v2ray), server: delivery.flareai.site, port: 12543, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 IEPL-AP-JP-1(v2ray), server: delivery.flareai.site, port: 12443, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 IEPL-AP-JP-1(trojan), server: delivery.flareai.site, port: 13443, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: delivery.flareai.site, skip-cert-verify: false, udp: true}
+  - {name: delivery.flareai.site:11443, server: delivery.flareai.site, port: 11443, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IPLC-US-US-3(ss), server: media.flareai.store, port: 15243, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇩🇪 IPLC-EU-DE-3(ss), server: media.flareai.store, port: 15743, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇺🇸 IEPL-AP-US-1(ss), server: delivery.flareai.site, port: 15243, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇬🇧 IPLC-EU-UK-3(ss), server: media.flareai.store, port: 15143, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇺🇸 IPLC-US-US-3(trojan), server: media.flareai.store, port: 13243, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: media.flareai.store, skip-cert-verify: false, udp: true}
+  - {name: media.flareai.store:11243, server: media.flareai.store, port: 11243, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IPLC-US-US-3(v2ray), server: media.flareai.store, port: 12243, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IEPL-AP-US-1(trojan), server: delivery.flareai.site, port: 13243, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: delivery.flareai.site, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IEPL-AP-US-1(v2ray), server: delivery.flareai.site, port: 12243, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 IPLC-EU-UK-3(v2ray), server: media.flareai.store, port: 12143, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
+  - {name: delivery.flareai.site:11243, server: delivery.flareai.site, port: 11243, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: media.flareai.store:11743, server: media.flareai.store, port: 11743, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 IPLC-EU-DE-3(trojan), server: media.flareai.store, port: 13743, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: media.flareai.store, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IEPL-AP-HK-1(ss), server: delivery.flareai.site, port: 15543, type: ss, cipher: chacha20-ietf-poly1305, password: b5181de8-66d4-4f8f-904c-23e606303a13, udp: true}
+  - {name: 🇭🇰 「ABC☁️」香港02 | 1x, server: hkb.101cloud.xyz, port: 10991, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇭🇰 「ABC☁️」香港08 | 1x, server: hkh.101cloud.xyz, port: 45891, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇭🇰 「ABC☁️」香港05 | 1x, server: hke.101cloud.xyz, port: 45880, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇭🇰 「ABC☁️」香港03 | 1x, server: hkc.101cloud.xyz, port: 18883, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇭🇰 「ABC☁️」香港09 | 1x, server: hki.101cloud.xyz, port: 45896, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇭🇰 「ABC☁️」香港07 | 1x, server: hkg.101cloud.xyz, port: 45890, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇺🇸 「ABC☁️」美国04 | 1x, server: mgd.101cloud.xyz, port: 44889, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇨🇳 「ABC☁️」台湾02 | 1x, server: twb.101cloud.xyz, port: 31882, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇺🇸 「ABC☁️」美国03 | 1x, server: mgc.101cloud.xyz, port: 44881, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇺🇸 「ABC☁️」美国02 | 1x, server: mgb.101cloud.xyz, port: 43881, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇸🇬 「ABC☁️」新加坡02 | 1x, server: sgb.101cloud.xyz, port: 13882, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇸🇬 「ABC☁️」新加坡07 | 1x, server: sgg.101cloud.xyz, port: 46885, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
+  - {name: 🇺🇸 「ABC☁️」美国06 | 1x, server: mgf.101cloud.xyz, port: 44891, type: ss, cipher: chacha20-ietf-poly1305, password: dc255577-a1ac-46ea-9ce9-9221a061fb8e, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -23,14 +63,54 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -38,14 +118,54 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -54,14 +174,54 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -82,23 +242,66 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -107,14 +310,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
   - name: 📲 电报信息
     type: select
     proxies:
@@ -122,14 +365,54 @@ proxy-groups:
       - 🎯 全球直连
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -138,14 +421,54 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -163,14 +486,54 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇭🇰 香港跨境金融专线03
       - 万人草都不死
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港03{优化1|V2ray}
-      - 🇭🇰 香港04{优化1|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇸🇬 【共享奈飞】新加坡01 1x
-      - 🇸🇬 【共享奈飞】新加坡02 1x
-      - 🇪🇺 欧洲 | 俄罗斯
-      - 🇦🇷 美洲 | 阿根廷
+      - catlog.flareai.science:11543
+      - 🇭🇰 IPLC-APS-HK-1(v2ray)
+      - 🇭🇰 IPLC-APS-HK-1(ss)
+      - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 CTVIP-HK-2(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(ss)
+      - 🇯🇵 IEPL-AP-JP-1(ss)
+      - 🇯🇵 IPLC-APS-JP-1(trojan)
+      - 🇭🇰 IPLC-APS-HK-1(trojan)
+      - delivery.flareai.site:11343
+      - 🇨🇳 IEPL-AP-TW-1(v2ray)
+      - 🇨🇳 IEPL-AP-TW-1(trojan)
+      - catlog.flareai.science:11443
+      - delivery.flareai.site:11543
+      - 🇯🇵 IPLC-APS-JP-1(v2ray)
+      - 🇭🇰 IEPL-AP-HK-1(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(v2ray)
+      - 🇯🇵 IEPL-AP-JP-1(trojan)
+      - delivery.flareai.site:11443
+      - 🇺🇸 IPLC-US-US-3(ss)
+      - 🇩🇪 IPLC-EU-DE-3(ss)
+      - 🇺🇸 IEPL-AP-US-1(ss)
+      - 🇬🇧 IPLC-EU-UK-3(ss)
+      - 🇺🇸 IPLC-US-US-3(trojan)
+      - media.flareai.store:11243
+      - 🇺🇸 IPLC-US-US-3(v2ray)
+      - 🇺🇸 IEPL-AP-US-1(trojan)
+      - 🇺🇸 IEPL-AP-US-1(v2ray)
+      - 🇬🇧 IPLC-EU-UK-3(v2ray)
+      - delivery.flareai.site:11243
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3(trojan)
+      - 🇭🇰 IEPL-AP-HK-1(ss)
+      - 🇭🇰 「ABC☁️」香港02 | 1x
+      - 🇭🇰 「ABC☁️」香港08 | 1x
+      - 🇭🇰 「ABC☁️」香港05 | 1x
+      - 🇭🇰 「ABC☁️」香港03 | 1x
+      - 🇭🇰 「ABC☁️」香港09 | 1x
+      - 🇭🇰 「ABC☁️」香港07 | 1x
+      - 🇺🇸 「ABC☁️」美国04 | 1x
+      - 🇨🇳 「ABC☁️」台湾02 | 1x
+      - 🇺🇸 「ABC☁️」美国03 | 1x
+      - 🇺🇸 「ABC☁️」美国02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡02 | 1x
+      - 🇸🇬 「ABC☁️」新加坡07 | 1x
+      - 🇺🇸 「ABC☁️」美国06 | 1x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
