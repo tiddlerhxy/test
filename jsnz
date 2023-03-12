@@ -5,179 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 测试1, server: 13.212.109.165, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 测试2, server: 18.141.208.17, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 测试3, server: 3.38.210.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 测试4, server: 97.64.28.52, port: 254, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
-  - {name: 🇯🇵 A-日本-Japan-CNOptimize-2-c, server: c.cn.node.renovpn.cloud, port: 80, type: vmess, uuid: 5579844f-2d18-4e8b-9956-a695116a6537, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp-global-2.node.renovpn.cloud}}, udp: true}
-  - {name: 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］, server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /c8e0f808-25d6-4911-833e-50b9f5050ba6, headers: {Host: hax-us4.imnibaba.tk}}, udp: true}
-  - {name: 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］, server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /c8e0f808-25d6-4911-833e-50b9f5050ba6, headers: {Host: vc-uk1.imnibaba.tk}}, udp: true}
-  - {name: 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］, server: cdn.imnibaba.tk, port: 80, type: vmess, uuid: c8e0f808-25d6-4911-833e-50b9f5050ba6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /c8e0f808-25d6-4911-833e-50b9f5050ba6, headers: {Host: woiden-de1.imnibaba.tk}}, udp: true}
-  - {name: 🇭🇰 HK G-Core TNL 0.5x, server: hksd.eton.club, port: 31564, type: ss, cipher: aes-128-gcm, password: 8203d8e4-6830-4de7-a7db-e463f28e503d, udp: true}
-  - {name: 🇨🇳 Taiwan S-02 NEO, server: hncu.donghui.tech, port: 52806, type: ss, cipher: aes-128-gcm, password: f9fcf3e2-3be3-4908-ab4e-42b86ddf6a04, udp: true}
-  - {name: 广马专线, server: 120.241.255.253, port: 12856, type: vmess, uuid: 19c70380-3586-47ea-b7fe-7f0fd81c04d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 ? 香港A", server: hrsh-55zf.martinas.shop, port: 34486, type: ss, cipher: chacha20-ietf-poly1305, password: 94cbe2ad-f73a-4213-a7fc-72511cb66e33, udp: true}
-  - {name: 🇭🇰 香港A2 | 1.0x, server: 183.232.204.50, port: 27801, type: ss, cipher: chacha20-ietf-poly1305, password: b83d574d-426c-41d9-a57c-ab5fb6ce64fb, udp: true}
-  - {name: 🇭🇰 香港 HGC, server: access_south.txma.cn, port: 35001, type: ss, cipher: aes-256-gcm, password: 5e5b7c78-f920-4e98-af79-46512ccf94d1, udp: true}
-  - {name: 🇭🇰 Game 香港06-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 823, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 Web 香港 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 912, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 Game 香港03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9063, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇨🇳 Game 台湾07-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 905, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 Game 香港01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 824, type: ss, cipher: aes-128-gcm, password: ayu1245, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 Game 香港04-国际 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 20012, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 Game 香港05-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 907, type: ss, cipher: aes-128-gcm, password: ayucles1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇨🇳 Game 台湾02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 825, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 902, type: ss, cipher: aes-128-gcm, password: ayuc211, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 6879, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9037, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9060, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 Game 香港02-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9054, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 香港7|优化| x2 - 极速云, server: hk7.microsoftjs.top, port: 443, type: trojan, password: d81a8fe5-02d2-430b-8185-d0d9b67055b1, sni: tls.microsoftjs.top, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 Game 日本05-原生 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 914, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇨🇳 Game 台湾05-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9040, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇯🇵 Game 日本07-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 918, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇨🇳 Game 台湾04-标准 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 908, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇯🇵 Game 日本04-原生 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 9021, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇯🇵 Web 日本 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 9051, type: ss, cipher: aes-128-gcm, password: QHPy2u, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services, server: 201201level1.unclemanco.com, port: 9047, type: ss, cipher: aes-128-gcm, password: ayucloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇨🇳 Game 台湾08-原生 - AyucLouD-Services, server: 201201level3.unclemanco.com, port: 904, type: ss, cipher: aes-128-gcm, password: a12cloud1, plugin: obfs, plugin-opts: {mode: http, host: e4ed475525.download.windowsupdate.com}, udp: true}
-  - {name: 🇭🇰 香港10|优化| x2 - 极速云, server: hk10.microsoftjs.top, port: 443, type: trojan, password: d81a8fe5-02d2-430b-8185-d0d9b67055b1, sni: tls.microsoftjs.top, skip-cert-verify: false, udp: true}
+  - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
+  - {name: "🇭🇰 香港03{优化1|V2ray}", server: hk1.awslcn.cc, port: 25248, type: vmess, uuid: cb00659b-d7dd-4582-aae1-1b8232a4aa27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.cc}}, udp: true}
+  - {name: "🇭🇰 香港04{优化1|V2ray}", server: hk1.awslcn.cc, port: 25250, type: vmess, uuid: cb00659b-d7dd-4582-aae1-1b8232a4aa27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.cc}}, udp: true}
+  - {name: "🇨🇳 台湾②{移动|V2ray}", server: cm.awslcn.cc, port: 25232, type: vmess, uuid: cb00659b-d7dd-4582-aae1-1b8232a4aa27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.cc}}, udp: true}
+  - {name: 🇸🇬 【共享奈飞】新加坡01 1x, server: cc-iepl.244312.xyz, port: 54509, type: ss, cipher: aes-128-gcm, password: 19726da6-cdf5-4f9f-a490-4994ed46d92d, udp: true}
+  - {name: 🇸🇬 【共享奈飞】新加坡02 1x, server: ll-iepl.244312.xyz, port: 54509, type: ss, cipher: aes-128-gcm, password: 19726da6-cdf5-4f9f-a490-4994ed46d92d, udp: true}
+  - {name: 🇪🇺 欧洲 | 俄罗斯, server: a-cm1.jsmmm.cyou, port: 39913, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇦🇷 美洲 | 阿根廷, server: a-cm1.jsmmm.cyou, port: 39711, type: vmess, uuid: 10c90644-3d34-3a39-9747-4e0c7265cf48, alterId: 0, cipher: chacha20-poly1305, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -196,202 +80,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -407,45 +161,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 测试1
-      - 测试2
-      - 测试3
-      - 测试4
-      - 万人草都不死
       - 🇭🇰 香港跨境金融专线03
-      - 🇯🇵 A-日本-Japan-CNOptimize-2-c
-      - 🇺🇸 𝙐𝙎₄｜美国-Hax［CDN］
-      - 🇬🇧 𝙐𝙆₂｜英国-Vc［CDN］
-      - 🇩🇪 𝘿𝙀₁｜德国-Woiden［CDN］
-      - 🇭🇰 HK G-Core TNL 0.5x
-      - 🇨🇳 Taiwan S-02 NEO
-      - 广马专线
-      - 🇭🇰 ? 香港A
-      - 🇭🇰 香港A2 | 1.0x
-      - 🇭🇰 香港 HGC
-      - 🇭🇰 Game 香港06-标准 - AyucLouD-Services
-      - 🇭🇰 Web 香港 I-通用 - AyucLouD-Services
-      - 🇭🇰 Game 香港03-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾07-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港04-国际 - AyucLouD-Services
-      - 🇭🇰 Game 香港05-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡03-标准 - AyucLouD-Services
-      - 🇸🇬 Web 新加坡 I-通用 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡02-标准 - AyucLouD-Services
-      - 🇸🇬 Game 新加坡01-标准 - AyucLouD-Services
-      - 🇭🇰 Game 香港02-标准 - AyucLouD-Services
-      - 🇭🇰 香港7|优化| x2 - 极速云
-      - 🇯🇵 Game 日本05-原生 - AyucLouD-Services
-      - 🇨🇳 Game 台湾05-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本07-标准 - AyucLouD-Services
-      - 🇨🇳 Game 台湾04-标准 - AyucLouD-Services
-      - 🇯🇵 Game 日本04-原生 - AyucLouD-Services
-      - 🇯🇵 Web 日本 I-通用 - AyucLouD-Services
-      - 🇨🇳 Web 台湾 I-通用 - AyucLouD-Services
-      - 🇨🇳 Game 台湾08-原生 - AyucLouD-Services
-      - 🇭🇰 香港10|优化| x2 - 极速云
+      - 万人草都不死
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港03{优化1|V2ray}
+      - 🇭🇰 香港04{优化1|V2ray}
+      - 🇨🇳 台湾②{移动|V2ray}
+      - 🇸🇬 【共享奈飞】新加坡01 1x
+      - 🇸🇬 【共享奈飞】新加坡02 1x
+      - 🇪🇺 欧洲 | 俄罗斯
+      - 🇦🇷 美洲 | 阿根廷
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
