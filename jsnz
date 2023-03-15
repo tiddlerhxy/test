@@ -5,163 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
-  - {name: 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅, server: 18.140.60.81, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅, server: 43.200.174.255, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
-  - {name: 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅, server: 43.206.140.200, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅, server: 43.201.35.123, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b3259ac5-2662-4f8c-8c26-63fedb766aa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/us3?ed=2048", headers: {Host: us3.yfjc.sbs}}, udp: true}
-  - {name: 🇳🇱 荷兰 | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b3259ac5-2662-4f8c-8c26-63fedb766aa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/nl?ed=2048", headers: {Host: nl.yfjc.sbs}}, udp: true}
-  - {name: 🇳🇱 荷兰Eygelshoven | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b3259ac5-2662-4f8c-8c26-63fedb766aa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/nl3?ed=2048", headers: {Host: nl3.yfjc.sbs}}, udp: true}
-  - {name: 🇭🇰 香港专线 09, server: gdyd.aikun.online, port: 49771, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
-  - {name: 🇭🇰 香港专线 01, server: gdyd.aikun.online, port: 11698, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
-  - {name: 🇭🇰 香港专线 12, server: gdyd.aikun.online, port: 34674, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
-  - {name: 🇭🇰 香港专线 08, server: gdyd.aikun.online, port: 49771, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
-  - {name: 🇨🇳 台湾专线 05, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
   - {name: 🇭🇰 香港专线 07, server: gdyd.aikun.online, port: 49771, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
-  - {name: 🇯🇵 日本专线 04, server: gdyd.aikun.online, port: 11079, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
-  - {name: 🇸🇬 新加坡  01（二区）, server: s-sg01.aikun.online, port: 10000, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-sg01.aikun.online, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 02（二区）, server: s-2jp02.aikun.online, port: 20001, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-2jp02.aikun.online, skip-cert-verify: false, udp: true}
   - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅, server: 18.140.60.81, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡  01（二区）, server: s-sg01.aikun.online, port: 10000, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-sg01.aikun.online, skip-cert-verify: false, udp: true}
+  - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
+  - {name: 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅, server: 43.200.174.255, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 02（二区）, server: s-2jp02.aikun.online, port: 20001, type: trojan, password: ead1716b-06ab-4230-bd45-e231dd273388, sni: s-2jp02.aikun.online, skip-cert-verify: false, udp: true}
   - {name: h073906.waihuizhibiaowang.com:11543, server: h073906.waihuizhibiaowang.com, port: 11543, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
+  - {name: 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅, server: 43.206.140.200, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
   - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
-  - {name: media.flareai.store:11743, server: media.flareai.store, port: 11743, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇬🇧 IPLC-EU-UK-3[ran-out](trojan)", server: media.flareai.store, port: 13143, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: media.flareai.store, skip-cert-verify: false, udp: true}
-  - {name: media.flareai.store:11143, server: media.flareai.store, port: 11143, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅, server: 43.201.35.123, port: 443, type: trojan, password: 5baea97b-7a9d-39ba-bd0f-0b13025de750, sni: d1--cn-gotcha05.bilivideo.com, skip-cert-verify: false, udp: true}
   - {name: media.flareai.store:11243, server: media.flareai.store, port: 11243, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-1, server: hkc.101cloud.xyz, port: 18883, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-2, server: hkd.101cloud.xyz, port: 18884, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-3, server: sgd.101cloud.xyz, port: 46882, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-4, server: twb.101cloud.xyz, port: 31882, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-6, server: hkh.101cloud.xyz, port: 45891, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-7, server: sgb.101cloud.xyz, port: 13882, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-8, server: sgf.101cloud.xyz, port: 46884, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-5, server: sgc.101cloud.xyz, port: 46881, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
-  - {name: 🇭🇰 香港-9, server: sga.101cloud.xyz, port: 11704, type: ss, cipher: chacha20-ietf-poly1305, password: 2a320cca-7809-4ff6-9c9f-9336bece96ef, udp: true}
+  - {name: 🇳🇱 荷兰 | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b3259ac5-2662-4f8c-8c26-63fedb766aa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/nl?ed=2048", headers: {Host: nl.yfjc.sbs}}, udp: true}
+  - {name: media.flareai.store:11743, server: media.flareai.store, port: 11743, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: media.flareai.store:11143, server: media.flareai.store, port: 11143, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港专线 08, server: gdyd.aikun.online, port: 49771, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
+  - {name: 🇺🇸 美国3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b3259ac5-2662-4f8c-8c26-63fedb766aa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/us3?ed=2048", headers: {Host: us3.yfjc.sbs}}, udp: true}
+  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: 🇨🇳 台湾专线 05, server: gdyd.aikun.online, port: 36253, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
+  - {name: 🇳🇱 荷兰Eygelshoven | BT下载-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b3259ac5-2662-4f8c-8c26-63fedb766aa9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/yfjc/nl3?ed=2048", headers: {Host: nl3.yfjc.sbs}}, udp: true}
+  - {name: "🇬🇧 IPLC-EU-UK-3[ran-out](trojan)", server: media.flareai.store, port: 13143, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: media.flareai.store, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本专线 04, server: gdyd.aikun.online, port: 11079, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
+  - {name: 🇭🇰 香港专线 12, server: gdyd.aikun.online, port: 34674, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
+  - {name: 🇭🇰 香港专线 01, server: gdyd.aikun.online, port: 11698, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
+  - {name: 🇭🇰 香港专线 09, server: gdyd.aikun.online, port: 49771, type: ss, cipher: aes-128-gcm, password: ead1716b-06ab-4230-bd45-e231dd273388, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,184 +144,139 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港跨境金融专线03
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇭🇰 香港专线 08
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -373,41 +292,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港IEPL内网专线02
-      - 万人草都不死
-      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
-      - 🇭🇰 香港跨境金融专线03
-      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
-      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
-      - 🇺🇸 美国3号-0.1x
-      - 🇳🇱 荷兰 | BT下载-0.1x
-      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
-      - 🇭🇰 香港专线 09
-      - 🇭🇰 香港专线 01
-      - 🇭🇰 香港专线 12
-      - 🇭🇰 香港专线 08
-      - 🇨🇳 台湾专线 05
       - 🇭🇰 香港专线 07
-      - 🇯🇵 日本专线 04
-      - 🇸🇬 新加坡  01（二区）
-      - 🇯🇵 日本 02（二区）
       - catlog.flareai.science:11543
+      - 🇸🇬 V0 SGP-000T | 0.05x比率 | 红了就更新订阅
+      - 🇸🇬 新加坡  01（二区）
+      - 万人草都不死
+      - 🇸🇬 V0 KOR-001T | 0.05x比率 | 红了就更新订阅
+      - 🇯🇵 日本 02（二区）
       - h073906.waihuizhibiaowang.com:11543
+      - 🇭🇰 香港IEPL内网专线02
+      - 🇸🇬 V0 JPN-000T | 0.05x比率 | 红了就更新订阅
       - catlog.flareai.science:11443
-      - media.flareai.store:11743
-      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
-      - media.flareai.store:11143
+      - 🇸🇬 V0 KOR-000T | 0.05x比率 | 红了就更新订阅
       - media.flareai.store:11243
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-9
+      - 🇳🇱 荷兰 | BT下载-0.1x
+      - media.flareai.store:11743
+      - media.flareai.store:11143
+      - 🇭🇰 香港专线 08
+      - 🇺🇸 美国3号-0.1x
+      - 🇭🇰 香港跨境金融专线03
+      - 🇨🇳 台湾专线 05
+      - 🇳🇱 荷兰Eygelshoven | BT下载-0.1x
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](trojan)
+      - 🇯🇵 日本专线 04
+      - 🇭🇰 香港专线 12
+      - 🇭🇰 香港专线 01
+      - 🇭🇰 香港专线 09
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
