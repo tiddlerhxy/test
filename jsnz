@@ -5,151 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港跨境金融专线03, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: VirMach, server: VirMach.JP.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202304300000000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
   - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇭🇰 香港 04, server: as.steamdownload.top, port: 36614, type: trojan, password: 2343670e-f1ef-4851-bfd1-770f35ac8dbb, sni: datahk.steamdownload.top, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 03, server: as.steamdownload.top, port: 36613, type: trojan, password: 2343670e-f1ef-4851-bfd1-770f35ac8dbb, sni: datahk.steamdownload.top, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡地区线路-实验节点, server: 103.83.157.182, port: 80, type: vmess, uuid: e8a7439c-9f91-4520-9faa-ae2ddf99d752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "_[无审计]BuyVM", server: cf.noaries.de, port: 8080, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: "🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO", server: cf.noaries.de, port: 2082, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
-  - {name: "🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet", server: cf.noaries.de, port: 2052, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: _Scaleway, server: cf.noaries.de, port: 8080, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
-  - {name: "_[WARP]Scaleway", server: cf.noaries.de, port: 2052, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
-  - {name: "_[原生]pilw", server: cf.noaries.de, port: 2052, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
-  - {name: 🇸🇬 新加坡11, server: 52.195.4.154, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡14, server: 3.1.203.12, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14亿人一起都草不死, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: 🇺🇸 美国11, server: 5.78.96.204, port: 80, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/04/07/20230407_18759421dff_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: 🇺🇸 美国22, server: 5.78.73.163, port: 80, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /masvod/public/2023/04/08/20230408_1875e71ee4d_r1_1200k.mp4, headers: {Host: svideo.mfa.gov.cn}}, udp: true}
+  - {name: "_[原生][商宽]VNPT", server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
+  - {name: "_[WARP]Scaleway", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: fr.cloudflare.quest}}, udp: true}
+  - {name: "_[无审计]BuyVM", server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
+  - {name: "_[无审计][DONATE]BuyVM_黑弩捐赠", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: lsb-aries.heinu.cf}}, udp: true}
+  - {name: _Scaleway, server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
+  - {name: "_[PF][数据网络]Scaleway-圣卢西亚Digicel", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nls.cloudflare.quest}}, udp: true}
+  - {name: "🇹🇭 _[PF][家宽]OVH-泰国AIS", server: cf.noaries.de, port: 8080, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
+  - {name: "🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: pl.cloudflare.quest}}, udp: true}
+  - {name: "_[原生]pilw", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
+  - {name: "_[WARP]Scaleway 2", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-nl.cloudflare.quest}}, udp: true}
+  - {name: "🇰🇷 _[PF][家宽]OVH-韩国LG U", server: cf.noaries.de, port: 2086, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
+  - {name: "🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
+  - {name: "🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
+  - {name: 🇸🇬 新加坡13, server: 52.221.239.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇬 新加坡02, server: 13.212.139.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡13, server: 52.74.60.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡06, server: 13.212.61.111, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡10, server: 13.214.212.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡12, server: 13.250.34.28, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡04, server: 18.141.230.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡05, server: 18.143.177.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇬 新加坡07, server: 54.179.174.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡03, server: 13.215.183.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡08, server: 54.169.224.104, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇸🇬 新加坡09, server: 54.169.6.62, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国01, server: 54.254.226.48, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🇺🇸 美国03, server: 18.236.190.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国01, server: 54.68.94.117, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡04, server: 18.141.230.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇺🇸 美国02, server: 18.236.190.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 美国03, server: 18.236.190.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 新加坡05, server: 18.143.177.143, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: h073906.waihuizhibiaowang.com:11543, server: h073906.waihuizhibiaowang.com, port: 11543, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h073906.waihuizhibiaowang.com:11343, server: h073906.waihuizhibiaowang.com, port: 11343, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h073906.waihuizhibiaowang.com:11443, server: h073906.waihuizhibiaowang.com, port: 11443, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h073906.waihuizhibiaowang.com:11243, server: h073906.waihuizhibiaowang.com, port: 11243, type: http, username: f9af186564, password: b99148441a, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "🇺🇸 IEPL-AP-US-1[ran-out](trojan)", server: delivery.flareai.site, port: 13243, type: trojan, password: b5181de8-66d4-4f8f-904c-23e606303a13, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: "🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)", server: media.flareai.store, port: 12143, type: vmess, uuid: b5181de8-66d4-4f8f-904c-23e606303a13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,160 +160,148 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港跨境金融专线03
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -337,38 +317,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港跨境金融专线03
+      - VirMach
       - 万人草都不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 04
-      - 🇭🇰 香港 03
-      - 🇸🇬 新加坡地区线路-实验节点
-      - _[无审计]BuyVM
-      - 🇨🇳 TW🇸🇬_[PF][家宽]OVH-台灣凱擘大寬頻KBRO
-      - 🇵🇰 _[PF][家宽]BuyVM-巴基斯坦CyberNet
-      - _Scaleway
+      - 14亿人一起都草不死
+      - 🇺🇸 美国11
+      - 🇺🇸 美国22
+      - _[原生][商宽]VNPT
       - _[WARP]Scaleway
+      - _[无审计]BuyVM
+      - _[无审计][DONATE]BuyVM_黑弩捐赠
+      - _Scaleway
+      - _[PF][数据网络]Scaleway-圣卢西亚Digicel
+      - 🇹🇭 _[PF][家宽]OVH-泰国AIS
+      - 🇷🇺 _[PF][家宽]Scaleway-白俄罗斯A1.BY
       - _[原生]pilw
-      - 🇸🇬 新加坡11
-      - 🇸🇬 新加坡14
-      - 🇸🇬 新加坡02
+      - _[WARP]Scaleway 2
+      - 🇰🇷 _[PF][家宽]OVH-韩国LG U
+      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
-      - 🇸🇬 新加坡06
-      - 🇸🇬 新加坡10
-      - 🇸🇬 新加坡12
-      - 🇸🇬 新加坡04
-      - 🇸🇬 新加坡05
+      - 🇸🇬 新加坡02
       - 🇸🇬 新加坡07
-      - 🇸🇬 新加坡03
-      - 🇸🇬 新加坡08
-      - 🇸🇬 新加坡09
       - 🇺🇸 美国01
-      - 🇺🇸 美国03
+      - 🇸🇬 新加坡04
       - 🇺🇸 美国02
+      - 🇺🇸 美国03
+      - 🇸🇬 新加坡05
       - h073906.waihuizhibiaowang.com:11543
-      - h073906.waihuizhibiaowang.com:11343
-      - h073906.waihuizhibiaowang.com:11443
-      - h073906.waihuizhibiaowang.com:11243
+      - 🇺🇸 IEPL-AP-US-1[ran-out](trojan)
+      - 🇬🇧 IPLC-EU-UK-3[ran-out](v2ray)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
