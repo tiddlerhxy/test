@@ -22,7 +22,7 @@ proxies:
   - {name: "_[原生]pilw", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
   - {name: "_[WARP]Scaleway 2", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-nl.cloudflare.quest}}, udp: true}
   - {name: "🇰🇷 _[PF][家宽]OVH-韩国LG U", server: cf.noaries.de, port: 2086, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ovh.cloudflare.quest}}, udp: true}
-  - {name: "🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
+  - {name: "_[PF][数据中心]VNPT-孟加拉AmberIT", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vn.cloudflare.quest}}, udp: true}
   - {name: "🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom", server: cf.noaries.de, port: 2052, type: vmess, uuid: 4f7d5d43-226e-48d8-9df0-5e8bf9f77288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ft.cloudflare.quest}}, udp: true}
   - {name: 🇸🇬 新加坡13, server: 52.221.239.225, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🇸🇬 新加坡02, server: 13.212.139.93, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -58,7 +58,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
@@ -93,7 +93,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
@@ -129,7 +129,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
@@ -177,7 +177,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
@@ -218,7 +218,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
@@ -253,7 +253,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
@@ -289,7 +289,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
@@ -334,7 +334,7 @@ proxy-groups:
       - _[原生]pilw
       - _[WARP]Scaleway 2
       - 🇰🇷 _[PF][家宽]OVH-韩国LG U
-      - 🇧🇩 _[PF][数据中心]VNPT-孟加拉AmberIT
+      - _[PF][数据中心]VNPT-孟加拉AmberIT
       - 🇮🇳 _[PF][移动数据]Scaleway_印度BeamTelecom
       - 🇸🇬 新加坡13
       - 🇸🇬 新加坡02
