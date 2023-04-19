@@ -5,25 +5,21 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 14亿人一起都草不死, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
+  - {name: 🇯🇵 japan 02, server: zf-shdx.syjd.xyz, port: 34500, type: ss, cipher: aes-128-gcm, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, udp: true}
+  - {name: 🇭🇰 香港 01, server: microsoft-hk01.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: microsoft-hk01.syjd.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 japan 01, server: zf-shdx.syjd.xyz, port: 34500, type: ss, cipher: aes-128-gcm, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, udp: true}
+  - {name: 🇨🇳 台湾 流媒体, server: cdn.twnct.6641634715834932.me, port: 7047, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: cdn.twnct.6641634715834932.me, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 原生ip, server: microsoft-us.syjd.xyz, port: 7777, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 03, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 02, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 04, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 05, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 01, server: microsoft-us.syjd.xyz, port: 30006, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-zs01.78321.xyz, skip-cert-verify: false, udp: true}
   - {name: 万人草都不死, server: fn600mlines021.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: 507364fb791e, udp: true}
+  - {name: 14亿人一起都草不死, server: fn600mlines024.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: a801632d2e2e, udp: true}
   - {name: 🇭🇰 香港IEPL内网专线02, server: fn600mliness016.svcline.com, port: 995, type: ss, cipher: aes-256-gcm, password: b82344b3d531, udp: true}
-  - {name: 🇭🇰 香港 03, server: microsoft-hk03.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: microsoft-hk03.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 4, server: jp-csjc.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-csjc.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 02, server: microsoft-hk02.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: microsoft-hk02.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 2, server: jp-csjc.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-csjc.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 1, server: jp-csjc.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-csjc.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 04（移动优化）, server: aws-hk01.syjd.xyz, port: 7047, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: aws-hk01.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 5, server: jp-csjc.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: jp-csjc.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 05, server: sg-csjc.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: sg-csjc.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 03, server: sg-csjc.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: sg-csjc.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 02, server: sg-csjc.syjd.xyz, port: 443, type: trojan, password: 87bd6efd-2fb5-4920-852d-921d7c29f916, sni: sg-csjc.syjd.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 V2-新加坡06 套娃 中继 1.5x, server: in06.my1188.org, port: 63093, type: vmess, uuid: 4683d7fe-5a1a-3962-85f3-eddfb86050c8, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP, server: pro01.my1188.org, port: 3053, type: vmess, uuid: 4683d7fe-5a1a-3962-85f3-eddfb86050c8, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 V3-PRO 台湾10 | 8x 原生IP, server: pro01.my1188.org, port: 3223, type: vmess, uuid: 4683d7fe-5a1a-3962-85f3-eddfb86050c8, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 V1-日本99 1.5x, server: in06.my1188.org, port: 63005, type: vmess, uuid: 4683d7fe-5a1a-3962-85f3-eddfb86050c8, alterId: 0, cipher: chacha20-poly1305, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 亚洲2-临, server: f-as2.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇪🇺 欧洲1-邀, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 亚洲2-临, server: f-as2.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国1-注, server: f-us1.wvvvv.eu.org, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -31,50 +27,42 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
   - name: 🎥 NETFLIX
     type: select
@@ -82,25 +70,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
   - name: ⛔️ 广告拦截
     type: select
@@ -120,85 +104,71 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港 01
+      - 🇨🇳 台湾 流媒体
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇭🇰 香港 02
-      - 🇭🇰 香港 04（移动优化）
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
   - name: 🍎 苹果服务
     type: select
@@ -206,25 +176,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
   - name: 🎯 全球直连
     type: select
@@ -241,25 +207,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 14亿人一起都草不死
+      - 🇯🇵 japan 02
+      - 🇭🇰 香港 01
+      - 🇯🇵 japan 01
+      - 🇨🇳 台湾 流媒体
+      - 🇺🇸 美国 原生ip
+      - 🇺🇸 美国 03
+      - 🇺🇸 美国 02
+      - 🇺🇸 美国 04
+      - 🇺🇸 美国 05
+      - 🇺🇸 美国 01
       - 万人草都不死
+      - 14亿人一起都草不死
       - 🇭🇰 香港IEPL内网专线02
-      - 🇭🇰 香港 03
-      - 🇯🇵 日本 4
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本 2
-      - 🇯🇵 日本 1
-      - 🇭🇰 香港 04（移动优化）
-      - 🇯🇵 日本 5
-      - 🇸🇬 新加坡 05
-      - 🇸🇬 新加坡 03
-      - 🇸🇬 新加坡 02
-      - 🇸🇬 V2-新加坡06 套娃 中继 1.5x
-      - 🇸🇬 V3-PRO 新加坡05 | 8x 原生IP
-      - 🇨🇳 V3-PRO 台湾10 | 8x 原生IP
-      - 🇯🇵 V1-日本99 1.5x
-      - 亚洲2-临
       - 🇪🇺 欧洲1-邀
+      - 亚洲2-临
       - 🇺🇸 美国1-注
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
