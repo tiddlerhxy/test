@@ -49,7 +49,430 @@ proxies:
   - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
   - {name: DP2, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
   - {name: DP4, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
-proxy-groups: ~
+proxy-groups:
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
+  - name: ⛔️ 广告拦截
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🚫 运营劫持
+    type: select
+    proxies:
+      - 🛑 全球拦截
+      - 🎯 全球直连
+      - 🔰 节点选择
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港-80端口-02
+      - 🔰 节点选择
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🔰 节点选择
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇺🇸 美国USA
+      - DP3
+      - 🇭🇰 香港-80端口-02
+      - 🇯🇵 2x-临时-日本-高级节点3
+      - 🇺🇸 美国 V2CROSS.COM 2
+      - 🇺🇸 美国 01 | 专线
+      - 🇺🇸 美国 02 | 专线
+      - 🇨🇦 加拿大 V2CROSS.COM
+      - 🇺🇸 v2rayfree.eu.org - 美国CloudFlare节点 7
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点
+      - VC-EU2-sling捐赠 x0
+      - 🇯🇵 日本东京-Docker-1 x2
+      - VC-CA1 x0
+      - VC-EU3 x0
+      - VC-CA1-tls x0
+      - VC-US2 x0
+      - HAX-EU3 x0
+      - 🇯🇵 日本东京-Docker-2 x2
+      - HAX-EU5 x0
+      - 🇦🇺 Au.Sydney.Oracle.13
+      - 🇦🇺 Au.Sydney.Oracle.12
+      - 🇦🇺 Au.Sydney.Oracle.11
+      - 🇦🇺 Au.Sydney.Oracle.10
+      - 🇦🇺 Au.Sydney.Oracle.9
+      - 🇦🇺 Au.Sydney.Oracle.8
+      - 🇦🇺 Au.Sydney.Oracle.7
+      - 🇦🇺 Au.Sydney.Oracle.6
+      - 🇦🇺 Au.Sydney.Oracle.5
+      - 🇦🇺 Au.Sydney.Oracle.2
+      - 🇦🇺 Au.Sydney.Oracle.1
+      - 🇦🇺 Au.Sydney.Oracle.4
+      - 🇦🇺 Au.Sydney.Oracle.3
+      - assets.flareai.site:11543
+      - catlog.flareai.science:11543
+      - h295826.waihuizhibiaowang.com:11343
+      - assets.flareai.site:11343
+      - h295826.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - h295826.waihuizhibiaowang.com:11443
+      - assets.flareai.site:11243
+      - catlog.flareai.science:11443
+      - DP2
+      - DP4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
