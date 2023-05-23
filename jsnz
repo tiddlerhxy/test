@@ -5,119 +5,163 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港HGC1, server: hgc1.pmssr.xyz, port: 443, type: vmess, uuid: cb59b5eb-17d8-4b9f-9c43-6f038a9db9b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: hgc1.pmssr.xyz}}, udp: true}
-  - {name: 🇺🇸 美国2-ChatGPT, server: us2.01dj.sbs, port: 443, type: vmess, uuid: cb59b5eb-17d8-4b9f-9c43-6f038a9db9b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: us2.01dj.sbs}}, udp: true}
-  - {name: 🇨🇳 台湾GOC1, server: tw01.pmssr.xyz, port: 443, type: vmess, uuid: cb59b5eb-17d8-4b9f-9c43-6f038a9db9b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: tw01.pmssr.xyz}}, udp: true}
-  - {name: 🇺🇸 美国5-ChatGPT, server: us5.01dj.sbs, port: 443, type: vmess, uuid: cb59b5eb-17d8-4b9f-9c43-6f038a9db9b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: us5.01dj.sbs}}, udp: true}
-  - {name: 🇺🇸 美国6-ChatGPT, server: us6.01dj.sbs, port: 443, type: vmess, uuid: cb59b5eb-17d8-4b9f-9c43-6f038a9db9b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sometimesnaive, headers: {Host: us6.01dj.sbs}}, udp: true}
-  - {name: SW@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: op.yxjnode.com}}, udp: true}
-  - {name: DP4@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
+  - {name: 🇱🇺 恋哥在卢森堡嫖娼, server: CSGO.COM, port: 2086, type: vmess, uuid: ef1f6e7e-3d54-43b0-b39e-3af459fea090, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lu1.hug1013.me}}, udp: true}
+  - {name: 🇺🇸 A-美国1-圣何塞CN2-X2, server: vip1.zhangxuan.best, port: 20001, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 A-美国4-IEPL-X1, server: ieplhk.lanyunshi.top, port: 51004, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 A-美国2-IEPL-X2, server: iepl2.airtcp.vip, port: 51002, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 A-美国1-IEPL-X2, server: iepl2.airtcp.vip, port: 20001, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IEPL-AP-HK-1, server: assets.flareai.site, port: 13543, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 IPLC-APS-HK-1, server: catlog.flareai.science, port: 13543, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 IEPL-AP-JP-1, server: assets.flareai.site, port: 13443, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 CTVIP-HK-3, server: h961359.waihuizhibiaowang.com, port: 13543, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 CTVIP-TW-3, server: h961359.waihuizhibiaowang.com, port: 13343, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 IPLC-APS-JP-1, server: catlog.flareai.science, port: 13443, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 IEPL-AP-TW-1, server: assets.flareai.site, port: 13343, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11343, server: h961359.waihuizhibiaowang.com, port: 11343, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IEPL-AP-US-1, server: assets.flareai.site, port: 13243, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 IPLC-US-US-3, server: media.flareai.store, port: 13243, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 CTVIP-JP-3, server: h961359.waihuizhibiaowang.com, port: 13443, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 IPLC-EU-UK-3, server: media.flareai.store, port: 13143, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: media.flareai.store:11743, server: media.flareai.store, port: 11743, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 IPLC-EU-DE-3, server: media.flareai.store, port: 13743, type: trojan, password: ef2887e2-af2a-4dfe-a9e9-89e56b044068, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: media.flareai.store:11143, server: media.flareai.store, port: 11143, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
+  - {name: media.flareai.store:11243, server: media.flareai.store, port: 11243, type: http, username: d02d103640, password: 8c4ab31f48, tls: true, skip-cert-verify: false, udp: true}
   - {name: BuyVM2@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm2.yxjnode.com}}, udp: true}
+  - {name: SW@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: op.yxjnode.com}}, udp: true}
   - {name: DP3@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
-  - {name: DP2@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
-  - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h295826.waihuizhibiaowang.com:11343, server: h295826.waihuizhibiaowang.com, port: 11343, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h295826.waihuizhibiaowang.com:11443, server: h295826.waihuizhibiaowang.com, port: 11443, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h295826.waihuizhibiaowang.com:11543, server: h295826.waihuizhibiaowang.com, port: 11543, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.store:11743, server: assets.flareai.store, port: 11743, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.store:11143, server: assets.flareai.store, port: 11143, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.store:11243, server: assets.flareai.store, port: 11243, type: http, username: b3b1de88b0, password: b91b087fa4, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 Air Free - SG 02 IEPL, server: hzcm.freeair.cloud, port: 44936, type: ss, cipher: aes-256-gcm, password: e1351de423b22523, udp: true}
-  - {name: 🇸🇬 Air Free - SG 03 IEPL, server: hzcm.freeair.cloud, port: 41857, type: ss, cipher: aes-256-gcm, password: e1351de423b22523, udp: true}
+  - {name: BuyVM1@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
+  - {name: DP4@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
+  - {name: DP1@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,125 +180,167 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港HGC1
-      - 🇨🇳 台湾GOC1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -270,30 +356,41 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港HGC1
-      - 🇺🇸 美国2-ChatGPT
-      - 🇨🇳 台湾GOC1
-      - 🇺🇸 美国5-ChatGPT
-      - 🇺🇸 美国6-ChatGPT
-      - SW@yxjnode
-      - DP4@yxjnode
-      - BuyVM2@yxjnode
-      - DP3@yxjnode
-      - DP2@yxjnode
+      - 🇱🇺 恋哥在卢森堡嫖娼
+      - 🇺🇸 A-美国1-圣何塞CN2-X2
+      - 🇺🇸 A-美国4-IEPL-X1
+      - 🇺🇸 A-美国2-IEPL-X2
+      - 🇺🇸 A-美国1-IEPL-X2
       - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
+      - 🇭🇰 IEPL-AP-HK-1
+      - 🇭🇰 IPLC-APS-HK-1
+      - 🇯🇵 IEPL-AP-JP-1
       - catlog.flareai.science:11543
-      - h295826.waihuizhibiaowang.com:11343
+      - 🇭🇰 CTVIP-HK-3
+      - h961359.waihuizhibiaowang.com:11543
+      - assets.flareai.site:11443
+      - assets.flareai.site:11343
+      - 🇨🇳 CTVIP-TW-3
+      - 🇯🇵 IPLC-APS-JP-1
+      - 🇨🇳 IEPL-AP-TW-1
+      - h961359.waihuizhibiaowang.com:11443
+      - h961359.waihuizhibiaowang.com:11343
       - catlog.flareai.science:11443
-      - h295826.waihuizhibiaowang.com:11443
-      - h295826.waihuizhibiaowang.com:11543
+      - 🇺🇸 IEPL-AP-US-1
       - assets.flareai.site:11243
-      - assets.flareai.store:11743
-      - assets.flareai.store:11143
-      - assets.flareai.store:11243
-      - 🇸🇬 Air Free - SG 02 IEPL
-      - 🇸🇬 Air Free - SG 03 IEPL
+      - 🇺🇸 IPLC-US-US-3
+      - 🇯🇵 CTVIP-JP-3
+      - 🇬🇧 IPLC-EU-UK-3
+      - media.flareai.store:11743
+      - 🇩🇪 IPLC-EU-DE-3
+      - media.flareai.store:11143
+      - media.flareai.store:11243
+      - BuyVM2@yxjnode
+      - SW@yxjnode
+      - DP3@yxjnode
+      - BuyVM1@yxjnode
+      - DP4@yxjnode
+      - DP1@yxjnode
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
