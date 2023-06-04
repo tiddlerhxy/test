@@ -5,155 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io, server: pvdvdfk86080, port: 0, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io, server: pvdvdfk86080, port: 0, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io, server: pvdvdfk86080, port: 0, type: socks5, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-1, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us3.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-2, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us1.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-3, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us2.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-4, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us4.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-5, server: 163.123.192.154, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-6, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/us2, headers: {Host: us2.djjc.sbs}}, udp: true}
-  - {name: 🇭🇰 香港-7, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/us1, headers: {Host: us1.djjc.sbs}}, udp: true}
-  - {name: 🇭🇰 香港-8, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/us3, headers: {Host: us3.djjc.sbs}}, udp: true}
-  - {name: 🇭🇰 香港-9, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/us4, headers: {Host: us4.djjc.sbs}}, udp: true}
+  - {name: 🇭🇰 香港01, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us3.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港02, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us1.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港03, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us2.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港04, server: 163.123.192.154, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港05, server: 163.123.192.155, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港06, server: 163.123.192.156, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港07, server: 163.123.192.153, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港08, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/de1, headers: {Host: de1.djjc.sbs}}, udp: true}
+  - {name: 🇭🇰 香港09, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/us2, headers: {Host: us2.djjc.sbs}}, udp: true}
   - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 IEPL-AP-HK-1, server: assets.flareai.site, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 IEPL-AP-TW-1, server: assets.flareai.site, port: 13343, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 CTVIP-HK-3, server: h961359.waihuizhibiaowang.com, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
   - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 IEPL-AP-JP-1, server: assets.flareai.site, port: 13443, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 CTVIP-TW-3, server: h961359.waihuizhibiaowang.com, port: 13343, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 CTVIP-JP-3, server: h961359.waihuizhibiaowang.com, port: 13443, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11343, server: h961359.waihuizhibiaowang.com, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11443, server: h961359.waihuizhibiaowang.com, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 IEPL-AP-US-1, server: assets.flareai.site, port: 13243, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 IPLC-EU-DE-1, server: social.flareai.store, port: 13743, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 IPLC-US-US-1, server: social.flareai.store, port: 13243, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: h961359.waihuizhibiaowang.com:11243, server: h961359.waihuizhibiaowang.com, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 IPLC-EU-UK-1, server: social.flareai.store, port: 13143, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: social.flareai.store:11243, server: social.flareai.store, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: social.flareai.store:11743, server: social.flareai.store, port: 11743, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: social.flareai.store:11143, server: social.flareai.store, port: 11143, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: social.flareai.store:11743, server: social.flareai.store, port: 11743, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,168 +112,108 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -349,39 +229,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - pvdvdfk86080:qa2icq9dnarr@bru.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@osl.socks.privado.io
-      - pvdvdfk86080:qa2icq9dnarr@bud.socks.privado.io
-      - 🇭🇰 香港-1
-      - 🇭🇰 香港-2
-      - 🇭🇰 香港-3
-      - 🇭🇰 香港-4
-      - 🇭🇰 香港-5
-      - 🇭🇰 香港-6
-      - 🇭🇰 香港-7
-      - 🇭🇰 香港-8
-      - 🇭🇰 香港-9
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
+      - 🇭🇰 香港08
+      - 🇭🇰 香港09
       - assets.flareai.site:11543
-      - 🇭🇰 IEPL-AP-HK-1
+      - catlog.flareai.science:11543
       - assets.flareai.site:11343
-      - 🇨🇳 IEPL-AP-TW-1
-      - 🇭🇰 CTVIP-HK-3
       - assets.flareai.site:11443
-      - 🇯🇵 IEPL-AP-JP-1
-      - h961359.waihuizhibiaowang.com:11543
-      - 🇨🇳 CTVIP-TW-3
-      - 🇯🇵 CTVIP-JP-3
-      - h961359.waihuizhibiaowang.com:11343
-      - h961359.waihuizhibiaowang.com:11443
-      - 🇺🇸 IEPL-AP-US-1
-      - 🇩🇪 IPLC-EU-DE-1
-      - 🇺🇸 IPLC-US-US-1
-      - assets.flareai.site:11243
-      - h961359.waihuizhibiaowang.com:11243
-      - 🇬🇧 IPLC-EU-UK-1
+      - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11743
       - social.flareai.store:11143
+      - social.flareai.store:11743
+      - assets.flareai.site:11243
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
