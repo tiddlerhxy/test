@@ -5,24 +5,31 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港01, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us3.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港02, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us1.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港03, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: us2.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港04, server: 163.123.192.154, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港05, server: 163.123.192.155, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港06, server: 163.123.192.156, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港07, server: 163.123.192.153, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港08, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/de1, headers: {Host: de1.djjc.sbs}}, udp: true}
-  - {name: 🇭🇰 香港09, server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /djjc/us2, headers: {Host: us2.djjc.sbs}}, udp: true}
+  - {name: 🇭🇰 香港01, server: 163.123.192.58, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港06, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
+  - {name: 🇭🇰 香港07, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
+  - {name: 🇭🇰 香港02, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港03, server: 163.123.192.60, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港04, server: 148.59.74.52, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港05, server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: DP1@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp1.yxjnode.com}}, udp: true}
+  - {name: DP3@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp3.yxjnode.com}}, udp: true}
+  - {name: DP4@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp4.yxjnode.com}}, udp: true}
+  - {name: DP2@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: dp2.yxjnode.com}}, udp: true}
+  - {name: BuyVM1@yxjnode, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /yxzbp, headers: {Host: buyvm1.yxjnode.com}}, udp: true}
   - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: social.flareai.store:11243, server: social.flareai.store, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: social.flareai.store:11143, server: social.flareai.store, port: 11143, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11343, server: h961359.waihuizhibiaowang.com, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 IEPL-AP-HK-1[ran-out]", server: assets.flareai.site, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
+  - {name: "🇭🇰 CTVIP-HK-3[ran-out]", server: h961359.waihuizhibiaowang.com, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
   - {name: social.flareai.store:11743, server: social.flareai.store, port: 11743, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: social.flareai.store:11143, server: social.flareai.store, port: 11143, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: h961359.waihuizhibiaowang.com:11543, server: h961359.waihuizhibiaowang.com, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -30,46 +37,60 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -77,23 +98,30 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -113,36 +141,41 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -150,46 +183,60 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -197,23 +244,30 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -230,23 +284,30 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 香港01
+      - 🇭🇰 香港06
+      - 🇭🇰 香港07
       - 🇭🇰 香港02
       - 🇭🇰 香港03
       - 🇭🇰 香港04
       - 🇭🇰 香港05
-      - 🇭🇰 香港06
-      - 🇭🇰 香港07
-      - 🇭🇰 香港08
-      - 🇭🇰 香港09
+      - DP1@yxjnode
+      - DP3@yxjnode
+      - DP4@yxjnode
+      - DP2@yxjnode
+      - BuyVM1@yxjnode
       - assets.flareai.site:11543
       - catlog.flareai.science:11543
       - assets.flareai.site:11343
       - assets.flareai.site:11443
       - catlog.flareai.science:11443
       - social.flareai.store:11243
-      - social.flareai.store:11143
+      - h961359.waihuizhibiaowang.com:11343
+      - 🇭🇰 IEPL-AP-HK-1[ran-out]
+      - 🇭🇰 CTVIP-HK-3[ran-out]
       - social.flareai.store:11743
+      - social.flareai.store:11143
       - assets.flareai.site:11243
+      - h961359.waihuizhibiaowang.com:11543
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
