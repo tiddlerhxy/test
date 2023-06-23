@@ -5,131 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港中转10, server: gzdx.jcnlzq.top, port: 48401, type: ss, cipher: chacha20-ietf-poly1305, password: 72d12e72-dfce-471a-9ef8-55dbd64edca4, udp: true}
-  - {name: 🇭🇰 香港中转16, server: cthk3.createmofa.xyz, port: 35997, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转14, server: cthk2.createmofa.xyz, port: 35998, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转17, server: cthk1.createmofa.xyz, port: 35999, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转15, server: cthk5.createmofa.xyz, port: 35995, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转20, server: ctsg1.createmofa.xyz, port: 37999, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转13, server: gzdx.jcnlzq.top, port: 37087, type: ss, cipher: chacha20-ietf-poly1305, password: 72d12e72-dfce-471a-9ef8-55dbd64edca4, udp: true}
-  - {name: 🇭🇰 香港中转12, server: zjyd.jcnlzq.top, port: 46399, type: ss, cipher: chacha20-ietf-poly1305, password: 72d12e72-dfce-471a-9ef8-55dbd64edca4, udp: true}
-  - {name: 🇭🇰 香港中转19, server: ctjp2.createmofa.xyz, port: 38998, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转18, server: ctsg2.createmofa.xyz, port: 37998, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转07, server: ctin1.createmofa.xyz, port: 31999, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转05, server: ctkr1.createmofa.xyz, port: 32999, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转08, server: ctjp1.createmofa.xyz, port: 38999, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转21, server: ctkr2.createmofa.xyz, port: 32998, type: ss, cipher: chacha20-ietf-poly1305, password: fff64466-9108-41cf-a2df-8c288c9276e6, udp: true}
-  - {name: 🇭🇰 香港中转09, server: zjyd.jcnlzq.top, port: 46399, type: ss, cipher: chacha20-ietf-poly1305, password: 72d12e72-dfce-471a-9ef8-55dbd64edca4, udp: true}
-  - {name: 🇭🇰 香港中转11, server: zjyd.jcnlzq.top, port: 46399, type: ss, cipher: chacha20-ietf-poly1305, password: 72d12e72-dfce-471a-9ef8-55dbd64edca4, udp: true}
-  - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: cnvip.flareai.science:11343, server: cnvip.flareai.science, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇯🇵 IPLC-APS-JP-1[ran-out]", server: catlog.flareai.science, port: 13443, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: cnvip.flareai.science:11543, server: cnvip.flareai.science, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: "🇭🇰 IPLC-APS-HK-1[ran-out]", server: catlog.flareai.science, port: 13543, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, sni: 106-110-192-225.d.cjjd20.com, skip-cert-verify: false, udp: true}
-  - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: social.flareai.store:11743, server: social.flareai.store, port: 11743, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC-1, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC-2, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC-3, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC-4, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC-5, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大家宽-1, server: 148.59.74.221, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大家宽-2, server: 163.123.192.57, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大家宽-3, server: 148.59.74.216, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大家宽-4, server: 163.123.192.60, port: 443, type: trojan, password: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 加拿大家宽-5, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: b00836d0-2766-4cf0-ac1a-5e7e47ae86d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,151 +80,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -308,33 +161,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港中转10
-      - 🇭🇰 香港中转16
-      - 🇭🇰 香港中转14
-      - 🇭🇰 香港中转17
-      - 🇭🇰 香港中转15
-      - 🇭🇰 香港中转20
-      - 🇭🇰 香港中转13
-      - 🇭🇰 香港中转12
-      - 🇭🇰 香港中转19
-      - 🇭🇰 香港中转18
-      - 🇭🇰 香港中转07
-      - 🇭🇰 香港中转05
-      - 🇭🇰 香港中转08
-      - 🇭🇰 香港中转21
-      - 🇭🇰 香港中转09
-      - 🇭🇰 香港中转11
-      - assets.flareai.site:11543
-      - assets.flareai.site:11343
-      - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - 🇯🇵 IPLC-APS-JP-1[ran-out]
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
-      - 🇭🇰 IPLC-APS-HK-1[ran-out]
-      - catlog.flareai.science:11443
-      - assets.flareai.site:11243
-      - social.flareai.store:11743
+      - 🇭🇰 香港IPLC-1
+      - 🇭🇰 香港IPLC-2
+      - 🇭🇰 香港IPLC-3
+      - 🇭🇰 香港IPLC-4
+      - 🇭🇰 香港IPLC-5
+      - 🇨🇦 加拿大家宽-1
+      - 🇨🇦 加拿大家宽-2
+      - 🇨🇦 加拿大家宽-3
+      - 🇨🇦 加拿大家宽-4
+      - 🇨🇦 加拿大家宽-5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
