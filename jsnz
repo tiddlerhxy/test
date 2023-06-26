@@ -5,47 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 夜间节点02, server: ah.xcv2r.com, port: 11260, type: vmess, uuid: 79afa5c2-678c-4c3c-8be4-8c2249e32cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 夜间节点01, server: ah.xcv2r.com, port: 47242, type: vmess, uuid: 79afa5c2-678c-4c3c-8be4-8c2249e32cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 夜间节点03, server: shct.xcv2r.com, port: 13792, type: vmess, uuid: 79afa5c2-678c-4c3c-8be4-8c2249e32cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 夜间节点04, server: ah.xcv2r.com, port: 27903, type: vmess, uuid: 79afa5c2-678c-4c3c-8be4-8c2249e32cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 夜间节点05, server: ah.xcv2r.com, port: 52058, type: vmess, uuid: 79afa5c2-678c-4c3c-8be4-8c2249e32cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 夜间节点06, server: ah.xcv2r.com, port: 64973, type: vmess, uuid: 79afa5c2-678c-4c3c-8be4-8c2249e32cd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线3号, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG-0.1x2号, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线2号, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG | IPLC专线2号, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线1号, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG | IPLC专线1号, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG-0.1x, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国2, server: 217.79.184.76, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: downloadde.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-3号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 0a504947-35f1-4c1e-ae00-972afb3fdac2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp3?ed=2048", headers: {Host: jp3.pqjc.buzz}}, udp: true}
+  - {name: 🇨🇳 台湾2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 0a504947-35f1-4c1e-ae00-972afb3fdac2, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-4号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 0a504947-35f1-4c1e-ae00-972afb3fdac2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/jp4, headers: {Host: jp4.pqjc.buzz}}, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-5号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 0a504947-35f1-4c1e-ae00-972afb3fdac2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/jp5, headers: {Host: jp5.pqjc.buzz}}, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-1号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 0a504947-35f1-4c1e-ae00-972afb3fdac2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp1?ed=2048", headers: {Host: jp1.pqjc.buzz}}, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-2号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 0a504947-35f1-4c1e-ae00-972afb3fdac2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp2?ed=2048", headers: {Host: jp2.pqjc.buzz}}, udp: true}
+  - {name: 🇭🇰 香港特区, server: 9141ba5a0f9f.sanfencloud002.xyz, port: 45316, type: vmess, uuid: 4ec24164-0890-428b-a7d2-f1f9c6ee8cb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港回归, server: 9141ba5a0f9f.sanfencloud002.xyz, port: 45312, type: vmess, uuid: 4ec24164-0890-428b-a7d2-f1f9c6ee8cb2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 vc美国, server: digitalocean.com, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}, udp: true}
+  - {name: 🇩🇪 vc德国, server: digitalocean.com, port: 8080, type: vmess, uuid: 5f098028-ea22-42ea-abfd-9222cb298b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu.vpn66.eu.org}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,51 +120,111 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,12 +240,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 夜间节点02
-      - 夜间节点01
-      - 夜间节点03
-      - 夜间节点04
-      - 夜间节点05
-      - 夜间节点06
+      - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇸🇬 AWS | SG | IPLC专线1号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇩🇪 德国2
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - 🇨🇳 台湾2
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-5号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇭🇰 香港特区
+      - 🇭🇰 香港回归
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
