@@ -5,111 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 日本超快线路（@baipiaoi）, server: ufjdewd.uk, port: 7572, type: vmess, uuid: 30bfb558-1016-4663-9f33-8a8f92591085, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /J4SMICSsHpd, headers: {Host: "%7B%22Host%22:%22ufjdewd.uk%22%7D"}}, udp: true}
-  - {name: 🇩🇪 法兰克福GIA （@baipiaoi）, server: fghyhhonline.uk, port: 45980, type: vmess, uuid: f0dfbee8-f334-44cc-88d2-07e70ae3ab9b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ruzjxVB5, headers: {Host: "%7B%22Host%22:%22fghyhhonline.uk%22%7D"}}, udp: true}
-  - {name: ah, server: ah.992688.xyz, port: 8080, type: vmess, uuid: f6f2e23a-69ee-498e-b5fa-27882accf784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ah.992688.xyz}}, udp: true}
-  - {name: 🐯 HW 🐯 HW 6, server: 13.125.37.44, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🐯 HW 🐯 HW 5, server: 52.78.238.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇺🇸 甲骨文凤凰城1, server: cf5.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
+  - {name: 🇺🇸 甲骨文凤凰城2, server: cf2.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
+  - {name: 🇺🇸 甲骨文凤凰城3, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
+  - {name: 🇩🇪 德国6, server: cf2.992688.xyz, port: 8080, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}, udp: true}
+  - {name: 🇺🇸 甲骨文凤凰城4, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: 6b056a2c-b821-44b2-cf66-59a1126f6c94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: o1.992688.xyz}}, udp: true}
+  - {name: 🇩🇪 德国5, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}, udp: true}
+  - {name: 🇩🇪 德国7, server: cf3.992688.xyz, port: 8080, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}, udp: true}
+  - {name: 🇩🇪 德国8, server: cf5.992688.xyz, port: 8080, type: vmess, uuid: bbfa65cf-236e-4e4f-eb3d-a9e159d3f94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: eu2.992688.xyz}}, udp: true}
+  - {name: 🇸🇬 新加坡D线【VIP2】, server: sgp-d.pelejd.top, port: 10012, type: vmess, uuid: 3a016115-1631-43ec-ac84-2b76b693f38b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sgp, headers: {Host: sgp-d.pelejd.top}}, udp: true}
+  - {name: 🇸🇬 新加坡E线【VIP1】, server: sgp-e.pelejd.top, port: 10013, type: vmess, uuid: 3a016115-1631-43ec-ac84-2b76b693f38b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /sgp, headers: {Host: sgp-e.pelejd.top}}, udp: true}
+  - {name: 🇯🇵 日本A线【VIP2】, server: jp-a.pelejd.top, port: 10013, type: vmess, uuid: 3a016115-1631-43ec-ac84-2b76b693f38b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jp, headers: {Host: jp-a.pelejd.top}}, udp: true}
+  - {name: 🇯🇵 日本B线【VIP2】, server: jp-b.pelejd.top, port: 10013, type: vmess, uuid: 3a016115-1631-43ec-ac84-2b76b693f38b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jp, headers: {Host: jp-b.pelejd.top}}, udp: true}
+  - {name: 🐯 HW 🐯 HW 3, server: 18.139.108.187, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 🐯 HW 🐯 HW, server: 52.69.179.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🐯 HW 🐯 HW 4, server: 3.113.15.209, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 🐯 HW 🐯 HW 2, server: 43.201.0.90, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 🇸🇬 SG DigitalOcean, server: dosg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
   - {name: 🇯🇵 JP aws, server: aws.jp.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
   - {name: 🇺🇸 US DigitalOcean, server: do.us.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
   - {name: 🇸🇬 SG aws, server: aws.sg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
-  - {name: 🇸🇬 SG DigitalOcean, server: dosg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: 🇺🇸 vc美国, server: cf5.vpn66.eu.org, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}, udp: true}
+  - {name: 🇩🇪 vc德国, server: cf5.vpn66.eu.org, port: 8080, type: vmess, uuid: 5f098028-ea22-42ea-abfd-9222cb298b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu.vpn66.eu.org}}, udp: true}
   - {name: assets.flareai.site:11543, server: assets.flareai.site, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: assets.flareai.site:11343, server: assets.flareai.site, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: catlog.flareai.science:11543, server: catlog.flareai.science, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: cnvip.flareai.science:11543, server: cnvip.flareai.science, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: catlog.flareai.science:11443, server: catlog.flareai.science, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
   - {name: assets.flareai.site:11443, server: assets.flareai.site, port: 11443, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: cnvip.flareai.science:11343, server: cnvip.flareai.science, port: 11343, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: social.flareai.store:11743, server: social.flareai.store, port: 11743, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: assets.flareai.site:11243, server: assets.flareai.site, port: 11243, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
-  - {name: social.flareai.store:11143, server: social.flareai.store, port: 11143, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
+  - {name: cnvip.flareai.science:11543, server: cnvip.flareai.science, port: 11543, type: http, username: b74b2457b5, password: ddc132a6a3, tls: true, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,28 +140,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -160,83 +175,92 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,28 +276,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 日本超快线路（@baipiaoi）
-      - 🇩🇪 法兰克福GIA （@baipiaoi）
-      - ah
-      - 🐯 HW 🐯 HW 6
-      - 🐯 HW 🐯 HW 5
+      - 🇺🇸 甲骨文凤凰城1
+      - 🇺🇸 甲骨文凤凰城2
+      - 🇺🇸 甲骨文凤凰城3
+      - 🇩🇪 德国6
+      - 🇺🇸 甲骨文凤凰城4
+      - 🇩🇪 德国5
+      - 🇩🇪 德国7
+      - 🇩🇪 德国8
+      - 🇸🇬 新加坡D线【VIP2】
+      - 🇸🇬 新加坡E线【VIP1】
+      - 🇯🇵 日本A线【VIP2】
+      - 🇯🇵 日本B线【VIP2】
+      - 🐯 HW 🐯 HW 3
       - 🐯 HW 🐯 HW
-      - 🐯 HW 🐯 HW 4
-      - 🐯 HW 🐯 HW 2
+      - 🇸🇬 SG DigitalOcean
       - 🇯🇵 JP aws
       - 🇺🇸 US DigitalOcean
       - 🇸🇬 SG aws
-      - 🇸🇬 SG DigitalOcean
+      - 🇺🇸 vc美国
+      - 🇩🇪 vc德国
       - assets.flareai.site:11543
       - assets.flareai.site:11343
-      - catlog.flareai.science:11543
-      - cnvip.flareai.science:11543
       - catlog.flareai.science:11443
       - assets.flareai.site:11443
-      - cnvip.flareai.science:11343
-      - social.flareai.store:11743
-      - assets.flareai.site:11243
-      - social.flareai.store:11143
+      - cnvip.flareai.science:11543
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
