@@ -5,115 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: ah, server: ah.992688.xyz, port: 8080, type: vmess, uuid: f6f2e23a-69ee-498e-b5fa-27882accf784, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ah.992688.xyz}}, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG-0.1x, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP-0.1x, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS | JP | IPLC专线2号, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP-0.1x2号, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG-0.1x2号, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS | JP | IPLC专线3号, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP-0.1x, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG | IPLC专线2号, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG | IPLC专线1号, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS | JP | IPLC专线1号, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS | JP-0.1x3号, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG | IPLC专线1号, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG | IPLC专线2号, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG-0.1x2号, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP-0.1x2号, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG-0.1x, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国凤凰城1号-0.01x, server: 163.123.192.57, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国凤凰城4号-0.01x, server: 163.123.192.60, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国凤凰城2号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
-  - {name: 🇺🇸 美国凤凰城1号-0.01x, server: 163.123.192.57, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国2, server: 217.79.184.76, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: downloadde.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 | 中国移动网优化-3号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp3?ed=2048", headers: {Host: jp3.pqjc.buzz}}, udp: true}
   - {name: 🇯🇵 日本 | 中国移动网优化-2号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp2?ed=2048", headers: {Host: jp2.pqjc.buzz}}, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-1号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp1?ed=2048", headers: {Host: jp1.pqjc.buzz}}, udp: true}
+  - {name: 🇺🇸 美国凤凰城2号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
   - {name: 🇺🇸 美国凤凰城3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
-  - {name: 🇺🇸 US DigitalOcean, server: do.us.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
-  - {name: 🇸🇬 SG DigitalOcean, server: dosg.securevpn.cc, port: 1020, type: ss, cipher: aes-128-gcm, password: !<str> 202306302359000000000020, plugin: obfs, plugin-opts: {mode: http, host: bulianglin.com}, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-4号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/jp4, headers: {Host: jp4.pqjc.buzz}}, udp: true}
+  - {name: 🇯🇵 日本 | 中国移动网优化-3号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp3?ed=2048", headers: {Host: jp3.pqjc.buzz}}, udp: true}
+  - {name: HK1, server: catnet-hk.kunlun-cave.com, port: 11006, type: ss, cipher: aes-128-gcm, password: cbf67da4-1055-47ba-998f-2c7c4493ffae, udp: true}
+  - {name: SG1, server: catnet-sg.kunlun-cave.com, port: 11020, type: ss, cipher: aes-128-gcm, password: cbf67da4-1055-47ba-998f-2c7c4493ffae, udp: true}
+  - {name: TW1, server: kqs-hk.kunlun-three.com, port: 53305, type: ss, cipher: aes-256-gcm, password: 881c64f4-6b05-4722-8164-b4533adafbe8, udp: true}
+  - {name: TW2, server: catnet-tw.kunlun-cave.com, port: 11029, type: ss, cipher: aes-128-gcm, password: cbf67da4-1055-47ba-998f-2c7c4493ffae, udp: true}
+  - {name: 🇩🇪 德国3, server: 162.159.142.203, port: 80, type: vmess, uuid: 6e1fdc12-214b-427f-88bb-599c536407ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431, headers: {Host: de3.mybestjj.com}}, udp: true}
+  - {name: 🇺🇸 甲骨文凤凰城2号机, server: cf1.992688.xyz, port: 8080, type: vmess, uuid: 7fdddb2a-1403-40e1-9466-e82dd338f0a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: o2.992688.xyz}}, udp: true}
+  - {name: 🇩🇪 vc德国, server: cf5.vpn66.eu.org, port: 8080, type: vmess, uuid: 5f098028-ea22-42ea-abfd-9222cb298b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vceu.vpn66.eu.org}}, udp: true}
+  - {name: 🇺🇸 vc美国, server: cf5.vpn66.eu.org, port: 8080, type: vmess, uuid: c3b11744-2b20-46af-f0d4-69122be36e74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus.vpn66.eu.org}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,121 +156,145 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇨🇳 台湾2
       - 🇨🇳 台湾
+      - 🇨🇳 台湾2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -262,29 +310,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ah
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇯🇵 AWS | JP-0.1x
       - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x2号
       - 🇯🇵 AWS | JP | IPLC专线3号
+      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP-0.1x
+      - 🇸🇬 AWS | SG | IPLC专线2号
+      - 🇸🇬 AWS | SG | IPLC专线1号
       - 🇯🇵 AWS | JP | IPLC专线1号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇨🇳 台湾
+      - 🇺🇸 美国凤凰城1号-0.01x
       - 🇺🇸 美国凤凰城4号-0.01x
       - 🇨🇳 台湾2
-      - 🇨🇳 台湾
-      - 🇺🇸 美国凤凰城2号-0.1x
-      - 🇺🇸 美国凤凰城1号-0.01x
-      - 🇩🇪 德国2
-      - 🇯🇵 日本 | 中国移动网优化-3号
       - 🇯🇵 日本 | 中国移动网优化-2号
+      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 US DigitalOcean
-      - 🇸🇬 SG DigitalOcean
+      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇯🇵 日本 | 中国移动网优化-3号
+      - HK1
+      - SG1
+      - TW1
+      - TW2
+      - 🇩🇪 德国3
+      - 🇺🇸 甲骨文凤凰城2号机
+      - 🇩🇪 vc德国
+      - 🇺🇸 vc美国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
