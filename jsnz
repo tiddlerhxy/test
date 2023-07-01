@@ -5,183 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 AWS日本4, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS日本2, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS日本3, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港4, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS新加坡4, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港1, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS新加坡2, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS新加坡3, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港2, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港3, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS日本4, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS日本1, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS香港2, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS新加坡3, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS新加坡4, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS新加坡2, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS香港1, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS香港4, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 AWS香港3, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 AWS新加坡1, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇨🇳 台湾Hinet, server: gs-hinet.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线2号, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线1号, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP-0.1x2号, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线3号, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS | JP-0.1x, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG | IPLC专线2号, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG-0.1x, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP-0.1x2号, server: pqawsjp02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 AWS | JP-0.1x3号, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG-0.1x2号, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG-0.1x, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 AWS | SG | IPLC专线1号, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 距离下次重置剩余：29 天, server: 163.123.192.57, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG-0.1x2号, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线1号, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国凤凰城1号-0.01x, server: 163.123.192.57, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 AWS | SG | IPLC专线2号, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国凤凰城4号-0.01x, server: 163.123.192.60, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 | 中国移动网优化-1号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp1?ed=2048", headers: {Host: jp1.pqjc.buzz}}, udp: true}
+  - {name: 🇨🇳 台湾, server: pq-hinet.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 AWS | JP | IPLC专线2号, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本 | 中国移动网优化-3号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp3?ed=2048", headers: {Host: jp3.pqjc.buzz}}, udp: true}
-  - {name: 🇯🇵 日本 | 中国移动网优化-4号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/jp4, headers: {Host: jp4.pqjc.buzz}}, udp: true}
+  - {name: 🇺🇸 美国凤凰城3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
+  - {name: 🇺🇸 美国凤凰城2号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
   - {name: 🇯🇵 日本 | 中国移动网优化-2号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/jp2?ed=2048", headers: {Host: jp2.pqjc.buzz}}, udp: true}
-  - {name: 🇯🇵 日本 | 中国移动网优化-5号, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /pq/jp5, headers: {Host: jp5.pqjc.buzz}}, udp: true}
-  - {name: HK1, server: 183.232.112.43, port: 37291, type: ss, cipher: aes-256-gcm, password: b2861f09-6442-45a6-9736-e154f270c6a0, udp: true}
-  - {name: SG2, server: node16.shuidiyun.xyz, port: 40713, type: ss, cipher: chacha20-ietf-poly1305, password: e55617cd-0422-48cc-9501-180d0fe4b297, udp: true}
-  - {name: HK3, server: IEPL00.Cat-Input.com, port: 20010, type: trojan, password: bfd9f2b6-9b21-410e-8b08-3a9890484834, sni: cmhk-01.oneok.link, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国11, server: 162.159.142.203, port: 80, type: vmess, uuid: 6e1fdc12-214b-427f-88bb-599c536407ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431, headers: {Host: de3.mybestjj.com}}, udp: true}
-  - {name: 🇩🇪 德国22, server: 162.159.142.209, port: 80, type: vmess, uuid: 6e1fdc12-214b-427f-88bb-599c536407ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431, headers: {Host: de3.mybestjj.com}}, udp: true}
-  - {name: 🇨🇦 加拿大33, server: 162.159.142.215, port: 80, type: vmess, uuid: 6e1fdc12-214b-427f-88bb-599c536407ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431, headers: {Host: ca3.mybestjj.com}}, udp: true}
-  - {name: 🇳🇱 荷兰55, server: 162.159.142.102, port: 80, type: vmess, uuid: 6e1fdc12-214b-427f-88bb-599c536407ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1654431, headers: {Host: nl3.mybestjj.com}}, udp: true}
-  - {name: 🇮🇳 印度44, server: bgd---em-2xy---6jinm7--cx.xn--9kq476ja.com, port: 443, type: trojan, password: 6e1fdc12-214b-427f-88bb-599c536407ea, sni: bgd---em-2xy---6jinm7--cx.xn--9kq476ja.com, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -200,194 +164,158 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港1
       - 🇭🇰 AWS香港2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
       - 🇭🇰 AWS香港3
       - 🇨🇳 台湾Hinet
-      - 🇨🇳 台湾2
       - 🇨🇳 台湾
+      - 🇨🇳 台湾2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -403,46 +331,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 AWS日本4
-      - 🇯🇵 AWS日本2
       - 🇯🇵 AWS日本3
-      - 🇭🇰 AWS香港4
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇭🇰 AWS香港2
-      - 🇭🇰 AWS香港3
+      - 🇯🇵 AWS日本4
       - 🇯🇵 AWS日本1
+      - 🇭🇰 AWS香港2
+      - 🇸🇬 AWS新加坡3
+      - 🇸🇬 AWS新加坡4
+      - 🇸🇬 AWS新加坡2
+      - 🇭🇰 AWS香港1
+      - 🇭🇰 AWS香港4
+      - 🇭🇰 AWS香港3
       - 🇸🇬 AWS新加坡1
       - 🇨🇳 台湾Hinet
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP-0.1x2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
+      - 🇯🇵 AWS | JP | IPLC专线3号
       - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP-0.1x2号
       - 🇯🇵 AWS | JP-0.1x3号
-      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇸🇬 AWS | SG-0.1x
+      - 🇯🇵 AWS | JP | IPLC专线4号
       - 🇸🇬 AWS | SG | IPLC专线1号
-      - 距离下次重置剩余：29 天
-      - 🇨🇳 台湾
+      - 🇸🇬 AWS | SG-0.1x2号
+      - 🇯🇵 AWS | JP | IPLC专线1号
+      - 🇺🇸 美国凤凰城1号-0.01x
+      - 🇸🇬 AWS | SG | IPLC专线2号
       - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇯🇵 日本 | 中国移动网优化-1号
+      - 🇨🇳 台湾
+      - 🇨🇳 台湾2
+      - 🇯🇵 AWS | JP | IPLC专线2号
       - 🇯🇵 日本 | 中国移动网优化-3号
-      - 🇯🇵 日本 | 中国移动网优化-4号
+      - 🇺🇸 美国凤凰城3号-0.1x
+      - 🇺🇸 美国凤凰城2号-0.1x
       - 🇯🇵 日本 | 中国移动网优化-2号
-      - 🇯🇵 日本 | 中国移动网优化-5号
-      - HK1
-      - SG2
-      - HK3
-      - 🇩🇪 德国11
-      - 🇩🇪 德国22
-      - 🇨🇦 加拿大33
-      - 🇳🇱 荷兰55
-      - 🇮🇳 印度44
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
