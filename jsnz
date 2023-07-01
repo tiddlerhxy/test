@@ -5,123 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇯🇵 AWS日本2, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS日本4, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS新加坡2, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS新加坡3, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS日本1, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港4, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港3, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS新加坡1, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS新加坡4, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港1, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 AWS香港2, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线1号, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线2号, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP-0.1x, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG-0.1x2号, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG-0.1x, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG | IPLC专线2号, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线4号, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP-0.1x3号, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾2, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 AWS | SG | IPLC专线1号, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 AWS | JP | IPLC专线3号, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国凤凰城4号-0.01x, server: 163.123.192.60, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国凤凰城3号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
-  - {name: 🇺🇸 美国凤凰城2号-0.1x, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
+  - {name: 🇭🇰 香港IPLC总裁专线, server: pqawsjp3.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本IPLC总裁专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇷 韩国IPLC总裁专线, server: pqawsjp2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇭 泰国IPLC总裁专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 老挝IPLC总裁专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇵🇭 菲律宾IPLC总裁专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇴 澳门IPLC总裁专线, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 缅甸IPLC总裁专线, server: pqawssg01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇻🇳 越南IPLC总裁专线, server: pqawssg2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇭 柬埔寨IPLC总裁专线, server: pqawsjp03.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇰🇵 朝鲜IPLC总裁专线, server: pqawssg02.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 阿富汗IPLC总裁专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇵 尼泊尔IPLC总裁专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇾 马来西亚IPLC总裁专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇳 蒙古IPLC总裁专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 卡塔尔IPLC总裁专线, server: pqawsjp01.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 文莱IPLC总裁专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇷 土耳其IPLC总裁专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 印度IPLC总裁专线, server: pqawsjp1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇩 印尼IPLC总裁专线, server: pqawsjp4.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇱 以色列IPLC总裁专线, server: pqawssg1.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇳 台湾IPLC总裁专线, server: pq-hinet2.gsjc.cfd, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 伊拉克IPLC总裁专线, server: 163.123.192.60, port: 443, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, sni: download.xn--mes358aby2apfg.com, skip-cert-verify: false, udp: true}
+  - {name: 塔利班IPLC总裁专线, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 32068eda-adad-431a-bfd4-2f7d4c73507c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh3?ed=2048", headers: {Host: usfh3.pqjc.buzz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,132 +136,125 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇨🇳 台湾2
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -281,31 +270,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵 AWS日本2
-      - 🇯🇵 AWS日本4
-      - 🇸🇬 AWS新加坡2
-      - 🇸🇬 AWS新加坡3
-      - 🇯🇵 AWS日本1
-      - 🇭🇰 AWS香港4
-      - 🇭🇰 AWS香港3
-      - 🇸🇬 AWS新加坡1
-      - 🇸🇬 AWS新加坡4
-      - 🇭🇰 AWS香港1
-      - 🇭🇰 AWS香港2
-      - 🇯🇵 AWS | JP | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线2号
-      - 🇯🇵 AWS | JP-0.1x
-      - 🇸🇬 AWS | SG-0.1x2号
-      - 🇸🇬 AWS | SG-0.1x
-      - 🇸🇬 AWS | SG | IPLC专线2号
-      - 🇯🇵 AWS | JP | IPLC专线4号
-      - 🇯🇵 AWS | JP-0.1x3号
-      - 🇨🇳 台湾2
-      - 🇸🇬 AWS | SG | IPLC专线1号
-      - 🇯🇵 AWS | JP | IPLC专线3号
-      - 🇺🇸 美国凤凰城4号-0.01x
-      - 🇺🇸 美国凤凰城3号-0.1x
-      - 🇺🇸 美国凤凰城2号-0.1x
+      - 🇭🇰 香港IPLC总裁专线
+      - 🇯🇵 日本IPLC总裁专线
+      - 🇰🇷 韩国IPLC总裁专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 老挝IPLC总裁专线
+      - 🇵🇭 菲律宾IPLC总裁专线
+      - 🇲🇴 澳门IPLC总裁专线
+      - 缅甸IPLC总裁专线
+      - 🇻🇳 越南IPLC总裁专线
+      - 🇰🇭 柬埔寨IPLC总裁专线
+      - 🇰🇵 朝鲜IPLC总裁专线
+      - 阿富汗IPLC总裁专线
+      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇲🇳 蒙古IPLC总裁专线
+      - 卡塔尔IPLC总裁专线
+      - 文莱IPLC总裁专线
+      - 🇹🇷 土耳其IPLC总裁专线
+      - 🇮🇳 印度IPLC总裁专线
+      - 🇮🇩 印尼IPLC总裁专线
+      - 🇮🇱 以色列IPLC总裁专线
+      - 🇨🇳 台湾IPLC总裁专线
+      - 伊拉克IPLC总裁专线
+      - 塔利班IPLC总裁专线
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
