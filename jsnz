@@ -13,12 +13,12 @@ proxies:
   - {name: 🇵🇭 菲律宾IEPL总统专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇹🇭 泰国IEPL总统专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 阿富汗IEPL总统专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇵 尼泊尔IEPL总统专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 尼泊尔IEPL总统专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 美国政府专线🌟🌟🌟🌟🌟, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇲🇳 蒙古IEPL总统专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇲🇴 澳门IEPL总统专线, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇲🇴 澳门IPLC总裁专线, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇳🇵 尼泊尔IPLC总裁专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 尼泊尔IPLC总裁专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇲🇳 蒙古IPLC总裁专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 阿富汗IPLC总裁专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇹🇭 泰国IPLC总裁专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
@@ -42,12 +42,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
@@ -70,12 +70,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
@@ -99,12 +99,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
@@ -140,12 +140,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
@@ -173,12 +173,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
@@ -201,12 +201,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
@@ -230,12 +230,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
@@ -268,12 +268,12 @@ proxy-groups:
       - 🇵🇭 菲律宾IEPL总统专线
       - 🇹🇭 泰国IEPL总统专线
       - 阿富汗IEPL总统专线
-      - 🇳🇵 尼泊尔IEPL总统专线
+      - 尼泊尔IEPL总统专线
       - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
       - 🇲🇳 蒙古IEPL总统专线
       - 🇲🇴 澳门IEPL总统专线
       - 🇲🇴 澳门IPLC总裁专线
-      - 🇳🇵 尼泊尔IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
       - 🇲🇳 蒙古IPLC总裁专线
       - 阿富汗IPLC总裁专线
       - 🇹🇭 泰国IPLC总裁专线
