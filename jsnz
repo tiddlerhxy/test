@@ -5,115 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇹🇷 土耳其IEPL总统专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本IEPL总统专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 文莱IEPL总统专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 马来西亚IEPL总统专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 老挝IEPL总统专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 菲律宾IEPL总统专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇭 泰国IEPL总统专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 阿富汗IEPL总统专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 尼泊尔IEPL总统专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国政府专线🌟🌟🌟🌟🌟, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇳 蒙古IEPL总统专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇴 澳门IEPL总统专线, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 下单地址：254254.xyz, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 购买地址：254254.xyz, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 机场地址：254254.xyz, server: gs-hinet.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 注册地址：254254.xyz, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: VPN地址：254254.xyz, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 梯子地址：254254.xyz, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 加速器地址：254254.xyz, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 节点地址：254254.xyz, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 网站地址：254254.xyz, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 付费地址：254254.xyz, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇲🇴 澳门IPLC总裁专线, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 尼泊尔IPLC总裁专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇳 蒙古IPLC总裁专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 阿富汗IPLC总裁专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇭 泰国IPLC总裁专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 老挝IPLC总裁专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 马来西亚IPLC总裁专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 文莱IPLC总裁专线, server: sg1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 🇵🇭 菲律宾IPLC总裁专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇯🇵 日本IPLC总裁专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本IEPL总统专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 尼泊尔IEPL总统专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 阿富汗IEPL总统专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 老挝IPLC总裁专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 尼泊尔IPLC总裁专线, server: jp1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 老挝IEPL总统专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇭 泰国IEPL总统专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇾 马来西亚IPLC总裁专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇵🇭 菲律宾IEPL总统专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇾 马来西亚IEPL总统专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇭 泰国IPLC总裁专线, server: hk2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇲🇴 澳门IEPL总统专线, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 阿富汗IPLC总裁专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港IPLC总裁专线, server: jp2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
   - {name: 🇹🇷 土耳其IPLC总裁专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇷 土耳其IEPL总统专线, server: sg2.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 🇵🇭 菲律宾IPLC总裁专线, server: hk1.gsjc.cfd, port: 443, type: trojan, password: bce72830-6561-4af6-a2c4-052fccb94595, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,119 +156,144 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇭🇰 香港IPLC总裁专线
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,29 +309,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇹🇷 土耳其IEPL总统专线
-      - 🇯🇵 日本IEPL总统专线
-      - 文莱IEPL总统专线
-      - 🇲🇾 马来西亚IEPL总统专线
-      - 老挝IEPL总统专线
-      - 🇵🇭 菲律宾IEPL总统专线
-      - 🇹🇭 泰国IEPL总统专线
-      - 阿富汗IEPL总统专线
-      - 尼泊尔IEPL总统专线
-      - 🇺🇸 美国政府专线🌟🌟🌟🌟🌟
-      - 🇲🇳 蒙古IEPL总统专线
-      - 🇲🇴 澳门IEPL总统专线
+      - 下单地址：254254.xyz
+      - 购买地址：254254.xyz
+      - 机场地址：254254.xyz
+      - 注册地址：254254.xyz
+      - VPN地址：254254.xyz
+      - 梯子地址：254254.xyz
+      - 加速器地址：254254.xyz
+      - 节点地址：254254.xyz
+      - 网站地址：254254.xyz
+      - 付费地址：254254.xyz
       - 🇲🇴 澳门IPLC总裁专线
-      - 尼泊尔IPLC总裁专线
-      - 🇲🇳 蒙古IPLC总裁专线
-      - 阿富汗IPLC总裁专线
-      - 🇹🇭 泰国IPLC总裁专线
-      - 老挝IPLC总裁专线
-      - 🇲🇾 马来西亚IPLC总裁专线
-      - 文莱IPLC总裁专线
-      - 🇵🇭 菲律宾IPLC总裁专线
       - 🇯🇵 日本IPLC总裁专线
+      - 🇯🇵 日本IEPL总统专线
+      - 尼泊尔IEPL总统专线
+      - 阿富汗IEPL总统专线
+      - 老挝IPLC总裁专线
+      - 尼泊尔IPLC总裁专线
+      - 老挝IEPL总统专线
+      - 🇹🇭 泰国IEPL总统专线
+      - 🇲🇾 马来西亚IPLC总裁专线
+      - 🇵🇭 菲律宾IEPL总统专线
+      - 🇲🇾 马来西亚IEPL总统专线
+      - 🇹🇭 泰国IPLC总裁专线
+      - 🇲🇴 澳门IEPL总统专线
+      - 阿富汗IPLC总裁专线
+      - 🇭🇰 香港IPLC总裁专线
       - 🇹🇷 土耳其IPLC总裁专线
+      - 🇹🇷 土耳其IEPL总统专线
+      - 🇵🇭 菲律宾IPLC总裁专线
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
