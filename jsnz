@@ -5,21 +5,10 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 254254.xyz👈购买地址, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 2, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 3, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 4, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 5, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 6, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 7, server: gsawssg1.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 8, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 9, server: gshinet1.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 10, server: gsawshk1.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 11, server: gsawshk2.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 12, server: gsawsjp1.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 13, server: gsawssg2.aiopen.cfd, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 14, server: 108.181.23.249, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
-  - {name: 254254.xyz👈购买地址 15, server: 108.181.24.41, port: 443, type: trojan, password: aadebd6c-5714-4e8d-886d-a442eb39950c, sni: 20-212-60-88.nhost.00cdn.com, skip-cert-verify: false, udp: true}
+  - {name: 254254.xyz👈购买地址, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: 9480d7c6-03b9-4ae0-8237-5dfcfeb30b94, sni: us4.pqjc.site, skip-cert-verify: false, udp: true}
+  - {name: 254254.xyz👈购买地址 2, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: 9480d7c6-03b9-4ae0-8237-5dfcfeb30b94, sni: us2.pqjc.site, skip-cert-verify: false, udp: true}
+  - {name: 254254.xyz👈购买地址 3, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: 9480d7c6-03b9-4ae0-8237-5dfcfeb30b94, sni: us1.pqjc.site, skip-cert-verify: false, udp: true}
+  - {name: 254254.xyz👈购买地址 4, server: pqawszf.aiopen.cfd, port: 35000, type: trojan, password: 9480d7c6-03b9-4ae0-8237-5dfcfeb30b94, sni: us3.pqjc.site, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -30,17 +19,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,17 +28,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -71,17 +38,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,17 +60,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -129,17 +74,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
   - name: 📲 电报信息
     type: select
     proxies:
@@ -149,17 +83,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -170,17 +93,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -200,17 +112,6 @@ proxy-groups:
       - 254254.xyz👈购买地址 2
       - 254254.xyz👈购买地址 3
       - 254254.xyz👈购买地址 4
-      - 254254.xyz👈购买地址 5
-      - 254254.xyz👈购买地址 6
-      - 254254.xyz👈购买地址 7
-      - 254254.xyz👈购买地址 8
-      - 254254.xyz👈购买地址 9
-      - 254254.xyz👈购买地址 10
-      - 254254.xyz👈购买地址 11
-      - 254254.xyz👈购买地址 12
-      - 254254.xyz👈购买地址 13
-      - 254254.xyz👈购买地址 14
-      - 254254.xyz👈购买地址 15
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
