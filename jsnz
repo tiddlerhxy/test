@@ -5,15 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 347567.net 👈节点购买地址, server: 23.227.39.108, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pus4.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 2, server: 23.227.38.18, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pjp2.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 3, server: qjp6.pqjc.buzz, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: qjp6.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 4, server: 23.227.38.26, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pjp3.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 5, server: 23.227.38.13, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pjp1.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 6, server: 23.227.38.176, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: sg1.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 7, server: 23.227.38.108, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: sg1.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 8, server: 23.227.39.18, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pus1.pqjc.buzz, skip-cert-verify: false, udp: true}
-  - {name: 347567.net 👈节点购买地址 9, server: qus3.pqjc.buzz, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: qus3.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址, server: yd1.992688.xyz, port: 2052, type: vmess, uuid: b63efdd5-bdb8-4eb4-f918-9846cd7321e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus1.vpn66.eu.org}}, udp: true}
+  - {name: 347567.net 👈节点购买地址 2, server: yd1.992688.xyz, port: 2052, type: vmess, uuid: fa5fc74f-0f0b-4221-82ba-dc7cd24e24e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}, udp: true}
+  - {name: 347567.net 👈节点购买地址 3, server: lt1.992688.xyz, port: 2052, type: vmess, uuid: fa5fc74f-0f0b-4221-82ba-dc7cd24e24e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: vcus2.vpn66.eu.org}}, udp: true}
+  - {name: 347567.net 👈节点购买地址 4, server: 23.227.39.18, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pus1.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址 5, server: 23.227.39.108, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pus4.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址 6, server: 23.227.38.26, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pjp3.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址 7, server: 23.227.38.18, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pjp2.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址 8, server: 23.227.38.13, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: pjp1.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址 9, server: 23.227.38.108, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: sg1.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址 10, server: 23.227.38.176, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: sg1.pqjc.buzz, skip-cert-verify: false, udp: true}
+  - {name: 347567.net 👈节点购买地址 11, server: qjp6.pqjc.buzz, port: 443, type: trojan, password: 89ce124f-42d1-4c90-b9d2-bde2861ae615, sni: qjp6.pqjc.buzz, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -29,6 +31,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -43,6 +47,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -58,6 +64,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -85,6 +93,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -104,6 +114,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
   - name: 📲 电报信息
     type: select
     proxies:
@@ -118,6 +130,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -133,6 +147,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -157,6 +173,8 @@ proxy-groups:
       - 347567.net 👈节点购买地址 7
       - 347567.net 👈节点购买地址 8
       - 347567.net 👈节点购买地址 9
+      - 347567.net 👈节点购买地址 10
+      - 347567.net 👈节点购买地址 11
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
