@@ -13,7 +13,7 @@ proxies:
   - {name: 🇩🇪 德国｜x0.01⚡️, server: 154.198.224.56, port: 56120, type: vmess, uuid: 39f65c3b-fd85-4ef5-bf9f-43ae38d05e5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: "/vm-tls1-tls1?ed=2048", headers: {Host: de.changding.tech}}, udp: true}
   - {name: 🇨🇳 0.1x 台湾6 家宽, server: eeee.ednovas.cloud, port: 21935, type: vmess, uuid: 52d6cfd5-98d4-4e4b-88b7-9c1348b4ea2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
   - {name: 🇸🇬 0.1x 新加坡6, server: eeee.ednovas.cloud, port: 21949, type: vmess, uuid: 52d6cfd5-98d4-4e4b-88b7-9c1348b4ea2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 0.1x 乌克兰2, server: uuu.ednovas.cloud, port: 21432, type: vmess, uuid: 52d6cfd5-98d4-4e4b-88b7-9c1348b4ea2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇦 0.1x 乌克兰2, server: uuu.ednovas.cloud, port: 21432, type: vmess, uuid: 52d6cfd5-98d4-4e4b-88b7-9c1348b4ea2f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -28,7 +28,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -42,7 +42,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -57,7 +57,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,7 +84,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -106,7 +106,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -120,7 +120,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -135,7 +135,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -159,7 +159,7 @@ proxy-groups:
       - 🇩🇪 德国｜x0.01⚡️
       - 🇨🇳 0.1x 台湾6 家宽
       - 🇸🇬 0.1x 新加坡6
-      - 0.1x 乌克兰2
+      - 🇺🇦 0.1x 乌克兰2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
