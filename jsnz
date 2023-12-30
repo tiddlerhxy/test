@@ -5,239 +5,255 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "🇲🇾 马来02{移动|V2ray}", server: cm1.awslcn.info, port: 25258, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇭🇰 香港02{优化2|V2ray}", server: hk2.awslcn.info, port: 25242, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.info}}, udp: true}
-  - {name: "🇭🇰 香港05{优化1|V2ray}", server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
-  - {name: "🇸🇬 新加坡04{优化2|V2ray}", server: sg1.awslcn.info, port: 25246, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: 🇸🇬 新加坡5-DO, server: sg1.awslcn.info, port: 25270, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: 🇸🇬 新加坡6-wap, server: sg1.awslcn.info, port: 25282, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: "🇸🇬 新加坡02{优化1|V2ray}", server: sg1.awslcn.info, port: 25243, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: 🇸🇬 新加坡7-wap, server: sg1.awslcn.info, port: 25283, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: "🇸🇬 新加坡01{优化2|V2ray}", server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: "🇸🇬 新加坡03{优化2|V2ray}", server: sg1.awslcn.info, port: 25221, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
-  - {name: 🇯🇵 日本6-NTT, server: cu.awslcn.info, port: 25279, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: 🇯🇵 日本2-linode, server: cu.awslcn.info, port: 25281, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: "🇲🇾 马来01{移动|V2ray}", server: cm.awslcn.info, port: 25228, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: "🇮🇳 印度02{移动|V2ray}", server: cm.awslcn.info, port: 25216, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: "🇭🇰 香港01{优化1|V2ray}", server: hk1.awslcn.info, port: 25242, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
-  - {name: "🇰🇷 韩国03{移动|V2ray}", server: cm.awslcn.info, port: 25218, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: 🇯🇵 日本4-wap, server: cu.awslcn.info, port: 25277, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: "🇮🇳 印度01{移动|V2ray}", server: cm1.awslcn.info, port: 25216, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: 🇻🇳 越南01, server: cm1.awslcn.info, port: 25285, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇲🇾 马来04{联通|V2ray}", server: cm.awslcn.info, port: 25258, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: "🇰🇷 韩国01{移动|V2ray}", server: cm1.awslcn.info, port: 25218, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇩🇪 德国02{移动|V2ray}", server: cm.awslcn.info, port: 25241, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: 🇦🇺 悉尼01, server: cm1.awslcn.info, port: 25286, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: 🇦🇺 悉尼02, server: cu.awslcn.info, port: 25286, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: 🇻🇳 越南02, server: cu.awslcn.info, port: 25285, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: "🇺🇸 美国06{优化1|V2ray}", server: us2.awslcn.info, port: 25257, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us2.awslcn.info}}, udp: true}
-  - {name: "🇷🇺 俄罗斯①{移动|V2ray}", server: cm1.awslcn.info, port: 25230, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇬🇧 英国02{移动|V2ray}", server: cm1.awslcn.info, port: 25240, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇺🇸 美国05{优化2|V2ray}", server: us1.awslcn.info, port: 25256, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us1.awslcn.info}}, udp: true}
-  - {name: "🇩🇪 德国01{移动|V2ray}", server: cm1.awslcn.info, port: 25241, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇬🇧 英国01{移动|V2ray}", server: cm.awslcn.info, port: 25240, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: "🇺🇸 美国02{优化2|V2ray}", server: us1.awslcn.info, port: 25239, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us1.awslcn.info}}, udp: true}
-  - {name: 🇭🇰 香港-Trojan④, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk04.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡-Trojan②, server: sg01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: sg01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 马来-Trojan①, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: my01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-Trojan①, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港-Trojan②, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk02.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇰🇷 韩国-Trojan, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: sk01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本3-wap, server: cu.awslcn.info, port: 25276, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: 🇲🇽 墨西哥, server: cu.awslcn.info, port: 25284, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: "🇲🇾 马来03{联通|V2ray}", server: cu.awslcn.info, port: 25228, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
-  - {name: 🇺🇸 美国-Trojan, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: us01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇬🇧 英国-Trojan, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: uk01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇲🇾 马来-Trojan②, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: my02.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: "🇨🇳 台湾①{移动|V2ray}", server: cm1.awslcn.info, port: 25232, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇵🇰 巴基斯坦01{移动|V2ray}", server: cm.awslcn.info, port: 25275, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: "🇵🇰 巴基斯坦02{移动|V2ray}", server: cm1.awslcn.info, port: 25275, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: "🇨🇳 台湾②{移动|V2ray}", server: cm.awslcn.info, port: 25232, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: "🇨🇳 台湾02{移动|V2ray}", server: cm.awslcn.info, port: 25233, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
-  - {name: "🇨🇳 台湾01{移动|V2ray}", server: cm1.awslcn.info, port: 25233, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
-  - {name: 🇷🇺 俄罗斯-Trojan, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: ru01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 距离下次重置剩余：24 天, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾-Trojan①, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 台湾-Trojan②, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw02.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net, server: us1.awslcn.info, port: 25256, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 2, server: hk1.awslcn.info, port: 25244, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 3, server: hk1.awslcn.info, port: 25248, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 4, server: hk2.awslcn.info, port: 25242, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk2.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 5, server: sg1.awslcn.info, port: 25243, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 6, server: sg1.awslcn.info, port: 25270, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 7, server: sg1.awslcn.info, port: 25221, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 8, server: sg1.awslcn.info, port: 25282, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 9, server: sg1.awslcn.info, port: 25246, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 10, server: sg1.awslcn.info, port: 25283, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 11, server: cm1.awslcn.info, port: 25258, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 12, server: cu.awslcn.info, port: 25276, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 13, server: cu.awslcn.info, port: 25277, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 14, server: cu.awslcn.info, port: 25280, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 15, server: cu.awslcn.info, port: 25281, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 16, server: cu.awslcn.info, port: 25281, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 17, server: cm.awslcn.info, port: 25258, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 18, server: cu.awslcn.info, port: 25280, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 19, server: cm1.awslcn.info, port: 25216, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 20, server: cu.awslcn.info, port: 25281, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 21, server: cu.awslcn.info, port: 25281, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 22, server: cu.awslcn.info, port: 25278, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 23, server: cu.awslcn.info, port: 25281, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 24, server: cm1.awslcn.info, port: 25218, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 25, server: cm.awslcn.info, port: 25216, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 26, server: cm.awslcn.info, port: 25218, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 27, server: cm.awslcn.info, port: 25241, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 28, server: cm1.awslcn.info, port: 25230, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 29, server: cu.awslcn.info, port: 25285, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 30, server: cm1.awslcn.info, port: 25286, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 31, server: cu.awslcn.info, port: 25286, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 32, server: cm.awslcn.info, port: 25275, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 33, server: cm.awslcn.info, port: 25240, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 34, server: us1.awslcn.info, port: 25239, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 35, server: cm1.awslcn.info, port: 25275, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 36, server: us2.awslcn.info, port: 25257, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us2.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 37, server: cu.awslcn.info, port: 25284, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 38, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk04.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 39, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk03.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 40, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 41, server: sg1.awslcn.info, port: 25245, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 42, server: sg01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: sg01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 43, server: cm1.awslcn.info, port: 25285, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 44, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: my02.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 45, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: sk01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 46, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: in01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 47, server: cu.awslcn.info, port: 25228, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 48, server: cm1.awslcn.info, port: 25240, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 49, server: hk1.awslcn.info, port: 25242, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: hk1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 50, server: de01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: de01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 51, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: us01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 52, server: cm.awslcn.info, port: 25232, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 53, server: cm1.awslcn.info, port: 25232, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 54, server: cm1.awslcn.info, port: 25233, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 55, server: cm.awslcn.info, port: 25233, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}, udp: true}
+  - {name: 白嫖机场👉strongswans.net 56, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: ru01.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 57, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw02.trojanyyds.xyz, skip-cert-verify: false, udp: true}
+  - {name: 白嫖机场👉strongswans.net 58, server: cm1.awslcn.info, port: 25241, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cm1.awslcn.info}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -256,255 +272,259 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -520,60 +540,64 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇲🇾 马来02{移动|V2ray}
-      - 🇭🇰 香港02{优化2|V2ray}
-      - 🇭🇰 香港05{优化1|V2ray}
-      - 🇸🇬 新加坡04{优化2|V2ray}
-      - 🇸🇬 新加坡5-DO
-      - 🇸🇬 新加坡6-wap
-      - 🇸🇬 新加坡02{优化1|V2ray}
-      - 🇸🇬 新加坡7-wap
-      - 🇸🇬 新加坡01{优化2|V2ray}
-      - 🇸🇬 新加坡03{优化2|V2ray}
-      - 🇯🇵 日本6-NTT
-      - 🇯🇵 日本2-linode
-      - 🇲🇾 马来01{移动|V2ray}
-      - 🇮🇳 印度02{移动|V2ray}
-      - 🇭🇰 香港01{优化1|V2ray}
-      - 🇰🇷 韩国03{移动|V2ray}
-      - 🇯🇵 日本4-wap
-      - 🇮🇳 印度01{移动|V2ray}
-      - 🇻🇳 越南01
-      - 🇲🇾 马来04{联通|V2ray}
-      - 🇰🇷 韩国01{移动|V2ray}
-      - 🇩🇪 德国02{移动|V2ray}
-      - 🇦🇺 悉尼01
-      - 🇦🇺 悉尼02
-      - 🇻🇳 越南02
-      - 🇺🇸 美国06{优化1|V2ray}
-      - 🇷🇺 俄罗斯①{移动|V2ray}
-      - 🇬🇧 英国02{移动|V2ray}
-      - 🇺🇸 美国05{优化2|V2ray}
-      - 🇩🇪 德国01{移动|V2ray}
-      - 🇬🇧 英国01{移动|V2ray}
-      - 🇺🇸 美国02{优化2|V2ray}
-      - 🇭🇰 香港-Trojan④
-      - 🇸🇬 新加坡-Trojan②
-      - 🇲🇾 马来-Trojan①
-      - 🇭🇰 香港-Trojan①
-      - 🇭🇰 香港-Trojan②
-      - 🇰🇷 韩国-Trojan
-      - 🇯🇵 日本3-wap
-      - 🇲🇽 墨西哥
-      - 🇲🇾 马来03{联通|V2ray}
-      - 🇺🇸 美国-Trojan
-      - 🇬🇧 英国-Trojan
-      - 🇲🇾 马来-Trojan②
-      - 🇨🇳 台湾①{移动|V2ray}
-      - 🇵🇰 巴基斯坦01{移动|V2ray}
-      - 🇵🇰 巴基斯坦02{移动|V2ray}
-      - 🇨🇳 台湾②{移动|V2ray}
-      - 🇨🇳 台湾02{移动|V2ray}
-      - 🇨🇳 台湾01{移动|V2ray}
-      - 🇷🇺 俄罗斯-Trojan
-      - 距离下次重置剩余：24 天
-      - 🇨🇳 台湾-Trojan①
-      - 🇨🇳 台湾-Trojan②
+      - 白嫖机场👉strongswans.net
+      - 白嫖机场👉strongswans.net 2
+      - 白嫖机场👉strongswans.net 3
+      - 白嫖机场👉strongswans.net 4
+      - 白嫖机场👉strongswans.net 5
+      - 白嫖机场👉strongswans.net 6
+      - 白嫖机场👉strongswans.net 7
+      - 白嫖机场👉strongswans.net 8
+      - 白嫖机场👉strongswans.net 9
+      - 白嫖机场👉strongswans.net 10
+      - 白嫖机场👉strongswans.net 11
+      - 白嫖机场👉strongswans.net 12
+      - 白嫖机场👉strongswans.net 13
+      - 白嫖机场👉strongswans.net 14
+      - 白嫖机场👉strongswans.net 15
+      - 白嫖机场👉strongswans.net 16
+      - 白嫖机场👉strongswans.net 17
+      - 白嫖机场👉strongswans.net 18
+      - 白嫖机场👉strongswans.net 19
+      - 白嫖机场👉strongswans.net 20
+      - 白嫖机场👉strongswans.net 21
+      - 白嫖机场👉strongswans.net 22
+      - 白嫖机场👉strongswans.net 23
+      - 白嫖机场👉strongswans.net 24
+      - 白嫖机场👉strongswans.net 25
+      - 白嫖机场👉strongswans.net 26
+      - 白嫖机场👉strongswans.net 27
+      - 白嫖机场👉strongswans.net 28
+      - 白嫖机场👉strongswans.net 29
+      - 白嫖机场👉strongswans.net 30
+      - 白嫖机场👉strongswans.net 31
+      - 白嫖机场👉strongswans.net 32
+      - 白嫖机场👉strongswans.net 33
+      - 白嫖机场👉strongswans.net 34
+      - 白嫖机场👉strongswans.net 35
+      - 白嫖机场👉strongswans.net 36
+      - 白嫖机场👉strongswans.net 37
+      - 白嫖机场👉strongswans.net 38
+      - 白嫖机场👉strongswans.net 39
+      - 白嫖机场👉strongswans.net 40
+      - 白嫖机场👉strongswans.net 41
+      - 白嫖机场👉strongswans.net 42
+      - 白嫖机场👉strongswans.net 43
+      - 白嫖机场👉strongswans.net 44
+      - 白嫖机场👉strongswans.net 45
+      - 白嫖机场👉strongswans.net 46
+      - 白嫖机场👉strongswans.net 47
+      - 白嫖机场👉strongswans.net 48
+      - 白嫖机场👉strongswans.net 49
+      - 白嫖机场👉strongswans.net 50
+      - 白嫖机场👉strongswans.net 51
+      - 白嫖机场👉strongswans.net 52
+      - 白嫖机场👉strongswans.net 53
+      - 白嫖机场👉strongswans.net 54
+      - 白嫖机场👉strongswans.net 55
+      - 白嫖机场👉strongswans.net 56
+      - 白嫖机场👉strongswans.net 57
+      - 白嫖机场👉strongswans.net 58
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
